@@ -35,4 +35,9 @@ public class CharacterEntity : IMovable
 
         return (CalculateInput() + direction) * _speedMov * Time.deltaTime;
     }
+    public void Update()
+    {
+        Debug.Log("updating state. Current: " + this._currentState);
+        //if()
+    }
 }

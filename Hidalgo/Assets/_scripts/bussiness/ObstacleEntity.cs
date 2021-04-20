@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Delete : delegated Gonzalo
-/// </summary>
-public class ObstacleKeepInPlace : MonoBehaviour
+public class ObstacleEntity : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

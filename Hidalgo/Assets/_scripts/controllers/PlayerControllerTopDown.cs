@@ -21,6 +21,6 @@ public class PlayerControllerTopDown : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _entity.Move(Vector2.zero);
+        _entity.Update();
     }
 }
