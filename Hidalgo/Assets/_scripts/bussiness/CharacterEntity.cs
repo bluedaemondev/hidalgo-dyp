@@ -31,15 +31,13 @@ public class CharacterEntity : IMovable
     public Vector2 Move(Vector2 direction)
     {
         this._currentState = CharacterState.MOVING;
-        Debug.Log("moving");
+        //Debug.Log("moving");
 
         return (CalculateInput() + direction) * _speedMov * Time.deltaTime;
     }
 
     public CharacterState Update()
     {
-        Debug.Log("updating state. Current: " + this._currentState);
-
         return this._currentState;
     }
 }

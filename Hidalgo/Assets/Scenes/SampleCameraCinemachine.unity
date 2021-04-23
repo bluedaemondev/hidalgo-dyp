@@ -181,6 +181,7 @@ PolygonCollider2D:
       - {x: -10.626753, y: 4.474942}
       - {x: -10.7114315, y: -2.7799919}
       - {x: -10.516228, y: -10.057239}
+      - {x: 1.0653043, y: -18.869942}
       - {x: 12.413598, y: -10.26639}
 --- !u!1 &170399431
 GameObject:
@@ -224,6 +225,7 @@ GameObject:
   - component: {fileID: 285274548}
   - component: {fileID: 285274547}
   - component: {fileID: 285274549}
+  - component: {fileID: 285274550}
   m_Layer: 0
   m_Name: CM VCAM
   m_TagString: Untagged
@@ -260,7 +262,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.778481, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -299,6 +301,18 @@ MonoBehaviour:
   m_BoundingShape2D: {fileID: 108192854}
   m_Damping: 0.5
   m_MaxWindowSize: -1
+--- !u!114 &285274550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285274546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530b1fdc25172c649ae84fa774e0a388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1027586779
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,6 +442,7 @@ GameObject:
   - component: {fileID: 1899270695}
   - component: {fileID: 1899270697}
   - component: {fileID: 1899270696}
+  - component: {fileID: 1899270698}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -504,6 +519,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1899270698
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899270694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_NoiseProfile: {fileID: 11400000, guid: 00000000000000000000000000000000, type: 0}
+  m_PivotOffset: {x: 0, y: 0, z: 0}
+  m_AmplitudeGain: 0
+  m_FrequencyGain: 1
+  mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!1 &2068440409
 GameObject:
   m_ObjectHideFlags: 0
