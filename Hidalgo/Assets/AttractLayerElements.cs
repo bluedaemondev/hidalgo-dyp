@@ -44,8 +44,14 @@ public class AttractLayerElements : MonoBehaviour
     {
         if (collision.gameObject.layer == Common.GetLayerFromMask(layersToAttract))
         {
-            currentlyInAgro.Remove(collision.GetComponent<AnimatedCharacterController>());
+            var controllerObject = collision.GetComponent<AnimatedCharacterController>();
+            controllerObject.State = CharacterState.IDLE;
+
+            currentlyInAgro.Remove(controllerObject);
             Debug.Log(" entity out of agro - " + collision.gameObject.name);
+
+            
+
         }
     }
 

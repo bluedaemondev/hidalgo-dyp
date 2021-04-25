@@ -72,11 +72,14 @@ public class AnimatedCharacterController : MonoBehaviour
         {
             case CharacterState.IDLE:
                 _animator.Play(hashIdle);
+                _animator.SetBool("isMoving", false);
 
                 //onIdle.Invoke();
                 break;
             case CharacterState.MOVING:
                 _animator.Play(hashMoving);
+                _animator.SetBool("isMoving", true);
+
                 mover.MoveTowardsTarget();
                 //onMove.Invoke();
                 break;

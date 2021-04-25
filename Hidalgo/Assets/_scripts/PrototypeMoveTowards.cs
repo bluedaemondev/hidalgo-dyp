@@ -15,8 +15,9 @@ public class PrototypeMoveTowards : MonoBehaviour
     public void MoveTowardsTarget()
     {
         var delta = Vector2.Distance(transform.position, follows.position);
+
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
-            transform.position += (follows.transform.position - transform.position).normalized * speed;
+            transform.position = Vector2.MoveTowards(transform.position, follows.position, speed * Time.deltaTime);
 
         //Debug.Log(this.gameObject.name + " is moving");
     }

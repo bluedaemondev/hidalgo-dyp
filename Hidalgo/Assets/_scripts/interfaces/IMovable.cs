@@ -4,7 +4,7 @@ using UnityEngine;
 
 public interface IMovable 
 {
-    Vector2 Move(Vector2 direction);
+    void Move();
     Vector2 CalculateInput();
 
 }
