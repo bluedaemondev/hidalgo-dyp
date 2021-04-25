@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  deltaMaxDist: 2
+  deltaMaxDist: 3.2
   deltaMinToMove: 0.7
 --- !u!58 &3679879058201602061
 CircleCollider2D:

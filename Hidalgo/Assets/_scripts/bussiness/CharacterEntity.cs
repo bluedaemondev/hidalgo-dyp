@@ -20,12 +20,6 @@ public class CharacterEntity : IMovable
         this._currentState = CharacterState.IDLE;
     }
 
-    public virtual Vector2 CalculateInput()
-    {
-        /// llamar al script de gonzalo
-        return Vector2.zero;
-    }
-
     public void Move()
     {
         this._currentState = CharacterState.MOVING;

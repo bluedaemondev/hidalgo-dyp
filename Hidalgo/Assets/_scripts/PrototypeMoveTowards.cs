@@ -7,18 +7,16 @@ public class PrototypeMoveTowards : MonoBehaviour
     public float speed = 2;
     public float deltaMaxDist = 2;
     public float deltaMinToMove = 1.4f;
-    private Transform follows;
-    public void SetTargetToFollow(Transform t)
-    {
-        follows = t;
-    }
+    private Transform _follows;
+
+    public Transform Follows { get => _follows; set => _follows = value; }
+
     public void MoveTowardsTarget()
     {
-        var delta = Vector2.Distance(transform.position, follows.position);
+        var delta = Vector2.Distance(transform.position, Follows.position);
 
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
-            transform.position = Vector2.MoveTowards(transform.position, follows.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, Follows.position, speed * Time.deltaTime);
 
-        //Debug.Log(this.gameObject.name + " is moving");
     }
 }

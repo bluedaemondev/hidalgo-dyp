@@ -25,7 +25,7 @@ public class AnimatedCharacterController : MonoBehaviour
     //public UnityEvent onStunned;
 
     /// <summary>
-    /// PROTOTIPO, BORRAR (!)
+    /// PROTOTIPO, ver (!)
     /// </summary>
     public PrototypeMoveTowards mover;
 

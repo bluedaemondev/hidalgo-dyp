@@ -5,12 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    public Rigidbody2D rigidbody2D;
+    public Rigidbody2D _rigidbody2D;
     public float speed;
 
     private void Awake()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     Controller _controller;
