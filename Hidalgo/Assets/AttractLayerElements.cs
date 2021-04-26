@@ -40,12 +40,15 @@ public class AttractLayerElements : MonoBehaviour
                 currentlyInAgro = new List<AnimatedCharacterController>();
 
             var controllerObject = collision.GetComponent<AnimatedCharacterController>();
-            controllerObject.mover.Follows = transform;
-            controllerObject.State = CharacterState.MOVING;
 
+            //preguntar como hacer esto mejor en clase. no es lo mas limpio
+            if (controllerObject.mover is PrototypeMoveTowards)
+                ((PrototypeMoveTowards)controllerObject.mover).Follows = transform;
+
+            controllerObject.State = CharacterState.MOVING;
             if (!currentlyInAgro.Contains(controllerObject))
                 currentlyInAgro.Add(controllerObject);
-            
+
             Debug.Log(currentlyInAgro.Count + " entities in agro - " + this.gameObject.name);
         }
     }
@@ -57,12 +60,14 @@ public class AttractLayerElements : MonoBehaviour
             var controllerObject = collision.GetComponent<AnimatedCharacterController>();
 
             //fix para que priorizen seguir al jugador
-            if (this.gameObject.layer != LayerMask.NameToLayer("ObstacleStun") &&
-                   controllerObject.mover.Follows != GameObject.FindGameObjectWithTag("Player"))
+            if (this.gameObject.layer != LayerMask.NameToLayer("ObstacleStun"))
             {
-                controllerObject.State = CharacterState.IDLE;
+                if (controllerObject.mover is PrototypeMoveTowards && ((PrototypeMoveTowards)controllerObject.mover).Follows != GameObject.FindGameObjectWithTag("Player"))
+                {
+                    controllerObject.State = CharacterState.IDLE;
 
-                currentlyInAgro.Remove(controllerObject);
+                    currentlyInAgro.Remove(controllerObject);
+                }
             }
             Debug.Log(" entity out of agro - " + collision.gameObject.name);
 

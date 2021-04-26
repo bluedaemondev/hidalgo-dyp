@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PrototypeMoveTowards : MonoBehaviour
+public class PrototypeMoveTowards : MonoBehaviour, IMoveType
 {
     public float speed = 2;
     public float deltaMaxDist = 2;
@@ -11,12 +11,12 @@ public class PrototypeMoveTowards : MonoBehaviour
 
     public Transform Follows { get => _follows; set => _follows = value; }
 
-    public void MoveTowardsTarget()
+    public void Move()
     {
         var delta = Vector2.Distance(transform.position, Follows.position);
 
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
             transform.position = Vector2.MoveTowards(transform.position, Follows.position, speed * Time.deltaTime);
-
     }
+
 }

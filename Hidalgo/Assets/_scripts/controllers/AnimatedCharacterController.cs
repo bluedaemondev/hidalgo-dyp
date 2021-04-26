@@ -57,6 +57,10 @@ public class AnimatedCharacterController : MonoBehaviour
         {
             _entity = new CharacterEntity(8);
         }
+        if(gameObject.layer != LayerMask.NameToLayer("Player"))
+        {
+            mover = GetComponent<PrototypeMoveTowards>();
+        }
 
         _animator = this.GetComponent<Animator>();
     }
@@ -80,7 +84,7 @@ public class AnimatedCharacterController : MonoBehaviour
                 _animator.Play(hashMoving);
                 _animator.SetBool("isMoving", true);
 
-                mover.MoveTowardsTarget();
+                mover.Move();
                 //onMove.Invoke();
                 break;
             case CharacterState.PRE_STUN:
