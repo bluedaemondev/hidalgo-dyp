@@ -16,8 +16,8 @@ TagManager:
   - ObstacleStun
   - Player
   - Companion
-  - 
-  - 
+  - ObstacleDelay
+  - ObstacleSwitch
   - 
   - 
   - 

@@ -2,31 +2,44 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MovementType
 {
+    public Rigidbody2D _rigidbody2D;
+    [SerializeField] private float speed = 2.6f;
+    [SerializeField] private float speedMultiplier = 1f;
+    public float Speed { get => speed * speedMultiplier; set => speed = value; }
+    public float SpeedMultiplier { get => speedMultiplier; }
+    Movement _movement;
+    Controller _controller;
 
-    public Rigidbody2D rigidbody2D;
-    public float speed;
-    public List<KeyCode> OMovement = new List<KeyCode>();
-    public List<KeyCode> NMovement = new List<KeyCode>();
+    // public float speed;
+    public List<KeyCode> OMovement;
+    public List<KeyCode> NMovement;
     private void Awake()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+        OMovement = new List<KeyCode>();
+        NMovement = new List<KeyCode>();
 
-        OMovement[0] = KeyCode.W;
-        OMovement[1] = KeyCode.S;
-        OMovement[2] = KeyCode.A;
-        OMovement[3] = KeyCode.D;
+        OMovement.Add(KeyCode.W);
+        OMovement.Add(KeyCode.S);
+        OMovement.Add(KeyCode.A);
+        OMovement.Add(KeyCode.D);
 
-        NMovement[0] = KeyCode.S;
-        NMovement[1] = KeyCode.W;
-        NMovement[2] = KeyCode.D;
-        NMovement[3] = KeyCode.A;
-
+        NMovement.Add(KeyCode.S);
+        NMovement.Add(KeyCode.W);
+        NMovement.Add(KeyCode.D);
+        NMovement.Add(KeyCode.A);
+    }
+    public void SetSpeedMultiplier(float value)
+    {
+        this.speedMultiplier = value;
+    }
+    public void ResetSpeedMultipliers()
+    {
+        this.speedMultiplier = 1;
     }
 
-    Controller _controller;
-    Movement _movement;
 
     private void Start()
     {

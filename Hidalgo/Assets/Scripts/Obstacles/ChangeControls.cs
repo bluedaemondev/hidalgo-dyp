@@ -5,41 +5,52 @@ using UnityEngine;
 public class ChangeControls : MonoBehaviour
 {
     public Player _player;
-    public BoxCollider2D myBoxCollider;
+    //public BoxCollider2D myBoxCollider;
     public float ChangeControlsBackTime = 0.75f;
     public float ChangeControlsTime = 1.7f;
     public float NormalSpeed;
     public float StunTime = 50;
 
-    private void Awake()
-    {
-        myBoxCollider = this.GetComponent<BoxCollider2D>();
-    }
+    public LayerMask interactWith;
+
+    //private void Awake()
+    //{
+    //    myBoxCollider = this.GetComponent<BoxCollider2D>();
+    //}
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(ChangeControlOnEntry());
-    }   
+        if (Common.GetLayersFromMask(interactWith).Contains(collision.gameObject.layer))
+        {
+            StartCoroutine(ChangeControlOnEntry());
+            Debug.Log("collision - " + collision.gameObject.name);
+        }
+    }
 
     private void OnTriggerExit2D(Collider2D collision)
-    {        
-        StartCoroutine(StunOnExit());
+    {
+        if (Common.GetLayersFromMask(interactWith).Contains(collision.gameObject.layer))
+        {
+            StartCoroutine(StunOnExit());
+            Debug.Log("collision - " + collision.gameObject.name);
+
+        }
     }
 
     public IEnumerator StunOnExit()
     {
-        _player.speed = 0;
+        _player.SetSpeedMultiplier(0); //Speed = 0;
         yield return new WaitForSeconds(StunTime);
-        
+
 
         StartCoroutine(ChangeControlOnExit());
-       
-     
+
+
     }
 
     public IEnumerator ChangeControlOnEntry()
     {
         yield return new WaitForSeconds(ChangeControlsTime);
-        _player.speed = _player.speed * 0.75f;
+        //_player.Speed = _player.Speed * 0.75f;
         _player.ChangeMyController();
 
     }
@@ -47,7 +58,8 @@ public class ChangeControls : MonoBehaviour
     public IEnumerator ChangeControlOnExit()
     {
         yield return new WaitForSeconds(ChangeControlsBackTime);
-        _player.speed = NormalSpeed;
+        //_player.Speed = NormalSpeed;
+        _player.ResetSpeedMultipliers();
         _player.RetrieveMyController();
     }
 }

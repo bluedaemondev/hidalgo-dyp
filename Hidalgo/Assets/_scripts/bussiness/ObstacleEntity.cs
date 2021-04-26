@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObstacleEntity : MonoBehaviour
 {
+    //private ObstacleBehaviour obstacleBehaviour;
     // Start is called before the first frame update
     void Start()
     {

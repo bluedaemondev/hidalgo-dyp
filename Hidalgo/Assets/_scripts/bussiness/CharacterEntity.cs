@@ -11,19 +11,13 @@ public enum CharacterState
 }
 
 [System.Serializable]
-public class CharacterEntity : IMovable
+public class CharacterEntity 
 {
     public CharacterState _currentState;
 
     public CharacterEntity(float speed)
     {
         this._currentState = CharacterState.IDLE;
-    }
-
-    public virtual Vector2 CalculateInput()
-    {
-        /// llamar al script de gonzalo
-        return Vector2.zero;
     }
 
     public void Move()

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AttractLayerElements : MonoBehaviour
 {
@@ -13,15 +14,22 @@ public class AttractLayerElements : MonoBehaviour
 
     // objetos que estoy atrayendo
     private List<AnimatedCharacterController> currentlyInAgro;
-    private CircleCollider2D agroRadius;
+    private Collider2D agroRadius;
 
     [SerializeField]
     private AnimatedCharacterController parentEntityController;
 
+    [HideInInspector]
+    public UnityEvent onEnterRange;
 
+
+    private void Awake()
+    {
+        onEnterRange = new UnityEvent();
+    }
     void OnEnable()
     {
-        agroRadius = this.GetComponent<CircleCollider2D>();
+        agroRadius = this.GetComponent<Collider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -32,10 +40,17 @@ public class AttractLayerElements : MonoBehaviour
                 currentlyInAgro = new List<AnimatedCharacterController>();
 
             var controllerObject = collision.GetComponent<AnimatedCharacterController>();
-            controllerObject.mover.SetTargetToFollow(transform);
-            controllerObject.State = CharacterState.MOVING;
 
-            currentlyInAgro.Add(controllerObject);
+            //preguntar como hacer esto mejor en clase. no es lo mas limpio
+            if (controllerObject.mover is PrototypeMoveTowards)
+            {
+                Debug.Log("no tengo idea");
+                ((PrototypeMoveTowards)controllerObject.mover).Follows = transform;
+            }
+            controllerObject.State = CharacterState.MOVING;
+            if (!currentlyInAgro.Contains(controllerObject))
+                currentlyInAgro.Add(controllerObject);
+
             Debug.Log(currentlyInAgro.Count + " entities in agro - " + this.gameObject.name);
         }
     }
@@ -45,15 +60,21 @@ public class AttractLayerElements : MonoBehaviour
         if (collision.gameObject.layer == Common.GetLayerFromMask(layersToAttract))
         {
             var controllerObject = collision.GetComponent<AnimatedCharacterController>();
-            controllerObject.State = CharacterState.IDLE;
 
-            currentlyInAgro.Remove(controllerObject);
+            //fix para que priorizen seguir al jugador
+            if (this.gameObject.layer != LayerMask.NameToLayer("ObstacleStun"))
+            {
+                if (controllerObject.mover is PrototypeMoveTowards && ((PrototypeMoveTowards)controllerObject.mover).Follows != GameObject.FindGameObjectWithTag("Player"))
+                {
+                    controllerObject.State = CharacterState.IDLE;
+
+                    currentlyInAgro.Remove(controllerObject);
+                }
+            }
             Debug.Log(" entity out of agro - " + collision.gameObject.name);
-
-            
 
         }
     }
 
-    
+
 }

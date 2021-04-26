@@ -15,7 +15,6 @@ public class Movement
     {
         moveDir = new Vector3(moveX, moveY).normalized;
 
-        _player.GetComponent<Rigidbody2D>().velocity = moveDir * _player.speed;
+        _player.GetComponent<Rigidbody2D>().velocity = moveDir * _player.Speed;
     }
-
 }
