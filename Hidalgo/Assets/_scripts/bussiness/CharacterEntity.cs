@@ -11,7 +11,7 @@ public enum CharacterState
 }
 
 [System.Serializable]
-public class CharacterEntity : IMovable
+public class CharacterEntity 
 {
     public CharacterState _currentState;
 

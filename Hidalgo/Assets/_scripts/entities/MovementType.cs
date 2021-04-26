@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IMovable 
+public class MovementType : MonoBehaviour
 {
-    void Move();
+    
 }

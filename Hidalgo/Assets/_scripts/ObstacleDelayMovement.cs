@@ -8,16 +8,38 @@ public class ObstacleDelayMovement : MonoBehaviour
     [SerializeField] private bool hasSomeoneInRange = false;
     [SerializeField] private LayerMask layersToInteract;
 
-    void Start()
-    {
+    MovementType movement;
 
-    }
+    public MovementType Movement { get => movement; private set => movement = value; }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer != Common.GetLayerFromMask(layersToInteract))
+        Debug.Log(collision.gameObject.layer != Common.GetLayerFromMask(layersToInteract));
+
+        if (!Common.GetLayersFromMask(layersToInteract).Contains(collision.gameObject.layer))
             return;
 
+        movement = collision.gameObject.GetComponent<MovementType>();
+
+        if (movement is Player)
+            ((Player)movement).SetSpeedMultiplier(factorDelay);
+        else if (movement is PrototypeMoveTowards)
+            ((PrototypeMoveTowards)movement).SetSpeedMultiplier(factorDelay);
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Debug.Log(collision.gameObject.layer != Common.GetLayerFromMask(layersToInteract));
+
+        if (!Common.GetLayersFromMask(layersToInteract).Contains(collision.gameObject.layer))
+            return;
+
+        movement = collision.gameObject.GetComponent<MovementType>();
+
+        if (movement is Player)
+            ((Player)movement).ResetSpeedMultipliers();
+        else if (movement is PrototypeMoveTowards)
+            ((PrototypeMoveTowards)movement).ResetSpeedMultipliers();
 
     }
 }
