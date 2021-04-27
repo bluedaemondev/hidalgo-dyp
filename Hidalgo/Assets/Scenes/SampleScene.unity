@@ -1610,6 +1610,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 76790947563811549, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: neigh
+      value: 
+      objectReference: {fileID: 8300000, guid: b9bd49ecda57d8b41a7e4a284b2e1106, type: 3}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1670,7 +1675,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: CompanionPrefab
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 76790947563811549, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
 --- !u!1001 &3738445511893917530
 PrefabInstance:
@@ -1883,6 +1889,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5949733330024656397, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: rocinante
+      value: 
+      objectReference: {fileID: 8300000, guid: b9bd49ecda57d8b41a7e4a284b2e1106, type: 3}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_Name

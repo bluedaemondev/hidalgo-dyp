@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3679879058201602058}
   - component: {fileID: 3679879058201602061}
   - component: {fileID: 3679879058201602056}
+  - component: {fileID: 76790947563811549}
   m_Layer: 10
   m_Name: CompanionPrefab
   m_TagString: Untagged
@@ -123,6 +124,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &76790947563811549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679879058201602062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e46d7a578c515f49901e44912884081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neigh: {fileID: 0}
 --- !u!1 &3679879058291100654
 GameObject:
   m_ObjectHideFlags: 0
