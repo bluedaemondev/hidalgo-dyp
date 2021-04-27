@@ -13,6 +13,8 @@ public class ChangeControls : MonoBehaviour
 
     public LayerMask interactWith;
 
+    public MaskControlChangerController maskController;
+
     //private void Awake()
     //{
     //    myBoxCollider = this.GetComponent<BoxCollider2D>();
@@ -41,14 +43,15 @@ public class ChangeControls : MonoBehaviour
         _player.SetSpeedMultiplier(0); //Speed = 0;
         yield return new WaitForSeconds(StunTime);
 
-
         StartCoroutine(ChangeControlOnExit());
-
 
     }
 
     public IEnumerator ChangeControlOnEntry()
     {
+        maskController?.FadeInMask(ChangeControlsTime);
+        yield return null;
+
         yield return new WaitForSeconds(ChangeControlsTime);
         //_player.Speed = _player.Speed * 0.75f;
         _player.ChangeMyController();
@@ -57,8 +60,11 @@ public class ChangeControls : MonoBehaviour
 
     public IEnumerator ChangeControlOnExit()
     {
+        maskController?.FadeOutMask(ChangeControlsTime);
+        yield return null;
+
         yield return new WaitForSeconds(ChangeControlsBackTime);
-        //_player.Speed = NormalSpeed;
+
         _player.ResetSpeedMultipliers();
         _player.RetrieveMyController();
     }
