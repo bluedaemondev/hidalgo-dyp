@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 724663211940126270}
   - component: {fileID: 724663211940126257}
   - component: {fileID: 724663211940126271}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ControlsChanger
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
@@ -103,7 +103,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &724663211940126257
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -143,8 +143,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
-  myBoxCollider: {fileID: 0}
   ChangeControlsBackTime: 0.25
   ChangeControlsTime: 1
   NormalSpeed: 1
   StunTime: 1
+  interactWith:
+    serializedVersion: 2
+    m_Bits: 512

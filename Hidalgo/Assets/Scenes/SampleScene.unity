@@ -120,12 +120,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!61 &363924426 stripped
-BoxCollider2D:
-  m_CorrespondingSourceObject: {fileID: 724663211940126257, guid: 90017d908055ac04aa7dea4e35354f63,
-    type: 3}
-  m_PrefabInstance: {fileID: 824111227}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,11 +215,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ControlsChanger
       objectReference: {fileID: 0}
-    - target: {fileID: 724663211940126266, guid: 90017d908055ac04aa7dea4e35354f63,
-        type: 3}
-      propertyPath: m_Layer
-      value: 12
-      objectReference: {fileID: 0}
     - target: {fileID: 724663211940126268, guid: 90017d908055ac04aa7dea4e35354f63,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -281,26 +270,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 724663211940126270, guid: 90017d908055ac04aa7dea4e35354f63,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 724663211940126271, guid: 90017d908055ac04aa7dea4e35354f63,
         type: 3}
       propertyPath: _player
       value: 
       objectReference: {fileID: 1251446799}
-    - target: {fileID: 724663211940126271, guid: 90017d908055ac04aa7dea4e35354f63,
-        type: 3}
-      propertyPath: myBoxCollider
-      value: 
-      objectReference: {fileID: 363924426}
-    - target: {fileID: 724663211940126271, guid: 90017d908055ac04aa7dea4e35354f63,
-        type: 3}
-      propertyPath: interactWith.m_Bits
-      value: 512
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90017d908055ac04aa7dea4e35354f63, type: 3}
 --- !u!114 &1251446799 stripped
@@ -588,11 +562,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PlayerTMP
-      objectReference: {fileID: 0}
-    - target: {fileID: 7627999220082301767, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
