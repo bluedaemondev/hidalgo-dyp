@@ -27,7 +27,7 @@ public class AnimatedCharacterController : MonoBehaviour
     /// <summary>
     /// PROTOTIPO, ver (!)
     /// </summary>
-    public PrototypeMoveTowards mover;
+    public MovementType mover;
 
     CharacterState _state;
     public CharacterState State
@@ -84,7 +84,9 @@ public class AnimatedCharacterController : MonoBehaviour
                 _animator.Play(hashMoving);
                 _animator.SetBool("isMoving", true);
 
-                mover.Move();
+                GetComponent<PrototypeMoveTowards>()?.Move();
+                //GetComponent<Player>()?.Movement.Move() ;
+
                 //onMove.Invoke();
                 break;
             case CharacterState.PRE_STUN:

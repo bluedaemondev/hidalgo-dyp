@@ -7,10 +7,14 @@ public class Player : MovementType
     public Rigidbody2D _rigidbody2D;
     [SerializeField] private float speed = 2.6f;
     [SerializeField] private float speedMultiplier = 1f;
-    public float Speed { get => speed * speedMultiplier; set => speed = value; }
-    public float SpeedMultiplier { get => speedMultiplier; }
+    
     Movement _movement;
     Controller _controller;
+    
+    public float Speed { get => speed * speedMultiplier; set => speed = value; }
+    public float SpeedMultiplier { get => speedMultiplier; }
+    public Movement Movement { get => _movement;}
+
 
     // public float speed;
     public List<KeyCode> OMovement;
@@ -44,7 +48,7 @@ public class Player : MovementType
     private void Start()
     {
         _movement = new Movement(this);
-        _controller = new Controller(_movement);
+        _controller = new Controller(Movement);
 
         _controller.OnStart();
     }

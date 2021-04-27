@@ -1,0 +1,3595 @@
+fileFormatVersion: 2
+guid: 466f50532c986c1468a8514d6923865c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9094200156237520769
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_0
+  - first:
+      213: -4446070202982005050
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_1
+  - first:
+      213: -3380113408293472944
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_2
+  - first:
+      213: -1766344329328363201
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_3
+  - first:
+      213: -4489583610473740384
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_4
+  - first:
+      213: 8770044413603212967
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_5
+  - first:
+      213: 8139212626385167969
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_6
+  - first:
+      213: -6427511007903363299
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_7
+  - first:
+      213: -6497756948532605634
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_8
+  - first:
+      213: -3665561391044953195
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_9
+  - first:
+      213: -5759614968066635816
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_10
+  - first:
+      213: 3688124796014861635
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_11
+  - first:
+      213: -5207804143993416387
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_12
+  - first:
+      213: -8522947991469113183
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_13
+  - first:
+      213: 3448094773483011106
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_14
+  - first:
+      213: -8479365141184516431
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_15
+  - first:
+      213: 8821857607525165179
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_16
+  - first:
+      213: 1503206999999169444
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_17
+  - first:
+      213: 2733351987611791440
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_18
+  - first:
+      213: 1691155197556866524
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_19
+  - first:
+      213: 3779698498153060691
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_20
+  - first:
+      213: 4688980353511769107
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_21
+  - first:
+      213: -5578491297710622150
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_22
+  - first:
+      213: 4078076662867206171
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_23
+  - first:
+      213: -8630293885488719594
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_24
+  - first:
+      213: 6668055498648751585
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_25
+  - first:
+      213: -5152738715222053680
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_26
+  - first:
+      213: 2192626409083780615
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_27
+  - first:
+      213: -5755319461673129430
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_28
+  - first:
+      213: 2435387210829094196
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_29
+  - first:
+      213: -70726521988203337
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_30
+  - first:
+      213: -2679826304351651785
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_31
+  - first:
+      213: -6168272521169534480
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_32
+  - first:
+      213: 5620090047840837698
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_33
+  - first:
+      213: -2154554708539075289
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_34
+  - first:
+      213: 7747589702506884068
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_35
+  - first:
+      213: -8635783179236114801
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_36
+  - first:
+      213: 7438676740993100977
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_37
+  - first:
+      213: 3327920356042597479
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_38
+  - first:
+      213: -539986320029375987
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_39
+  - first:
+      213: -7733062162886179562
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_40
+  - first:
+      213: -8212692438238156367
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_41
+  - first:
+      213: -2990519228867633199
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_42
+  - first:
+      213: -2411581264272343026
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_43
+  - first:
+      213: -434482337118606192
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_44
+  - first:
+      213: -2133628420062359052
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_45
+  - first:
+      213: 6643472280317670694
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_46
+  - first:
+      213: -3372223454057772222
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_47
+  - first:
+      213: 8862454865139361668
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_48
+  - first:
+      213: 1595127836577903620
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_49
+  - first:
+      213: 1345901633341107263
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_50
+  - first:
+      213: -2682587569059559306
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_51
+  - first:
+      213: 878750769501685336
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_52
+  - first:
+      213: -9130866551005955466
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_53
+  - first:
+      213: -6986480100188005942
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_54
+  - first:
+      213: 1429499245801607979
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_55
+  - first:
+      213: 4650279912846844473
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_56
+  - first:
+      213: -876841035893949643
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_57
+  - first:
+      213: 5624997340479185494
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_58
+  - first:
+      213: 2893816630509311692
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_59
+  - first:
+      213: 447336516538210339
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_60
+  - first:
+      213: 2358170344127732719
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_61
+  - first:
+      213: 552301319096705924
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_62
+  - first:
+      213: 6333481197508647670
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_63
+  - first:
+      213: 2805633409378212510
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_64
+  - first:
+      213: -2896354523676721496
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_65
+  - first:
+      213: -5619834309421499760
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_66
+  - first:
+      213: 5180324660501904183
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_67
+  - first:
+      213: 2886646811403631701
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_68
+  - first:
+      213: -3915637053885932788
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_69
+  - first:
+      213: -9024902345090748648
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_70
+  - first:
+      213: 2550104794506664268
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_71
+  - first:
+      213: -7506229673089897663
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_72
+  - first:
+      213: -8956458761201592959
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_73
+  - first:
+      213: 8907219346778459413
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_74
+  - first:
+      213: 6348443182088865604
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_75
+  - first:
+      213: -7989596488915075658
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_76
+  - first:
+      213: 8336546737528898608
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_77
+  - first:
+      213: 3759377449941856368
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_78
+  - first:
+      213: -2044997483081591700
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_79
+  - first:
+      213: -3518269813109571123
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_80
+  - first:
+      213: -8939223628037820732
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_81
+  - first:
+      213: 5865516909620071350
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_82
+  - first:
+      213: 5761292095104057649
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_83
+  - first:
+      213: 2825946536846206633
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_84
+  - first:
+      213: -4875835757927762240
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_85
+  - first:
+      213: 3998488581622362586
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_86
+  - first:
+      213: 5390262829845209810
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_87
+  - first:
+      213: 8133336175016055903
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_88
+  - first:
+      213: -9189959058899319089
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_89
+  - first:
+      213: 250078052657689590
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_90
+  - first:
+      213: -8372202089555052881
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_91
+  - first:
+      213: -3313215658740040234
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_92
+  - first:
+      213: 2068703348925189034
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_93
+  - first:
+      213: -650666984302906365
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_94
+  - first:
+      213: 4879036984634098157
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_95
+  - first:
+      213: -363237499628513793
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_96
+  - first:
+      213: 8516853710745834177
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_97
+  - first:
+      213: -7064653646830368079
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_98
+  - first:
+      213: 5954142952697326731
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_99
+  - first:
+      213: 5050905805150381608
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_100
+  - first:
+      213: 6908024071774395611
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_101
+  - first:
+      213: 5434990868268943828
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_102
+  - first:
+      213: 1522737501219579346
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_103
+  - first:
+      213: 2097549665547542641
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_104
+  - first:
+      213: -3711495299591719379
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_105
+  - first:
+      213: 5064125389858429084
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_106
+  - first:
+      213: -8147347534056690377
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_107
+  - first:
+      213: -1521029074580766824
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_108
+  - first:
+      213: 3979534323714592932
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_109
+  - first:
+      213: 6436079688979036319
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_110
+  - first:
+      213: 5435129146922005760
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_111
+  - first:
+      213: 1341121705675503909
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_112
+  - first:
+      213: 173272943814097505
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_113
+  - first:
+      213: -2716297931191138626
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_114
+  - first:
+      213: 8614853860173896217
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_115
+  - first:
+      213: 5129682655649851432
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_116
+  - first:
+      213: 4634661005605913170
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_117
+  - first:
+      213: 2804779476408920093
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_118
+  - first:
+      213: 4407652694337048929
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_119
+  - first:
+      213: 2993375076571034005
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_120
+  - first:
+      213: -8984976266935969562
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_121
+  - first:
+      213: -2592897243169564904
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_122
+  - first:
+      213: 657992273613901288
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_123
+  - first:
+      213: -3049492515241168769
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_124
+  - first:
+      213: 8455937016364921297
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_125
+  - first:
+      213: -588473322414762444
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_126
+  - first:
+      213: 2160031349702224954
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_127
+  - first:
+      213: 4532023571571786441
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_128
+  - first:
+      213: 9030881622666613554
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_129
+  - first:
+      213: -7808961283395332460
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_130
+  - first:
+      213: 6088725984275212201
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_131
+  - first:
+      213: 9206952803854667178
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_132
+  - first:
+      213: -2684107975710956633
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_133
+  - first:
+      213: -7792213510984918354
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_134
+  - first:
+      213: -8790516606093165963
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_135
+  - first:
+      213: 6274327730445322513
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_136
+  - first:
+      213: 5049961484410214258
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_137
+  - first:
+      213: 112593802460643712
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_138
+  - first:
+      213: -1679317694682316286
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_139
+  - first:
+      213: 7285764548160266604
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_140
+  - first:
+      213: 1169642133716447063
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_141
+  - first:
+      213: -5421550463099587694
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_142
+  - first:
+      213: 4555105883974197197
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_143
+  - first:
+      213: 7937804631881106395
+    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_144
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 519
+        width: 321
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e95407ef98cc6e4c8d4f3dbe031b183
+      internalID: 9094200156237520769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 528
+        width: 374
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cceb4ec5853b94aad1e231b04f1519
+      internalID: -4446070202982005050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1012
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb03dd10a4556d4f8c3861e26e0f982
+      internalID: -3380113408293472944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 526
+        width: 354
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f9c95298f243f4fb0caf62c481b8bd
+      internalID: -1766344329328363201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1002
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1358fcaa7c6384fa63e5040d9ef20c
+      internalID: -4489583610473740384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1002
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91357794a7609dc48876a4b1765079d2
+      internalID: 8770044413603212967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1002
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc8f49648bb6d940b9d999053e91b60
+      internalID: 8139212626385167969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 992
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaeb6173e281c24e872af657a8d892f
+      internalID: -6427511007903363299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 996
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa40b6d2934c34aa6503356259aaa1
+      internalID: -6497756948532605634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 996
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f88e47f02809094b99995f8fde0529a
+      internalID: -3665561391044953195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 996
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a106fbc5dc92fba4e85e58693641b58e
+      internalID: -5759614968066635816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 996
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df566e570a29be2439cb9c0bf1544512
+      internalID: 3688124796014861635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 965
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e104e5bf00f8e364ba382d092d7fca3d
+      internalID: -5207804143993416387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 955
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6f834c5691184ebfb45b078b85dfb
+      internalID: -8522947991469113183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 968
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514b7fbe8947c0f4e91c80f27537e5d9
+      internalID: 3448094773483011106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 959
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7d04e6188a1b7458701dabd9fea51d
+      internalID: -8479365141184516431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 947
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f339fc3c763d8be4097d7dc82dd738a0
+      internalID: 8821857607525165179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 947
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2900ee6f113401419e12a17b8270529
+      internalID: 1503206999999169444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 965
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50610363ea69c4f4db87012681fed417
+      internalID: 2733351987611791440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 931
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617ec736162476a4f893e53e9de896b3
+      internalID: 1691155197556866524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 889
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9bb714ee5bde644a5eaaa53134deb5
+      internalID: 3779698498153060691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 875
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aa03ba94b219a47912d393dd495195
+      internalID: 4688980353511769107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 879
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be54165f886d7b49bff1e261402dcd5
+      internalID: -5578491297710622150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 865
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a90372c19d4c014e8efd310120aa3bd
+      internalID: 4078076662867206171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 879
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3dcdc554ee34b47a15b31677ef9bd2
+      internalID: -8630293885488719594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 862
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c656ad84a8c7e4c8fb70a925777f93
+      internalID: 6668055498648751585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 844
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e4e5f85fa3af44e9c36d597544c649
+      internalID: -5152738715222053680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 824
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe9b10e42344e34dbe1b38c858d3b3a
+      internalID: 2192626409083780615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 807
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200123a7101b5924790c85b2e558e78a
+      internalID: -5755319461673129430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 798
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05b0a33732b8b94f84650761c518f23
+      internalID: 2435387210829094196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 753
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee8bc752da750a4aa17d94eb83c28e3
+      internalID: -70726521988203337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 686
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db12b742f1b99c4cbf6d796be1a827d
+      internalID: -2679826304351651785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 686
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68ddc344cfb08f41ad8dafa0e0b48d3
+      internalID: -6168272521169534480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 601
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebad3c4fcbc36854086d66df21df87cb
+      internalID: 5620090047840837698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 603
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c7df1d3c579234db5b665e54ec0575
+      internalID: -2154554708539075289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 602
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7961b548208f1114e9a9a8f5f1223e5a
+      internalID: 7747589702506884068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 576
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dd8a0f5046a0246958f73eea265213
+      internalID: -8635783179236114801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 577
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f5b76eae8e3364a825646a7590f9ae
+      internalID: 7438676740993100977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 577
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be59ff7063ddea46b26f4f38600a050
+      internalID: 3327920356042597479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 577
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c33fb3fca552b646a50f560c54101ac
+      internalID: -539986320029375987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 577
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35a3441ea8dd0b49b1ee2920789d836
+      internalID: -7733062162886179562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 581
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71915ee60b3c284f8295e3ba5a3ae1d
+      internalID: -8212692438238156367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 565
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3abf6eb0d69bd47b33c0412b01a34c
+      internalID: -2990519228867633199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 553
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704c7882fe511dd469779f0b54ae1db5
+      internalID: -2411581264272343026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 549
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bacd31a5e7e9194fa8624fd274126fe
+      internalID: -434482337118606192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 552
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae23a2a409317743b0eae8726c7acec
+      internalID: -2133628420062359052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 565
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2154e58c13ccba04f92a2499d719271f
+      internalID: 6643472280317670694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 556
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f8fdb90ebebeb48bc5d5cf65350286
+      internalID: -3372223454057772222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 549
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafee074c0ca0584a92f70dd618e70d8
+      internalID: 8862454865139361668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 546
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa50f96e877f414e94c4b1cb829ab1e
+      internalID: 1595127836577903620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 546
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cba8676c5de7584a82d28d70972e2d9
+      internalID: 1345901633341107263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 544
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c81fe7bf969f94f910efd6cf6b9282
+      internalID: -2682587569059559306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 546
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11368bfd235ce419980e1765eee2e5
+      internalID: 878750769501685336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 545
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd93e12521de5df47b4fa6b330482901
+      internalID: -9130866551005955466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 537
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d1dc59c85979e46bf757e3f4e0f8e6
+      internalID: -6986480100188005942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 535
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508473c45424e8408e89cfec32f3941
+      internalID: 1429499245801607979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 542
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6758f64a8a3439e47b0759d5ba57336d
+      internalID: 4650279912846844473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 536
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e62ae7ee667b74680b646ec2eb8973
+      internalID: -876841035893949643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 537
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdd9c83f9c9fa443ad0992920faf923
+      internalID: 5624997340479185494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 534
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbe0986ec1fb9438d51395b4fdfe1c
+      internalID: 2893816630509311692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 535
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f89ad201f121043b64ad9864c35cb7
+      internalID: 447336516538210339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 541
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a32daeb5e3c4f04d982411010be02cf
+      internalID: 2358170344127732719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 536
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1a424e7cf812b46ac7482f1d4d0846
+      internalID: 552301319096705924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 534
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486d2450d4c50eb47a81ed987b0ced2a
+      internalID: 6333481197508647670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 534
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bde6bec6b3a6d945b2b50a4b131761d
+      internalID: 2805633409378212510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 534
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa5190cf243aa84088d0737e3f7f483
+      internalID: -2896354523676721496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 534
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0702b626433a04546a7ff0474075c924
+      internalID: -5619834309421499760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 534
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0b9c4dee3177b4cbd3fb95858a2b30
+      internalID: 5180324660501904183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 534
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadb625f3bc010e4bb9b296845f204d2
+      internalID: 2886646811403631701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 8
+        width: 331
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5f51ddb78588142982077469077970
+      internalID: -3915637053885932788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 24
+        width: 310
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116bfefd019c4ff47947b27b444b9770
+      internalID: -9024902345090748648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 497
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c377ab7533d1241ac9a94feb9bcb5b
+      internalID: 2550104794506664268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 501
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4583af558a9ec6049aa8d5b4077f610b
+      internalID: -7506229673089897663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 24
+        width: 331
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027de6c8a4d5b0449a86d3832d958966
+      internalID: -8956458761201592959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 501
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005a1e95716501143a8b5724b4096062
+      internalID: 8907219346778459413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 505
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882b18eaa891ac14a9ba3dba7c63ec2b
+      internalID: 6348443182088865604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 497
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e08ac0f5c5d17c4f8b91c294e0edc1e
+      internalID: -7989596488915075658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 493
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe293deb3d0d03145b8deb2711706f59
+      internalID: 8336546737528898608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 495
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb6408f36877594e8c3d7e5786a9972
+      internalID: 3759377449941856368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 495
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b206861ba7ea84fb8eb725bfd6c325
+      internalID: -2044997483081591700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 485
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75278991f5f79ee4c8b9821572d3eaed
+      internalID: -3518269813109571123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 489
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4aad1f68236734991a2fd6cbcccbfe
+      internalID: -8939223628037820732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 451
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79cf5e484b70da448a67e4233f15fd0
+      internalID: 5865516909620071350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 456
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea373fd389f974dad23597833d53d0
+      internalID: 5761292095104057649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 449
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac35841bac35ef47bc90b797b7b9a6a
+      internalID: 2825946536846206633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 440
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714ceebad9059404f9052fcb7258482d
+      internalID: -4875835757927762240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 421
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3983e02de70030843b1156aa26c377d1
+      internalID: 3998488581622362586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 391
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40831fbcd982e2643b4788b1fa5510da
+      internalID: 5390262829845209810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 375
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a42f091b27e5e4d97f27dd7e1f87b8
+      internalID: 8133336175016055903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 375
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1e9539b406a5e4098b0de0c3b08f2d
+      internalID: -9189959058899319089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 370
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ecd58d96c8dc341a37a8b2dca8e545
+      internalID: 250078052657689590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 368
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8691a31ed7f7d43870c3cb96a7a025
+      internalID: -8372202089555052881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 355
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935475a634f215e43b4b17329835e461
+      internalID: -3313215658740040234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 304
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d3c1b153e38db41b3417b625169c4f
+      internalID: 2068703348925189034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 335
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb56d86b352bdb4cb7b5c2f4b98d8b0
+      internalID: -650666984302906365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 260
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71978369cf7d774a94b8d9b762ad533
+      internalID: 4879036984634098157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 266
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6964316fdd4d5458a6cbd4a85c84ce
+      internalID: -363237499628513793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 272
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de39ba210f26c2f46a3d6ecc008aeff2
+      internalID: 8516853710745834177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 252
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679476333ae52e742816d338846adf13
+      internalID: -7064653646830368079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 257
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ff0c892afa3da41886adbc6e9adcdd
+      internalID: 5954142952697326731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 258
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aef169d99a4cd4cb78084c4aa372b7
+      internalID: 5050905805150381608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 190
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831bff7dae8234d429bef391c5a9ee05
+      internalID: 6908024071774395611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 123
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11255586dea27a34e8a81bdcc9ea3f60
+      internalID: 5434990868268943828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 113
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba649351b0775064cab0a5b42d2ca0e3
+      internalID: 1522737501219579346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 117
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3eef31a3e4e124fadb5860a7300bb2
+      internalID: 2097549665547542641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 121
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e598bea269c2e40a270f972bc5542e
+      internalID: -3711495299591719379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 109
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81befd55c4f80fa47bb2ed615fe49b72
+      internalID: 5064125389858429084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 109
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be59b792e06e93b4ebf9c0fa6bf34dc0
+      internalID: -8147347534056690377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 85
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026c1a41fe9e3f946bcf4ea3d7fa7f32
+      internalID: -1521029074580766824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 104
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904e3a396b1b0454fbfd7142179cbacc
+      internalID: 3979534323714592932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 104
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3220da989e92e584e8cd781449103f43
+      internalID: 6436079688979036319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 70
+        width: 6
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295401df01f8a8d43b5feaa42177e8ee
+      internalID: 5435129146922005760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 100
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e43035e660ab74478982f65c47cfbf3
+      internalID: 1341121705675503909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 99
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4d026b9282f4446bc6f0b218469bf8
+      internalID: 173272943814097505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 94
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bda28e374e6f5e4088492de7faff2bc
+      internalID: -2716297931191138626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 95
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2540a6d7b43c6e49a275c3d17f62164
+      internalID: 8614853860173896217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 69
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f74bcaa644adb4fa11600c33ed3032
+      internalID: 5129682655649851432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 78
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4df5b9c91ba3184ea14a8ce0d512190
+      internalID: 4634661005605913170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 50
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0651ea9d1b35e2f4fbe937a3ec92cb1a
+      internalID: 2804779476408920093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 63
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e72c249cc4144b846f5616fd7d96c
+      internalID: 4407652694337048929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 70
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2037bf8f35052c6458d9c9b0cc29445e
+      internalID: 2993375076571034005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 61
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a978cfa130f104e99b34c88dcfe8a4
+      internalID: -8984976266935969562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 48
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c770c32de2195d04cba488f188fd78a8
+      internalID: -2592897243169564904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 42
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87d1dc3dc206e4389354542312ecc4
+      internalID: 657992273613901288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 52
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e37fd5b0357824081d09c0b62a7b59
+      internalID: -3049492515241168769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 45
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640ec5b21333b9f4d9fbc5f294415a07
+      internalID: 8455937016364921297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 42
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a4cc34967eef14c9a4b362b595c5f3
+      internalID: -588473322414762444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 41
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7af066a42956548882e2edc3c73e0c
+      internalID: 2160031349702224954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 47
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0960d70a53609f4fab1fed4c4ffeb49
+      internalID: 4532023571571786441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 42
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3944fd8c0461de247a752bf1f3b794f0
+      internalID: 9030881622666613554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 39
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0cf420307d6ce479212112694ca678
+      internalID: -7808961283395332460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 43
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e2eeb22ae927c41bab45b880fb18be
+      internalID: 6088725984275212201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 38
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6d32d4e23cb6c499020341f0c5ab3c
+      internalID: 9206952803854667178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 39
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8a312a9ef5bae4eb63ebcfdfea7fa9
+      internalID: -2684107975710956633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 33
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f566bf073912b946a8c330edc131cd7
+      internalID: -7792213510984918354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 32
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672f862912c90f54ebf96e71f3874b2a
+      internalID: -8790516606093165963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 30
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4faa01632c1784438201fd557f32425
+      internalID: 6274327730445322513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 30
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c26174792197a74daa67235c41b8e22
+      internalID: 5049961484410214258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 30
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a1190612ac741408a6e0b3202c1d81
+      internalID: 112593802460643712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e381f1384bd431b4fadefe43683c2dde
+      internalID: -1679317694682316286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 35
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bdd5f11741b6242948ed61c79b377d
+      internalID: 7285764548160266604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 30
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55ef7e6ab789a045800e95b8a35fa16
+      internalID: 1169642133716447063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 27
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca53757f351f1b408a5318514037a79
+      internalID: -5421550463099587694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 27
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab0e594ed455f74aa576c3a3a7ab3c5
+      internalID: 4555105883974197197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 27
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b561ba43c48894d974716490a6a2ee
+      internalID: 7937804631881106395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
