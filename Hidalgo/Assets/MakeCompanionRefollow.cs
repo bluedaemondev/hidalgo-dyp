@@ -8,7 +8,6 @@ public class MakeCompanionRefollow : MonoBehaviour
     public Transform refolowTarget;
     public GameObject prefabParticlesMashButton;
 
-
     private bool hasCompanionInRange;
 
     [SerializeField] private int counterRequired = 6;
@@ -45,6 +44,7 @@ public class MakeCompanionRefollow : MonoBehaviour
             {
                 EffectFactory.instance.InstantiateEffectAt(prefabParticlesMashButton, transform.position, Quaternion.identity);
                 AddMashToCount();
+
             }
         }  
     }
