@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MovementType
 {
     public Rigidbody2D _rigidbody2D;
+    public AudioClip footsteps;
     [SerializeField] private float speed = 2.6f;
     [SerializeField] private float speedMultiplier = 1f;
     

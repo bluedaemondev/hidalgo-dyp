@@ -14,12 +14,17 @@ public class PauseMenu : MonoBehaviour
     //public CounterController CounterState;
 
     public GameObject PauseMenuUI;
+    public CounterController CounterState;
 
     //private void Awake()
     //{
     //    //Timer.GetComponent<CounterController>();
     //}
 
+    private void Start()
+    {
+     CounterState = GameObject.FindObjectOfType<CounterController>();
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -35,12 +40,12 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    void ResumeGame()
+    public void ResumeGame()
     {
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-
+        CounterState.ContinueTimer();
         //CounterState.ContinueTimer();
     }
 
@@ -49,8 +54,14 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-
+        CounterState.PauseTimer();
         //CounterState.PauseTimer();
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quitting");
     }
 }
 
