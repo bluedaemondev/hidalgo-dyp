@@ -32,7 +32,6 @@ public class PrototypeMoveTowards : MovementType
         {
             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
             transform.position = direction;
-            print(direction);
         }
     }
 
