@@ -14,6 +14,8 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
     public event Action onGameWin;
     public event Action onGameLose;
 
+    public UnityEvent onPickupFuckingBullshit;
+
     private bool pickupsCompleted = false;
 
     // Start is called before the first frame update
@@ -24,13 +26,16 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
 
         instance = this;
 
+        onPickupFuckingBullshit = new UnityEvent();
+
+        onGameWin += CloseApp;
     }
 
     public void Win()
     {
-        
         if (onGameWin != null && pickupsCompleted)
         {
+            Debug.Log("se llama");
             onGameWin();
         }
     }
@@ -38,5 +43,11 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
     public void SetPickupsCompletedState()
     {
         pickupsCompleted = true;
+    }
+
+    public void CloseApp()
+    {
+        Debug.Log("Ganaste rey felicitaciones por esta experiencia fantastica");
+        Application.Quit();
     }
 }

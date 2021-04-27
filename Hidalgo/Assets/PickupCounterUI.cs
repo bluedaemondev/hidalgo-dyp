@@ -13,6 +13,11 @@ public class PickupCounterUI : MonoBehaviour
     {
         if (!image)
             image = GetComponent<Image>();
+
+    }
+    private void Start()
+    {
+        GameSceneManagerPickupsLevel.instance.onPickupFuckingBullshit.AddListener(this.StepNextSprite);
     }
 
     public void StepNextSprite()
