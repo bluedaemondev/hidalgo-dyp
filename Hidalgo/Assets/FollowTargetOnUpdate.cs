@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FollowTargetOnUpdate : MonoBehaviour
 {
-    [SerializeField] private Vector2 offset;
+    [SerializeField] private Vector3 offset;
     [SerializeField] private Transform targetFollow;
 
 
@@ -27,6 +27,6 @@ public class FollowTargetOnUpdate : MonoBehaviour
     // en update de camara y animaciones
     void LateUpdate()
     {
-        transform.position = Vector2.Lerp(transform.position, (Vector2)targetFollow.position + offset, factorSmoothFollow * Time.deltaTime);
+        transform.position = Vector2.Lerp(transform.position, targetFollow.position + offset, factorSmoothFollow * Time.deltaTime);
     }
 }

@@ -6,14 +6,19 @@ public class PauseMenu : MonoBehaviour
 {
 
     public static bool GameIsPaused = false;
-    public GameObject Timer;
-    public GameObject PauseMenuUI;
-    public CounterController CounterState;
+    
+    /// <summary>
+    /// Pendientes de cambio - gonza 27-4
+    /// </summary>
+    //public GameObject Timer;
+    //public CounterController CounterState;
 
-    private void Awake()
-    {
-        Timer.GetComponent<CounterController>();
-    }
+    public GameObject PauseMenuUI;
+
+    //private void Awake()
+    //{
+    //    //Timer.GetComponent<CounterController>();
+    //}
 
     void Update()
     {
@@ -35,7 +40,8 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        CounterState.ContinueTimer();
+
+        //CounterState.ContinueTimer();
     }
 
     void PauseGame()
@@ -43,7 +49,8 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        CounterState.PauseTimer();
+
+        //CounterState.PauseTimer();
     }
 }
 
