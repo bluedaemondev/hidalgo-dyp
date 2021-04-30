@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 5c745ab4e085d1648a7301d01ed35208
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6265160395141226122
+    second: SpriteSheet_Rocinante_Walking_V1_1
+  - first:
+      213: -4499958179065916743
+    second: SpriteSheet_Rocinante_Walking_V1_6
+  - first:
+      213: 852970916091192611
+    second: SpriteSheet_Rocinante_Walking_V1_7
+  - first:
+      213: -5306356945286001292
+    second: SpriteSheet_Rocinante_Walking_V1_8
+  - first:
+      213: 2472474275194580805
+    second: SpriteSheet_Rocinante_Walking_V1_9
+  - first:
+      213: 8005463805880934863
+    second: SpriteSheet_Rocinante_Walking_V1_11
+  - first:
+      213: 2526754712776716807
+    second: SpriteSheet_Rocinante_Walking_V1_13
+  - first:
+      213: 9040843589655125309
+    second: SpriteSheet_Rocinante_Walking_V1_15
+  - first:
+      213: 604008080313083897
+    second: SpriteSheet_Rocinante_Walking_V1_17
+  - first:
+      213: 586527055115636849
+    second: SpriteSheet_Rocinante_Walking_V1_19
+  - first:
+      213: 5308812723279960536
+    second: SpriteSheet_Rocinante_Walking_V1_21
+  - first:
+      213: -8605013944593199120
+    second: SpriteSheet_Rocinante_Walking_V1_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1486
+        width: 246
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f398e9b8d7f679f4bbdfffc211d0cd12
+      internalID: 6265160395141226122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1486
+        width: 246
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c762b0e520c96b14b89aa98e69161e4f
+      internalID: -4499958179065916743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_7
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1486
+        width: 246
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96508ef136926ef4aa499b254216d65b
+      internalID: 852970916091192611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_8
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1485
+        width: 246
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214ce452d29371145b96462f7e79c741
+      internalID: -5306356945286001292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0493f63ddafe7b94f8f9219a5f8430f0
+      internalID: 2472474275194580805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 794
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac02fe83a2cd7c49956fc2f4e64eeb5
+      internalID: 8005463805880934863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_13
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 794
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16aefdbef616a34da2eb9b3958c1417
+      internalID: 2526754712776716807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_15
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 791
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2342d245ac4872d44af6c613eada2c1b
+      internalID: 9040843589655125309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84186baf3946c649a6010ceadf72648
+      internalID: 604008080313083897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 92
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dd4a184ef26dc4a9503b996c18076d
+      internalID: 586527055115636849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_21
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 90
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e81f8a62883cf4fac9c7d488aae417
+      internalID: 5308812723279960536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V1_23
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 94
+        width: 550
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe420feb861a2945a871ae59c417675
+      internalID: -8605013944593199120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
