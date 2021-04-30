@@ -51,7 +51,7 @@ public class MakeCompanionRefollow : MonoBehaviour
 
     void AddMashToCount()
     {
-        if(counterRequired <= counterCurrent)
+        if(counterCurrent <= counterRequired)
         {
             this.counterCurrent++;
         }
