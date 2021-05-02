@@ -22,7 +22,6 @@ public class AttractLayerElements : MonoBehaviour
     [HideInInspector]
     public UnityEvent onEnterRange;
 
-    public AudioClip rocinante;
 
     private void Awake()
     {
@@ -39,7 +38,6 @@ public class AttractLayerElements : MonoBehaviour
         {
             if (currentlyInAgro == null)
                 currentlyInAgro = new List<AnimatedCharacterController>();
-                
 
             var controllerObject = collision.GetComponent<AnimatedCharacterController>();
 
@@ -53,17 +51,9 @@ public class AttractLayerElements : MonoBehaviour
             if (!currentlyInAgro.Contains(controllerObject))
                 currentlyInAgro.Add(controllerObject);
 
-            if (rocinante != null)
-            {
-                SoundManager.instance.PlayEffect(rocinante);
-            }
-
             Debug.Log(currentlyInAgro.Count + " entities in agro - " + this.gameObject.name);
         }
     }
-
-    
-    
 
     private void OnTriggerExit2D(Collider2D collision)
     {
