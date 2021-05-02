@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 466f50532c986c1468a8514d6923865c
+guid: 4ac7b292d04d7eb44b56784c72cec2db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9094200156237520769
-    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_0
+      213: 8395129489072170401
+    second: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_1
   - first:
-      213: -4446070202982005050
-    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_1
+      213: 8567174292929784516
+    second: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_48
   - first:
-      213: -1766344329328363201
-    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_3
+      213: -2362935603065627148
+    second: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_51
   - first:
-      213: -3915637053885932788
-    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_69
+      213: 6882927067146009831
+    second: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_53
   - first:
-      213: -9024902345090748648
-    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_70
+      213: 3771124096063011144
+    second: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_55
   - first:
-      213: -8956458761201592959
-    second: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_73
+      213: 8652767570176613004
+    second: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_61
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_0
+      name: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_1
       rect:
         serializedVersion: 2
-        x: 179
-        y: 560
-        width: 290
-        height: 475
+        x: 45
+        y: 554
+        width: 220
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107fa5ba3e27dec40ad284488bc27055
-      internalID: 9094200156237520769
+      spriteID: 1dd1f4edbd31c3040b31c4886687e581
+      internalID: 8395129489072170401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_1
+      name: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_48
       rect:
         serializedVersion: 2
-        x: 527
-        y: 561
-        width: 290
-        height: 475
+        x: 132
+        y: 59
+        width: 220
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aaa5cd9e5e8d1944a615bedabe86e87
-      internalID: -4446070202982005050
+      spriteID: 757dc77119b459846a5f15a05c8f6f27
+      internalID: 8567174292929784516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_3
+      name: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_51
       rect:
         serializedVersion: 2
-        x: 905
-        y: 560
-        width: 290
-        height: 475
+        x: 370
+        y: 58
+        width: 220
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d62143b00f26994f90340aa3c80b6e9
-      internalID: -1766344329328363201
+      spriteID: 95756e98f7ddc4247a3f726edde658c8
+      internalID: -2362935603065627148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_69
+      name: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_53
       rect:
         serializedVersion: 2
-        x: 176
-        y: 52
-        width: 290
-        height: 475
+        x: 595
+        y: 45
+        width: 220
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86c53a16f3a161f46898c0196609cf76
-      internalID: -3915637053885932788
+      spriteID: 0a5d6a1701fc6a64d9eec743c3913454
+      internalID: 6882927067146009831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_70
+      name: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_55
       rect:
         serializedVersion: 2
-        x: 529
-        y: 57
-        width: 290
-        height: 475
+        x: 842
+        y: 46
+        width: 220
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5436db21dbf197446a487dc4cb6e08d7
-      internalID: -9024902345090748648
+      spriteID: 06af4b1e64cf4fd4e835b7eaacdda7a5
+      internalID: 3771124096063011144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Quijote(DRESSING)_WALKING_FRONT_Spritesheet_73
+      name: Quijote(DRESSING)_WALKING_SIDE_Spritesheet_61
       rect:
         serializedVersion: 2
-        x: 901
-        y: 54
-        width: 290
-        height: 475
+        x: 1093
+        y: 48
+        width: 220
+        height: 490
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f614dbc03492ce4597b3f85501476b0
-      internalID: -8956458761201592959
+      spriteID: 224721dc37e65f64c91b19ab396eb464
+      internalID: 8652767570176613004
       vertices: []
       indices: 
       edges: []

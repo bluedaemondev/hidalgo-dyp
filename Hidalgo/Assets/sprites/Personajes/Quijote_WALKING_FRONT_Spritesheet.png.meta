@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 61c0e5b209308aa47975efeb58fc4dc8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7167757320783025068
+    second: Quijote_WALKING_FRONT_Spritesheet_1
+  - first:
+      213: 5993038744098739833
+    second: Quijote_WALKING_FRONT_Spritesheet_4
+  - first:
+      213: -3947637334066784140
+    second: Quijote_WALKING_FRONT_Spritesheet_8
+  - first:
+      213: 1633396266442883414
+    second: Quijote_WALKING_FRONT_Spritesheet_75
+  - first:
+      213: 4443841079821604493
+    second: Quijote_WALKING_FRONT_Spritesheet_80
+  - first:
+      213: 299897793922741077
+    second: Quijote_WALKING_FRONT_Spritesheet_83
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -45,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +101,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +126,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Quijote_WALKING_FRONT_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 566
+        width: 320
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5201c58ef2036b640aafb8ff0a6200af
+      internalID: 7167757320783025068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_WALKING_FRONT_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 568
+        width: 320
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044079418d0da2f4ea4efb3e52a8f4e1
+      internalID: 5993038744098739833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_WALKING_FRONT_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 570
+        width: 320
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d41eafcccfdca9489c2ba3e5b36f70c
+      internalID: -3947637334066784140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_WALKING_FRONT_Spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 54
+        width: 320
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00c52a44668e28498f5928fa765b398
+      internalID: 1633396266442883414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_WALKING_FRONT_Spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 54
+        width: 320
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668626e5a6221864aa371ebfe44d9b59
+      internalID: 4443841079821604493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_WALKING_FRONT_Spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 54
+        width: 320
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d68c5db00fdc54e9ceb395348f486f
+      internalID: 299897793922741077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

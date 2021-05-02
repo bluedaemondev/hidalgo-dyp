@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 997491d082839b643810f5833789c0bf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3074408334365626698
+    second: Quijote_IDLE_BACK_0
+  - first:
+      213: 5027041547483248473
+    second: Quijote_IDLE_BACK_3
+  - first:
+      213: -1744936563533532685
+    second: Quijote_IDLE_BACK_23
+  - first:
+      213: -5214455222529728760
+    second: Quijote_IDLE_BACK_29
+  - first:
+      213: 4330031606327480053
+    second: Quijote_IDLE_BACK_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -45,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +98,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +123,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Quijote_IDLE_BACK_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 555
+        width: 310
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df1235461df7ec4694e98fc57d0f0b9
+      internalID: 3074408334365626698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_IDLE_BACK_3
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 553
+        width: 310
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373d942e2cd909d4696d83b295e8c7b8
+      internalID: 5027041547483248473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_IDLE_BACK_23
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 49
+        width: 320
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56eca63346d087448f3256c18d11375
+      internalID: -1744936563533532685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_IDLE_BACK_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 49
+        width: 310
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9c7f9df4311134594ff13a54d8ef8f
+      internalID: -5214455222529728760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote_IDLE_BACK_31
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 49
+        width: 320
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7f40c704d1d6a438707115a4a9bfc3
+      internalID: 4330031606327480053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

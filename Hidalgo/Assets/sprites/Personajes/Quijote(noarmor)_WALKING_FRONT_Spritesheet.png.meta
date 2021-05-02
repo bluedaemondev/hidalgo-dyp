@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 21d7ef30090062a439efa4f0fbef3ec9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8643665524854283260
+    second: Quijote(noarmor)_WALKING_FRONT_Spritesheet_0
+  - first:
+      213: 3414304122029722259
+    second: Quijote(noarmor)_WALKING_FRONT_Spritesheet_1
+  - first:
+      213: -5959251807475133874
+    second: Quijote(noarmor)_WALKING_FRONT_Spritesheet_2
+  - first:
+      213: -7144292659413512078
+    second: Quijote(noarmor)_WALKING_FRONT_Spritesheet_79
+  - first:
+      213: -1847368248327693110
+    second: Quijote(noarmor)_WALKING_FRONT_Spritesheet_81
+  - first:
+      213: -4152596129066434006
+    second: Quijote(noarmor)_WALKING_FRONT_Spritesheet_82
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -45,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -83,7 +101,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,7 +126,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_FRONT_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 566
+        width: 290
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031f3162da73f3940a74de3f286b0028
+      internalID: -8643665524854283260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_FRONT_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 569
+        width: 290
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fb7d040f7e67d4c9b4976963e4da82
+      internalID: 3414304122029722259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_FRONT_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 572
+        width: 290
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ecb0d22043745468d8c88e3ffe9975
+      internalID: -5959251807475133874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_FRONT_Spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 56
+        width: 290
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8764d3e840a3e45888a873c33cb670
+      internalID: -7144292659413512078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_FRONT_Spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 55
+        width: 290
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98400209b5880164b94e2e2ee0a0c463
+      internalID: -1847368248327693110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_FRONT_Spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 53
+        width: 290
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a5eb3869195284ab74f0c5d0305b92
+      internalID: -4152596129066434006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
