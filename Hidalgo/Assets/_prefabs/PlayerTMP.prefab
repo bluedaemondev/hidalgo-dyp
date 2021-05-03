@@ -4922,7 +4922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 0}
   footsteps: {fileID: 8300000, guid: 7c9e6bcbc58447d4a8d4f0e221eba10a, type: 3}
-  speed: 2.6
+  speed: 3.22
   speedMultiplier: 1
   OMovement: 
   NMovement: 
@@ -4957,7 +4957,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

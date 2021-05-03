@@ -17,7 +17,7 @@ public class PickupCounterUI : MonoBehaviour
     }
     private void Start()
     {
-        PickupsScapeGameManager.instance.onPickupFuckingBullshit.AddListener(this.StepNextSprite);
+        PickupsScapeGameManager.instance.onPickupItem.AddListener(this.StepNextSprite);
     }
 
     public void StepNextSprite()
