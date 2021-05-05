@@ -17,12 +17,12 @@ public class PickupCounterUI : MonoBehaviour
     }
     private void Start()
     {
-        PickupsScapeGameManager.instance.onPickupItem.AddListener(this.StepNextSprite);
+        GameSceneManagerPickupsLevel.instance.onPickupItem.AddListener(this.StepNextSprite);
     }
 
-    public void StepNextSprite()
+    public void StepNextSprite(string idPickup = "default") // perdon por esto pero necesito el evento :( -juan
     {
-        if(currentIndex < spriteStates.Count - 1)
+        if (currentIndex < spriteStates.Count - 1)
             currentIndex++;
 
         timer.GetComponent<TimerCountdown>().ResetTimer();
@@ -33,8 +33,9 @@ public class PickupCounterUI : MonoBehaviour
 
     void CheckEndList()
     {
-        if (currentIndex >= spriteStates.Count) { 
-            PickupsScapeGameManager.instance.SetPickupsCompletedState();
+        if (currentIndex >= spriteStates.Count)
+        {
+            GameSceneManagerPickupsLevel.instance.SetPickupsCompletedState();
             this.enabled = false;
         }
     }

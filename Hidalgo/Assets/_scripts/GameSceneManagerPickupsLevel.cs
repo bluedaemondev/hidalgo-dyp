@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+/// <summary>
+/// Manager de acciones en la escena para el nivel top down en el que llevas a 
+/// rocinante y sancho hasta la meta
+/// </summary>
+public class GameSceneManagerPickupsLevel : MonoBehaviour
+{
+    public static GameSceneManagerPickupsLevel instance { get; private set; }
+
+    public SoundLibrarySO soundLibrary;
+
+    public event Action onGameWin;
+    public event Action onGameLose;
+
+    public UnityEvent<string> onPickupItem;
+
+    private bool pickupsCompleted = false;
+
+    // Start is called before the first frame update
+    void Awake()
+    {
+        if (instance != null)
+            Destroy(instance);
+
+        instance = this;
+
+        onPickupItem = new UnityEvent<string>();
+
+        //onGameWin += CloseApp;
+    }
+
+    public void Win()
+    {
+        if (onGameWin != null && pickupsCompleted)
+        {
+            Debug.Log("se llama");
+            onGameWin();
+        }
+    }
+
+
+    public void SetPickupsCompletedState()
+    {
+        pickupsCompleted = true;
+    }
+
+    public void CloseApp()
+    {
+        Debug.Log("Ganaste rey felicitaciones por esta experiencia fantastica");
+        Application.Quit();
+    }
+}
