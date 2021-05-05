@@ -41,12 +41,12 @@ public class PickupsScapeGameManager : MonoBehaviour
         onPickupItem = new UnityEvent();
         cronom = FindObjectOfType<CronometerControllerUI>();
 
-        counter.StartTimerUpdateSeconds(currTimeMax,
-            () => { onGameLose?.Invoke(); }, //salida
-            (obj) => // cada segundo
-            {
-                cronom.SetText((cronom.time - obj).ToString());
-            });
+        //counter.StartTimerUpdateSeconds(currTimeMax,
+        //    () => { onGameLose?.Invoke(); }, //salida
+        //    (obj) => // cada segundo
+        //    {
+        //        cronom.SetText((cronom.time - obj).ToString());
+        //    });
 
     }
 
