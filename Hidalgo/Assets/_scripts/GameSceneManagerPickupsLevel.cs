@@ -11,10 +11,13 @@ using UnityEngine.Events;
 public class GameSceneManagerPickupsLevel : MonoBehaviour
 {
     public static GameSceneManagerPickupsLevel instance { get; private set; }
+
+    public SoundLibrarySO soundLibrary;
+
     public event Action onGameWin;
     public event Action onGameLose;
 
-    public UnityEvent onPickupFuckingBullshit;
+    public UnityEvent<string> onPickupItem;
 
     private bool pickupsCompleted = false;
 
@@ -26,9 +29,9 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
 
         instance = this;
 
-        onPickupFuckingBullshit = new UnityEvent();
+        onPickupItem = new UnityEvent<string>();
 
-        onGameWin += CloseApp;
+        //onGameWin += CloseApp;
     }
 
     public void Win()
@@ -39,6 +42,7 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
             onGameWin();
         }
     }
+
 
     public void SetPickupsCompletedState()
     {
