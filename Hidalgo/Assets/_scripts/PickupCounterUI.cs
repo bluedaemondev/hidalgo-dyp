@@ -17,7 +17,7 @@ public class PickupCounterUI : MonoBehaviour
     }
     private void Start()
     {
-        GameSceneManagerPickupsLevel.instance.onPickupItem.AddListener(this.StepNextSprite);
+        PickupsScapeGameManager.instance.onPickupItem.AddListener(this.StepNextSprite);
     }
 
     public void StepNextSprite(string idPickup = "default") // perdon por esto pero necesito el evento :( -juan

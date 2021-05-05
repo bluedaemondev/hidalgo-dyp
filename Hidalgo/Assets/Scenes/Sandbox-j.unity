@@ -1606,6 +1606,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995916d8c87b66646918aba1ab4bd899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &511639100 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1230899686, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7627999221285220378}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e768cb19d9ff45f4a8cfff9e0ada5653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,6 +2662,7 @@ MonoBehaviour:
   onPickupItem:
     m_PersistentCalls:
       m_Calls: []
+  counter: {fileID: 511639100}
 --- !u!1 &1099662796
 GameObject:
   m_ObjectHideFlags: 0

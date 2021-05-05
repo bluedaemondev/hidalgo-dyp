@@ -12,12 +12,9 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
 {
     public static GameSceneManagerPickupsLevel instance { get; private set; }
 
-    public SoundLibrarySO soundLibrary;
-
     public event Action onGameWin;
     public event Action onGameLose;
 
-    public UnityEvent<string> onPickupItem;
 
     private bool pickupsCompleted = false;
 
@@ -29,7 +26,7 @@ public class GameSceneManagerPickupsLevel : MonoBehaviour
 
         instance = this;
 
-        onPickupItem = new UnityEvent<string>();
+        //onPickupItem = new UnityEvent<string>();
 
         //onGameWin += CloseApp;
     }

@@ -36,7 +36,7 @@ public class AreaPickupLockeable : MonoBehaviour
 
     private void PlayClipUnlock()
     {
-        SoundManager.instance.PlayAmbient(GameSceneManagerPickupsLevel.instance.soundLibrary.unlockZoneAlert);
+        SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.unlockZoneAlert);
     }
     private void DisableCollider()
     {
@@ -51,7 +51,7 @@ public class AreaPickupLockeable : MonoBehaviour
     // to do : agregar transicion / feedback de que se desbloqueo la zona con algun efecto visual y de sonido
     void Start()
     {
-        GameSceneManagerPickupsLevel.instance.onPickupItem.AddListener(this.UnlockArea);
+        PickupsScapeGameManager.instance.onPickupItem.AddListener(this.UnlockArea);
         onUnlockArea += PlayClipUnlock;
         onUnlockArea += DisableCollider;
         onUnlockArea += ParticlesUnlock;

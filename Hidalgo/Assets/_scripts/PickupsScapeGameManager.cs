@@ -14,9 +14,9 @@ public class PickupsScapeGameManager : MonoBehaviour
     public event Action onGameWin;
     public event Action onGameLose;
 
-    
+    public SoundLibrarySO soundLibrary;
 
-    public UnityEvent onPickupItem;
+    public UnityEvent<string> onPickupItem;
 
     public CounterController counter;
     private bool pickupsCompleted = false;
@@ -38,7 +38,7 @@ public class PickupsScapeGameManager : MonoBehaviour
     }
     private void Init()
     {
-        onPickupItem = new UnityEvent();
+        onPickupItem = new UnityEvent<string>();
         cronom = FindObjectOfType<CronometerControllerUI>();
 
         //counter.StartTimerUpdateSeconds(currTimeMax,

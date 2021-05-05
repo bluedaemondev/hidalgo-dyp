@@ -29,7 +29,7 @@ public class ObstacleDelayMovement : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log(collision.gameObject.layer != Common.GetLayerFromMask(layersToInteract));
+        //Debug.Log(collision.gameObject.layer != Common.GetLayerFromMask(layersToInteract));
 
         if (!Common.GetLayersFromMask(layersToInteract).Contains(collision.gameObject.layer))
             return;
