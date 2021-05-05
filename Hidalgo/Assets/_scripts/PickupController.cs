@@ -9,4 +9,5 @@ public class PickupController : MonoBehaviour
         GameSceneManagerPickupsLevel.instance.onPickupFuckingBullshit.Invoke();
         Destroy(this.gameObject);
     }
+
 }
