@@ -6,7 +6,7 @@ public class PickupController : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        GameSceneManagerPickupsLevel.instance.onPickupFuckingBullshit.Invoke();
-        Destroy(this.gameObject);
+        PickupsScapeGameManager.instance.onPickupItem.Invoke();
+        //Destroy(this.gameObject);
     }
 }

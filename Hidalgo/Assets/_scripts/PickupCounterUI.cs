@@ -17,7 +17,7 @@ public class PickupCounterUI : MonoBehaviour
     }
     private void Start()
     {
-        GameSceneManagerPickupsLevel.instance.onPickupFuckingBullshit.AddListener(this.StepNextSprite);
+        PickupsScapeGameManager.instance.onPickupItem.AddListener(this.StepNextSprite);
     }
 
     public void StepNextSprite()
@@ -34,7 +34,7 @@ public class PickupCounterUI : MonoBehaviour
     void CheckEndList()
     {
         if (currentIndex >= spriteStates.Count) { 
-            GameSceneManagerPickupsLevel.instance.SetPickupsCompletedState();
+            PickupsScapeGameManager.instance.SetPickupsCompletedState();
             this.enabled = false;
         }
     }

@@ -12,7 +12,7 @@ public class FinishLineController : MonoBehaviour
         if (!Common.GetLayersFromMask(layersToInteract).Contains(collision.gameObject.layer))
             return;
 
-        GameSceneManagerPickupsLevel.instance.Win();
+        PickupsScapeGameManager.instance.Win();
 
     }
 

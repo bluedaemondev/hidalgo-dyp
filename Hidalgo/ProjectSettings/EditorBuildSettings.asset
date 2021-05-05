@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/HubPrototype1.unity
+    guid: c8a58f9bb9b781848ac582359ca64c1b
+  - enabled: 1
+    path: Assets/Scenes/Prototype2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Quijote.unity
+    guid: 6f987b08f567a964aac1bd0f1a6d0010
+  - enabled: 1
+    path: Assets/Scenes/SampleCameraCinemachine.unity
+    guid: ee6e4aaa6133f3b43a088abf83a804df
   m_configObjects: {}
