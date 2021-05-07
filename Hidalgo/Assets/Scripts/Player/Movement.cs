@@ -16,9 +16,9 @@ public class Movement
         moveDir = new Vector3(moveX, moveY).normalized;
         
 
-        _player.GetComponent<Rigidbody2D>().velocity = moveDir * _player.Speed;
+        _player._rigidbody2D.velocity = moveDir * _player.Speed;
 
-        if (_player.GetComponent<Rigidbody2D>().velocity.magnitude > 0.1f)
+        if (_player._rigidbody2D.velocity.magnitude > 0.1f)
         {
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.MOVING;
 
