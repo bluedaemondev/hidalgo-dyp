@@ -6689,7 +6689,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5164895, y: 38.45891, z: -10}
+  m_LocalPosition: {x: -6.5162807, y: 38.45891, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496995715}
@@ -9485,6 +9485,12 @@ PolygonCollider2D:
       - {x: 0.8016107, y: 1.4900649}
       - {x: 1.3151373, y: 1.3847712}
       - {x: 1.4496725, y: -1.424527}
+--- !u!95 &1455410399 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7627999220082301766, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7627999221285220378}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1500555182
 GameObject:
   m_ObjectHideFlags: 0
@@ -16468,7 +16474,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.5164895
+      value: -6.5162807
       objectReference: {fileID: 0}
     - target: {fileID: 6064782815555014880, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -16915,6 +16921,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7627999220082301761, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: mover
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627999220082301761, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: _entity._currentState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7627999220082301761, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301763, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_Name
@@ -16930,6 +16951,11 @@ PrefabInstance:
       propertyPath: speed
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: myAnimator
+      value: 
+      objectReference: {fileID: 1455410399}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
 --- !u!1001 &7679661713326035169

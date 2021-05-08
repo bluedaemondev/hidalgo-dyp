@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 2b12df3628cb87842b6d4276b169add3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4022380775932785856
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_0
+  - first:
+      213: 8115083918802081093
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_1
+  - first:
+      213: 8329319502448420883
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_2
+  - first:
+      213: 386711063787385757
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_3
+  - first:
+      213: -1138921625793669436
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_4
+  - first:
+      213: -246528715283073844
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_5
+  - first:
+      213: 1888460314446227220
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_6
+  - first:
+      213: 2120308532606996265
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_7
+  - first:
+      213: 3049962400800673100
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_8
+  - first:
+      213: -2187495354308208632
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_9
+  - first:
+      213: -4659177755955393192
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_10
+  - first:
+      213: 8756182657454773874
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_11
+  - first:
+      213: 3532047122644723725
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_12
+  - first:
+      213: -614196372810934895
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_13
+  - first:
+      213: -672179922005797211
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_14
+  - first:
+      213: -2056403373118863644
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_15
+  - first:
+      213: 6112844476175972175
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_16
+  - first:
+      213: -2634377037997627056
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_17
+  - first:
+      213: -2882941804457288021
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_18
+  - first:
+      213: 7398124056092494273
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_19
+  - first:
+      213: -4219978615618823512
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_20
+  - first:
+      213: -4841803781136012102
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_21
+  - first:
+      213: 7949635012756752703
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_22
+  - first:
+      213: 7230220123231363270
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_23
+  - first:
+      213: -7969214699492242531
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_24
+  - first:
+      213: 6285952937379289166
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_25
+  - first:
+      213: -7373648293786818680
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_26
+  - first:
+      213: -8584085540152359577
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_27
+  - first:
+      213: -2262501790313783299
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_28
+  - first:
+      213: -3573126732280963878
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_29
+  - first:
+      213: 5185460355111885127
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_30
+  - first:
+      213: 6758047124149293401
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_31
+  - first:
+      213: 7962295809229144377
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_32
+  - first:
+      213: -1513224799705246706
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_33
+  - first:
+      213: -268441165766666379
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_34
+  - first:
+      213: -3616535717989916192
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_35
+  - first:
+      213: -5656778514921725404
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_36
+  - first:
+      213: -4250348222020267165
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_37
+  - first:
+      213: -4076402921480412662
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_38
+  - first:
+      213: 4670153611874746421
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_39
+  - first:
+      213: -7478665517449889223
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_40
+  - first:
+      213: -8071368445582887642
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_41
+  - first:
+      213: 6403837405488264804
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_42
+  - first:
+      213: 9098376060524290293
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_43
+  - first:
+      213: 5183310629642901589
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_44
+  - first:
+      213: 4512214041140578001
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_45
+  - first:
+      213: -5375558487100230330
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_46
+  - first:
+      213: -6221588530176389074
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_47
+  - first:
+      213: 4737170104514249669
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_48
+  - first:
+      213: -2147103092501713564
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_49
+  - first:
+      213: 990685187988917691
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_50
+  - first:
+      213: 1395186609086489386
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_51
+  - first:
+      213: -642945868271413219
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_52
+  - first:
+      213: 8363165946483756344
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_53
+  - first:
+      213: -6983491205022689576
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_54
+  - first:
+      213: 5374277292409925890
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_55
+  - first:
+      213: 3654689814427139205
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_56
+  - first:
+      213: -8485532449257520420
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_57
+  - first:
+      213: 2034086721694454820
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_58
+  - first:
+      213: -5822150699994582750
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_59
+  - first:
+      213: 1416968227937537551
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_60
+  - first:
+      213: -8697349772369362617
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_61
+  - first:
+      213: -6307468078032802697
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_62
+  - first:
+      213: 8827610225312835563
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_63
+  - first:
+      213: -6697638635376321427
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_64
+  - first:
+      213: 1133264368394800739
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_65
+  - first:
+      213: 2650962321564066167
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_66
+  - first:
+      213: 2875459490948982090
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_67
+  - first:
+      213: 8245769549148891762
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_68
+  - first:
+      213: 8717479535373887295
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_69
+  - first:
+      213: -5988440094507408200
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_70
+  - first:
+      213: -8833815684634165651
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_71
+  - first:
+      213: 6553542873346390279
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_72
+  - first:
+      213: -2626000080424021650
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_73
+  - first:
+      213: 7886541740746648684
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_74
+  - first:
+      213: 7133526506915649846
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_75
+  - first:
+      213: -720709318431964146
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_76
+  - first:
+      213: 3385224454732174022
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_77
+  - first:
+      213: 6275685202749208605
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_78
+  - first:
+      213: 3732512751426773937
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_79
+  - first:
+      213: -4426278860463334833
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_80
+  - first:
+      213: 7437199365177990885
+    second: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_81
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 555
+        width: 217
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545deae14d19e9070800000000000000
+      internalID: 8115083918802081093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 42
+        width: 217
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195554037afe977f0800000000000000
+      internalID: -614196372810934895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 49
+        width: 217
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6d1bb1cefeba6f0800000000000000
+      internalID: -672179922005797211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 49
+        width: 217
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6c55607003673e0800000000000000
+      internalID: -2056403373118863644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 55
+        width: 217
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f477da1f9af25d450800000000000000
+      internalID: 6112844476175972175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Quijote(noarmor)_WALKING_RIGHT_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 62
+        width: 217
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059a4bd9a00d07bd0800000000000000
+      internalID: -2634377037997627056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

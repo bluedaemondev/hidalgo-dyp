@@ -14,7 +14,10 @@ public class Movement
     public void Move(float moveX, float moveY)
     {
         moveDir = new Vector3(moveX, moveY).normalized;
-        
+
+        _player.myAnimator.SetFloat("AnimMoveX", moveDir.x);
+        _player.myAnimator.SetFloat("AnimMoveY", moveDir.y);
+        _player.myAnimator.SetFloat("AnimMoveMagnitude", moveDir.magnitude);
 
         _player.GetComponent<Rigidbody2D>().velocity = moveDir * _player.Speed;
 
