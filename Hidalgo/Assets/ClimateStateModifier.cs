@@ -8,27 +8,32 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
     [SerializeField] private Vector2 localScaleMax;
     [SerializeField] private Vector2 localScaleMin;
 
-    [Range(0f, 1f)] public float smoothFactor = 0.4f;
+    [Range(0f, 3f)] public float smoothFactor = 0.4f;
+
+    public float timeBetweenStates = 3f;
 
     private void Start()
     {
         this.localScaleOriginal = transform.localScale;
-        
+        ClimateController.instance.onChangeClimate.AddListener(this.ActionBasedOnClimate);
     }
 
     public void ActionBasedOnClimate(ClimateState currentStateClimate)
     {
         switch (currentStateClimate)
         {
+            // centinelas que estan en las ventanas o se mueven patrullando entre puntos
             case ClimateState.CLEAR:
                 StopAllCoroutines();
                 ResetScale();
                 break;
-
+            
+            // crecen los charcos y se achican despues de un tiempo
             case ClimateState.RAIN:
                 StartCoroutine(MixBetweenMaxMin());
                 break;
-
+            
+            // D
             case ClimateState.STORM:
                 StopAllCoroutines();
                 MaximizeScale();
@@ -37,14 +42,16 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
 
     }
 
-    private IEnumerator MixBetweenMaxMin(float timePerState = 2f)
+    private IEnumerator MixBetweenMaxMin()
     {
-        for (int i = 0; i < 4; i++) // test
+        while (true) // test
         {
             MinimizeScale();
-            yield return new WaitForSeconds(timePerState);
+            yield return new WaitForSeconds(timeBetweenStates);
+            ResetScale();
+            yield return new WaitForSeconds(timeBetweenStates);
             MaximizeScale();
-            yield return null;
+            yield return new WaitForSeconds(timeBetweenStates);
         }
 
     }
@@ -56,7 +63,6 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
             this.transform.localScale = Vector2.Lerp(transform.localScale, target, this.smoothFactor * Time.deltaTime);
             yield return null;
         }
-        Debug.Log("target reached");
     }
     public void MaximizeScale()
     {
