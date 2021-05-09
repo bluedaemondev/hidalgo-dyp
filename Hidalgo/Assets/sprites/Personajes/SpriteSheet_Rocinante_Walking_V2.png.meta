@@ -1,45 +1,57 @@
 fileFormatVersion: 2
-guid: 5c745ab4e085d1648a7301d01ed35208
+guid: edc32a0da871b794099da731a735ccfe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6265160395141226122
-    second: SpriteSheet_Rocinante_Walking_V1_1
+      213: -8669290556708911477
+    second: SpriteSheet_Rocinante_Walking_V2_0
   - first:
-      213: -4499958179065916743
-    second: SpriteSheet_Rocinante_Walking_V1_6
+      213: 1539931775989327365
+    second: SpriteSheet_Rocinante_Walking_V2_1
   - first:
-      213: 852970916091192611
-    second: SpriteSheet_Rocinante_Walking_V1_7
+      213: -5006723699336580281
+    second: SpriteSheet_Rocinante_Walking_V2_2
   - first:
-      213: -5306356945286001292
-    second: SpriteSheet_Rocinante_Walking_V1_8
+      213: -6367696873657315538
+    second: SpriteSheet_Rocinante_Walking_V2_3
   - first:
-      213: 2472474275194580805
-    second: SpriteSheet_Rocinante_Walking_V1_9
+      213: -586587143243537688
+    second: SpriteSheet_Rocinante_Walking_V2_4
   - first:
-      213: 8005463805880934863
-    second: SpriteSheet_Rocinante_Walking_V1_11
+      213: 7260530273900731645
+    second: SpriteSheet_Rocinante_Walking_V2_5
   - first:
-      213: 2526754712776716807
-    second: SpriteSheet_Rocinante_Walking_V1_13
+      213: 6826376571538275792
+    second: SpriteSheet_Rocinante_Walking_V2_6
   - first:
-      213: 9040843589655125309
-    second: SpriteSheet_Rocinante_Walking_V1_15
+      213: -7625684037445050030
+    second: SpriteSheet_Rocinante_Walking_V2_7
   - first:
-      213: 604008080313083897
-    second: SpriteSheet_Rocinante_Walking_V1_17
+      213: 5406294908942573305
+    second: SpriteSheet_Rocinante_Walking_V2_8
   - first:
-      213: 586527055115636849
-    second: SpriteSheet_Rocinante_Walking_V1_19
+      213: -3251677707910804613
+    second: SpriteSheet_Rocinante_Walking_V2_9
   - first:
-      213: 5308812723279960536
-    second: SpriteSheet_Rocinante_Walking_V1_21
+      213: 3299411808995663362
+    second: SpriteSheet_Rocinante_Walking_V2_10
   - first:
-      213: -8605013944593199120
-    second: SpriteSheet_Rocinante_Walking_V1_23
+      213: 975611693726600766
+    second: SpriteSheet_Rocinante_Walking_V2_11
+  - first:
+      213: -4454099023920845738
+    second: SpriteSheet_Rocinante_Walking_V2_12
+  - first:
+      213: 7590130832556445665
+    second: SpriteSheet_Rocinante_Walking_V2_13
+  - first:
+      213: 3176471166398786299
+    second: SpriteSheet_Rocinante_Walking_V2_14
+  - first:
+      213: -3770674548971620486
+    second: SpriteSheet_Rocinante_Walking_V2_15
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -59,6 +71,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -93,6 +106,8 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -146,253 +161,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_1
+      name: SpriteSheet_Rocinante_Walking_V2_0
       rect:
         serializedVersion: 2
-        x: 295
-        y: 1486
-        width: 246
-        height: 622
+        x: 244
+        y: 1490
+        width: 241
+        height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f398e9b8d7f679f4bbdfffc211d0cd12
-      internalID: 6265160395141226122
+      spriteID: b8687b8ab2e70b780800000000000000
+      internalID: -8669290556708911477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_6
+      name: SpriteSheet_Rocinante_Walking_V2_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1486
-        width: 246
-        height: 622
+        x: 520
+        y: 1490
+        width: 224
+        height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c762b0e520c96b14b89aa98e69161e4f
-      internalID: -4499958179065916743
+      spriteID: 5062e269acfee5510800000000000000
+      internalID: 1539931775989327365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_7
+      name: SpriteSheet_Rocinante_Walking_V2_2
       rect:
         serializedVersion: 2
-        x: 606
-        y: 1486
-        width: 246
-        height: 622
+        x: 779
+        y: 1490
+        width: 222
+        height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96508ef136926ef4aa499b254216d65b
-      internalID: 852970916091192611
+      spriteID: 743738c725b848ab0800000000000000
+      internalID: -5006723699336580281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_8
-      rect:
-        serializedVersion: 2
-        x: 901
-        y: 1485
-        width: 246
-        height: 622
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 214ce452d29371145b96462f7e79c741
-      internalID: -5306356945286001292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_9
+      name: SpriteSheet_Rocinante_Walking_V2_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 796
-        width: 550
-        height: 565
+        y: 1490
+        width: 209
+        height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0493f63ddafe7b94f8f9219a5f8430f0
-      internalID: 2472474275194580805
+      spriteID: 8e26821e9160cd7f0800000000000000
+      internalID: -586587143243537688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_11
+      name: SpriteSheet_Rocinante_Walking_V2_5
       rect:
         serializedVersion: 2
-        x: 591
-        y: 794
-        width: 550
-        height: 565
+        x: 9
+        y: 798
+        width: 549
+        height: 562
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ac02fe83a2cd7c49956fc2f4e64eeb5
-      internalID: 8005463805880934863
+      spriteID: dfc92d0f0d592c460800000000000000
+      internalID: 7260530273900731645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_13
+      name: SpriteSheet_Rocinante_Walking_V2_6
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 794
-        width: 550
-        height: 565
+        x: 589
+        y: 788
+        width: 549
+        height: 572
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c16aefdbef616a34da2eb9b3958c1417
-      internalID: 2526754712776716807
+      spriteID: 0dd7699f2592cbe50800000000000000
+      internalID: 6826376571538275792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_15
+      name: SpriteSheet_Rocinante_Walking_V2_7
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 798
+        width: 548
+        height: 562
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251a8b245c02c2690800000000000000
+      internalID: -7625684037445050030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V2_8
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 793
+        width: 548
+        height: 571
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe568e6394070b40800000000000000
+      internalID: 5406294908942573305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V2_9
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 98
+        width: 556
+        height: 570
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b8bef4a58bfd2d0800000000000000
+      internalID: -3251677707910804613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V2_11
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 99
+        width: 556
+        height: 561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e8a4b9aa11a8d00800000000000000
+      internalID: 975611693726600766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_Rocinante_Walking_V2_12
       rect:
         serializedVersion: 2
         x: 1811
-        y: 791
-        width: 550
-        height: 565
+        y: 88
+        width: 557
+        height: 570
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2342d245ac4872d44af6c613eada2c1b
-      internalID: 9040843589655125309
+      spriteID: 65ca8cc598cdf22c0800000000000000
+      internalID: -4454099023920845738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_17
+      name: SpriteSheet_Rocinante_Walking_V2_14
       rect:
         serializedVersion: 2
         x: 0
-        y: 91
-        width: 550
-        height: 565
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f84186baf3946c649a6010ceadf72648
-      internalID: 604008080313083897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_19
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 92
-        width: 550
-        height: 565
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83dd4a184ef26dc4a9503b996c18076d
-      internalID: 586527055115636849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_21
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 90
-        width: 550
-        height: 565
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5e81f8a62883cf4fac9c7d488aae417
-      internalID: 5308812723279960536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpriteSheet_Rocinante_Walking_V1_23
-      rect:
-        serializedVersion: 2
-        x: 1811
         y: 94
-        width: 550
-        height: 565
+        width: 559
+        height: 560
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fe420feb861a2945a871ae59c417675
-      internalID: -8605013944593199120
+      spriteID: bfa687832b7151c20800000000000000
+      internalID: 3176471166398786299
       vertices: []
       indices: 
       edges: []
