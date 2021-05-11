@@ -5,17 +5,17 @@ using UnityEngine;
 public class Player : MovementType
 {
     public Rigidbody2D _rigidbody2D;
-    public Animator     myAnimator;
-    public AudioClip    footsteps;
+    public Animator myAnimator;
+    public AudioClip footsteps;
     [SerializeField] private float speed = 2.6f;
     [SerializeField] private float speedMultiplier = 1f;
-    
+
     Movement _movement;
     Controller _controller;
-    
+
     public float Speed { get => speed * speedMultiplier; set => speed = value; }
     public float SpeedMultiplier { get => speedMultiplier; }
-    public Movement Movement { get => _movement;}
+    public Movement Movement { get => _movement; }
 
 
     // public float speed;
@@ -54,7 +54,7 @@ public class Player : MovementType
 
         _controller.OnStart();
     }
-    
+
     private void Update()
     {
         _controller.OnUpdate();
@@ -72,9 +72,11 @@ public class Player : MovementType
 
     /// para animation event
     /// 
-    public void PlayFootstepSound()
+    public void PlayFootstepSound() //List<AudioClip> clips
     {
-
+        int rand = 0;
+        rand = Random.Range(0,/* clips != null ? clips.Count :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1.Count);
+        SoundManager.instance.PlayEffect(/*clips != null ? clips[rand] :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1[rand]);
     }
 
 }

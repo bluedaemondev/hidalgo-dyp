@@ -13,10 +13,19 @@ MonoBehaviour:
   m_Name: Pickups scene sounds
   m_EditorClassIdentifier: 
   unlockZoneAlert: {fileID: 8300000, guid: b2c3e394e7d846b47b58cd6b37992a31, type: 3}
-  quijoteStepGrass1: []
-  quijoteStepMud1: []
-  rocinanteStepGrass1: []
-  quijoteComplaining1: {fileID: 0}
-  rainAmbient: {fileID: 0}
+  quijoteStepGrass1:
+  - {fileID: 8300000, guid: 5ca94c6d475ecc44fa6035b92f891c01, type: 3}
+  - {fileID: 8300000, guid: ca808d6406d90c340b66f85ef9b2e63e, type: 3}
+  - {fileID: 8300000, guid: 504dde79f5360064b9c439b26c135700, type: 3}
+  - {fileID: 8300000, guid: 23cdefed2d5d77749b9db6f951168ab3, type: 3}
+  quijoteStepMud1:
+  - {fileID: 8300000, guid: 23cdefed2d5d77749b9db6f951168ab3, type: 3}
+  rocinanteStepGrass1:
+  - {fileID: 8300000, guid: 7bbd5be618648cf478410cf964211c8a, type: 3}
+  - {fileID: 8300000, guid: 4fba51e7e5795ce42b28840313679d3a, type: 3}
+  quijoteComplaining1: {fileID: 8300000, guid: caeb7339e12ad294085643993a4e54b1, type: 3}
+  quijoteComplaining2: {fileID: 8300000, guid: 3e74161c3309a954ba2eba946c8d819b, type: 3}
+  rainAmbient: {fileID: 8300000, guid: 9bd49f212701f12449de41734e6a6b58, type: 3}
   stormAmbient: {fileID: 0}
-  thunderAmbient: {fileID: 0}
+  thunderAmbient: {fileID: 8300000, guid: 24e2cc04edea9f54d9a3f26658dede45, type: 3}
+  crowdTown: {fileID: 0}

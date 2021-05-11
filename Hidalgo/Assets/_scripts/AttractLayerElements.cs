@@ -34,7 +34,8 @@ public class AttractLayerElements : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == Common.GetLayerFromMask(layersToAttract))
+        //if (collision.gameObject.layer == Common.GetLayerFromMask(layersToAttract))
+        if (Common.GetLayersFromMask(layersToAttract).Contains(collision.gameObject.layer))
         {
             if (currentlyInAgro == null)
                 currentlyInAgro = new List<AnimatedCharacterController>();
@@ -44,7 +45,6 @@ public class AttractLayerElements : MonoBehaviour
             //preguntar como hacer esto mejor en clase. no es lo mas limpio
             if (controllerObject.mover is PrototypeMoveTowards)
             {
-                Debug.Log("no tengo idea");
                 ((PrototypeMoveTowards)controllerObject.mover).Follows = transform;
             }
             controllerObject.State = CharacterState.MOVING;
