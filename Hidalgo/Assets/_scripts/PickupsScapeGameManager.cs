@@ -26,6 +26,8 @@ public class PickupsScapeGameManager : MonoBehaviour
     
     private CronometerControllerUI cronom;
 
+    [SerializeField] private PickupCounterUI pickupCounter;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -40,6 +42,9 @@ public class PickupsScapeGameManager : MonoBehaviour
     {
         onPickupItem = new UnityEvent<string>();
         cronom = FindObjectOfType<CronometerControllerUI>();
+        pickupCounter = FindObjectOfType<PickupCounterUI>();
+
+        this.onPickupItem.AddListener(CheckPickupsCompleted);
 
         //counter.StartTimerUpdateSeconds(currTimeMax,
         //    () => { onGameLose?.Invoke(); }, //salida
@@ -76,6 +81,15 @@ public class PickupsScapeGameManager : MonoBehaviour
             Debug.Log("se llama");
             onGameWin();
         }
+    }
+
+    private void CheckPickupsCompleted(string pickedUp)
+    {
+        if (pickupCounter.IsCompleted())
+        {
+            pickupsCompleted = true;
+        }
+
     }
 
     public void SetPickupsCompletedState()

@@ -10,6 +10,14 @@ public class PickupCounterUI : MonoBehaviour
     [SerializeField] private Image image;
     public GameObject timer;
 
+    public bool IsCompleted()
+    {
+        if (currentIndex >= spriteStates.Count)
+            return true;
+        else
+            return false;
+    }
+
     private void Awake()
     {
         if (!image)
