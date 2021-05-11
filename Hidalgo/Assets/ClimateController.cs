@@ -51,6 +51,7 @@ public class ClimateController : MonoBehaviour
 
     private void Init()
     {
+        onChangeClimate.AddListener(SelectTracksMixer);
         this.CurrentWeather = ClimateState.CLEAR;
     }
 

@@ -27,6 +27,7 @@ public class PickupsScapeGameManager : MonoBehaviour
     private CronometerControllerUI cronom;
 
     [SerializeField] private PickupCounterUI pickupCounter;
+    public GameObject winGO;
 
 
     // Start is called before the first frame update
@@ -45,6 +46,7 @@ public class PickupsScapeGameManager : MonoBehaviour
         pickupCounter = FindObjectOfType<PickupCounterUI>();
 
         this.onPickupItem.AddListener(CheckPickupsCompleted);
+        this.onGameWin += EnableWinObj;
 
         //counter.StartTimerUpdateSeconds(currTimeMax,
         //    () => { onGameLose?.Invoke(); }, //salida
@@ -73,7 +75,10 @@ public class PickupsScapeGameManager : MonoBehaviour
         }
         
     }
-
+    void EnableWinObj()
+    {
+        this.winGO.SetActive(true);
+    }
     public void Win()
     {
         if (onGameWin != null && pickupsCompleted)

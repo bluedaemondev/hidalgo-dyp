@@ -10,9 +10,11 @@ public class PickupCounterUI : MonoBehaviour
     [SerializeField] private Image image;
     public GameObject timer;
 
+    private bool triggeredHasRocinante;
+
     public bool IsCompleted()
     {
-        if (currentIndex >= spriteStates.Count)
+        if (currentIndex >= spriteStates.Count -1)
             return true;
         else
             return false;
@@ -30,7 +32,10 @@ public class PickupCounterUI : MonoBehaviour
 
     public void StepNextSprite(string idPickup = "default") // perdon por esto pero necesito el evento :( -juan
     {
-        if (currentIndex < spriteStates.Count - 1)
+        if (!triggeredHasRocinante && idPickup == "0")
+            triggeredHasRocinante = true;
+
+        if (currentIndex < spriteStates.Count - 1 && triggeredHasRocinante && idPickup != "0")
             currentIndex++;
 
         timer.GetComponent<TimerCountdown>().ResetTimer();
