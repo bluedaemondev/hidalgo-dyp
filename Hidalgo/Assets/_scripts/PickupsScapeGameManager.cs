@@ -28,6 +28,7 @@ public class PickupsScapeGameManager : MonoBehaviour
 
     [SerializeField] private PickupCounterUI pickupCounter;
     public GameObject winGO;
+    public GameObject loseUiGO;
 
 
     // Start is called before the first frame update
@@ -66,11 +67,19 @@ public class PickupsScapeGameManager : MonoBehaviour
         {
             cronom.OnAddTime(TIMER_MAX);
             this.currTimeMax = TIMER_MAX;
+            if (this.currTimeMax <= 0)
+            {
+                loseUiGO.SetActive(true);
+            }
         }
         else
         {
             cronom.OnAddTime(tAdd);
             this.currTimeMax = cronom.time;
+            if(this.currTimeMax <= 0)
+            {
+                loseUiGO.SetActive(true);
+            }
 
         }
         
