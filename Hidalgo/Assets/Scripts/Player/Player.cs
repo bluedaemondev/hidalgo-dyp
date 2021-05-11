@@ -70,4 +70,11 @@ public class Player : MovementType
         _controller.RetrieveMyMovement();
     }
 
+    /// para animation event
+    /// 
+    public void PlayFootstepSound()
+    {
+
+    }
+
 }

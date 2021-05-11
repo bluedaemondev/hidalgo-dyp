@@ -10195,10 +10195,13 @@ GameObject:
   - component: {fileID: 1109237791}
   - component: {fileID: 1109237790}
   - component: {fileID: 1109237789}
+  - component: {fileID: 1109237794}
+  - component: {fileID: 1109237793}
+  - component: {fileID: 1109237792}
   m_Layer: 0
   m_Name: Charco_Agua
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -10293,6 +10296,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1109237792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109237788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3b81bd8d5ddeb64bacdd96db66141e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localScaleMax: {x: 2, y: 2.5}
+  localScaleMin: {x: 1, y: 0.8}
+  smoothFactor: 0.4
+  timeBetweenStates: 3
+--- !u!114 &1109237793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109237788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2872fd7e513995142b384fea929abd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factorDelay: 0.35
+  hasSomeoneInRange: 0
+  layersToInteract:
+    serializedVersion: 2
+    m_Bits: 1536
+--- !u!114 &1109237794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109237788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a1ce6d11a96b441b14b2731aa50aaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1109895512
 GameObject:
   m_ObjectHideFlags: 0
