@@ -13,3 +13,10 @@ MonoBehaviour:
   m_Name: Pickups scene sounds
   m_EditorClassIdentifier: 
   unlockZoneAlert: {fileID: 8300000, guid: b2c3e394e7d846b47b58cd6b37992a31, type: 3}
+  quijoteStepGrass1: []
+  quijoteStepMud1: []
+  rocinanteStepGrass1: []
+  quijoteComplaining1: {fileID: 0}
+  rainAmbient: {fileID: 0}
+  stormAmbient: {fileID: 0}
+  thunderAmbient: {fileID: 0}
