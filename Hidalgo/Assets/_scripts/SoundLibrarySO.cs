@@ -19,9 +19,11 @@ public class SoundLibrarySO : ScriptableObject
     public List<AudioClip> rocinanteStepGrass1;
 
     public AudioClip quijoteComplaining1;
+    public AudioClip quijoteComplaining2;
 
     public AudioClip rainAmbient;
     public AudioClip stormAmbient;
     public AudioClip thunderAmbient;
 
+    public AudioClip crowdTown;
 }

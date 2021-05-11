@@ -5,9 +5,10 @@ using UnityEngine.Events;
 
 public enum ClimateState
 {
+    CLEAR,
     RAIN,
     STORM,
-    CLEAR
+    THUNDERS
 }
 
 /// <summary>
@@ -50,6 +51,25 @@ public class ClimateController : MonoBehaviour
 
     private void Init()
     {
-        this.CurrentWeather = ClimateState.RAIN;
+        this.CurrentWeather = ClimateState.CLEAR;
+    }
+
+    private void SelectTracksMixer(ClimateState newState)
+    {
+        switch (newState) {
+            case ClimateState.THUNDERS:
+                SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.thunderAmbient);
+                SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining1);
+                break;
+            case ClimateState.RAIN:
+                SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.rainAmbient);
+                SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining2);
+                break;
+            case ClimateState.STORM:
+                SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.stormAmbient);
+                SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining1);
+                //SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining2);
+                break;
+        }
     }
 }
