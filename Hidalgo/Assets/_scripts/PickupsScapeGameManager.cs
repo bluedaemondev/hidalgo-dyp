@@ -96,6 +96,10 @@ public class PickupsScapeGameManager : MonoBehaviour
         }
 
     }
+    public bool PickupsCompleted()
+    {
+        return pickupsCompleted;
+    }
 
     public void SetPickupsCompletedState()
     {

@@ -22,6 +22,8 @@ public class AttractLayerElements : MonoBehaviour
     [HideInInspector]
     public UnityEvent onEnterRange;
 
+    [SerializeField] private HorseUIContainer uiRocinante;
+
 
     private void Awake()
     {
@@ -30,6 +32,8 @@ public class AttractLayerElements : MonoBehaviour
     void OnEnable()
     {
         agroRadius = this.GetComponent<Collider2D>();
+        if (uiRocinante == null)
+            uiRocinante = FindObjectOfType<HorseUIContainer>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -46,6 +50,7 @@ public class AttractLayerElements : MonoBehaviour
             if (controllerObject.mover is PrototypeMoveTowards)
             {
                 ((PrototypeMoveTowards)controllerObject.mover).Follows = transform;
+                uiRocinante.SwitchState(true);
             }
             controllerObject.State = CharacterState.MOVING;
             if (!currentlyInAgro.Contains(controllerObject))
@@ -67,6 +72,8 @@ public class AttractLayerElements : MonoBehaviour
                 if (controllerObject.mover is PrototypeMoveTowards && ((PrototypeMoveTowards)controllerObject.mover).Follows != GameObject.FindGameObjectWithTag("Player"))
                 {
                     controllerObject.State = CharacterState.IDLE;
+                    uiRocinante.SwitchState(false);
+
 
                     currentlyInAgro.Remove(controllerObject);
                 }

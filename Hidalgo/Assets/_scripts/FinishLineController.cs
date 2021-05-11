@@ -9,6 +9,9 @@ public class FinishLineController : MonoBehaviour
     bool hasRocinante;
     bool hasQuijote;
 
+    public GameObject uiShowMissingPickup;
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //var lstLayers = Common.GetLayersFromMask(layersToInteract);
@@ -20,10 +23,18 @@ public class FinishLineController : MonoBehaviour
         else if (collision.gameObject.layer == 10/*LayerMask.GetMask("Companion")*/)
             hasRocinante = true;
 
+        if (!hasRocinante || !PickupsScapeGameManager.instance.PickupsCompleted())
+            uiShowMissingPickup.SetActive(true);
+
         if (hasRocinante && collision.gameObject.layer == 9/*== LayerMask.GetMask("Player")*/ ||
             hasQuijote && collision.gameObject.layer == 10/*== LayerMask.GetMask("Companion")*/)
+        {
             PickupsScapeGameManager.instance.Win();
-
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        uiShowMissingPickup.SetActive(false);
     }
 
 }
