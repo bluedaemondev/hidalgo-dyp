@@ -7572,7 +7572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.465628, y: 27.608913, z: -10}
+  m_LocalPosition: {x: -24.464754, y: 27.608913, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496995715}
@@ -10728,13 +10728,40 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &1248592993 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7627999220082301763, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 7627999221285220378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1248592994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248592993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33fbd4a3cd45be24ab6d5c7d7daf56b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 0}
+  ChangeControlsBackTime: 0.75
+  ChangeControlsTime: 1.7
+  NormalSpeed: 0
+  StunTime: 50
+  interactWith:
+    serializedVersion: 2
+    m_Bits: 0
+  maskController: {fileID: 0}
 --- !u!114 &1251446799 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
     type: 3}
   m_PrefabInstance: {fileID: 7627999221285220378}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1248592993}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65636a73929cd05409ea9f32d71c59bd, type: 3}
@@ -11994,7 +12021,7 @@ GameObject:
   - component: {fileID: 1411273209}
   - component: {fileID: 1411273208}
   m_Layer: 0
-  m_Name: AreaCasco
+  m_Name: AreaRocinante
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12055,13 +12082,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 22.55355, y: 5.1440964}
+    - - {x: 34.5186, y: 5.0468197}
       - {x: -0.67770964, y: 3.589176}
-      - {x: -0.5877852, y: -0.80901706}
+      - {x: -1.5819143, y: 0.48334897}
       - {x: -1.2345246, y: -4.134735}
-      - {x: -0.2956953, y: -16.114727}
-      - {x: 8.976892, y: -16.390194}
-      - {x: 25.138052, y: -14.740761}
+      - {x: 0.87162495, y: -29.149818}
+      - {x: 9.059031, y: -49.67925}
+      - {x: 37.400482, y: -49.98636}
 --- !u!1 &1437449878
 GameObject:
   m_ObjectHideFlags: 0
@@ -15288,7 +15315,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.6698113, g: 0.3507031, b: 0.5994857, a: 1}
+      maxColor: {r: 0.26415092, g: 0.06689731, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -15731,9 +15758,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 12.06, y: -5.14, z: 0}
-    m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 22.63, y: 17.46, z: 1}
+    m_Position: {x: 16.969368, y: -25.446926, z: 0}
+    m_Rotation: {x: -0, y: 0, z: 0}
+    m_Scale: {x: 33.661884, y: 66.05379, z: 0}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -20759,7 +20786,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.465628
+      value: -24.464754
       objectReference: {fileID: 0}
     - target: {fileID: 6064782815555014880, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
