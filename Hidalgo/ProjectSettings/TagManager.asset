@@ -19,7 +19,7 @@ TagManager:
   - ObstacleDelay
   - ObstacleSwitch
   - Pickup
-  - 
+  - CameraConfiner
   - 
   - 
   - 
