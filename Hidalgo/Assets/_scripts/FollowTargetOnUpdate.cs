@@ -12,7 +12,7 @@ public class FollowTargetOnUpdate : MonoBehaviour
         SerializeField]
     private bool autoSnapToTargetOnStart;
 
-    [Range(0, 1)]
+    [Range(1, 12)]
     public float factorSmoothFollow = 0.8f;
 
 
