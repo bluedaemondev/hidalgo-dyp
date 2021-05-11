@@ -1117,8 +1117,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
+  m_sharedMaterial: {fileID: 4521077226401758716, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2263,7 +2264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.905968, y: 24.098913, z: -10}
+  m_LocalPosition: {x: -35.90635, y: 24.098913, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496995715}
@@ -2360,7 +2361,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Objective : \nFind the armor pieces\nFind Rocinante\nEscape"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f32b31d67f28fa94c8ef799c6dd3b942, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
   m_sharedMaterial: {fileID: 245440934369016341, guid: f32b31d67f28fa94c8ef799c6dd3b942,
     type: 2}
   m_fontSharedMaterials: []
@@ -2425,7 +2426,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0.8957163, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &528734138
@@ -4321,8 +4322,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Objective : \nFind the armor pieces\nFind Rocinante\nEscape"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f32b31d67f28fa94c8ef799c6dd3b942, type: 2}
-  m_sharedMaterial: {fileID: 245440934369016341, guid: f32b31d67f28fa94c8ef799c6dd3b942,
+  m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
+  m_sharedMaterial: {fileID: 4521077226401758716, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4347,7 +4348,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.8
+  m_fontSize: 58.25
   m_fontSizeBase: 84.05
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13438,6 +13439,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 96
       objectReference: {fileID: 0}
+    - target: {fileID: 2220370220450664720, guid: 4742bb89be4afb14abd913d65846208b,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+        type: 2}
+    - target: {fileID: 2220370220450664720, guid: 4742bb89be4afb14abd913d65846208b,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2220370220503473268, guid: 4742bb89be4afb14abd913d65846208b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -13597,6 +13609,28 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2220370221615992406, guid: 4742bb89be4afb14abd913d65846208b,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+        type: 2}
+    - target: {fileID: 2220370221615992406, guid: 4742bb89be4afb14abd913d65846208b,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2220370222108666018, guid: 4742bb89be4afb14abd913d65846208b,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+        type: 2}
+    - target: {fileID: 2220370222108666018, guid: 4742bb89be4afb14abd913d65846208b,
+        type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2220370222208425797, guid: 4742bb89be4afb14abd913d65846208b,
         type: 3}
@@ -14011,7 +14045,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35.905968
+      value: -35.90635
       objectReference: {fileID: 0}
     - target: {fileID: 6064782815555014880, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
