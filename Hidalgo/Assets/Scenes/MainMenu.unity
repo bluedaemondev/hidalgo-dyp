@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainPanel: {fileID: 2101757470}
   creditsPanel: {fileID: 0}
-  howToPlayPanel: {fileID: 0}
+  howToPlayPanel: {fileID: 1978882471}
 --- !u!1 &812021990
 GameObject:
   m_ObjectHideFlags: 0
