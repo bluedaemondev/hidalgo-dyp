@@ -6,13 +6,13 @@ public class TriggerLightningAreaCounter : MonoBehaviour
 {
     [Header("Optional")]
     [SerializeField] PolygonCollider2D _col;
-    [SerializeField] LightningAreaController _controller;
     [Space, Header("Required")]
+    [SerializeField] LightningAreaController _controller;
     [SerializeField] float _sumPerStep;
 
     public bool ResetOnExit = true;
 
-    public void InitTriggerZone(/*float sumPerStep,*/ LightningAreaController controller)
+    public void InitTriggerZone(LightningAreaController controller)
     {
         this._col = GetComponent<PolygonCollider2D>();
         //this._sumPerStep = sumPerStep;
@@ -31,6 +31,7 @@ public class TriggerLightningAreaCounter : MonoBehaviour
         
         if (!stun.IsStunned())
             _controller.SumStunChance(this._sumPerStep, stun);
+        
 
     }
     private void OnTriggerExit2D(Collider2D collision)

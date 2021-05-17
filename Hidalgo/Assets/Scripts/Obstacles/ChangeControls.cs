@@ -32,7 +32,8 @@ public class ChangeControls : MonoBehaviour
     {
         if (Common.GetLayersFromMask(interactWith).Contains(collision.gameObject.layer))
         {
-            StartCoroutine(StunOnExit());
+            //StartCoroutine(StunOnExit());
+            Debug.Log("deprecated method. Gonza, revisa esto.");
             Debug.Log("collision - " + collision.gameObject.name);
 
         }

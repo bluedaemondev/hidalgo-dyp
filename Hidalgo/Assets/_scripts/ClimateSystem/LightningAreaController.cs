@@ -13,8 +13,11 @@ public class LightningAreaController : MonoBehaviour
 
     [Range(0.1f, 5f), Header("tiempo que queda stuneada la entidad")]
     public float stunForSeconds = 2f;
+    [Header("Invertir el control en rayo")]
+    public bool invertControlInPlayer = false;
     [Header("to be defined")]
     public GameObject prefabLightning;
+
 
     private void Start()
     {
@@ -40,7 +43,7 @@ public class LightningAreaController : MonoBehaviour
         if (this._sumStunChance >= requiredChanceForStun)
         {
             this.ResetStunChance(true);
-            
+
             var stun = PickEntityToStun();
             stun.GetStunned(this.stunForSeconds);
         }

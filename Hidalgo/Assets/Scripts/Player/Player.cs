@@ -83,9 +83,23 @@ public class Player : MovementType, IStunneable
     {
         StartCoroutine(CancelMovementInputFor(timeStun));
     }
+    public void InvertControls(float timeStun)
+    {
+        StartCoroutine(InvertControllerFor(timeStun));
+    }
+    private IEnumerator InvertControllerFor(float time)
+    {
+        SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining2);
+
+        this.ChangeMyController();
+        yield return new WaitForSeconds(time);
+        this.RetrieveMyController();
+    }
 
     public IEnumerator CancelMovementInputFor(float time)
     {
+        SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining1);
+
         var originalMultiplier = this.speedMultiplier;
 
         this.speedMultiplier = 0;
