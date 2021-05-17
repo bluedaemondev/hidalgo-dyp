@@ -45,7 +45,5 @@ public class Movement
         _player.myAnimator.SetFloat("AnimLastMoveX", lastMoveDir.x);
         _player.myAnimator.SetFloat("AnimLastMoveY", lastMoveDir.y);
 
-        Debug.Log(lastMoveDir);
-
     }
 }
