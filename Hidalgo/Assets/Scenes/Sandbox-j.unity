@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 48106265}
   - component: {fileID: 48106267}
   - component: {fileID: 48106266}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: zona_caidaRayo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9227,6 +9227,7 @@ MonoBehaviour:
   _sumStunChance: 0
   requiredChanceForStun: 100
   stunForSeconds: 2
+  invertControlInPlayer: 0
   prefabLightning: {fileID: 646155360267873736}
 --- !u!1 &505634451
 GameObject:
@@ -9415,7 +9416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.221225, y: 37.138912, z: -10}
+  m_LocalPosition: {x: -8.2205305, y: 37.138912, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496995715}
@@ -53429,7 +53430,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.221225
+      value: -8.2205305
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}

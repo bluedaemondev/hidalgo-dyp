@@ -59,7 +59,7 @@ public class AnimatedCharacterController : MonoBehaviour
         }
         if(gameObject.layer != LayerMask.NameToLayer("Player"))
         {
-            mover = GetComponent<PrototypeMoveTowards>();
+            mover = GetComponent<Rocinante>();
         }
 
         _animator = this.GetComponent<Animator>();
@@ -84,7 +84,7 @@ public class AnimatedCharacterController : MonoBehaviour
                 _animator.Play(hashMoving);
                 _animator.SetBool("isMoving", true);
 
-                GetComponent<PrototypeMoveTowards>()?.Move();
+                GetComponent<Rocinante>()?.Move();
                 //GetComponent<Player>()?.Movement.Move() ;
 
                 //onMove.Invoke();

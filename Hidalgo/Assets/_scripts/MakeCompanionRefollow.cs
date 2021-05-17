@@ -13,7 +13,7 @@ public class MakeCompanionRefollow : MonoBehaviour
     [SerializeField] private int counterRequired = 6;
     private int counterCurrent = 0;
 
-    [SerializeField] private PrototypeMoveTowards moverIa;
+    [SerializeField] private Rocinante moverIa;
     [SerializeField] private KeyCode keyToReleaseCompanion = KeyCode.E;
     [SerializeField] private KeyCode secondaryKeyToReleaseCompanion = KeyCode.Space;
 
@@ -30,7 +30,7 @@ public class MakeCompanionRefollow : MonoBehaviour
         if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer))
         {
             hasCompanionInRange = true;
-            moverIa = collision.GetComponent<PrototypeMoveTowards>();
+            moverIa = collision.GetComponent<Rocinante>();
         }
 
     }

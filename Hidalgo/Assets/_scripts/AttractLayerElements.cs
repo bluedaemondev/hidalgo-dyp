@@ -47,9 +47,9 @@ public class AttractLayerElements : MonoBehaviour
             var controllerObject = collision.GetComponent<AnimatedCharacterController>();
 
             //preguntar como hacer esto mejor en clase. no es lo mas limpio
-            if (controllerObject.mover is PrototypeMoveTowards)
+            if (controllerObject.mover is Rocinante)
             {
-                ((PrototypeMoveTowards)controllerObject.mover).Follows = transform;
+                ((Rocinante)controllerObject.mover).Follows = transform;
                 uiRocinante.SwitchState(true);
             }
             controllerObject.State = CharacterState.MOVING;
@@ -69,7 +69,7 @@ public class AttractLayerElements : MonoBehaviour
             //fix para que priorizen seguir al jugador
             if (this.gameObject.layer != LayerMask.NameToLayer("ObstacleStun"))
             {
-                if (controllerObject.mover is PrototypeMoveTowards && ((PrototypeMoveTowards)controllerObject.mover).Follows != GameObject.FindGameObjectWithTag("Player"))
+                if (controllerObject.mover is Rocinante && ((Rocinante)controllerObject.mover).Follows != GameObject.FindGameObjectWithTag("Player"))
                 {
                     controllerObject.State = CharacterState.IDLE;
                     uiRocinante.SwitchState(false);

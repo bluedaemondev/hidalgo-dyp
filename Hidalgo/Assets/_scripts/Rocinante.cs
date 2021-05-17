@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PrototypeMoveTowards : MovementType
+public class Rocinante : MovementType
 {
     [SerializeField] private float speed = 2;
     private float speedMultiplier = 1f;
@@ -34,6 +34,8 @@ public class PrototypeMoveTowards : MovementType
             transform.position = direction;
         }
     }
+
+
 
 
 }

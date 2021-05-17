@@ -24,8 +24,8 @@ public class ObstacleDelayMovement : MonoBehaviour
 
         if (movement is Player)
             ((Player)movement).SetSpeedMultiplier(factorDelay);
-        else if (movement is PrototypeMoveTowards)
-            ((PrototypeMoveTowards)movement).SetSpeedMultiplier(factorDelay);
+        else if (movement is Rocinante)
+            ((Rocinante)movement).SetSpeedMultiplier(factorDelay);
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -38,8 +38,8 @@ public class ObstacleDelayMovement : MonoBehaviour
 
         if (movement is Player)
             ((Player)movement).ResetSpeedMultipliers();
-        else if (movement is PrototypeMoveTowards)
-            ((PrototypeMoveTowards)movement).ResetSpeedMultipliers();
+        else if (movement is Rocinante)
+            ((Rocinante)movement).ResetSpeedMultipliers();
 
     }
 }
