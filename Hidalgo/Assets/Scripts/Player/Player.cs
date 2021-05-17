@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MovementType
+public class Player : MovementType, IStunneable
 {
     public Rigidbody2D _rigidbody2D;
     public Animator myAnimator;
@@ -79,4 +79,29 @@ public class Player : MovementType
         SoundManager.instance.PlayEffect(/*clips != null ? clips[rand] :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1[rand]);
     }
 
+    public void GetStunned(float timeStun)
+    {
+        StartCoroutine(CancelMovementInputFor(timeStun));
+    }
+
+    public IEnumerator CancelMovementInputFor(float time)
+    {
+        var originalMultiplier = this.speedMultiplier;
+
+        this.speedMultiplier = 0;
+        yield return new WaitForSeconds(time);
+        this.speedMultiplier = originalMultiplier;
+        
+    }
+
+
+    public void Destun()
+    {
+        Debug.Log("? deprecate");
+    }
+    public bool IsStunned()
+    {
+        return this.speedMultiplier == 0;
+    }
+    
 }

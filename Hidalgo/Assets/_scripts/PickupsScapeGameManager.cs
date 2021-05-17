@@ -29,6 +29,7 @@ public class PickupsScapeGameManager : MonoBehaviour
     [SerializeField] private PickupCounterUI pickupCounter;
     public GameObject winGO;
     public GameObject loseUiGO;
+    public Player Player;
 
 
     // Start is called before the first frame update
