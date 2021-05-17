@@ -796,6 +796,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: POIAppleBarrell (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775326, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5780205233222378608, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_Offset.x
@@ -890,6 +905,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: POIAppleBarrell (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
@@ -7977,6 +7997,11 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.14865398
       objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_Name
@@ -8296,6 +8321,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 226786204}
     m_Modifications:
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_Name
@@ -9416,7 +9446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.2205305, y: 37.138912, z: -10}
+  m_LocalPosition: {x: -8.221816, y: 37.138912, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496995715}
@@ -10466,6 +10496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: POIAppleBarrell (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
@@ -12102,6 +12137,11 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.19682471
       objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_Name
@@ -12414,6 +12454,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: POIAppleBarrell (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
@@ -18109,6 +18154,11 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.07234478
       objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_Name
@@ -19425,6 +19475,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: POIAppleBarrell (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
 --- !u!4 &1083255783 stripped
@@ -19587,6 +19642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.07234478
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
@@ -26962,6 +27022,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: POIAppleBarrell (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
@@ -41285,6 +41350,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: POIAppleBarrell (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5780205233222378608, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_Offset.x
@@ -41680,6 +41750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.x
       value: -0.19682471
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
@@ -42091,6 +42166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: POIAppleBarrell (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775327, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
 --- !u!4 &2064000619 stripped
@@ -42270,6 +42350,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: 0.14865398
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
@@ -53430,7 +53515,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.2205305
+      value: -8.221816
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -53801,6 +53886,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Offset.y
       value: -0.07234478
+      objectReference: {fileID: 0}
+    - target: {fileID: 5949733330332983697, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983698, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
