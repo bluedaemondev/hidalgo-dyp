@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MovementType, IStunneable
+public class Player : MovementType, IStunneable, ISighteable
 {
     public Rigidbody2D _rigidbody2D;
     public Animator myAnimator;
@@ -12,6 +12,10 @@ public class Player : MovementType, IStunneable
 
     Movement _movement;
     Controller _controller;
+    Sightable _sightable;
+
+    public UnityEngine.UI.Slider sliderSeenStatus;
+    public GameObject seenUiGO;
 
     public float Speed { get => speed * speedMultiplier; set => speed = value; }
     public float SpeedMultiplier { get => speedMultiplier; }
@@ -51,6 +55,7 @@ public class Player : MovementType, IStunneable
     {
         _movement = new Movement(this);
         _controller = new Controller(Movement);
+        _sightable = new Sightable(myAnimator, false, this, 5f, sliderSeenStatus);
 
         _controller.OnStart();
     }
@@ -117,5 +122,41 @@ public class Player : MovementType, IStunneable
     {
         return this.speedMultiplier == 0;
     }
-    
+
+    public void GetSeen(FieldOfView seenBy)
+    {
+        this.seenUiGO.SetActive(true);
+        this._sightable.MarkAsSeen();
+        myAnimator.Play("Seen");
+        SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.playerSeen);
+
+        StartCoroutine(CheckStillInView(seenBy));
+    }
+
+    public IEnumerator CheckStillInView(FieldOfView view)
+    {
+        while (this._sightable.IsSeen())
+        {
+            _sightable.UpdateFullySeenTime(Time.deltaTime);
+            view.SetAimDirection(transform.position);
+            //yield return new WaitForSeconds(0.5f);
+            yield return null;
+
+            if (!view.IsTransformInView(this.transform))
+            {
+                this._sightable.OutOfRange();
+                seenUiGO.SetActive(false);
+            }
+        }
+    }
+    public IEnumerator UpdateSeenUI()
+    {
+        while (_sightable.UpdateFullySeenTime(Time.deltaTime))
+        {
+            yield return null;
+        }
+
+        _sightable.ResetFullySeenTime();
+
+    }
 }

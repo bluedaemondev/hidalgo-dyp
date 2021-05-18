@@ -5,9 +5,10 @@ using UnityEngine;
 public class ClimateStateModifier : MonoBehaviour, IScalable
 {
     private Vector2 localScaleOriginal;
-    [SerializeField] private Vector2 localScaleMax;
-    [SerializeField] private Vector2 localScaleMin;
+    /*[SerializeField]*/ private Vector2 localScaleMax;
+    /*[SerializeField]*/ private Vector2 localScaleMin;
 
+    [Range(0f, 10f)] public float scaleFactor = 1.5f;
     [Range(0f, 3f)] public float smoothFactor = 0.4f;
 
     public float timeBetweenStates = 3f;
@@ -15,6 +16,9 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
     private void Start()
     {
         this.localScaleOriginal = transform.localScale;
+        this.localScaleMax = transform.localScale * scaleFactor;
+        this.localScaleMin = transform.localScale * 1 / scaleFactor;
+
         ClimateController.instance.onChangeClimate.AddListener(this.ActionBasedOnClimate);
     }
 
@@ -27,12 +31,12 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
                 StopAllCoroutines();
                 ResetScale();
                 break;
-            
+
             // crecen los charcos y se achican despues de un tiempo
             case ClimateState.RAIN:
                 StartCoroutine(MixBetweenMaxMin());
                 break;
-            
+
             // D
             case ClimateState.STORM:
                 StopAllCoroutines();
@@ -66,16 +70,20 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
     }
     public void MaximizeScale()
     {
+        //Debug.Log("maximize");
         StartCoroutine(ScaleInterpolate(localScaleMax));
     }
 
     public void MinimizeScale()
     {
+        //Debug.Log("minimize");
+
         StartCoroutine(ScaleInterpolate(localScaleMin));
     }
 
     public void ResetScale()
     {
+        //Debug.Log("reset scale");
         StartCoroutine(ScaleInterpolate(localScaleOriginal));
     }
 }

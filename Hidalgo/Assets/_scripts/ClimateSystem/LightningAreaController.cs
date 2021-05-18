@@ -83,10 +83,12 @@ public class LightningAreaController : MonoBehaviour
     public void GenerateLightningAt(IStunneable entity)
     {
         Vector2 positionToHit = ((MonoBehaviour)entity).transform.position;
-        if (prefabLightning != null)
-        {
-            Instantiate(prefabLightning, positionToHit, Quaternion.identity);
-        }
+        //if (prefabLightning != null)
+        //{
+        //    Instantiate(prefabLightning, positionToHit, Quaternion.identity);
+        //}
+
+        ClimateController.instance.LightningEffect();
 
         Debug.Log("Lightning! " + positionToHit + " || " + entity);
     }
