@@ -2133,7 +2133,7 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
@@ -9955,7 +9955,7 @@ PrefabInstance:
     - target: {fileID: 5949733330332983791, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983791, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
@@ -13839,8 +13839,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -404, y: -175}
-  m_SizeDelta: {x: 294.9, y: 417.6}
+  m_AnchoredPosition: {x: -411.5, y: -160.9}
+  m_SizeDelta: {x: 279.80704, y: 389.30063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &528734137
 MonoBehaviour:
@@ -13862,10 +13862,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objective : \nFind the armor pieces\nFind Rocinante\nEscape"
+  m_text: 'Objetivos:
+
+    - Escoltar a Rocinante
+
+    - Encontrar las 3 piezas de
+    armadura
+
+    - Escapar antes de que termine el tiempo'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
-  m_sharedMaterial: {fileID: 4521077226401758716, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+  m_fontAsset: {fileID: 11400000, guid: 2a7ce6006e8a27c4799c170c3673d633, type: 2}
+  m_sharedMaterial: {fileID: 1736819604638996427, guid: 2a7ce6006e8a27c4799c170c3673d633,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -13890,7 +13897,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.4
+  m_fontSize: 38.2
   m_fontSizeBase: 84.05
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -13926,10 +13933,10 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0.8957163, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.8957163, z: -88.6715, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &528734138
@@ -28164,7 +28171,7 @@ PrefabInstance:
     - target: {fileID: 5949733330332983791, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983791, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
@@ -31315,7 +31322,7 @@ PrefabInstance:
     - target: {fileID: 5949733330332983791, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5949733330332983791, guid: 0c2c9ba65bfe97146b9f14d9ad75e11c,
         type: 3}
@@ -31871,8 +31878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 342, y: -204}
-  m_SizeDelta: {x: 401.3, y: 370.5}
+  m_AnchoredPosition: {x: 224.3, y: 153.63}
+  m_SizeDelta: {x: 351.9134, y: 307.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136860157
 MonoBehaviour:
@@ -31894,10 +31901,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objective : \nFind the armor pieces\nFind Rocinante\nEscape"
+  m_text: 'Objetivos:
+
+    - Escoltar a Rocinante
+
+    - Encontrar las 3 piezas de
+    armadura
+
+    - Escapar antes de que termine el tiempo'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
-  m_sharedMaterial: {fileID: 4521077226401758716, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+  m_fontAsset: {fileID: 11400000, guid: 2a7ce6006e8a27c4799c170c3673d633, type: 2}
+  m_sharedMaterial: {fileID: 1736819604638996427, guid: 2a7ce6006e8a27c4799c170c3673d633,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -31922,7 +31936,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 58.25
+  m_fontSize: 27.2
   m_fontSizeBase: 84.05
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -31958,7 +31972,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -287.75024, w: 179.7084}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -60001,7 +60015,7 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
@@ -64254,7 +64268,7 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
