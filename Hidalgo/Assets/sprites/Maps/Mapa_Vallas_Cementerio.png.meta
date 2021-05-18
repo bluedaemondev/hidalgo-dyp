@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: faf793bcce1413a44b529ddc76c11ccc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -413454990162740338
+    second: Mapa_Vallas_Cementerio_0
+  - first:
+      213: -1461947403027931795
+    second: Mapa_Vallas_Cementerio_1
+  - first:
+      213: -9124763240172657725
+    second: Mapa_Vallas_Cementerio_2
+  - first:
+      213: 8085661787867599313
+    second: Mapa_Vallas_Cementerio_3
+  - first:
+      213: -7262990905853738066
+    second: Mapa_Vallas_Cementerio_4
+  - first:
+      213: -8667123390346260485
+    second: Mapa_Vallas_Cementerio_5
+  - first:
+      213: 2345144908196579826
+    second: Mapa_Vallas_Cementerio_6
+  - first:
+      213: 3334668374071555151
+    second: Mapa_Vallas_Cementerio_7
+  - first:
+      213: 2539982328784317360
+    second: Mapa_Vallas_Cementerio_8
+  - first:
+      213: 7498755775757323078
+    second: Mapa_Vallas_Cementerio_9
+  - first:
+      213: -6337062993903225333
+    second: Mapa_Vallas_Cementerio_10
+  - first:
+      213: 6603845496674371184
+    second: Mapa_Vallas_Cementerio_11
+  - first:
+      213: -4262426111086001091
+    second: Mapa_Vallas_Cementerio_12
+  - first:
+      213: 51598250514728525
+    second: Mapa_Vallas_Cementerio_13
+  - first:
+      213: -7851117028549607459
+    second: Mapa_Vallas_Cementerio_14
+  - first:
+      213: 3209199340030777226
+    second: Mapa_Vallas_Cementerio_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mapa_Vallas_Cementerio_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 413
+        width: 259
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c367f99d245e5180800000000000000
+      internalID: -9124763240172657725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa_Vallas_Cementerio_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 988
+        width: 895
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d15ccf6e8a063070800000000000000
+      internalID: 8085661787867599313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa_Vallas_Cementerio_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 420
+        width: 665
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44b348e73f174e20800000000000000
+      internalID: 3334668374071555151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
