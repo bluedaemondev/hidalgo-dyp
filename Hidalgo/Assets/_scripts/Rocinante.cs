@@ -11,8 +11,15 @@ public class Rocinante : MovementType
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
 
+    private Rigidbody2D _rigidbody2d;
+
     public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
     public float Speed { get => speed * speedMultiplier; }
+
+    private void Awake()
+    {
+        _rigidbody2d = GetComponent<Rigidbody2D>();
+    }
 
     public void SetSpeedMultiplier(float value)
     {
@@ -31,7 +38,8 @@ public class Rocinante : MovementType
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-            transform.position = direction;
+            //transform.position = direction;
+            _rigidbody2d.MovePosition(direction);
         }
     }
 
