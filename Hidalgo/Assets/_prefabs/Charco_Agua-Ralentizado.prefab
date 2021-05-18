@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b81bd8d5ddeb64bacdd96db66141e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  localScaleMax: {x: 2, y: 2.5}
-  localScaleMin: {x: 1, y: 0.8}
+  scaleFactor: 3
   smoothFactor: 0.4
   timeBetweenStates: 3
