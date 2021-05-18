@@ -23,9 +23,13 @@ MonoBehaviour:
   rocinanteStepGrass1:
   - {fileID: 8300000, guid: 7bbd5be618648cf478410cf964211c8a, type: 3}
   - {fileID: 8300000, guid: 4fba51e7e5795ce42b28840313679d3a, type: 3}
+  rocinanteEnterAgro: {fileID: 0}
+  rocinanteSnort: {fileID: 0}
   quijoteComplaining1: {fileID: 8300000, guid: caeb7339e12ad294085643993a4e54b1, type: 3}
   quijoteComplaining2: {fileID: 8300000, guid: 3e74161c3309a954ba2eba946c8d819b, type: 3}
+  playerSeen: {fileID: 0}
   rainAmbient: {fileID: 8300000, guid: 9bd49f212701f12449de41734e6a6b58, type: 3}
   stormAmbient: {fileID: 0}
   thunderAmbient: {fileID: 8300000, guid: 24e2cc04edea9f54d9a3f26658dede45, type: 3}
+  lightning: {fileID: 8300000, guid: f437464bda6ba0940a0e1a8204071bfd, type: 3}
   crowdTown: {fileID: 0}

@@ -54,7 +54,10 @@ public class ClimateController : MonoBehaviour
         onChangeClimate.AddListener(SelectTracksMixer);
         this.CurrentWeather = ClimateState.CLEAR;
     }
-
+    public void LightningEffect()
+    {
+        LightManager.instance.Lightning();
+    }
     private void SelectTracksMixer(ClimateState newState)
     {
         switch (newState) {

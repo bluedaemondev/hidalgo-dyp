@@ -35,6 +35,7 @@ public class FieldOfView : MonoBehaviour
 
         int vertexIndex = 1;
         int triangleIndex = 0;
+
         for (int i = 0; i <= rayCount; i++)
         {
             Vector3 vertex;
@@ -48,6 +49,11 @@ public class FieldOfView : MonoBehaviour
             {
                 // Hit object
                 vertex = raycastHit2D.point;
+
+                if (raycastHit2D.collider.TryGetComponent(out Player player))
+                {
+                    player.GetSeen(this);
+                }
             }
             vertices[vertexIndex] = vertex;
 
@@ -70,7 +76,30 @@ public class FieldOfView : MonoBehaviour
         mesh.triangles = triangles;
         mesh.bounds = new Bounds(origin, Vector3.one * 1000f);
     }
+    public bool IsTransformInView(Transform target)
+    {
+        int rayCount = 20;
+        float angle = startingAngle;
+        float angleIncrease = fov / rayCount;
 
+        for (int i = 0; i <= rayCount; i++)
+        {
+            RaycastHit2D raycastHit2D = Physics2D.Raycast(origin, GetVectorFromAngle(angle), viewDistance, layerMask);
+            if (raycastHit2D.collider != null)
+            {
+                // Hit object
+
+                if (Common.GetLayerFromMask(this.layerMask) == raycastHit2D.collider.gameObject.layer)
+                {
+                    return true;
+                }
+            }
+
+            angle -= angleIncrease;
+        }
+
+        return false;
+    }
     public void SetOrigin(Vector3 origin)
     {
         this.origin = origin;

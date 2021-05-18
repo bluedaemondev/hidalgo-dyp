@@ -23,10 +23,12 @@ public class SoundLibrarySO : ScriptableObject
 
     public AudioClip quijoteComplaining1;
     public AudioClip quijoteComplaining2;
+    public AudioClip playerSeen;
 
     public AudioClip rainAmbient;
     public AudioClip stormAmbient;
     public AudioClip thunderAmbient;
+    public AudioClip lightning;
 
     public AudioClip crowdTown;
 }

@@ -70,20 +70,20 @@ public class ClimateStateModifier : MonoBehaviour, IScalable
     }
     public void MaximizeScale()
     {
-        Debug.Log("maximize");
+        //Debug.Log("maximize");
         StartCoroutine(ScaleInterpolate(localScaleMax));
     }
 
     public void MinimizeScale()
     {
-        Debug.Log("minimize");
+        //Debug.Log("minimize");
 
         StartCoroutine(ScaleInterpolate(localScaleMin));
     }
 
     public void ResetScale()
     {
-        Debug.Log("reset scale");
+        //Debug.Log("reset scale");
         StartCoroutine(ScaleInterpolate(localScaleOriginal));
     }
 }
