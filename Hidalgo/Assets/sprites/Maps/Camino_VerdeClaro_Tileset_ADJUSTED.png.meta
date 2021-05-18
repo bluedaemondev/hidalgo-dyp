@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: c9097a3e8f6966246924816be0497615
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4751845038226968648
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_0
+  - first:
+      213: -6739845936592941348
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_1
+  - first:
+      213: -6381142126406987132
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_2
+  - first:
+      213: -698125096557135283
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_3
+  - first:
+      213: -5693003265974217780
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_4
+  - first:
+      213: 4428486216912760548
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_5
+  - first:
+      213: -3319198721360657971
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_6
+  - first:
+      213: 3257655643274176352
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_7
+  - first:
+      213: -8525578868293209643
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_8
+  - first:
+      213: 1673689546464835137
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_9
+  - first:
+      213: 4109495838471546397
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_10
+  - first:
+      213: 2731782545087157698
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_11
+  - first:
+      213: -1624126907108152103
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_12
+  - first:
+      213: -962831106604344949
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_13
+  - first:
+      213: 6747246324147876980
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_14
+  - first:
+      213: -2679371521367994074
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_15
+  - first:
+      213: -758530910600179834
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_16
+  - first:
+      213: -8854062860269823657
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_17
+  - first:
+      213: -2653857617976746607
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_18
+  - first:
+      213: -650165169375069033
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_19
+  - first:
+      213: 5994011508549924375
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_20
+  - first:
+      213: -1982109858804848346
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_21
+  - first:
+      213: -2907109745356126181
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_22
+  - first:
+      213: 7623271240677591527
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_23
+  - first:
+      213: -203036269679732353
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_24
+  - first:
+      213: -7379950814224297310
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_25
+  - first:
+      213: -6922455724830587437
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_26
+  - first:
+      213: 3663865137286284221
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_27
+  - first:
+      213: -981326698399305681
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_28
+  - first:
+      213: 1025807026867838720
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_29
+  - first:
+      213: 7013402982627218103
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_30
+  - first:
+      213: -706568889533209382
+    second: Camino_VerdeClaro_Tileset_ADJUSTED_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 9.5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 715
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf67c43d1e0e0eb0800000000000000
+      internalID: -4751845038226968648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 715
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde848474d14772a0800000000000000
+      internalID: -6739845936592941348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 715
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4821b367b01a177a0800000000000000
+      internalID: -6381142126406987132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_3
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 715
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a3dea6ce2cf46f0800000000000000
+      internalID: -698125096557135283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 613
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3d77241b36ef0b0800000000000000
+      internalID: -5693003265974217780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 613
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee6ccb40c4257d30800000000000000
+      internalID: 4428486216912760548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 613
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc10e5a4956dfe1d0800000000000000
+      internalID: -3319198721360657971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_7
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 613
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06767e93c84853d20800000000000000
+      internalID: 3257655643274176352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 511
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d17ec2903f0fa980800000000000000
+      internalID: -8525578868293209643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 511
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146325166c32a3710800000000000000
+      internalID: 1673689546464835137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 511
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16ea0a21bcd70930800000000000000
+      internalID: 4109495838471546397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 511
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5588b40cd39e520800000000000000
+      internalID: 2731782545087157698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 409
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc2aa7de21f579e0800000000000000
+      internalID: -1624126907108152103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 409
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89d628b53653a2f0800000000000000
+      internalID: -962831106604344949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 409
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474f4ea88c803ad50800000000000000
+      internalID: 6747246324147876980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 409
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62110971cc5f0dad0800000000000000
+      internalID: -2679371521367994074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fc58ad7282975f0800000000000000
+      internalID: -758530910600179834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 307
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75953aa4dbc002580800000000000000
+      internalID: -8854062860269823657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 307
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d1804ae8a9b2bd0800000000000000
+      internalID: -2653857617976746607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_19
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 307
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c311229362af6f0800000000000000
+      internalID: -650165169375069033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716b8ba95b10f2350800000000000000
+      internalID: 5994011508549924375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 205
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6292328c5912e74e0800000000000000
+      internalID: -1982109858804848346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_22
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 205
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18c8f0d61fd7a7d0800000000000000
+      internalID: -2907109745356126181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 205
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e90a07bdcc4bc960800000000000000
+      internalID: 7623271240677591527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f791835a69bae2df0800000000000000
+      internalID: -203036269679732353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_25
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 103
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a25e4ac5d5259990800000000000000
+      internalID: -7379950814224297310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_26
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 103
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58a1ce13f7eef90800000000000000
+      internalID: -6922455724830587437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_27
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 103
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db303ec2ee9a8d230800000000000000
+      internalID: 3663865137286284221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f207d4d2190a162f0800000000000000
+      internalID: -981326698399305681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_29
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f9e845e066c3e00800000000000000
+      internalID: 1025807026867838720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b21926aadc945160800000000000000
+      internalID: 7013402982627218103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Camino_VerdeClaro_Tileset_ADJUSTED_31
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4e70aa653c136f0800000000000000
+      internalID: -706568889533209382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
