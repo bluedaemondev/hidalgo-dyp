@@ -5,6 +5,7 @@ public class Movement
 {
     Player _player;
     private Vector3 moveDir;
+    private Vector3 lastMoveDir;
     float nextSoundTime = 0;
     public Movement(Player p)
     {
@@ -35,6 +36,14 @@ public class Movement
         {
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.IDLE;
         }
+
+        if((moveX == 0 || moveY == 0) && moveDir.x != 0 || moveDir.y != 0)
+        {
+            lastMoveDir = moveDir;
+        }
+
+        _player.myAnimator.SetFloat("AnimLastMoveX", lastMoveDir.x);
+        _player.myAnimator.SetFloat("AnimLastMoveY", lastMoveDir.y);
 
     }
 }
