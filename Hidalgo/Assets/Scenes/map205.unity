@@ -917,9 +917,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
-  m_Sprite: {fileID: 1633396266442883414, guid: 61c0e5b209308aa47975efeb58fc4dc8,
+  m_Sprite: {fileID: -8175383175104280613, guid: a3b1b1f33e51ce54ebf4d32f44f8fe6a,
     type: 3}
-  m_Color: {r: 0.57075477, g: 1, b: 0.2028302, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -937,7 +937,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30967511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.73, y: -2.55, z: 0}
+  m_LocalPosition: {x: 81.99, y: -2.23, z: 0}
   m_LocalScale: {x: 3.1292, y: 3.1292, z: 3.1292}
   m_Children:
   - {fileID: 818288847}
@@ -5061,7 +5061,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 585396721035505189}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &274589456
+--- !u!114 &274589457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10598,7 +10598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -107.059586
+      value: -107.059204
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10641,7 +10641,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -107.059586
+      value: -107.059204
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -15238,7 +15238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 3.3, y: 1.47}
+  m_AnchoredPosition: {x: 3.3, y: 3.77}
   m_SizeDelta: {x: 565, y: 318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &818288848
@@ -15299,7 +15299,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 7
   m_TargetDisplay: 0
 --- !u!1001 &820321842
 PrefabInstance:
@@ -36566,7 +36566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'nota: te da la llave del cementerio'
+  m_text: 'nota: te robas los guantes para mejorar los quicktime events'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
