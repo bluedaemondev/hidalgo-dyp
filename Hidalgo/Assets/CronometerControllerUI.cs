@@ -27,7 +27,7 @@ public class CronometerControllerUI : MonoBehaviour
 
         if (this.time >= PickupsScapeGameManager.TIMER_MAX)
         {
-
+            Debug.Log("you should lose, but you're a winner");
         }
     }
 }
