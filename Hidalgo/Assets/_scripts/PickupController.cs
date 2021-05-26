@@ -15,6 +15,7 @@ public class PickupController : MonoBehaviour
 
         if (destroyOnPickup)
             Destroy(this.gameObject);
+
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -71,7 +71,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948440, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_Name
-      value: CaballoRandom
+      value: CaballoRandom Variant 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7158287962214080837, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 78bc2daf1a5632b42a2462a06735ffdc, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02ace48e32815fe4fa8f976a1b60ffd9, type: 3}
