@@ -86,11 +86,10 @@ GameObject:
   - component: {fileID: 3679879058201602058}
   - component: {fileID: 3679879058201602056}
   - component: {fileID: 1177239582}
-  - component: {fileID: 1177239588}
   - component: {fileID: 1177239580}
   - component: {fileID: 1177239581}
   m_Layer: 10
-  m_Name: CompanionPrefab
+  m_Name: RocinantePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,17 +198,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.07834454, y: -0.13887213}
   m_Size: {x: 0.65668905, y: 1.244553}
   m_Direction: 0
---- !u!210 &1177239588
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3679879058201602062}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!114 &1177239580
 MonoBehaviour:
   m_ObjectHideFlags: 0

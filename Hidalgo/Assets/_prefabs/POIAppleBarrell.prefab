@@ -48,10 +48,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   tDelayAfterLost: 0.6
-  parentEntityController: {fileID: 5780205231829775326}
+  parentEntityController: {fileID: 0}
   onEnterRange:
     m_PersistentCalls:
       m_Calls: []
+  uiRocinante: {fileID: 0}
 --- !u!58 &5780205231605693506
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -77,8 +78,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5780205231829775265}
-  - component: {fileID: 5780205231829775326}
-  - component: {fileID: 5780205231829775327}
   m_Layer: 0
   m_Name: POIAppleBarrell
   m_TagString: Untagged
@@ -93,7 +92,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5780205231829775324}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 39.4, y: -27.1, z: 33.320736}
   m_LocalScale: {x: 2.4436, y: 2.4436, z: 2.4436}
   m_Children:
@@ -103,41 +102,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5780205231829775326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5780205231829775324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a7d39a312a10984bafdf84a3d76bdfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _entity:
-    _currentState: 0
-  _animator: {fileID: 5780205231829775327}
-  mover: {fileID: 0}
---- !u!95 &5780205231829775327
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5780205231829775324}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: df8164563691d4a4a82b7e2ae32fa4c7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5780205232385633673
 GameObject:
   m_ObjectHideFlags: 0

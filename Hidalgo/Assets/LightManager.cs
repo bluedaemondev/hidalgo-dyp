@@ -7,6 +7,10 @@ public class LightManager : MonoBehaviour
 {
     public static LightManager instance { get; private set; }
 
+    [SerializeField, Header("intensidad maxima de luz en dia")]
+    float lightDaytime = 4;
+    [SerializeField] float timePass = 0.2f;
+
     public float lightningFlashDuration;
     public float flashIntensity = 10;
 
@@ -25,13 +29,25 @@ public class LightManager : MonoBehaviour
         yield return new WaitForSeconds(lightningFlashDuration);
         this.globalLightScene.intensity = originalIntensityGlobal;
     }
+    IEnumerator TimeToDaytime()
+    {
+        while (Time.time < 120 && globalLightScene.intensity < lightDaytime)
+        {
+            this.globalLightScene.intensity = Mathf.Lerp(this.globalLightScene.intensity, this.lightDaytime, Time.deltaTime * this.timePass / 100);
+            yield return null;
+        }
+    }
     private void Awake()
     {
-        if(instance != this)
+        if (instance != this)
         {
             Destroy(instance);
         }
 
         instance = this;
+    }
+    private void Start()
+    {
+        StartCoroutine(TimeToDaytime());
     }
 }
