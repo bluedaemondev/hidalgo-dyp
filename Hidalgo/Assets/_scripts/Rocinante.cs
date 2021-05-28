@@ -36,8 +36,14 @@ public class Rocinante : MovementType
     public void FollowTarget()
     {
         cuerda.gameObject.SetActive(true);
+
         cuerda.connectedBody = Follows.GetComponent<Rigidbody2D>();
-        cuerda.connectedAnchor = Follows.transform.position;
+        cuerda.autoConfigureDistance = false;
+        
+        cuerda.distance = 3.5f;
+        //cuerda.connectedAnchor = Vector2.zero;
+        
+
     }
     public void StopFollowingTarget()
     {
