@@ -31,4 +31,8 @@ public class SoundLibrarySO : ScriptableObject
     public AudioClip lightning;
 
     public AudioClip crowdTown;
+
+    public AudioClip wrongKey;
+    public AudioClip correctKey;
+    public AudioClip completedQteGeneric;
 }

@@ -21,6 +21,7 @@ public class Player : MovementType, IStunneable, ISighteable
     public float SpeedMultiplier { get => speedMultiplier; }
     public Movement Movement { get => _movement; }
 
+    float originalMultiplier = 1;
 
     // public float speed;
     public List<KeyCode> OMovement;
@@ -105,7 +106,7 @@ public class Player : MovementType, IStunneable, ISighteable
     {
         SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining1);
 
-        var originalMultiplier = this.speedMultiplier;
+        originalMultiplier = this.speedMultiplier;
 
         this.speedMultiplier = 0;
         yield return new WaitForSeconds(time);
@@ -116,7 +117,8 @@ public class Player : MovementType, IStunneable, ISighteable
 
     public void Destun()
     {
-        Debug.Log("? deprecate");
+        StopAllCoroutines();
+        this.speedMultiplier = originalMultiplier;
     }
     public bool IsStunned()
     {

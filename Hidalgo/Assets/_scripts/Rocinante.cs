@@ -13,10 +13,13 @@ public class Rocinante : MovementType
 
     private Rigidbody2D _rigidbody2d;
 
+    public SpringJoint2D cuerda;
+
+    
     public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
     public float Speed { get => speed * speedMultiplier; }
 
-    private void Awake()
+    private void Start()
     {
         _rigidbody2d = GetComponent<Rigidbody2D>();
     }
@@ -28,6 +31,18 @@ public class Rocinante : MovementType
     public void ResetSpeedMultipliers()
     {
         this.speedMultiplier = 1;
+    }
+
+    public void FollowTarget()
+    {
+        cuerda.gameObject.SetActive(true);
+        cuerda.connectedBody = Follows.GetComponent<Rigidbody2D>();
+        cuerda.connectedAnchor = Follows.transform.position;
+    }
+    public void StopFollowingTarget()
+    {
+        cuerda.connectedBody = null;
+        cuerda.gameObject.SetActive(false);
     }
 
     public void Move()

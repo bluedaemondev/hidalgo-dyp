@@ -33,3 +33,6 @@ MonoBehaviour:
   thunderAmbient: {fileID: 8300000, guid: 24e2cc04edea9f54d9a3f26658dede45, type: 3}
   lightning: {fileID: 8300000, guid: f437464bda6ba0940a0e1a8204071bfd, type: 3}
   crowdTown: {fileID: 0}
+  wrongKey: {fileID: 8300000, guid: c23cbae8fe5a084419697cae8bee051d, type: 3}
+  correctKey: {fileID: 8300000, guid: 137bcc52d356647488c0527f57913f9f, type: 3}
+  completedQteGeneric: {fileID: 8300000, guid: 137bcc52d356647488c0527f57913f9f, type: 3}
