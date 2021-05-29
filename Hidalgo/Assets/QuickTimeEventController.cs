@@ -43,6 +43,8 @@ public class QuickTimeEventController : MonoBehaviour
                     interactionBase.onFailed?.Invoke();
             }
 
+            PickupsScapeGameManager.instance.Player.DestunAfterTime(0.2f);
+            Destroy(this.gameObject);
 
         }
     }
