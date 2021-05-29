@@ -28,13 +28,22 @@ public class QuickTimeEventController : MonoBehaviour
         get => passed;
         set
         {
-            if (passed)
+            if (value)
+            {
+                Debug.Log("hjkasgdjhgb no tenajiksghdka");
                 SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.completedQteGeneric);
-            else
-                SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.wrongKey);
+                if (interactionBase != null)
+                    interactionBase.onPassed?.Invoke();
 
-            interactionBase.onPassed.Invoke();
-            
+            }
+            else
+            {
+                SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.wrongKey);
+                if (interactionBase != null)
+                    interactionBase.onFailed?.Invoke();
+            }
+
+
         }
     }
     public int RequiredTotal

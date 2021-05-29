@@ -15,7 +15,9 @@ public class Rocinante : MovementType
 
     public SpringJoint2D cuerda;
 
-    
+
+
+
     public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
     public float Speed { get => speed * speedMultiplier; }
 
@@ -33,16 +35,16 @@ public class Rocinante : MovementType
         this.speedMultiplier = 1;
     }
 
-    public void FollowTarget()
+    public void FollowTarget(Transform targetNew)
     {
         cuerda.gameObject.SetActive(true);
-
-        cuerda.connectedBody = Follows.GetComponent<Rigidbody2D>();
+        Follows = targetNew;
+        cuerda.connectedBody = targetNew.GetComponent<Rigidbody2D>();
         cuerda.autoConfigureDistance = false;
-        
+
         cuerda.distance = 3.5f;
         //cuerda.connectedAnchor = Vector2.zero;
-        
+
 
     }
     public void StopFollowingTarget()
@@ -62,6 +64,11 @@ public class Rocinante : MovementType
             //transform.position = direction;
             _rigidbody2d.MovePosition(direction);
         }
+    }
+
+    public void Feed(Rigidbody2D distraction)
+    {
+        FollowTarget(distraction.transform);
     }
 
 
