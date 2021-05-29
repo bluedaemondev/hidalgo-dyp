@@ -8,6 +8,31 @@ public class Player : MovementType, IStunneable, ISighteable
     public Animator myAnimator;
     public AudioClip footsteps;
     [SerializeField] private float speed = 2.6f;
+
+    public GameObject box;
+
+    public void InitBoxControls()
+    {
+        this.box.SetActive(true);
+        this._controller.canUseBox = true;
+    }
+
+    public void SwitchBoxActive()
+    {
+        var sw = !box.activeSelf;
+        this.box.SetActive(sw);
+
+        if (sw)
+        {
+            this.SetSpeedMultiplier(0);
+        }
+        else
+        {
+            this.SetSpeedMultiplier(1);
+        }
+
+    }
+
     [SerializeField] private float speedMultiplier = 1f;
 
     Movement _movement;
@@ -55,7 +80,7 @@ public class Player : MovementType, IStunneable, ISighteable
     private void Start()
     {
         _movement = new Movement(this);
-        _controller = new Controller(Movement);
+        _controller = new Controller(Movement, this);
         _sightable = new Sightable(myAnimator, false, this, 5f, sliderSeenStatus);
 
         _controller.OnStart();
@@ -111,7 +136,7 @@ public class Player : MovementType, IStunneable, ISighteable
         this.speedMultiplier = 0;
         yield return new WaitForSeconds(time);
         this.speedMultiplier = originalMultiplier;
-        
+
     }
 
 
