@@ -67,6 +67,18 @@ public class Player : MovementType, IStunneable, ISighteable
         NMovement.Add(KeyCode.D);
         NMovement.Add(KeyCode.A);
     }
+
+    internal void DestunAfterTime(float v)
+    {
+        StopAllCoroutines();
+        StartCoroutine(DestunAfter(v));
+    }
+    IEnumerator DestunAfter(float t)
+    {
+        yield return new WaitForSeconds(t);
+
+        this.speedMultiplier = originalMultiplier;
+    }
     public void SetSpeedMultiplier(float value)
     {
         this.speedMultiplier = value;
