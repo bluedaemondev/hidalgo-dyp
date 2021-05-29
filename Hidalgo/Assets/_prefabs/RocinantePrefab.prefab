@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 1177239582}
   - component: {fileID: 1177239580}
   - component: {fileID: 1177239581}
+  - component: {fileID: 5320265891481392623}
   m_Layer: 10
   m_Name: RocinantePrefab
   m_TagString: Untagged
@@ -161,6 +162,7 @@ MonoBehaviour:
   speed: 8
   deltaMaxDist: 6
   deltaMinToMove: 2
+  cuerda: {fileID: 0}
 --- !u!50 &3679879058201602056
 Rigidbody2D:
   serializedVersion: 4
@@ -224,6 +226,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   destroyOnPickup: 0
+--- !u!231 &5320265891481392623
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3679879058201602062}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 1
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 3.107439
+  m_DampingRatio: 0
+  m_Frequency: 0
 --- !u!1 &3679879058291100654
 GameObject:
   m_ObjectHideFlags: 0

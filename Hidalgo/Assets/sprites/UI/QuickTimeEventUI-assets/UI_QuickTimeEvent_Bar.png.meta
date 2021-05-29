@@ -1,0 +1,898 @@
+fileFormatVersion: 2
+guid: 5b51bc4ff29d85b49ab6e8a10dc48b80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6462892631215169834
+    second: UI_QuickTimeEvent_Bar_0
+  - first:
+      213: -1113290298224486799
+    second: UI_QuickTimeEvent_Bar_1
+  - first:
+      213: 6822727184183520597
+    second: UI_QuickTimeEvent_Bar_2
+  - first:
+      213: -6407037181128488808
+    second: UI_QuickTimeEvent_Bar_3
+  - first:
+      213: -2815597950608253138
+    second: UI_QuickTimeEvent_Bar_4
+  - first:
+      213: -7503889936388208147
+    second: UI_QuickTimeEvent_Bar_5
+  - first:
+      213: -2422523229445586240
+    second: UI_QuickTimeEvent_Bar_6
+  - first:
+      213: -1158120844916914347
+    second: UI_QuickTimeEvent_Bar_7
+  - first:
+      213: 3577612534563596773
+    second: UI_QuickTimeEvent_Bar_8
+  - first:
+      213: -937067311315514794
+    second: UI_QuickTimeEvent_Bar_9
+  - first:
+      213: 8844068003741787114
+    second: UI_QuickTimeEvent_Bar_10
+  - first:
+      213: 3237091257477896410
+    second: UI_QuickTimeEvent_Bar_11
+  - first:
+      213: -3887248767847141992
+    second: UI_QuickTimeEvent_Bar_12
+  - first:
+      213: 4356610725622868591
+    second: UI_QuickTimeEvent_Bar_13
+  - first:
+      213: -3579273239323380944
+    second: UI_QuickTimeEvent_Bar_14
+  - first:
+      213: 7672832402613117712
+    second: UI_QuickTimeEvent_Bar_15
+  - first:
+      213: 2267538323987716518
+    second: UI_QuickTimeEvent_Bar_16
+  - first:
+      213: -1739771012024991597
+    second: UI_QuickTimeEvent_Bar_17
+  - first:
+      213: -7810186664591420293
+    second: UI_QuickTimeEvent_Bar_18
+  - first:
+      213: 4066460645827428111
+    second: UI_QuickTimeEvent_Bar_19
+  - first:
+      213: 7538880304610358827
+    second: UI_QuickTimeEvent_Bar_20
+  - first:
+      213: 3285664437416685571
+    second: UI_QuickTimeEvent_Bar_21
+  - first:
+      213: 2307261579192744031
+    second: UI_QuickTimeEvent_Bar_22
+  - first:
+      213: -909725493609001739
+    second: UI_QuickTimeEvent_Bar_23
+  - first:
+      213: 3773875393770205136
+    second: UI_QuickTimeEvent_Bar_24
+  - first:
+      213: -8002822699073100562
+    second: UI_QuickTimeEvent_Bar_25
+  - first:
+      213: -916427619794662973
+    second: UI_QuickTimeEvent_Bar_26
+  - first:
+      213: -740046029175234445
+    second: UI_QuickTimeEvent_Bar_27
+  - first:
+      213: 8490669887572197590
+    second: UI_QuickTimeEvent_Bar_28
+  - first:
+      213: 883541613373441985
+    second: UI_QuickTimeEvent_Bar_29
+  - first:
+      213: -1923587089453289986
+    second: UI_QuickTimeEvent_Bar_30
+  - first:
+      213: -8459726698484722859
+    second: UI_QuickTimeEvent_Bar_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 363
+        width: 194
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21e1113b9ec0b950800000000000000
+      internalID: 6462892631215169834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 372
+        width: 419
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176d07a4f5ccc80f0800000000000000
+      internalID: -1113290298224486799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_2
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 362
+        width: 195
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55de8a4c9323fae50800000000000000
+      internalID: 6822727184183520597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_3
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 361
+        width: 55
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898cd1431a1a517a0800000000000000
+      internalID: -6407037181128488808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 261
+        width: 16
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f5da3e49cfce8d0800000000000000
+      internalID: -2815597950608253138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 246
+        width: 90
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9c3f33cd3dcd790800000000000000
+      internalID: -7503889936388208147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 266
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c283c835f7716ed0800000000000000
+      internalID: -2422523229445586240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 259
+        width: 16
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55780cf3a378defe0800000000000000
+      internalID: -1158120844916914347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 245
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9e5aa25ab36a130800000000000000
+      internalID: 3577612534563596773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 265
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a8862ce3edef2f0800000000000000
+      internalID: -937067311315514794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_10
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 259
+        width: 16
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae36d64ddf07cba70800000000000000
+      internalID: 8844068003741787114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_11
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 243
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81e7b09557cec20800000000000000
+      internalID: 3237091257477896410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_12
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 263
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d65e657d7bd0ac0800000000000000
+      internalID: -3887248767847141992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 259
+        width: 16
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a68656f5ac57c30800000000000000
+      internalID: 4356610725622868591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 243
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0337110e3fdd35ec0800000000000000
+      internalID: -3579273239323380944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_15
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 263
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013acd2fa606b7a60800000000000000
+      internalID: 7672832402613117712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 126
+        width: 16
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a95fdb771ae77f10800000000000000
+      internalID: 2267538323987716518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 111
+        width: 90
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3908ab57b771bd7e0800000000000000
+      internalID: -1739771012024991597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 131
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b741983db94ac9390800000000000000
+      internalID: -7810186664591420293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 127
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f36af8968fe6830800000000000000
+      internalID: 4066460645827428111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_20
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 110
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b263d70c1bb7f9860800000000000000
+      internalID: 7538880304610358827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_21
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 130
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300fa5bc566099d20800000000000000
+      internalID: 3285664437416685571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 126
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58b0bf8e2a050020800000000000000
+      internalID: 2307261579192744031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_23
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 111
+        width: 86
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc8156cb710063f0800000000000000
+      internalID: -909725493609001739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_24
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 129
+        width: 19
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfa2400daf7f5430800000000000000
+      internalID: 3773875393770205136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_25
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 126
+        width: 16
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4a05de72340f090800000000000000
+      internalID: -8002822699073100562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_26
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 111
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c948cb6fe13843f0800000000000000
+      internalID: -916427619794662973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_27
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 129
+        width: 18
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3706291be04dab5f0800000000000000
+      internalID: -740046029175234445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 29
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0c8d9f64be4d570800000000000000
+      internalID: 8490669887572197590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_29
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 36
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c746698a68f24c00800000000000000
+      internalID: 883541613373441985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_30
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 37
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdeb96dbbb0e45e0800000000000000
+      internalID: -1923587089453289986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_QuickTimeEvent_Bar_31
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 30
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5531ee7a363099a80800000000000000
+      internalID: -8459726698484722859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
