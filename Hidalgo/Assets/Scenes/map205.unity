@@ -235,6 +235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -660,6 +665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -775,6 +785,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -879,6 +894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -1015,12 +1035,12 @@ PrefabInstance:
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -81.6
+      value: -83
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -85.9
+      value: -86
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
@@ -1030,22 +1050,22 @@ PrefabInstance:
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.12300834
+      value: 0.15612344
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.2015009
+      value: 0.17708533
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.11452867
+      value: 0.05473937
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96496093
+      value: -0.9701907
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
@@ -1055,17 +1075,17 @@ PrefabInstance:
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -11.025
+      value: -18.804
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -25.144
+      value: -20.178
       objectReference: {fileID: 0}
     - target: {fileID: 7679515792682079186, guid: ea75866bd606c4f4faa3496a3cb40c0e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 16.003
+      value: -3.084
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7679515792682079187, guid: ea75866bd606c4f4faa3496a3cb40c0e, type: 3}
@@ -1170,6 +1190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -1372,12 +1397,12 @@ PrefabInstance:
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.98
+      value: -16.14
       objectReference: {fileID: 0}
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.43
+      value: -27.140001
       objectReference: {fileID: 0}
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
@@ -1666,6 +1691,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -1826,12 +1856,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.23
+      value: -37.23
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.46
+      value: -27.25
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -2223,6 +2253,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -2488,6 +2523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 76490324}
   - component: {fileID: 76490323}
+  - component: {fileID: 76490325}
   m_Layer: 0
   m_Name: Mapa_Vallas_0 (2)
   m_TagString: Untagged
@@ -2534,7 +2570,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4123791775359539614, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2561,6 +2597,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.48}
+--- !u!61 &76490325
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76490322}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.044938475, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 6.7}
+    newSize: {x: 1.28, y: 6.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3698769, y: 6.7}
+  m_EdgeRadius: 0
 --- !u!1001 &77538874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2572,6 +2634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -2698,6 +2765,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -3184,6 +3256,233 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80ec79e5140d49e459d94d56361183e6, type: 3}
+--- !u!1 &120145474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8520933333664991666, guid: 3c7032347d55a4845a878a1e3ade131b,
+    type: 3}
+  m_PrefabInstance: {fileID: 248882906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!60 &120145475
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120145474}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10, y: 16.08}
+    newSize: {x: 10, y: 16.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 3.58, y: -6.52}
+      - {x: 3.58, y: -6.3199997}
+      - {x: 3.3999999, y: -6}
+      - {x: 3.22, y: -5.74}
+      - {x: 2.96, y: -5.5}
+      - {x: 2.86, y: -5.44}
+      - {x: 2.86, y: -3}
+      - {x: 2.8799999, y: -2.98}
+      - {x: 2.9199998, y: -2.24}
+      - {x: 2.96, y: -2.24}
+      - {x: 3, y: -1.76}
+      - {x: 3.04, y: -1.22}
+      - {x: 3.06, y: -0.5}
+      - {x: 3.1399999, y: 0.5}
+      - {x: 3.1799998, y: 1.4}
+      - {x: 3.28, y: 2.36}
+      - {x: 3.4199998, y: 3.28}
+      - {x: 3.5, y: 3.6799998}
+      - {x: 3.56, y: 4.02}
+      - {x: 3.6399999, y: 4.7}
+      - {x: 3.6799998, y: 5.22}
+      - {x: 3.6799998, y: 6.8999996}
+      - {x: 3.6599998, y: 7.02}
+      - {x: 3.6399999, y: 7.1}
+      - {x: 3.56, y: 7.2}
+      - {x: 3.1799998, y: 7.48}
+      - {x: 2.8, y: 7.7799997}
+      - {x: 2.6, y: 7.7799997}
+      - {x: 1.74, y: 7.3199997}
+      - {x: 1.64, y: 7.2999997}
+      - {x: 1.5, y: 7.24}
+      - {x: 1.48, y: 6.96}
+      - {x: 1.52, y: 6.5}
+      - {x: 1.54, y: 6}
+      - {x: 1.12, y: 5.7999997}
+      - {x: 0.96, y: 5.68}
+      - {x: 0.44, y: 5.44}
+      - {x: -0.26, y: 5.08}
+      - {x: -1.16, y: 4.62}
+      - {x: -2.12, y: 4.08}
+      - {x: -2.5, y: 3.9399998}
+      - {x: -2.6599998, y: 4.02}
+      - {x: -2.8799999, y: 4}
+      - {x: -3, y: 3.98}
+      - {x: -3.12, y: 3.8}
+      - {x: -3.04, y: 3.6799998}
+      - {x: -3.28, y: 3.6}
+      - {x: -4, y: 3.3}
+      - {x: -4.06, y: 3.22}
+      - {x: -4.08, y: 3.06}
+      - {x: -4.08, y: 2.32}
+      - {x: -4.04, y: 2.1599998}
+      - {x: -3.62, y: 1.74}
+      - {x: -3.36, y: 1.54}
+      - {x: -3.22, y: 1.54}
+      - {x: -2.8999999, y: 1.62}
+      - {x: -2.6, y: 1.78}
+      - {x: -2.62, y: 1.6999999}
+      - {x: -2.6799998, y: 1.42}
+      - {x: -2.74, y: 1.02}
+      - {x: -2.74, y: 0.76}
+      - {x: -2.8, y: 0.56}
+      - {x: -3.28, y: 0.28}
+      - {x: -3.6799998, y: 0.08}
+      - {x: -3.74, y: -0.12}
+      - {x: -3.52, y: -0.39999998}
+      - {x: -3.98, y: -0.85999995}
+      - {x: -4.14, y: -1}
+      - {x: -4.14, y: -1.14}
+      - {x: -4.08, y: -1.26}
+      - {x: -3.52, y: -1.8}
+      - {x: -3.28, y: -2.02}
+      - {x: -3.3, y: -2.12}
+      - {x: -3.3, y: -2.22}
+      - {x: -3.12, y: -2.3999999}
+      - {x: -2.8999999, y: -2.58}
+      - {x: -2.24, y: -3.04}
+      - {x: -2.1599998, y: -3.04}
+      - {x: -1.48, y: -2.7}
+      - {x: -1.0799999, y: -2.44}
+      - {x: -1.1, y: -1.9599999}
+      - {x: -0.7, y: -1.7199999}
+      - {x: -0.17999999, y: -1.3199999}
+      - {x: -0.14, y: -1.24}
+      - {x: -0.82, y: -0.52}
+      - {x: -0.62, y: -0.28}
+      - {x: -0.62, y: -0.24}
+      - {x: -1, y: 0.16}
+      - {x: -1.68, y: 0.79999995}
+      - {x: -1.8, y: 1.18}
+      - {x: -1.9599999, y: 1.42}
+      - {x: -2.08, y: 1.62}
+      - {x: -2.08, y: 1.88}
+      - {x: -1.8399999, y: 1.92}
+      - {x: -1.5799999, y: 2.12}
+      - {x: -1.48, y: 2.36}
+      - {x: -1.16, y: 2.34}
+      - {x: -0.79999995, y: 2.26}
+      - {x: -0.44, y: 2.22}
+      - {x: 0.14, y: 2.1}
+      - {x: 0.97999996, y: 1.92}
+      - {x: 1.3399999, y: 1.8399999}
+      - {x: 1.52, y: 1.7199999}
+      - {x: 1.5, y: 1.48}
+      - {x: 1.4599999, y: 0.97999996}
+      - {x: 1.4399999, y: 0}
+      - {x: 1.42, y: -0.78}
+      - {x: 1.4, y: -1.38}
+      - {x: 1.36, y: -2.02}
+      - {x: 1.1999999, y: -3.06}
+      - {x: 1.16, y: -3.46}
+      - {x: 1.14, y: -4.04}
+      - {x: 1.12, y: -5.06}
+      - {x: 1.14, y: -5.16}
+      - {x: 0.79999995, y: -5.3199997}
+      - {x: 0.7, y: -5.42}
+      - {x: 0.53999996, y: -5.6}
+      - {x: 0.32, y: -5.8599997}
+      - {x: 0.14, y: -6.12}
+      - {x: 0.099999994, y: -6.3599997}
+      - {x: 0.34, y: -6.62}
+      - {x: 0.79999995, y: -7.1}
+      - {x: 1.4599999, y: -7.7}
+      - {x: 1.5999999, y: -7.8199997}
+      - {x: 1.8399999, y: -7.8199997}
+      - {x: 2, y: -7.7999997}
+      - {x: 2.18, y: -7.74}
+      - {x: 2.6599998, y: -7.3999996}
+      - {x: 3.26, y: -6.8399997}
+    - - {x: -2.04, y: -2.5}
+      - {x: -1.5799999, y: -2.28}
+      - {x: -1.54, y: -2.24}
+      - {x: -1.4, y: -2.1599998}
+      - {x: -1.38, y: -2.18}
+      - {x: -1.42, y: -2.2}
+      - {x: -1.48, y: -2.22}
+      - {x: -1.52, y: -2.26}
+      - {x: -1.64, y: -2.32}
+      - {x: -1.68, y: -2.36}
+      - {x: -1.78, y: -2.3999999}
+      - {x: -1.86, y: -2.48}
+      - {x: -1.9399999, y: -2.5}
+      - {x: -2, y: -2.54}
+      - {x: -2.04, y: -2.54}
+    - - {x: -2.1399999, y: -1.5999999}
+      - {x: -2.12, y: -1.5799999}
+      - {x: -2.12, y: -1.3199999}
+      - {x: -1.86, y: -1.18}
+      - {x: -1.52, y: -0.97999996}
+      - {x: -1.4399999, y: -0.97999996}
+      - {x: -1.22, y: -0.79999995}
+      - {x: -1.0799999, y: -0.97999996}
+      - {x: -0.84, y: -1.3}
+      - {x: -0.94, y: -1.3399999}
+      - {x: -1.24, y: -1.5}
+      - {x: -1.5799999, y: -1.6999999}
+      - {x: -1.76, y: -1.8}
+      - {x: -1.9799999, y: -1.9}
+      - {x: -2.08, y: -1.9599999}
+      - {x: -2.1399999, y: -2}
+    - - {x: -2.74, y: -1.76}
+      - {x: -3.58, y: -1.06}
+      - {x: -3.28, y: -0.64}
+      - {x: -3.1799998, y: -0.74}
+      - {x: -2.8, y: -1.06}
+      - {x: -2.54, y: -1.26}
+      - {x: -2.56, y: -1.4399999}
+      - {x: -2.58, y: -1.86}
+      - {x: -2.56, y: -1.9599999}
+      - {x: -2.56, y: -1.9399999}
+    - - {x: 1.26, y: 3.1999998}
+      - {x: 1.02, y: 3.1999998}
+      - {x: 1, y: 3.22}
+      - {x: 0.91999996, y: 3.22}
+      - {x: 0.82, y: 3.28}
+      - {x: 0.71999997, y: 3.3}
+      - {x: 0.48, y: 3.36}
+      - {x: 0.28, y: 3.3999999}
+      - {x: 0.17999999, y: 3.3999999}
+      - {x: 0.32, y: 3.46}
+      - {x: 0.42, y: 3.54}
+      - {x: 0.45999998, y: 3.54}
+      - {x: 0.56, y: 3.58}
+      - {x: 0.59999996, y: 3.62}
+      - {x: 0.74, y: 3.6799998}
+      - {x: 0.84, y: 3.74}
+      - {x: 0.88, y: 3.78}
+      - {x: 1.1, y: 3.8999999}
+      - {x: 1.14, y: 3.8999999}
+      - {x: 1.24, y: 3.9399998}
+      - {x: 1.3399999, y: 4}
+      - {x: 1.4399999, y: 4.02}
+      - {x: 1.5, y: 4.06}
+      - {x: 1.4599999, y: 3.8999999}
+      - {x: 1.4599999, y: 3.1599998}
+      - {x: 1.38, y: 3.1799998}
 --- !u!4 &122297113 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3465649634926794680, guid: b8919bcedd544a24ea277f9eebf9695d,
@@ -3301,6 +3600,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -3396,6 +3700,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -3584,6 +3893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -4287,6 +4601,122 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1051016586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &176088883
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1017543246}
+    m_Modifications:
+    - target: {fileID: 6460810938965322417, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_Name
+      value: Casa_ArribaDer (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322422, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322422, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9035374
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322422, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322422, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.65850836
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322422, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 887407c02c409f34c9d60014cb004c5e,
+        type: 3}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -35.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.844232
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 571
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.29
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 808302dab7b6ca444896a40b713d8edd, type: 3}
+--- !u!4 &176088884 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6460810938965322423, guid: 808302dab7b6ca444896a40b713d8edd,
+    type: 3}
+  m_PrefabInstance: {fileID: 176088883}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &176429350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4313,7 +4743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176429350}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.83, y: -1.87, z: 0}
+  m_LocalPosition: {x: 0.5, y: -0.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1575848113}
@@ -4385,8 +4815,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2014388223
+  m_SortingLayer: -1
   m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 83f170eca577145438c8d3d6ba26c1f2, type: 3}
   m_Color: {r: 0.8859492, g: 0.9622642, b: 0.7761659, a: 1}
@@ -4803,6 +5233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -5022,12 +5457,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.33
+      value: -19.490002
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.68
+      value: -23.03
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -5378,6 +5813,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (132)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -5488,6 +5928,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -5776,12 +6221,12 @@ PrefabInstance:
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -125.03
+      value: -125.91
       objectReference: {fileID: 0}
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -66.2
+      value: -65.42
       objectReference: {fileID: 0}
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
@@ -5801,12 +6246,12 @@ PrefabInstance:
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.01213916
       objectReference: {fileID: 0}
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.9999264
       objectReference: {fileID: 0}
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
@@ -5826,7 +6271,7 @@ PrefabInstance:
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -1.391
       objectReference: {fileID: 0}
     - target: {fileID: 1936305195423518024, guid: 1136801e363e94143ba23e0610bb2aa6,
         type: 3}
@@ -6294,6 +6739,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -6406,7 +6856,7 @@ PrefabInstance:
     - target: {fileID: 795817591378962856, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_FlipX
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 795817591378962856, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
@@ -6427,7 +6877,7 @@ PrefabInstance:
     - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
@@ -6437,36 +6887,46 @@ PrefabInstance:
     - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[1]
-      value: 85420491
+      value: 1094182003
       objectReference: {fileID: 0}
     - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[2]
-      value: 250691691
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[3]
-      value: -1621372491
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[5]
-      value: 2014388223
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[6]
-      value: -627599973
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[7]
       value: -919382343
       objectReference: {fileID: 0}
     - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
+        type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[4]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 4225367729198972095, guid: 3c7032347d55a4845a878a1e3ade131b,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[9]
       value: 1316183991
       objectReference: {fileID: 0}
     - target: {fileID: 4805049743903067997, guid: 3c7032347d55a4845a878a1e3ade131b,
@@ -6522,12 +6982,12 @@ PrefabInstance:
     - target: {fileID: 6697354052858122521, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.03
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 6697354052858122521, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.12
+      value: -1.32
       objectReference: {fileID: 0}
     - target: {fileID: 8520933333664991666, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
@@ -6592,7 +7052,7 @@ PrefabInstance:
     - target: {fileID: 8967558340813247021, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.33867055
+      value: -0.3386706
       objectReference: {fileID: 0}
     - target: {fileID: 8967558340813247021, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
@@ -7137,6 +7597,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -7226,6 +7691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -7497,6 +7967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -7865,12 +8340,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.15
+      value: -11.31
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.93
+      value: -22.78
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -7955,7 +8430,7 @@ PrefabInstance:
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
@@ -7963,6 +8438,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c45114a6b0639f949bcc6d8dc399a1db,
         type: 3}
+    - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471641, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8038,8 +8518,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajas_collider (13)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.35394406
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 5.95878
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
 --- !u!4 &319333164 stripped
 Transform:
@@ -8216,6 +8705,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -8500,6 +8994,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -8598,12 +9097,12 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.41
+      value: -37.030003
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.53
+      value: -43.53
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
@@ -8668,6 +9167,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -9267,12 +9771,12 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.916616
+      value: -17.613384
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7260494
+      value: -40.71395
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
@@ -9786,6 +10290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (162)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -9900,6 +10409,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -10368,6 +10882,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (142)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -10552,6 +11071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -10657,6 +11181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -10761,6 +11290,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (141)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -11108,7 +11642,7 @@ PrefabInstance:
     - target: {fileID: 8669555221885260021, guid: 96f66f91d6e121f409923e2541243582,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -123.18
+      value: -122.9
       objectReference: {fileID: 0}
     - target: {fileID: 8669555221885260021, guid: 96f66f91d6e121f409923e2541243582,
         type: 3}
@@ -11133,12 +11667,12 @@ PrefabInstance:
     - target: {fileID: 8669555221885260021, guid: 96f66f91d6e121f409923e2541243582,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.009678046
+      value: 0.008134857
       objectReference: {fileID: 0}
     - target: {fileID: 8669555221885260021, guid: 96f66f91d6e121f409923e2541243582,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9999532
+      value: 0.999967
       objectReference: {fileID: 0}
     - target: {fileID: 8669555221885260021, guid: 96f66f91d6e121f409923e2541243582,
         type: 3}
@@ -11158,7 +11692,7 @@ PrefabInstance:
     - target: {fileID: 8669555221885260021, guid: 96f66f91d6e121f409923e2541243582,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 1.109
+      value: 0.932
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96f66f91d6e121f409923e2541243582, type: 3}
@@ -11334,6 +11868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437378954}
   - component: {fileID: 437378953}
+  - component: {fileID: 437378955}
   m_Layer: 0
   m_Name: Mapa_Vallas_2 (1)
   m_TagString: Untagged
@@ -11380,7 +11915,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -7907274600455165079, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11407,6 +11942,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &437378955
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437378952}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.027713, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 3.44}
+    newSize: {x: 1.2, y: 3.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.255426, y: 3.44}
+  m_EdgeRadius: 0
 --- !u!1 &440280698
 GameObject:
   m_ObjectHideFlags: 0
@@ -12028,6 +12589,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -12123,6 +12689,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -12450,6 +13021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -12614,6 +13190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -12789,6 +13370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -12878,6 +13464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -13418,7 +14009,7 @@ PrefabInstance:
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
@@ -13426,6 +14017,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c45114a6b0639f949bcc6d8dc399a1db,
         type: 3}
+    - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471641, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13501,8 +14097,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajas_collider (15)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.28771555
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 5.861065
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
 --- !u!4 &513816742 stripped
 Transform:
@@ -13533,6 +14138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -13630,6 +14240,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -13720,6 +14335,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -13809,6 +14429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -14009,6 +14634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -15270,6 +15900,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -15702,6 +16337,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -15791,6 +16431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -16299,6 +16944,56 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1017543246}
     m_Modifications:
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[0]
+      value: 1897957475
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[1]
+      value: 1094182003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[2]
+      value: -919382343
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[4]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[9]
+      value: 1316183991
+      objectReference: {fileID: 0}
     - target: {fileID: 5332328925996717776, guid: 0292fdcd5f478d04d9faae42e14a255c,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -16386,6 +17081,89 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0292fdcd5f478d04d9faae42e14a255c, type: 3}
+--- !u!1 &613655252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 613655254}
+  - component: {fileID: 613655253}
+  m_Layer: 0
+  m_Name: Mapa_Vallas_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &613655253
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613655252}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -919382343
+  m_SortingLayer: -3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1321790409140997104, guid: edbd5c879ce25a74aa6ce760d9461dcc,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.94, y: 1.56}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &613655254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613655252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.11, y: -14.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &615774416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 315148232775980852, guid: ade8ac4b9a0207c45a5426b68ac3512d,
@@ -16403,6 +17181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -16493,6 +17276,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -17276,6 +18064,89 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ade8ac4b9a0207c45a5426b68ac3512d, type: 3}
+--- !u!1 &639135087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 639135089}
+  - component: {fileID: 639135088}
+  m_Layer: 0
+  m_Name: Mapa_Vallas_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &639135088
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639135087}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -919382343
+  m_SortingLayer: -3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -1973206393657162549, guid: edbd5c879ce25a74aa6ce760d9461dcc,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.82, y: 1.66}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &639135089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639135087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.15, y: -13.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &641192370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18083,6 +18954,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -18173,6 +19049,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -18262,6 +19143,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -18711,6 +19597,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -19216,6 +20107,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -19304,12 +20200,12 @@ PrefabInstance:
     - target: {fileID: 543112372605137179, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.16
+      value: -3.58
       objectReference: {fileID: 0}
     - target: {fileID: 543112372605137179, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.57
+      value: -22.91
       objectReference: {fileID: 0}
     - target: {fileID: 543112372605137179, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
@@ -19366,6 +20262,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: POI_ApplesBag (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 543112372605137254, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 543112373156572977, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 543112373156572977, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: onPassed.m_PersistentCalls.m_Calls.Array.size
@@ -19404,7 +20315,7 @@ PrefabInstance:
     - target: {fileID: 4377191739019035962, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 7861003618880011694, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
@@ -19414,7 +20325,7 @@ PrefabInstance:
     - target: {fileID: 7861003618880011694, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06e998a8f1aa13d4486e8a65ef1a0805, type: 3}
@@ -19508,6 +20419,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -20029,12 +20945,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.53
+      value: -18.690002
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.34
+      value: -27.050001
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -20885,6 +21801,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -21072,7 +21993,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762746828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -38.137756, y: -22.645107, z: 12.044232}
+  m_LocalPosition: {x: -50.21, y: -30.56, z: 12.044232}
   m_LocalScale: {x: 2.4436, y: 2.4436, z: 2.4436}
   m_Children: []
   m_Father: {fileID: 1017543246}
@@ -21144,8 +22065,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1621372491
-  m_SortingLayer: 1
+  m_SortingLayerID: 2014388223
+  m_SortingLayer: -1
   m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 83f170eca577145438c8d3d6ba26c1f2, type: 3}
   m_Color: {r: 0.8859492, g: 0.9622642, b: 0.7761659, a: 1}
@@ -21796,6 +22717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -21981,6 +22907,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -22238,12 +23169,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.31
+      value: -37.130005
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.17
+      value: -40.17
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -22329,6 +23260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -22425,6 +23361,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -22957,6 +23898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (157)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -23355,6 +24301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -23515,6 +24466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 833535475}
   - component: {fileID: 833535474}
+  - component: {fileID: 833535476}
   m_Layer: 0
   m_Name: Mapa_Vallas_1
   m_TagString: Untagged
@@ -23561,7 +24513,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4846430242992356451, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23588,6 +24540,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &833535476
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833535473}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.16, y: 2.92}
+    newSize: {x: 1.16, y: 2.92}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.16, y: 2.92}
+  m_EdgeRadius: 0
 --- !u!4 &834364673 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1957844411422631353, guid: 93540ae3321e2a64c87b95d909255c0a,
@@ -23863,6 +24841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (94)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -24634,6 +25617,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -24951,6 +25939,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -25046,6 +26039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -25226,6 +26224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -25526,6 +26529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -26031,6 +27039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -26124,12 +27137,12 @@ PrefabInstance:
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.849268
+      value: -2.3828695
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.415195
+      value: -26.071356
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
@@ -26585,6 +27598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -26757,6 +27775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (148)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -27337,6 +28360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -27460,12 +28488,12 @@ PrefabInstance:
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.079613
+      value: -1.112482
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.107333
+      value: -25.338688
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
@@ -27866,6 +28894,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (161)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -27990,12 +29023,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.34
+      value: -14.500001
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.43
+      value: -21.28
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -28239,6 +29272,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -28504,6 +29542,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -28608,6 +29651,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -29300,6 +30348,7 @@ Transform:
   - {fileID: 513317576}
   - {fileID: 889968793}
   - {fileID: 1303020787}
+  - {fileID: 176088884}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29531,6 +30580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -29892,12 +30946,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.66
+      value: -14.87
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.34
+      value: -39.1
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -30063,6 +31117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -30473,12 +31532,12 @@ PrefabInstance:
     - target: {fileID: 8967558340813247021, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -55.1
+      value: -26.84
       objectReference: {fileID: 0}
     - target: {fileID: 8967558340813247021, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -39.4
+      value: -23.95
       objectReference: {fileID: 0}
     - target: {fileID: 8967558340813247021, guid: 3c7032347d55a4845a878a1e3ade131b,
         type: 3}
@@ -30622,6 +31681,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaAbajoIzq (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 280500537653478861, guid: ee07b03847f69d14f84d85754fecb5a1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 401debd00c382734ab22d0eacec8e2cb,
+        type: 3}
     - target: {fileID: 280500537653478898, guid: ee07b03847f69d14f84d85754fecb5a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30691,6 +31756,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -30903,6 +31973,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -31006,6 +32081,89 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1058464374}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1062693809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1062693811}
+  - component: {fileID: 1062693810}
+  m_Layer: 0
+  m_Name: Mapa_Vallas_4 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1062693810
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062693809}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -919382343
+  m_SortingLayer: -3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 8738050070400162110, guid: edbd5c879ce25a74aa6ce760d9461dcc,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.48, y: 1.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1062693811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062693809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.28, y: -13.92, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064011134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31147,6 +32305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -31225,6 +32388,116 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1064827598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1066776019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1066776022}
+  - component: {fileID: 1066776021}
+  - component: {fileID: 1066776020}
+  m_Layer: 0
+  m_Name: Mapa_Vallas_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1066776020
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066776019}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.48, y: 1.64}
+    newSize: {x: 3.48, y: 1.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.48, y: 1.64}
+  m_EdgeRadius: 0
+--- !u!212 &1066776021
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066776019}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -919382343
+  m_SortingLayer: -3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 8738050070400162110, guid: edbd5c879ce25a74aa6ce760d9461dcc,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.48, y: 1.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1066776022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066776019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -65.93, y: -18.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1068361390
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31423,6 +32696,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -31734,20 +33012,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: POIAppleBarrell (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5780205231829775324, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5780205232385633672, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 5780205232385633672, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.65
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 5780205232385633675, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_SortingOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205232385633675, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780205232385633675, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
@@ -31768,6 +33061,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -32064,6 +33362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -32469,12 +33772,12 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.04
+      value: -39.4
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.1
+      value: -46.1
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
@@ -32539,6 +33842,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -32860,6 +34168,256 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 690262368}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1114390622
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1016913431994820835, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1016913431994820835, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[0]
+      value: 1897957475
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[1]
+      value: 1094182003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[2]
+      value: -919382343
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 0.7148931
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[4]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[9]
+      value: 1316183991
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_PointLightInnerAngle
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 1539198895359545453, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_PointLightOuterAngle
+      value: 166
+      objectReference: {fileID: 0}
+    - target: {fileID: 2642886060553367624, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_Name
+      value: farol2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -70.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.960484
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7357767
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7357767
+      objectReference: {fileID: 0}
+    - target: {fileID: 3359174781139004375, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7357767
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578755971654523883, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477947044929998930, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1316183991
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477947044929998930, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477947044929998930, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477947044929998930, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a1ebf777f314654093730151d272965,
+        type: 3}
+    - target: {fileID: 6748667696087204876, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6748667696087204876, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[0]
+      value: 1897957475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[1]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[2]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[5]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: -919382343
+      objectReference: {fileID: 0}
+    - target: {fileID: 7516086622693344581, guid: bbfe13b5a8e52164a93cd1ad8735acb8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 1316183991
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbfe13b5a8e52164a93cd1ad8735acb8, type: 3}
 --- !u!1001 &1114971227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32880,12 +34438,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8627677
+      value: -22.667233
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.557818
+      value: -38.88218
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -33124,6 +34682,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -33449,6 +35012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -33548,6 +35116,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.7783019
+      objectReference: {fileID: 0}
+    - target: {fileID: 2661467351760328615, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.03724323
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99930626
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -4.269
+      objectReference: {fileID: 0}
+    - target: {fileID: 3003978072835678548, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002225, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -35011,6 +36624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -35817,6 +37435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -35951,7 +37574,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
       propertyPath: m_PointLightOuterRadius
@@ -35979,7 +37602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[1]
-      value: 85420491
+      value: 1094182003
       objectReference: {fileID: 0}
     - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[0]
@@ -35987,26 +37610,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[2]
-      value: 250691691
-      objectReference: {fileID: 0}
-    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[3]
-      value: -1621372491
-      objectReference: {fileID: 0}
-    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[5]
-      value: 2014388223
-      objectReference: {fileID: 0}
-    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[6]
-      value: -627599973
-      objectReference: {fileID: 0}
-    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[7]
       value: -919382343
       objectReference: {fileID: 0}
     - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[4]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017949641, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[9]
       value: 1316183991
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602056, guid: bf3113eea5735d443a1d9910244cf1cf,
@@ -36032,12 +37663,12 @@ PrefabInstance:
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5
+      value: -28.029999
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.2
+      value: -39.239998
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
@@ -36766,6 +38397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -36994,12 +38630,12 @@ PrefabInstance:
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.5186243
+      value: -19.011375
       objectReference: {fileID: 0}
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.480691
+      value: -39.95931
       objectReference: {fileID: 0}
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
@@ -37133,6 +38769,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -37651,6 +39292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -37896,6 +39542,344 @@ Transform:
   m_Father: {fileID: 1017543246}
   m_RootOrder: 505
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1235920930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1235920933}
+  - component: {fileID: 1235920932}
+  - component: {fileID: 1235920931}
+  m_Layer: 0
+  m_Name: Mapa_Establo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &1235920931
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235920930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.333334, y: 16.666666}
+    newSize: {x: 29.333334, y: 16.666666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -12.433334, y: -3.9}
+      - {x: -12.433334, y: -3.5666668}
+      - {x: -12.133334, y: -3.3666668}
+      - {x: -11.033334, y: -3.2333336}
+      - {x: -10.266667, y: -3.1333334}
+      - {x: -10.1, y: -3.2333336}
+      - {x: -9.866667, y: -3.266667}
+      - {x: -9.400001, y: -3.1333334}
+      - {x: -9.166667, y: -3.1666667}
+      - {x: -8.533334, y: -3.1333334}
+      - {x: -8.200001, y: -2.9333334}
+      - {x: -8, y: -3.0333335}
+      - {x: -7.833334, y: -3.0333335}
+      - {x: -7.6333337, y: -2.966667}
+      - {x: -7.066667, y: -2.966667}
+      - {x: -6.766667, y: -2.8000002}
+      - {x: -6.2000003, y: -2.7333336}
+      - {x: -5.7333336, y: -2.766667}
+      - {x: -5.5000005, y: -2.766667}
+      - {x: -4.533334, y: -2.5333335}
+      - {x: -4.4, y: -2.4333334}
+      - {x: -4.166667, y: -2.766667}
+      - {x: -3.966667, y: -3.1666667}
+      - {x: -4.066667, y: -3.3333335}
+      - {x: -4.066667, y: -3.466667}
+      - {x: -3.9, y: -4.166667}
+      - {x: -4.1000004, y: -4.3333335}
+      - {x: -4.1333337, y: -4.4}
+      - {x: -3.8333335, y: -4.6000004}
+      - {x: -3.5000002, y: -4.7333336}
+      - {x: -3.5000002, y: -5.3333335}
+      - {x: -3.4333334, y: -6.2333336}
+      - {x: -3.2000003, y: -6.366667}
+      - {x: -2.7, y: -6.3333335}
+      - {x: -2.6000001, y: -6.3}
+      - {x: -2.6333334, y: -5.566667}
+      - {x: -2.766667, y: -4.5}
+      - {x: -1.9333334, y: -4.533334}
+      - {x: -1.4666667, y: -4.4666667}
+      - {x: -1.3333334, y: -4.3333335}
+      - {x: -1.3000001, y: -3.9333336}
+      - {x: -1.2333333, y: -3.4333334}
+      - {x: -1.5666667, y: -3.3000002}
+      - {x: -1.4333334, y: -3.1000001}
+      - {x: -0.9333334, y: -3.2333336}
+      - {x: -0.36666667, y: -3.2333336}
+      - {x: 0.90000004, y: -2.9}
+      - {x: 2, y: -2.7333336}
+      - {x: 2.2, y: -2.8666668}
+      - {x: 2.2, y: -3.2000003}
+      - {x: 2.2333333, y: -4.166667}
+      - {x: 2.3000002, y: -5.2333336}
+      - {x: 2.4, y: -5.366667}
+      - {x: 2.5000002, y: -5.4333334}
+      - {x: 3.1333334, y: -5.466667}
+      - {x: 3.2333336, y: -5.1333337}
+      - {x: 3.1000001, y: -3.766667}
+      - {x: 3.0666668, y: -2.8666668}
+      - {x: 3.2000003, y: -2.5666668}
+      - {x: 3.6000001, y: -2.5000002}
+      - {x: 3.8666668, y: -2.4}
+      - {x: 4.6333337, y: -2.5666668}
+      - {x: 4.666667, y: -3.0000002}
+      - {x: 4.766667, y: -3.1666667}
+      - {x: 5.1000004, y: -3.1000001}
+      - {x: 5.6000004, y: -2.6000001}
+      - {x: 5.866667, y: -2.4333334}
+      - {x: 6.2333336, y: -2.266667}
+      - {x: 6.766667, y: -2.2333333}
+      - {x: 6.9000006, y: -2.0666668}
+      - {x: 7.4000006, y: -1.9333334}
+      - {x: 7.8, y: -1.9000001}
+      - {x: 7.8, y: -2.8666668}
+      - {x: 7.833334, y: -4.4666667}
+      - {x: 7.8666673, y: -4.6000004}
+      - {x: 8.066668, y: -4.766667}
+      - {x: 8.433333, y: -4.8}
+      - {x: 8.633334, y: -4.766667}
+      - {x: 8.733334, y: -4.666667}
+      - {x: 8.733334, y: -4.6000004}
+      - {x: 8.700001, y: -3.7000003}
+      - {x: 8.700001, y: -2.2}
+      - {x: 8.966667, y: -1.7}
+      - {x: 9.466667, y: -1.6666667}
+      - {x: 10.700001, y: -1.5333334}
+      - {x: 11.033334, y: -1.6000001}
+      - {x: 11.400001, y: -1.5666667}
+      - {x: 11.733334, y: -1.8000001}
+      - {x: 12.133334, y: -1.7666668}
+      - {x: 12.533334, y: -2}
+      - {x: 12.6, y: -2.8000002}
+      - {x: 12.566668, y: -3.5666668}
+      - {x: 12.833334, y: -3.8333335}
+      - {x: 12.966667, y: -3.8666668}
+      - {x: 13.333334, y: -3.8666668}
+      - {x: 13.500001, y: -3.7333336}
+      - {x: 13.533334, y: -2.9}
+      - {x: 13.6, y: -2.2333333}
+      - {x: 13.6, y: -1.0666667}
+      - {x: 13.666667, y: -0.16666667}
+      - {x: 13.933334, y: 1.3666668}
+      - {x: 14.200001, y: 1.6000001}
+      - {x: 14.200001, y: 1.6666667}
+      - {x: 14.033334, y: 2.0333335}
+      - {x: 13.733334, y: 2.4666667}
+      - {x: 13.1, y: 3.4333334}
+      - {x: 12.566668, y: 4.4}
+      - {x: 11.833334, y: 5.4}
+      - {x: 11.333334, y: 6.0000005}
+      - {x: 10.8, y: 6.8333335}
+      - {x: 10.233334, y: 7.566667}
+      - {x: 9.833334, y: 8.1}
+      - {x: 9.266667, y: 8.1}
+      - {x: 8.6, y: 8.066668}
+      - {x: 7.9000006, y: 8}
+      - {x: 6.433334, y: 7.933334}
+      - {x: 5.766667, y: 7.766667}
+      - {x: 5.533334, y: 7.8}
+      - {x: 5.033334, y: 7.8}
+      - {x: 4.366667, y: 7.7333336}
+      - {x: 4.1000004, y: 7.566667}
+      - {x: 3.6666667, y: 7.466667}
+      - {x: 3.6000001, y: 7.6000004}
+      - {x: 2.3666668, y: 7.466667}
+      - {x: 1.7666668, y: 7.433334}
+      - {x: 0.33333334, y: 7.3333335}
+      - {x: -0.43333337, y: 7.266667}
+      - {x: -2.5666668, y: 7.2000003}
+      - {x: -2.7333336, y: 6.966667}
+      - {x: -3.0333335, y: 6.866667}
+      - {x: -4.1000004, y: 6.8333335}
+      - {x: -4.4333334, y: 6.8}
+      - {x: -4.6000004, y: 6.766667}
+      - {x: -4.766667, y: 6.7000003}
+      - {x: -5.6000004, y: 6.566667}
+      - {x: -6.1333337, y: 6.5000005}
+      - {x: -7.433334, y: 6.466667}
+      - {x: -8.700001, y: 6.4000006}
+      - {x: -10.266667, y: 6.2000003}
+      - {x: -11.500001, y: 6.166667}
+      - {x: -12.900001, y: 6.1000004}
+      - {x: -13.800001, y: 6.033334}
+      - {x: -13.933334, y: 5.8}
+      - {x: -13.933334, y: 5.466667}
+      - {x: -14.1, y: 3.3333335}
+      - {x: -14.133334, y: 2.8333335}
+      - {x: -14.166667, y: 1.6333334}
+      - {x: -14.200001, y: 1.2333333}
+      - {x: -14.300001, y: 0.10000001}
+      - {x: -14.466667, y: -1.2666668}
+      - {x: -14.466667, y: -1.5666667}
+      - {x: -14.233335, y: -1.9666668}
+      - {x: -14.1, y: -2.0333335}
+      - {x: -13.900001, y: -2.9}
+      - {x: -13.700001, y: -3.6000001}
+      - {x: -13.533334, y: -4.2000003}
+      - {x: -13.400001, y: -5.1000004}
+      - {x: -12.966667, y: -6.5000005}
+      - {x: -12.700001, y: -7.7000003}
+      - {x: -12.6, y: -7.8666673}
+      - {x: -12.466667, y: -7.8666673}
+      - {x: -12.200001, y: -7.8}
+      - {x: -12.1, y: -7.7000003}
+      - {x: -12.133334, y: -7.1333337}
+      - {x: -12.266667, y: -6.7333336}
+    - - {x: -12.833334, y: -4}
+      - {x: -12.866668, y: -3.966667}
+      - {x: -12.866668, y: -3.8333335}
+      - {x: -12.900001, y: -3.6666667}
+      - {x: -12.966667, y: -3.4333334}
+      - {x: -12.800001, y: -3.3000002}
+      - {x: -12.800001, y: -3.2333336}
+      - {x: -12.833334, y: -3.5000002}
+      - {x: -12.866668, y: -3.5333335}
+      - {x: -12.866668, y: -4.1000004}
+      - {x: -12.833334, y: -4.1000004}
+    - - {x: -13.133334, y: -2.5333335}
+      - {x: -13.166667, y: -2.5000002}
+      - {x: -13.166667, y: -2.4}
+      - {x: -13.200001, y: -2.3666668}
+      - {x: -13.200001, y: -2.266667}
+      - {x: -13.233334, y: -2.2333333}
+      - {x: -13.233334, y: -2.1333334}
+      - {x: -13.266667, y: -2.1000001}
+      - {x: -13.266667, y: -2.0333335}
+      - {x: -13.333334, y: -1.9000001}
+      - {x: -13.333334, y: -1.8000001}
+      - {x: -12.866668, y: -1.8000001}
+      - {x: -12.833334, y: -1.7666668}
+      - {x: -12.866668, y: -1.8333334}
+      - {x: -12.866668, y: -2.3000002}
+      - {x: -12.833334, y: -2.3333335}
+      - {x: -12.833334, y: -2.4}
+      - {x: -13.033334, y: -2.6000001}
+      - {x: -13.033334, y: -2.6333334}
+      - {x: -13.133334, y: -2.7333336}
+      - {x: -13.1, y: -2.7333336}
+    - - {x: 5.2000003, y: -2.3333335}
+      - {x: 5.4333334, y: -2.2333333}
+      - {x: 5.3, y: -2.3000002}
+      - {x: 5.2000003, y: -2.4}
+      - {x: 5.2333336, y: -2.4}
+    - - {x: 12.566668, y: -0.8000001}
+      - {x: 12.400001, y: -0.7666667}
+      - {x: 12.233334, y: -0.6666667}
+      - {x: 12.133334, y: -0.6666667}
+      - {x: 12.033334, y: -0.6}
+      - {x: 11.933334, y: -0.5666667}
+      - {x: 11.900001, y: -0.53333336}
+      - {x: 11.900001, y: -0.13333334}
+      - {x: 11.866668, y: -0.10000001}
+      - {x: 11.866668, y: 0.20000002}
+      - {x: 11.833334, y: 0.23333335}
+      - {x: 11.833334, y: 0.86666673}
+      - {x: 11.8, y: 0.90000004}
+      - {x: 11.8, y: 1.1333334}
+      - {x: 12.033334, y: 1.1333334}
+      - {x: 12.3, y: 0.86666673}
+      - {x: 12.333334, y: 0.86666673}
+      - {x: 12.566668, y: 0.6666667}
+      - {x: 12.6, y: 0.6666667}
+      - {x: 12.800001, y: 0.5}
+      - {x: 12.800001, y: 0.43333337}
+      - {x: 12.766667, y: 0.40000004}
+      - {x: 12.766667, y: 0.10000001}
+      - {x: 12.733334, y: 0.06666667}
+      - {x: 12.733334, y: -0.6333334}
+      - {x: 12.700001, y: -0.6666667}
+      - {x: 12.700001, y: -0.90000004}
+      - {x: 12.666667, y: -0.86666673}
+--- !u!212 &1235920932
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235920930}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -627599973
+  m_SortingLayer: -2
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 9c39716adf154974b831cf0098409a19, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 29.333334, y: 16.666666}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1235920933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235920930}
+  m_LocalRotation: {x: -0, y: -0, z: 0.04476082, w: 0.99899775}
+  m_LocalPosition: {x: -17.04, y: -17.33, z: 0}
+  m_LocalScale: {x: -0.8444942, y: 0.84449416, z: 0.84449416}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.131}
 --- !u!4 &1238503687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3465649634926794680, guid: b8919bcedd544a24ea277f9eebf9695d,
@@ -37919,6 +39903,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -38328,6 +40317,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -38457,12 +40451,12 @@ PrefabInstance:
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.89
+      value: -16.05
       objectReference: {fileID: 0}
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.91
+      value: -22.800001
       objectReference: {fileID: 0}
     - target: {fileID: 5549980081060752470, guid: a0ad7a7ea37a1ab4581b85a33b4eb9e1,
         type: 3}
@@ -38630,12 +40624,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -35.24
+      value: -31.55
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.34
+      value: -24.93
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -38799,6 +40793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -38975,6 +40974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279613415}
   - component: {fileID: 1279613414}
+  - component: {fileID: 1279613416}
   m_Layer: 0
   m_Name: Mapa_Establo
   m_TagString: Untagged
@@ -39021,8 +41021,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -627599973
   m_SortingLayer: -2
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: da4605933fcc5a647a11ab1f30706813, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: 9c39716adf154974b831cf0098409a19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -39040,13 +41040,268 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279613413}
-  m_LocalRotation: {x: -0, y: -0, z: 0.016505644, w: -0.9998638}
+  m_LocalRotation: {x: -0, y: -0, z: -0.027478894, w: 0.9996224}
   m_LocalPosition: {x: -54.89, y: -17.94, z: 0}
   m_LocalScale: {x: 0.84449416, y: 0.84449416, z: 0.84449416}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.891}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.149}
+--- !u!60 &1279613416
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279613413}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 29.333334, y: 16.666666}
+    newSize: {x: 29.333334, y: 16.666666}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -12.433334, y: -3.9}
+      - {x: -12.433334, y: -3.5666668}
+      - {x: -12.133334, y: -3.3666668}
+      - {x: -11.033334, y: -3.2333336}
+      - {x: -10.266667, y: -3.1333334}
+      - {x: -10.1, y: -3.2333336}
+      - {x: -9.866667, y: -3.266667}
+      - {x: -9.400001, y: -3.1333334}
+      - {x: -9.166667, y: -3.1666667}
+      - {x: -8.533334, y: -3.1333334}
+      - {x: -8.200001, y: -2.9333334}
+      - {x: -8, y: -3.0333335}
+      - {x: -7.833334, y: -3.0333335}
+      - {x: -7.6333337, y: -2.966667}
+      - {x: -7.066667, y: -2.966667}
+      - {x: -6.766667, y: -2.8000002}
+      - {x: -6.2000003, y: -2.7333336}
+      - {x: -5.7333336, y: -2.766667}
+      - {x: -5.5000005, y: -2.766667}
+      - {x: -4.533334, y: -2.5333335}
+      - {x: -4.4, y: -2.4333334}
+      - {x: -4.166667, y: -2.766667}
+      - {x: -3.966667, y: -3.1666667}
+      - {x: -4.066667, y: -3.3333335}
+      - {x: -4.066667, y: -3.466667}
+      - {x: -3.9, y: -4.166667}
+      - {x: -4.1000004, y: -4.3333335}
+      - {x: -4.1333337, y: -4.4}
+      - {x: -3.8333335, y: -4.6000004}
+      - {x: -3.5000002, y: -4.7333336}
+      - {x: -3.5000002, y: -5.3333335}
+      - {x: -3.4333334, y: -6.2333336}
+      - {x: -3.2000003, y: -6.366667}
+      - {x: -2.7, y: -6.3333335}
+      - {x: -2.6000001, y: -6.3}
+      - {x: -2.6333334, y: -5.566667}
+      - {x: -2.766667, y: -4.5}
+      - {x: -1.9333334, y: -4.533334}
+      - {x: -1.4666667, y: -4.4666667}
+      - {x: -1.3333334, y: -4.3333335}
+      - {x: -1.3000001, y: -3.9333336}
+      - {x: -1.2333333, y: -3.4333334}
+      - {x: -1.5666667, y: -3.3000002}
+      - {x: -1.4333334, y: -3.1000001}
+      - {x: -0.9333334, y: -3.2333336}
+      - {x: -0.36666667, y: -3.2333336}
+      - {x: 0.90000004, y: -2.9}
+      - {x: 2, y: -2.7333336}
+      - {x: 2.2, y: -2.8666668}
+      - {x: 2.2, y: -3.2000003}
+      - {x: 2.2333333, y: -4.166667}
+      - {x: 2.3000002, y: -5.2333336}
+      - {x: 2.4, y: -5.366667}
+      - {x: 2.5000002, y: -5.4333334}
+      - {x: 3.1333334, y: -5.466667}
+      - {x: 3.2333336, y: -5.1333337}
+      - {x: 3.1000001, y: -3.766667}
+      - {x: 3.0666668, y: -2.8666668}
+      - {x: 3.2000003, y: -2.5666668}
+      - {x: 3.6000001, y: -2.5000002}
+      - {x: 3.8666668, y: -2.4}
+      - {x: 4.6333337, y: -2.5666668}
+      - {x: 4.666667, y: -3.0000002}
+      - {x: 4.766667, y: -3.1666667}
+      - {x: 5.1000004, y: -3.1000001}
+      - {x: 5.6000004, y: -2.6000001}
+      - {x: 5.866667, y: -2.4333334}
+      - {x: 6.2333336, y: -2.266667}
+      - {x: 6.766667, y: -2.2333333}
+      - {x: 6.9000006, y: -2.0666668}
+      - {x: 7.4000006, y: -1.9333334}
+      - {x: 7.8, y: -1.9000001}
+      - {x: 7.8, y: -2.8666668}
+      - {x: 7.833334, y: -4.4666667}
+      - {x: 7.8666673, y: -4.6000004}
+      - {x: 8.066668, y: -4.766667}
+      - {x: 8.433333, y: -4.8}
+      - {x: 8.633334, y: -4.766667}
+      - {x: 8.733334, y: -4.666667}
+      - {x: 8.733334, y: -4.6000004}
+      - {x: 8.700001, y: -3.7000003}
+      - {x: 8.700001, y: -2.2}
+      - {x: 8.966667, y: -1.7}
+      - {x: 9.466667, y: -1.6666667}
+      - {x: 10.700001, y: -1.5333334}
+      - {x: 11.033334, y: -1.6000001}
+      - {x: 11.400001, y: -1.5666667}
+      - {x: 11.733334, y: -1.8000001}
+      - {x: 12.133334, y: -1.7666668}
+      - {x: 12.533334, y: -2}
+      - {x: 12.6, y: -2.8000002}
+      - {x: 12.566668, y: -3.5666668}
+      - {x: 12.833334, y: -3.8333335}
+      - {x: 12.966667, y: -3.8666668}
+      - {x: 13.333334, y: -3.8666668}
+      - {x: 13.500001, y: -3.7333336}
+      - {x: 13.533334, y: -2.9}
+      - {x: 13.6, y: -2.2333333}
+      - {x: 13.6, y: -1.0666667}
+      - {x: 13.666667, y: -0.16666667}
+      - {x: 13.933334, y: 1.3666668}
+      - {x: 14.200001, y: 1.6000001}
+      - {x: 14.200001, y: 1.6666667}
+      - {x: 14.033334, y: 2.0333335}
+      - {x: 13.733334, y: 2.4666667}
+      - {x: 13.1, y: 3.4333334}
+      - {x: 12.566668, y: 4.4}
+      - {x: 11.833334, y: 5.4}
+      - {x: 11.333334, y: 6.0000005}
+      - {x: 10.8, y: 6.8333335}
+      - {x: 10.233334, y: 7.566667}
+      - {x: 9.833334, y: 8.1}
+      - {x: 9.266667, y: 8.1}
+      - {x: 8.6, y: 8.066668}
+      - {x: 7.9000006, y: 8}
+      - {x: 6.433334, y: 7.933334}
+      - {x: 5.766667, y: 7.766667}
+      - {x: 5.533334, y: 7.8}
+      - {x: 5.033334, y: 7.8}
+      - {x: 4.366667, y: 7.7333336}
+      - {x: 4.1000004, y: 7.566667}
+      - {x: 3.6666667, y: 7.466667}
+      - {x: 3.6000001, y: 7.6000004}
+      - {x: 2.3666668, y: 7.466667}
+      - {x: 1.7666668, y: 7.433334}
+      - {x: 0.33333334, y: 7.3333335}
+      - {x: -0.43333337, y: 7.266667}
+      - {x: -2.5666668, y: 7.2000003}
+      - {x: -2.7333336, y: 6.966667}
+      - {x: -3.0333335, y: 6.866667}
+      - {x: -4.1000004, y: 6.8333335}
+      - {x: -4.4333334, y: 6.8}
+      - {x: -4.6000004, y: 6.766667}
+      - {x: -4.766667, y: 6.7000003}
+      - {x: -5.6000004, y: 6.566667}
+      - {x: -6.1333337, y: 6.5000005}
+      - {x: -7.433334, y: 6.466667}
+      - {x: -8.700001, y: 6.4000006}
+      - {x: -10.266667, y: 6.2000003}
+      - {x: -11.500001, y: 6.166667}
+      - {x: -12.900001, y: 6.1000004}
+      - {x: -13.800001, y: 6.033334}
+      - {x: -13.933334, y: 5.8}
+      - {x: -13.933334, y: 5.466667}
+      - {x: -14.1, y: 3.3333335}
+      - {x: -14.133334, y: 2.8333335}
+      - {x: -14.166667, y: 1.6333334}
+      - {x: -14.200001, y: 1.2333333}
+      - {x: -14.300001, y: 0.10000001}
+      - {x: -14.466667, y: -1.2666668}
+      - {x: -14.466667, y: -1.5666667}
+      - {x: -14.233335, y: -1.9666668}
+      - {x: -14.1, y: -2.0333335}
+      - {x: -13.900001, y: -2.9}
+      - {x: -13.700001, y: -3.6000001}
+      - {x: -13.533334, y: -4.2000003}
+      - {x: -13.400001, y: -5.1000004}
+      - {x: -12.966667, y: -6.5000005}
+      - {x: -12.700001, y: -7.7000003}
+      - {x: -12.6, y: -7.8666673}
+      - {x: -12.466667, y: -7.8666673}
+      - {x: -12.200001, y: -7.8}
+      - {x: -12.1, y: -7.7000003}
+      - {x: -12.133334, y: -7.1333337}
+      - {x: -12.266667, y: -6.7333336}
+    - - {x: -12.833334, y: -4}
+      - {x: -12.866668, y: -3.966667}
+      - {x: -12.866668, y: -3.8333335}
+      - {x: -12.900001, y: -3.6666667}
+      - {x: -12.966667, y: -3.4333334}
+      - {x: -12.800001, y: -3.3000002}
+      - {x: -12.800001, y: -3.2333336}
+      - {x: -12.833334, y: -3.5000002}
+      - {x: -12.866668, y: -3.5333335}
+      - {x: -12.866668, y: -4.1000004}
+      - {x: -12.833334, y: -4.1000004}
+    - - {x: -13.133334, y: -2.5333335}
+      - {x: -13.166667, y: -2.5000002}
+      - {x: -13.166667, y: -2.4}
+      - {x: -13.200001, y: -2.3666668}
+      - {x: -13.200001, y: -2.266667}
+      - {x: -13.233334, y: -2.2333333}
+      - {x: -13.233334, y: -2.1333334}
+      - {x: -13.266667, y: -2.1000001}
+      - {x: -13.266667, y: -2.0333335}
+      - {x: -13.333334, y: -1.9000001}
+      - {x: -13.333334, y: -1.8000001}
+      - {x: -12.866668, y: -1.8000001}
+      - {x: -12.833334, y: -1.7666668}
+      - {x: -12.866668, y: -1.8333334}
+      - {x: -12.866668, y: -2.3000002}
+      - {x: -12.833334, y: -2.3333335}
+      - {x: -12.833334, y: -2.4}
+      - {x: -13.033334, y: -2.6000001}
+      - {x: -13.033334, y: -2.6333334}
+      - {x: -13.133334, y: -2.7333336}
+      - {x: -13.1, y: -2.7333336}
+    - - {x: 5.2000003, y: -2.3333335}
+      - {x: 5.4333334, y: -2.2333333}
+      - {x: 5.3, y: -2.3000002}
+      - {x: 5.2000003, y: -2.4}
+      - {x: 5.2333336, y: -2.4}
+    - - {x: 12.566668, y: -0.8000001}
+      - {x: 12.400001, y: -0.7666667}
+      - {x: 12.233334, y: -0.6666667}
+      - {x: 12.133334, y: -0.6666667}
+      - {x: 12.033334, y: -0.6}
+      - {x: 11.933334, y: -0.5666667}
+      - {x: 11.900001, y: -0.53333336}
+      - {x: 11.900001, y: -0.13333334}
+      - {x: 11.866668, y: -0.10000001}
+      - {x: 11.866668, y: 0.20000002}
+      - {x: 11.833334, y: 0.23333335}
+      - {x: 11.833334, y: 0.86666673}
+      - {x: 11.8, y: 0.90000004}
+      - {x: 11.8, y: 1.1333334}
+      - {x: 12.033334, y: 1.1333334}
+      - {x: 12.3, y: 0.86666673}
+      - {x: 12.333334, y: 0.86666673}
+      - {x: 12.566668, y: 0.6666667}
+      - {x: 12.6, y: 0.6666667}
+      - {x: 12.800001, y: 0.5}
+      - {x: 12.800001, y: 0.43333337}
+      - {x: 12.766667, y: 0.40000004}
+      - {x: 12.766667, y: 0.10000001}
+      - {x: 12.733334, y: 0.06666667}
+      - {x: 12.733334, y: -0.6333334}
+      - {x: 12.700001, y: -0.6666667}
+      - {x: 12.700001, y: -0.90000004}
+      - {x: 12.666667, y: -0.86666673}
 --- !u!4 &1284091216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1957844411422631353, guid: 93540ae3321e2a64c87b95d909255c0a,
@@ -39443,6 +41698,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -39944,6 +42204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -40848,6 +43113,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -40936,6 +43206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1331727318}
   - component: {fileID: 1331727317}
+  - component: {fileID: 1331727319}
   m_Layer: 0
   m_Name: Mapa_Vallas_1 (2)
   m_TagString: Untagged
@@ -40982,7 +43253,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4846430242992356451, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -41009,6 +43280,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.48}
+--- !u!61 &1331727319
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331727316}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.16, y: 2.92}
+    newSize: {x: 1.16, y: 2.92}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.16, y: 2.92}
+  m_EdgeRadius: 0
 --- !u!1 &1337587112
 GameObject:
   m_ObjectHideFlags: 0
@@ -41107,12 +43404,12 @@ PrefabInstance:
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.7165737
+      value: -11.682605
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.107333
+      value: -34.52443
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
@@ -41172,6 +43469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -41591,11 +43893,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[1]
-      value: 85420491
+      value: 1094182003
       objectReference: {fileID: 0}
     - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[0]
@@ -41603,37 +43905,45 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[2]
-      value: 250691691
-      objectReference: {fileID: 0}
-    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[3]
-      value: -1621372491
-      objectReference: {fileID: 0}
-    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[5]
-      value: 2014388223
-      objectReference: {fileID: 0}
-    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[6]
-      value: -627599973
-      objectReference: {fileID: 0}
-    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[7]
       value: -919382343
       objectReference: {fileID: 0}
     - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[4]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 1199776869, guid: 4fcf0db1d25ec624994f5188dcdcc3a8, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[9]
       value: 1316183991
       objectReference: {fileID: 0}
     - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[1]
-      value: 85420491
+      value: 1094182003
       objectReference: {fileID: 0}
     - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -41643,37 +43953,47 @@ PrefabInstance:
     - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[2]
-      value: 250691691
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[3]
-      value: -1621372491
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[5]
-      value: 2014388223
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[6]
-      value: -627599973
-      objectReference: {fileID: 0}
-    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
-        type: 3}
-      propertyPath: m_ApplyToSortingLayers.Array.data[7]
       value: -919382343
       objectReference: {fileID: 0}
     - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[3]
+      value: -627599973
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[6]
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 250691691
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[8]
+      value: 85420491
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[4]
+      value: 2014388223
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669683409784124050, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[9]
       value: 1316183991
       objectReference: {fileID: 0}
     - target: {fileID: 7627999219545092542, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -41801,6 +44121,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (138)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -42233,6 +44558,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -42528,6 +44858,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -43199,6 +45534,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -43507,7 +45847,7 @@ PrefabInstance:
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
@@ -43515,6 +45855,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c45114a6b0639f949bcc6d8dc399a1db,
         type: 3}
+    - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471641, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43590,8 +45935,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajas_collider (12)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.539094
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 6.3236094
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.17153096
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 7.009729
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
 --- !u!4 &1439450870 stripped
 Transform:
@@ -43614,12 +45978,12 @@ PrefabInstance:
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.157131
+      value: -2.19
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.158644
+      value: -25.39
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
@@ -43978,6 +46342,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -44175,6 +46544,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaAbajoIzq (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 280500537653478861, guid: ee07b03847f69d14f84d85754fecb5a1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 401debd00c382734ab22d0eacec8e2cb,
+        type: 3}
     - target: {fileID: 280500537653478898, guid: ee07b03847f69d14f84d85754fecb5a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44476,6 +46851,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1489708027}
   - component: {fileID: 1489708026}
+  - component: {fileID: 1489708028}
   m_Layer: 0
   m_Name: Mapa_Vallas_0 (1)
   m_TagString: Untagged
@@ -44522,7 +46898,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4123791775359539614, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -44549,6 +46925,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1489708028
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489708025}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 6.7}
+    newSize: {x: 1.28, y: 6.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 6.7}
+  m_EdgeRadius: 0
 --- !u!1001 &1494432287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44763,6 +47165,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -44771,12 +47178,12 @@ PrefabInstance:
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -4
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -45041,6 +47448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -45130,6 +47542,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -45423,6 +47840,12 @@ PrefabInstance:
       propertyPath: m_SortingLayer
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 280500537653478861, guid: ee07b03847f69d14f84d85754fecb5a1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 401debd00c382734ab22d0eacec8e2cb,
+        type: 3}
     - target: {fileID: 280500537653478898, guid: ee07b03847f69d14f84d85754fecb5a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45989,12 +48412,12 @@ PrefabInstance:
     - target: {fileID: 5783905102546134103, guid: d750efe965cb55d4fad75cce0e12d796,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.772856
+      value: -2.805725
       objectReference: {fileID: 0}
     - target: {fileID: 5783905102546134103, guid: d750efe965cb55d4fad75cce0e12d796,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.363885
+      value: -25.595242
       objectReference: {fileID: 0}
     - target: {fileID: 5783905102546134103, guid: d750efe965cb55d4fad75cce0e12d796,
         type: 3}
@@ -46368,6 +48791,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -46559,8 +48987,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2014388223
+  m_SortingLayer: -1
   m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 83f170eca577145438c8d3d6ba26c1f2, type: 3}
   m_Color: {r: 0.8859492, g: 0.9622642, b: 0.7761659, a: 1}
@@ -47046,12 +49474,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.22
+      value: -15.38
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.96
+      value: -28.67
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -47128,15 +49556,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1017543246}
     m_Modifications:
+    - target: {fileID: 1207653311932168718, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1621372491
+      objectReference: {fileID: 0}
+    - target: {fileID: 1207653311932168718, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.07
+      value: -41.370003
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.8
+      value: -43.8
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -47222,6 +49660,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -47397,6 +49840,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -47874,6 +50322,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (122)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -48039,6 +50492,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -48197,6 +50655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -48880,6 +51343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -49045,6 +51513,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (165)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -49171,6 +51644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -49397,12 +51875,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.05
+      value: -39.390003
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.71
+      value: -41.71
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -49649,6 +52127,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -49856,6 +52339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676520201}
   - component: {fileID: 1676520200}
+  - component: {fileID: 1676520202}
   m_Layer: 0
   m_Name: Mapa_Vallas_1 (1)
   m_TagString: Untagged
@@ -49902,7 +52386,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4846430242992356451, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -49929,6 +52413,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1676520202
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676520199}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.16, y: 2.92}
+    newSize: {x: 1.16, y: 2.92}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.16, y: 2.92}
+  m_EdgeRadius: 0
 --- !u!1001 &1677115584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49940,6 +52450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (125)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -50120,6 +52635,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -50305,6 +52825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -50648,6 +53173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -51146,6 +53676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1712730960}
   - component: {fileID: 1712730959}
+  - component: {fileID: 1712730961}
   m_Layer: 0
   m_Name: Mapa_Vallas_0
   m_TagString: Untagged
@@ -51192,7 +53723,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 4123791775359539614, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -51219,6 +53750,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1712730961
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712730958}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 6.7}
+    newSize: {x: 1.28, y: 6.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 6.7}
+  m_EdgeRadius: 0
 --- !u!1001 &1713279977
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51435,12 +53992,12 @@ PrefabInstance:
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.492006
+      value: -14.652007
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1553583
+      value: -23.554644
       objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
@@ -51520,6 +54077,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -52103,6 +54665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -52548,6 +55115,116 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7679515792682079187, guid: ea75866bd606c4f4faa3496a3cb40c0e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ea75866bd606c4f4faa3496a3cb40c0e, type: 3}
+--- !u!1 &1765555672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765555675}
+  - component: {fileID: 1765555674}
+  - component: {fileID: 1765555673}
+  m_Layer: 0
+  m_Name: Mapa_Vallas_4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1765555673
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765555672}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.48, y: 1.64}
+    newSize: {x: 3.48, y: 1.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.48, y: 1.64}
+  m_EdgeRadius: 0
+--- !u!212 &1765555674
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765555672}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -919382343
+  m_SortingLayer: -3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 8738050070400162110, guid: edbd5c879ce25a74aa6ce760d9461dcc,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.48, y: 1.64}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1765555675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765555672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -69.8, y: -18.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1766155275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52907,12 +55584,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.21
+      value: -43.230003
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5
+      value: -38
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -53364,6 +56041,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -53796,12 +56478,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.56
+      value: -40.88
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2
+      value: -36.199997
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -53959,12 +56641,12 @@ PrefabInstance:
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -42.1
+      value: -45.92
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.61
+      value: -25.77
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -54263,6 +56945,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -54367,6 +57054,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -54488,6 +57180,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (154)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -55076,6 +57773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1859449032}
   - component: {fileID: 1859449031}
+  - component: {fileID: 1859449033}
   m_Layer: 0
   m_Name: Mapa_Vallas_2
   m_TagString: Untagged
@@ -55122,7 +57820,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -919382343
   m_SortingLayer: -3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -7907274600455165079, guid: edbd5c879ce25a74aa6ce760d9461dcc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -55149,6 +57847,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1859449033
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859449030}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 3.44}
+    newSize: {x: 1.2, y: 3.44}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2, y: 3.44}
+  m_EdgeRadius: 0
 --- !u!1001 &1860252877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55161,6 +57885,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaAbajoIzq (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 280500537653478861, guid: ee07b03847f69d14f84d85754fecb5a1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 401debd00c382734ab22d0eacec8e2cb,
+        type: 3}
     - target: {fileID: 280500537653478898, guid: ee07b03847f69d14f84d85754fecb5a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55466,6 +58196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -56400,6 +59135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -56580,6 +59320,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CasaAbajoIzq (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 280500537653478861, guid: ee07b03847f69d14f84d85754fecb5a1,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 401debd00c382734ab22d0eacec8e2cb,
+        type: 3}
     - target: {fileID: 280500537653478898, guid: ee07b03847f69d14f84d85754fecb5a1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57062,6 +59808,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -57641,6 +60392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -57799,6 +60555,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -57965,6 +60726,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camino_Amarillo_fill (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -58069,6 +60835,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -58682,22 +61453,37 @@ PrefabInstance:
     - target: {fileID: 2133960863057300733, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.08
+      value: 8.28
       objectReference: {fileID: 0}
     - target: {fileID: 2133960863057300733, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.81
+      value: -3.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133960863057300733, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8019764
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133960863057300733, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8019764
+      objectReference: {fileID: 0}
+    - target: {fileID: 2133960863057300733, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8019764
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.197235
+      value: -50.93
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.082183
+      value: -18.93
       objectReference: {fileID: 0}
     - target: {fileID: 7070287929503948438, guid: 02ace48e32815fe4fa8f976a1b60ffd9,
         type: 3}
@@ -59560,6 +62346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (144)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -60532,7 +63323,7 @@ PrefabInstance:
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_SortingLayer
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
@@ -60540,15 +63331,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c45114a6b0639f949bcc6d8dc399a1db,
         type: 3}
+    - target: {fileID: 5284379963793471640, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471641, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.02
+      value: 25.88
       objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471641, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.77
+      value: 10.79
       objectReference: {fileID: 0}
     - target: {fileID: 5284379963793471641, guid: 0ed716c5bc20fd3428104e8947e6579d,
         type: 3}
@@ -60615,8 +63411,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajas_collider (14)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.33864474
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 5.899078
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.32735395
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284379963793471643, guid: 0ed716c5bc20fd3428104e8947e6579d,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.011959
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ed716c5bc20fd3428104e8947e6579d, type: 3}
 --- !u!4 &2132370502 stripped
 Transform:
@@ -60779,6 +63594,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camino_Amarillo_fill (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 638344072891433264, guid: 96ef741fa5eedca47a0053d310cc582f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 638344072891433265, guid: 96ef741fa5eedca47a0053d310cc582f,
         type: 3}
@@ -61437,12 +64257,12 @@ PrefabInstance:
     - target: {fileID: 543112372605137179, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.15
+      value: -43.29
       objectReference: {fileID: 0}
     - target: {fileID: 543112372605137179, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -15.86
+      value: -48.859997
       objectReference: {fileID: 0}
     - target: {fileID: 543112372605137179, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
@@ -61612,12 +64432,12 @@ PrefabInstance:
     - target: {fileID: 2517825151116249062, guid: 5bf0a8693da489f4c8a5a9c3969a2cdf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0378562
+      value: -10.003887
       objectReference: {fileID: 0}
     - target: {fileID: 2517825151116249062, guid: 5bf0a8693da489f4c8a5a9c3969a2cdf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.66584
+      value: -34.08293
       objectReference: {fileID: 0}
     - target: {fileID: 2517825151116249062, guid: 5bf0a8693da489f4c8a5a9c3969a2cdf,
         type: 3}
@@ -62064,12 +64884,12 @@ PrefabInstance:
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.69
+      value: -18.84
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.63
+      value: -36.809998
       objectReference: {fileID: 0}
     - target: {fileID: 6211494489562002239, guid: 42bd518a1f0f60b41b8cccaa3c0eddc2,
         type: 3}
@@ -62128,12 +64948,12 @@ PrefabInstance:
     - target: {fileID: 5783905102546134103, guid: d750efe965cb55d4fad75cce0e12d796,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6039686
+      value: -11.57
       objectReference: {fileID: 0}
     - target: {fileID: 5783905102546134103, guid: d750efe965cb55d4fad75cce0e12d796,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.072908
+      value: -33.49
       objectReference: {fileID: 0}
     - target: {fileID: 5783905102546134103, guid: d750efe965cb55d4fad75cce0e12d796,
         type: 3}
@@ -62202,12 +65022,12 @@ PrefabInstance:
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.162877
+      value: -3.1957464
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.689611
+      value: -24.920967
       objectReference: {fileID: 0}
     - target: {fileID: 2402266728528900685, guid: 3bb70dcdd4d641742a842cfeafdd2fdc,
         type: 3}

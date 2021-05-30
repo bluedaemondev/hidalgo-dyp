@@ -50,7 +50,7 @@ TagManager:
   - name: Casas y puestos bg
     uniqueID: 3667367323
     locked: 0
-  - name: Elementos en frente de casas/puestos bg
+  - name: Elementos en frente de casas y puestos bg
     uniqueID: 2014388223
     locked: 0
   - name: Default
