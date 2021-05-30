@@ -35,4 +35,7 @@ public class SoundLibrarySO : ScriptableObject
     public AudioClip wrongKey;
     public AudioClip correctKey;
     public AudioClip completedQteGeneric;
+    public AudioClip equipBox;
+    public AudioClip deEquipBox;
+
 }
