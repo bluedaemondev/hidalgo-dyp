@@ -26689,6 +26689,11 @@ PrefabInstance:
       propertyPath: timePass
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4291476999274180272, guid: 1c920c45ff2379c42943294551858da3,
+        type: 3}
+      propertyPath: flashIntensity
+      value: 7.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c920c45ff2379c42943294551858da3, type: 3}
 --- !u!4 &920511101 stripped
