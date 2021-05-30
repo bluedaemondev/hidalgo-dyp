@@ -21,6 +21,8 @@ public class ClimateController : MonoBehaviour
 {
     public static ClimateController instance { get; private set; }
 
+    public GameObject prefabLightning;
+
     [SerializeField] private ClimateState currentWeather;
     public UnityEvent<ClimateState> onChangeClimate;
 
@@ -54,9 +56,12 @@ public class ClimateController : MonoBehaviour
         onChangeClimate.AddListener(SelectTracksMixer);
         this.CurrentWeather = ClimateState.CLEAR;
     }
-    public void LightningEffect()
+    public void LightningEffect(Vector3 position)
     {
         LightManager.instance.Lightning();
+        var tmp = Instantiate(prefabLightning, position, Quaternion.identity);
+
+        //tmp.GetComponent<Animator>().SetTrigger("go");
     }
     private void SelectTracksMixer(ClimateState newState)
     {

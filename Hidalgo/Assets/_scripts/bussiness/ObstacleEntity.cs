@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class ObstacleEntity : MonoBehaviour
 {
-    //private ObstacleBehaviour obstacleBehaviour;
-    // Start is called before the first frame update
-    void Start()
+    public void Destroy02()
     {
-        
+        Destroy(this.gameObject, 0.2f);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void Destroy()
     {
-        
+        Destroy(this.gameObject);
     }
 }

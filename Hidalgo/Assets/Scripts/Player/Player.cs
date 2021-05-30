@@ -198,4 +198,9 @@ public class Player : MovementType, IStunneable, ISighteable
         _sightable.ResetFullySeenTime();
 
     }
+
+    public Rigidbody2D GetRigidbody()
+    {
+        return this._rigidbody2D;
+    }
 }

@@ -88,7 +88,7 @@ public class LightningAreaController : MonoBehaviour
         //    Instantiate(prefabLightning, positionToHit, Quaternion.identity);
         //}
 
-        ClimateController.instance.LightningEffect();
+        ClimateController.instance.LightningEffect(positionToHit);
 
         Debug.Log("Lightning! " + positionToHit + " || " + entity);
     }
