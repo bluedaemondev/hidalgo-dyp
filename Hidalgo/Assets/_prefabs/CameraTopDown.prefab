@@ -151,7 +151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.22032, y: 37.138912, z: -14.8}
+  m_LocalPosition: {x: 16.01072, y: -80.73924, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 496995715}
@@ -185,7 +185,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.79
+  orthographic size: 10.98
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -341,8 +341,8 @@ MonoBehaviour:
   m_ScreenX: 0.4605152
   m_ScreenY: 0.52553546
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.10207939
-  m_DeadZoneHeight: 0.0037950664
+  m_DeadZoneWidth: 0.06
+  m_DeadZoneHeight: 0.05
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 0.5780152
@@ -423,7 +423,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7787114, y: 1}
+    m_SensorSize: {x: 1.7768924, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

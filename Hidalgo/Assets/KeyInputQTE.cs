@@ -3,7 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum KeyCodeQTE { 
+public enum KeyCodeQTE
+{
     W = KeyCode.W,
     S = KeyCode.S,
     A = KeyCode.A,
@@ -41,26 +42,41 @@ public class KeyInputQTE : MonoBehaviour
             touched = true;
             OnTouched();
         }
+        else if (Input.anyKeyDown && !Input.GetKeyDown((KeyCode)requiredKey) && !touched)
+        {
+            Debug.Log(collision.gameObject.name);
+            Debug.Log("exit call");
+
+            touched = true;
+            OnWrong();
+        }
+
 
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (!touched)
         {
-            Instantiate(particlesMissed, transform.position, Quaternion.identity);
-            Debug.Log("missed key");
-            spriteRend.color = Color.black;
-            SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.wrongKey);
+            touched = false;
+            OnWrong();
         }
 
         Destroy(this.gameObject);
     }
 
+    private void OnWrong()
+    {
+        //qteController.CurrentTotal += 0;
+        Instantiate(particlesMissed, transform.position, Quaternion.identity);
+        Debug.Log("missed key");
+        spriteRend.color = Color.black;
+        SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.wrongKey);
+    }
     private void OnTouched()
     {
         Debug.Log("ok tap");
         qteController.CurrentTotal++;
-        
+
 
         Instantiate(particlesTouched, transform.position, Quaternion.identity);
         this.spriteRend.color = new Color(0, 0, 0, 0);

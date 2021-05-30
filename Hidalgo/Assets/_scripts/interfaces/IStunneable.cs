@@ -8,4 +8,7 @@ public interface IStunneable
     void Destun();
     IEnumerator CancelMovementInputFor(float time);
     bool IsStunned();
+
+    Rigidbody2D GetRigidbody();
+
 }

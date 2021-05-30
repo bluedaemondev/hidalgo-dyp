@@ -36,3 +36,5 @@ MonoBehaviour:
   wrongKey: {fileID: 8300000, guid: c23cbae8fe5a084419697cae8bee051d, type: 3}
   correctKey: {fileID: 8300000, guid: 137bcc52d356647488c0527f57913f9f, type: 3}
   completedQteGeneric: {fileID: 8300000, guid: 137bcc52d356647488c0527f57913f9f, type: 3}
+  equipBox: {fileID: 8300000, guid: 892ad8a7985be4e4e95e1b7fca4654f8, type: 3}
+  deEquipBox: {fileID: 8300000, guid: b7c2e70f6cf4cd74f9bc53dd9ed8320f, type: 3}

@@ -30,21 +30,25 @@ public class QuickTimeEventController : MonoBehaviour
         {
             if (value)
             {
-                Debug.Log("hjkasgdjhgb no tenajiksghdka");
                 SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.completedQteGeneric);
                 if (interactionBase != null)
                     interactionBase.onPassed?.Invoke();
 
+                PickupsScapeGameManager.instance.Player.DestunAfterTime(0.2f);
+                Destroy(this.gameObject);
             }
             else
             {
-                SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.wrongKey);
-                if (interactionBase != null)
+
+                if (interactionBase != null && currentTotal >= requiredTotal)
+                {
+                    SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.wrongKey);
                     interactionBase.onFailed?.Invoke();
+                    Debug.Log("failed call");
+                }
             }
 
-            PickupsScapeGameManager.instance.Player.DestunAfterTime(0.2f);
-            Destroy(this.gameObject);
+
 
         }
     }
@@ -66,7 +70,10 @@ public class QuickTimeEventController : MonoBehaviour
             {
                 SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.completedQteGeneric);
                 Passed = true;
-
+            }
+            else
+            {
+                Passed = false;
             }
         }
     }

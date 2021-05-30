@@ -45,26 +45,29 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     public void ResetInteraction()
     {
         StopAllCoroutines();
-
-        timeCurrent = 0;
-        tFactor = 0;
-        maskInteraction.transform.localScale = this.originalScaleMask;
-        extraRange.SetActive(false);
+       
         StartCoroutine(Cooldown());
     }
     IEnumerator Cooldown()
     {
-        Debug.Log("aajklshdukasghdhjklasghdujkiagsdhjgasdfuja");
+        timeCurrent = 0;
+        tFactor = 0;
+        maskInteraction.transform.localScale = this.originalScaleMask;
+
         this.canTrigger = false;
+        this.GetComponent<Collider2D>().enabled = false;
+        extraRange.SetActive(false);
+
         yield return new WaitForSeconds(resetTimecooldown);
-        Debug.Log("aajklshdukasghdhjklasghdujkiagsdhjgasdfuja " + (resetTimecooldown));
+        
         extraRange.SetActive(true);
+        this.GetComponent<Collider2D>().enabled = true;
         this.canTrigger = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer))
+        if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer) && canTrigger)
         {
             target = collision.gameObject;
             extraRange.SetActive(false);

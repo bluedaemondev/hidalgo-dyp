@@ -13,7 +13,8 @@ public class Player : MovementType, IStunneable, ISighteable
 
     public void InitBoxControls()
     {
-        this.box.SetActive(true);
+        this.GetStunned(0.25f);
+        SwitchBoxActive();
         this._controller.canUseBox = true;
     }
 
@@ -25,10 +26,13 @@ public class Player : MovementType, IStunneable, ISighteable
         if (sw)
         {
             this.SetSpeedMultiplier(0);
+            SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.equipBox);
         }
         else
         {
             this.SetSpeedMultiplier(1);
+            SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.deEquipBox);
+
         }
 
     }
@@ -88,7 +92,26 @@ public class Player : MovementType, IStunneable, ISighteable
         this.speedMultiplier = 1;
     }
 
+    public void TeleportToPosition(Transform checkpoint)
+    {
+        StartCoroutine(SetDestination(checkpoint.position));
+    }
+    IEnumerator SetDestination(Vector3 position)
+    {
+        //this._movement.SwitchActive(false);
+        //yield return null;
 
+        Debug.Log("called");
+
+        while (transform.position != position)
+        {
+            transform.position = Vector3.Lerp(transform.position, position, 3 * Time.deltaTime);
+            yield return null;
+        }
+
+        //this._movement.SwitchActive(true);
+
+    }
     private void Start()
     {
         _movement = new Movement(this);
@@ -197,5 +220,10 @@ public class Player : MovementType, IStunneable, ISighteable
 
         _sightable.ResetFullySeenTime();
 
+    }
+
+    public Rigidbody2D GetRigidbody()
+    {
+        return this._rigidbody2D;
     }
 }

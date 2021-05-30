@@ -33,17 +33,17 @@ public class PatrolCheckPlayerInRange : MonoBehaviour
     public void SearchInRadius()
     {
         rangeSearchActive = true;
-        var results = Physics2D.CircleCastAll(sprite.transform.position, radiusSearch, Vector2.zero);
+        //var results = Physics2D.CircleCastAll(sprite.transform.position, radiusSearch, Vector2.zero);
 
-        if(results.Length > 0)
-        {
-            var player = results[0].collider.GetComponent<Player>();
-            if(player != null)
-            {
-                var tmp = Instantiate(prefabQTEEscape, player.transform.position, Quaternion.identity);/*.GetComponent<InteractionWithPlayerQTE>();*/
-                //tmp.TriggerNewQTE();
-            }
-        }
+        //if(results.Length > 0)
+        //{
+        //    var player = results[0].collider.GetComponent<Player>();
+        //    if(player != null)
+        //    {
+        //        var tmp = Instantiate(prefabQTEEscape, player.transform.position, Quaternion.identity);/*.GetComponent<InteractionWithPlayerQTE>();*/
+        //        //tmp.TriggerNewQTE();
+        //    }
+        //}
     }
     public void StopSearchInRadius()
     {
