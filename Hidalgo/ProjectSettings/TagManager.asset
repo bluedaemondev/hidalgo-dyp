@@ -38,15 +38,30 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 3667367323
+  - name: Piso
+    uniqueID: 1897957475
+    locked: 0
+  - name: Elementos en frente de casas/puestos fg
+    uniqueID: 85420491
+    locked: 0
+  - name: Casas/puestos fg
+    uniqueID: 250691691
+    locked: 0
+  - name: Elementos fg
+    uniqueID: 2673594805
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Foreground
-    uniqueID: 2673594805
+  - name: Elementos en frente de casas/puestos bg
+    uniqueID: 2014388223
     locked: 0
-  - name: SpriteUI
-    uniqueID: 3817520267
+  - name: Casas/puestos bg
+    uniqueID: 3667367323
+    locked: 0
+  - name: Elementos bg
+    uniqueID: 3375584953
+    locked: 0
+  - name: Luces
+    uniqueID: 1316183991
     locked: 0
