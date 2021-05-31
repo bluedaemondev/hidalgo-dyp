@@ -39,7 +39,7 @@ public class DistractionPointController : MonoBehaviour
     {
         if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer) && canDistract)
         {
-            ActivateInteractionQTE();
+            DeactivateInteractionQTE();
             var rocinante = collision.gameObject.GetComponent<Rocinante>();
             if (rocinante != null)
             {
