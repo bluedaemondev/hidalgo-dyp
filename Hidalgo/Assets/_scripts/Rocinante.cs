@@ -19,6 +19,8 @@ public class Rocinante : MovementType
     private float nextSoundTime = 0;
     [SerializeField]
     private AudioClip FootstepSound;
+    [SerializeField]
+    private AudioClip HorseSound;
 
     public event Action onSpringTargetChanged;
 
@@ -114,7 +116,10 @@ public class Rocinante : MovementType
 
     public void Feed(Rigidbody2D distraction)
     {
+
+        SoundManager.instance.PlayEffect(HorseSound);
         FollowTarget(distraction.transform);
+
     }
 
 
