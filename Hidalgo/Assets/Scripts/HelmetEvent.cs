@@ -7,11 +7,17 @@ public class HelmetEvent : MonoBehaviour
     public GameObject ZonaRayos;
     public GameObject Wall1;
 
+    public List<GameObject> lsitCharcos;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (ZonaRayos != null)
         {
             ZonaRayos.SetActive(false);
+            foreach(var chr in lsitCharcos)
+            {
+                chr.SetActive(false);
+            }
         }
 
         if(Wall1 != null)
