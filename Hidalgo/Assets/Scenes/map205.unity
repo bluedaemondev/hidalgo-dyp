@@ -50366,6 +50366,11 @@ PrefabInstance:
       propertyPath: cuerda
       value: 
       objectReference: {fileID: 89083130}
+    - target: {fileID: 3679879058201602059, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2e531108c5b86f4408ffe8fe70400297, type: 2}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.x
