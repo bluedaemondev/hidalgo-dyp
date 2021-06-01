@@ -102,6 +102,13 @@ public class QuickTimeEventController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // bugfix varias acciones al mismo tiempo
+
+        var lst = FindObjectsOfType<QuickTimeEventController>();
+        foreach (var i in lst)
+            if (i != this && lst.Length > 1)
+                Destroy(i.gameObject);
+
         this.passed = false;
 
         PickupsScapeGameManager.instance.Player.GetStunned(timeTotalInQte);
