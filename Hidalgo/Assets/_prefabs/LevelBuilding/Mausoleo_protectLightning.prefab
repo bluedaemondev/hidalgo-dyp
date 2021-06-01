@@ -30,7 +30,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5695685524271147186}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1756715420301328852
 BoxCollider2D:
@@ -45,7 +45,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.27173653, y: -0.03982979}
+  m_Offset: {x: -0.27173653, y: -0.19363265}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -56,7 +56,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2134735, y: 0.9264263}
+  m_Size: {x: 0.2134735, y: 1.2340318}
   m_EdgeRadius: 0
 --- !u!61 &1756715420301328853
 BoxCollider2D:
@@ -71,7 +71,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.23952861, y: -0.044263124}
+  m_Offset: {x: 0.2548721, y: -0.20381558}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -82,7 +82,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18689767, y: 0.89321613}
+  m_Size: {x: 0.15621065, y: 1.212321}
   m_EdgeRadius: 0
 --- !u!1 &1756715421104137516
 GameObject:
@@ -114,7 +114,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5695685524271147186}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &1756715421104137505
 ParticleSystem:
@@ -4973,8 +4973,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 85420491
-  m_SortingLayer: 3
+  m_SortingLayerID: 2014388223
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_Sprite: {fileID: -1600980985431811479, guid: df0c0dc0f0d3be846bf03477d3892a8b,
     type: 3}
@@ -5019,6 +5019,7 @@ Transform:
   - {fileID: 2497500261580481896}
   - {fileID: 1094242584349426324}
   - {fileID: 2557636727188511017}
+  - {fileID: 709726956042650690}
   - {fileID: 1756715421104137519}
   - {fileID: 1756715420301328850}
   - {fileID: 2084513033639523356}
@@ -5094,8 +5095,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 85420491
-  m_SortingLayer: 3
+  m_SortingLayerID: 2014388223
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_Sprite: {fileID: 3104252972483401526, guid: df0c0dc0f0d3be846bf03477d3892a8b,
     type: 3}
@@ -5187,6 +5188,88 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 5.3, y: 8.4}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &7300392597770516191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709726956042650690}
+  - component: {fileID: 1938453035321798414}
+  m_Layer: 12
+  m_Name: Mausoleo_Fondo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &709726956042650690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7300392597770516191}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.2435, y: -0.2823, z: 0}
+  m_LocalScale: {x: 0.47488257, y: 0.8881373, z: 0.14021523}
+  m_Children: []
+  m_Father: {fileID: 5695685524271147186}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1938453035321798414
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7300392597770516191}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -919382343
+  m_SortingLayer: -3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 835b4392f07c38d478809691d9ce8100, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.92, y: 1.14}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5320,7 +5403,7 @@ PrefabInstance:
     - target: {fileID: 2084513033340747264, guid: 49c4e3c063eebc34691e52cd3f53691e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2084513033340747264, guid: 49c4e3c063eebc34691e52cd3f53691e,
         type: 3}
@@ -5541,7 +5624,7 @@ PrefabInstance:
     - target: {fileID: 2084513033340747264, guid: 49c4e3c063eebc34691e52cd3f53691e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2084513033340747264, guid: 49c4e3c063eebc34691e52cd3f53691e,
         type: 3}
