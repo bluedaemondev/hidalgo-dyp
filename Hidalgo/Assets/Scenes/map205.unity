@@ -22480,11 +22480,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.16492
+      value: -102.060104
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.91732
+      value: -25.389008
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29249,6 +29249,18 @@ Transform:
   m_Father: {fileID: 1017543246}
   m_RootOrder: 172
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &743567860 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4291476998593397485, guid: 1c920c45ff2379c42943294551858da3,
+    type: 3}
+  m_PrefabInstance: {fileID: 912286621}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57e36afacc031b34299e7d8ea2258b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &743612883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41564,8 +41576,8 @@ Transform:
   - {fileID: 237357882}
   - {fileID: 145755926}
   - {fileID: 328137494}
-  - {fileID: 812403944}
   - {fileID: 2064111637}
+  - {fileID: 812403944}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -61114,6 +61126,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49c99a3386d654c47b0149d661d34a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1439120399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439120397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8804e959d0e7eba4794e27dd9d654cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ZonaRayos: {fileID: 0}
+  Wall1: {fileID: 1187894835}
+  climateController: {fileID: 743567860}
 --- !u!4 &1439120403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2069408805445170397, guid: a4e12f79cf4659c4998f813594bd0b25,

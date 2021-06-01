@@ -9,11 +9,11 @@ public class FootstepChanger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-   //     player.ChangeFootstepSound(newFootstepSound);
+        player.ChangeFootstepSound(newFootstepSound);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-   //     player.RetrieveFootstepSound();
+        player.RetrieveFootstepSound();
     }
 }
