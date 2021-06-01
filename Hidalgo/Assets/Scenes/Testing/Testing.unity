@@ -123,18 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &50305392 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3679879058201602058, guid: bf3113eea5735d443a1d9910244cf1cf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1644698513}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e335968b8f021bf489dd935fbc860dd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &289634019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -497,6 +485,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3679879058201602059, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2e531108c5b86f4408ffe8fe70400297, type: 2}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -610,7 +603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4040cd4da0acd664483a8abadab59361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  elroci: {fileID: 50305392}
 --- !u!4 &1969117525
 Transform:
   m_ObjectHideFlags: 0

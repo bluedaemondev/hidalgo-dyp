@@ -29,22 +29,6 @@ public class Rocinante : MovementType
         _animator = GetComponent<Animator>();
     }
 
-    private void Update()
-    {
-        raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
-
-        var DiferenciaX = raycast2D.point.x - transform.position.x;
-
-        var DiferenciaY = raycast2D.point.y - transform.position.y;
-
-        _animator.SetFloat("AnimMoveX", DiferenciaX);
-        _animator.SetFloat("AnimMoveY", DiferenciaY);
-
-        Debug.Log("X " + DiferenciaX);
-        Debug.Log("Y " + DiferenciaY);
-        Debug.Log("Quijote está en " + Follows.position);
-    }
-
     public void SetSpeedMultiplier(float value)
     {
         this.speedMultiplier = value;
@@ -84,7 +68,7 @@ public class Rocinante : MovementType
             _rigidbody2d.MovePosition(direction);
         }
 
-       /* raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+        raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
 
         var DiferenciaX = raycast2D.point.x - transform.position.x;
 
@@ -92,7 +76,10 @@ public class Rocinante : MovementType
 
         _animator.SetFloat("AnimMoveX", DiferenciaX);
         _animator.SetFloat("AnimMoveY", DiferenciaY);
-        */
+
+        //Debug.Log("X " + DiferenciaX);
+        //Debug.Log("Y " + DiferenciaY);
+        //Debug.Log("Quijote está en " + Follows.position);
     }
 
     public void Feed(Rigidbody2D distraction)
