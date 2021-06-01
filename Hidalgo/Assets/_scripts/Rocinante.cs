@@ -10,6 +10,8 @@ public class Rocinante : MovementType
     public float deltaMaxDist = 2;
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
+    private RaycastHit2D raycast2D;
+    private LayerMask layerMask;
 
     private Rigidbody2D _rigidbody2d;
 
