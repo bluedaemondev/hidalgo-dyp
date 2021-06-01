@@ -57788,6 +57788,11 @@ PrefabInstance:
       propertyPath: box
       value: 
       objectReference: {fileID: 213033376}
+    - target: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: currentFootstepSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ca94c6d475ecc44fa6035b92f891c01, type: 3}
     - target: {fileID: 7627999220965855001, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_Enabled
