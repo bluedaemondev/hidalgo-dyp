@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4588807649142770276}
   - component: {fileID: 6299239320610817849}
+  - component: {fileID: 5859344401524642383}
   m_Layer: 0
   m_Name: Mapa_Mesa_Herreria
   m_TagString: Untagged
@@ -82,3 +83,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &5859344401524642383
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107397984442640298}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.8544185, y: 4.7356796}
+  - {x: 0.1926651, y: 4.5328026}
+  - {x: -0.32834625, y: 4.8603935}
+  - {x: -1.2159348, y: 4.3082848}
+  - {x: -1.8816223, y: 4.597351}
+  - {x: -2.4885025, y: 4.431885}
+  - {x: -3.0707474, y: 2.717598}
+  - {x: -3.0322723, y: 2.0133247}
+  - {x: -2.6337738, y: 1.9976807}
+  - {x: -2.6043625, y: -3.06382}
+  - {x: -2.39357, y: -3.415039}
+  - {x: -2.2926865, y: -4.8103676}
+  - {x: 1.9048054, y: -4.8139534}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
