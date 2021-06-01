@@ -6,7 +6,9 @@ public class Player : MovementType, IStunneable, ISighteable
 {
     public Rigidbody2D _rigidbody2D;
     public Animator myAnimator;
-    public AudioClip footsteps;
+    public AudioClip currentFootstepSound;
+    public AudioClip newFootstepSound;
+    public AudioClip oldFootstepSound;
     [SerializeField] private float speed = 2.6f;
 
     public GameObject box;
@@ -138,12 +140,12 @@ public class Player : MovementType, IStunneable, ISighteable
 
     /// para animation event
     /// 
-    public void PlayFootstepSound() //List<AudioClip> clips
-    {
-        int rand = 0;
-        rand = Random.Range(0,/* clips != null ? clips.Count :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1.Count);
-        SoundManager.instance.PlayEffect(/*clips != null ? clips[rand] :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1[rand]);
-    }
+    // public void PlayFootstepSound() //List<AudioClip> clips
+    // {
+    //     int rand = 0;
+    //     rand = Random.Range(0,/* clips != null ? clips.Count :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1.Count);
+    //     SoundManager.instance.PlayEffect(/*clips != null ? clips[rand] :*/ PickupsScapeGameManager.instance.soundLibrary.quijoteStepGrass1[rand]);
+    // }
 
     public void GetStunned(float timeStun)
     {
@@ -174,6 +176,17 @@ public class Player : MovementType, IStunneable, ISighteable
 
     }
 
+    public void ChangeFootstepSound(AudioClip newFootstepSound)
+    {
+        oldFootstepSound = currentFootstepSound;
+
+        currentFootstepSound = newFootstepSound;
+    }
+
+    public void RetrieveFootstepSound()
+    {
+        currentFootstepSound = oldFootstepSound;
+    }
 
     public void Destun()
     {

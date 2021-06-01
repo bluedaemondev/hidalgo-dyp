@@ -28,8 +28,8 @@ public class Movement
 
             if(Time.time>=nextSoundTime)
             {
-                SoundManager.instance.PlayEffect(_player.footsteps);
-                nextSoundTime = Time.time + _player.footsteps.length;
+                SoundManager.instance.PlayEffect(_player.currentFootstepSound);
+                nextSoundTime = Time.time + _player.currentFootstepSound.length;
             }
         }
         else
