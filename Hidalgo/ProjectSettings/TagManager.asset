@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Fix
+    uniqueID: 2575675249
+    locked: 0
   - name: Piso
     uniqueID: 1897957475
     locked: 0
