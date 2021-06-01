@@ -12,7 +12,7 @@ public class Rocinante : MovementType
     private Transform _follows;
     private RaycastHit2D raycast2D;
     private LayerMask layerMask;
-
+    private Animator _animator;
     private Rigidbody2D _rigidbody2d;
 
     public SpringJoint2D cuerda;
@@ -26,6 +26,23 @@ public class Rocinante : MovementType
     private void Start()
     {
         _rigidbody2d = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+
+        var DiferenciaX = raycast2D.point.x - transform.position.x;
+
+        var DiferenciaY = raycast2D.point.y - transform.position.y;
+
+        _animator.SetFloat("AnimMoveX", DiferenciaX);
+        _animator.SetFloat("AnimMoveY", DiferenciaY);
+
+        Debug.Log("X " + DiferenciaX);
+        Debug.Log("Y " + DiferenciaY);
+        Debug.Log("Quijote está en " + Follows.position);
     }
 
     public void SetSpeedMultiplier(float value)
@@ -66,6 +83,16 @@ public class Rocinante : MovementType
             //transform.position = direction;
             _rigidbody2d.MovePosition(direction);
         }
+
+       /* raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+
+        var DiferenciaX = raycast2D.point.x - transform.position.x;
+
+        var DiferenciaY = raycast2D.point.y - transform.position.y;
+
+        _animator.SetFloat("AnimMoveX", DiferenciaX);
+        _animator.SetFloat("AnimMoveY", DiferenciaY);
+        */
     }
 
     public void Feed(Rigidbody2D distraction)
