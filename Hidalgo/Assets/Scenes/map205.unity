@@ -35071,6 +35071,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZonaRayosCementerio
       objectReference: {fileID: 0}
+    - target: {fileID: 3118630930248401803, guid: db05ca2da29a53149ab4aa1b561544f6,
+        type: 3}
+      propertyPath: particlesRayosPlayer
+      value: 
+      objectReference: {fileID: 863797365}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db05ca2da29a53149ab4aa1b561544f6, type: 3}
 --- !u!1 &745800404 stripped
@@ -41275,6 +41280,12 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!198 &863797365 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6254062393337769413, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1353750982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &864456308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2517825151116249062, guid: 5bf0a8693da489f4c8a5a9c3969a2cdf,
@@ -64658,6 +64669,11 @@ PrefabInstance:
       propertyPath: m_LightType
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 62879533785070539, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2521394729147020146, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_IsActive
@@ -64717,6 +64733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.data[9]
       value: 1316183991
+      objectReference: {fileID: 0}
+    - target: {fileID: 4523670071655780343, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7627999219545092542, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -88030,6 +88051,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 775814452}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1953551806 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3883909841367172610, guid: a953dc75e7fe282449d2f455379bebd1,
+    type: 3}
+  m_PrefabInstance: {fileID: 687736886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1953551811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953551806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8804e959d0e7eba4794e27dd9d654cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ZonaRayos: {fileID: 0}
+  Wall1: {fileID: 1744573154}
+  lsitCharcos: []
 --- !u!1 &1958239685
 GameObject:
   m_ObjectHideFlags: 0

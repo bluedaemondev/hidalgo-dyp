@@ -14,13 +14,14 @@ public class HelmetEvent : MonoBehaviour
         if (ZonaRayos != null)
         {
             ZonaRayos.SetActive(false);
-            foreach(var chr in lsitCharcos)
-            {
-                chr.SetActive(false);
-            }
+            if (lsitCharcos.Count > 0)
+                foreach (var chr in lsitCharcos)
+                {
+                    chr.SetActive(false);
+                }
         }
 
-        if(Wall1 != null)
+        if (Wall1 != null)
         {
             ClimateController.instance.LightningEffect(Wall1.transform.position);
             Destroy(Wall1);

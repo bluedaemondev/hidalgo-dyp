@@ -18,6 +18,8 @@ public class LightningAreaController : MonoBehaviour
     [Header("to be defined")]
     public GameObject prefabLightning;
 
+    public ParticleSystem particlesRayosPlayer;
+
 
     private void Start()
     {
@@ -37,6 +39,9 @@ public class LightningAreaController : MonoBehaviour
     /// <returns></returns>
     public void SumStunChance(float valueTime, IStunneable entity)
     {
+        if (!particlesRayosPlayer.gameObject.activeSelf)
+            particlesRayosPlayer.gameObject.SetActive(true);
+
         this._sumStunChance += valueTime;
         this.AddEntity(entity);
 
@@ -77,6 +82,8 @@ public class LightningAreaController : MonoBehaviour
         }
 
         this._sumStunChance = 0;
+        particlesRayosPlayer.gameObject.SetActive(false);
+
 
     }
 
