@@ -46866,6 +46866,7 @@ MonoBehaviour:
   interactsWith:
     serializedVersion: 2
     m_Bits: 1024
+  rocinante: {fileID: 89083126}
 --- !u!50 &1026199217
 Rigidbody2D:
   serializedVersion: 4
@@ -55503,16 +55504,16 @@ PrefabInstance:
         type: 3}
       propertyPath: cuerda
       value: 
-      objectReference: {fileID: 89083130}
+      objectReference: {fileID: 1225060094}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.26
+      value: -17.43
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -26.6
+      value: -25.29
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
@@ -55583,12 +55584,12 @@ PrefabInstance:
     - target: {fileID: 5320265891481392623, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -4.5
+      value: -1.1368445
       objectReference: {fileID: 0}
     - target: {fileID: 5320265891481392623, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 8.2
+      value: -0.71016425
       objectReference: {fileID: 0}
     - target: {fileID: 5320265891481392623, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
@@ -55604,6 +55605,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_EnableCollision
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5320265891481392623, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: m_ConnectedRigidBody
+      value: 
+      objectReference: {fileID: 1690016786}
+    - target: {fileID: 5320265891481392623, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: m_DampingRatio
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf3113eea5735d443a1d9910244cf1cf, type: 3}
@@ -62927,6 +62938,21 @@ PrefabInstance:
       propertyPath: box
       value: 
       objectReference: {fileID: 213033376}
+    - target: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: currentFootstepSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5ca94c6d475ecc44fa6035b92f891c01, type: 3}
+    - target: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: newFootstepSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ca808d6406d90c340b66f85ef9b2e63e, type: 3}
+    - target: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: oldFootstepSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 504dde79f5360064b9c439b26c135700, type: 3}
     - target: {fileID: 7627999220965855001, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_Enabled
@@ -76061,6 +76087,33 @@ Transform:
   m_Father: {fileID: 1017543246}
   m_RootOrder: 203
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1690016785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5780205231829775324, guid: 46269f7fb0aef78499a8ae50946c69fe,
+    type: 3}
+  m_PrefabInstance: {fileID: 1724009198}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1690016786
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1690016785}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1690584962
 GameObject:
   m_ObjectHideFlags: 0

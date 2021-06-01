@@ -11,7 +11,7 @@ public class Rocinante : MovementType
     public float deltaMaxDist = 2;
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
-    private RaycastHit2D raycast2D;
+    //private RaycastHit2D raycast2D;
     private LayerMask layerMask;
     private Animator _animator;
     private Rigidbody2D _rigidbody2d;
@@ -20,7 +20,6 @@ public class Rocinante : MovementType
 
     private SpringJoint2D spring;
     public GameObject cuerda;
-
 
 
 
@@ -33,23 +32,30 @@ public class Rocinante : MovementType
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         Spring = GetComponent<SpringJoint2D>();
+        //raycast2D = new RaycastHit2D();
     }
 
     private void Update()
     {
-        raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
 
-        var DiferenciaX = raycast2D.point.x - transform.position.x;
+        if (Follows != null)
+        {
 
-        var DiferenciaY = raycast2D.point.y - transform.position.y;
+            var raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
 
-        _animator.SetFloat("AnimMoveX", DiferenciaX);
-        _animator.SetFloat("AnimMoveY", DiferenciaY);
+            var DiferenciaX = raycast2D.point.x - transform.position.x;
+
+            var DiferenciaY = raycast2D.point.y - transform.position.y;
+
+            _animator.SetFloat("AnimMoveX", DiferenciaX);
+            _animator.SetFloat("AnimMoveY", DiferenciaY);
+
+        }
 
         //Debug.Log("X " + DiferenciaX);
         //Debug.Log("Y " + DiferenciaY);
         //Debug.Log("Quijote está en " + Follows.position);
-        
+
     }
 
     public void SetSpeedMultiplier(float value)
