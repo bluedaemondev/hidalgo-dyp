@@ -12,9 +12,15 @@ public class Rocinante : MovementType
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
     //private RaycastHit2D raycast2D;
+    [SerializeField]
     private LayerMask layerMask;
     private Animator _animator;
     private Rigidbody2D _rigidbody2d;
+    private float nextSoundTime = 0;
+    [SerializeField]
+    private AudioClip FootstepSound;
+    [SerializeField]
+    private AudioClip HorseSound;
 
     public event Action onSpringTargetChanged;
 
@@ -40,6 +46,13 @@ public class Rocinante : MovementType
 
         if (Follows != null)
         {
+            _animator.SetBool("IsMoving", true);
+
+            if (Time.time >= nextSoundTime)
+            {
+                SoundManager.instance.PlayEffect(FootstepSound);
+                nextSoundTime = Time.time + FootstepSound.length;
+            }
 
             var raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
 
@@ -103,7 +116,10 @@ public class Rocinante : MovementType
 
     public void Feed(Rigidbody2D distraction)
     {
+
+        SoundManager.instance.PlayEffect(HorseSound);
         FollowTarget(distraction.transform);
+
     }
 
 

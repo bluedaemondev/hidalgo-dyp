@@ -6,7 +6,6 @@ public class HelmetEvent : MonoBehaviour
 {
     public GameObject ZonaRayos;
     public GameObject Wall1;
-    public ClimateController climateController;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
