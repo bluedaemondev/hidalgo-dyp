@@ -12,6 +12,7 @@ public class Rocinante : MovementType
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
     //private RaycastHit2D raycast2D;
+    [SerializeField]
     private LayerMask layerMask;
     private Animator _animator;
     private Rigidbody2D _rigidbody2d;
@@ -40,6 +41,7 @@ public class Rocinante : MovementType
 
         if (Follows != null)
         {
+            _animator.SetBool("IsMoving", true);
 
             var raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
 
