@@ -84,8 +84,11 @@ public class Rocinante : MovementType
     {
         Spring.gameObject.SetActive(true);
         Follows = targetNew;
+
         Spring.connectedBody = targetNew.GetComponent<Rigidbody2D>();
         Spring.autoConfigureDistance = false;
+
+        onSpringTargetChanged?.Invoke();
 
         cuerda.SetActive(true);
         Spring.distance = 3.5f;

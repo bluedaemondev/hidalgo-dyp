@@ -48,8 +48,12 @@ public class DistractionPointController : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        interactionQTE.SetActive(true);
-        interactionQTE.GetComponent<InteractionWithPlayerQTE>().ResetInteraction();
+        if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer))
+        {
+            Debug.Log("collision " + collision.gameObject);
+            interactionQTE.SetActive(true);
+            interactionQTE.GetComponent<InteractionWithPlayerQTE>().ResetInteraction();
+        }
         //canDistract = true;
     }
 
@@ -73,7 +77,7 @@ public class DistractionPointController : MonoBehaviour
         if (rocinante.Spring.connectedBody == PickupsScapeGameManager.instance.Player._rigidbody2D)
         {
             // el player tiene el caballo, entonces se activa la interaccion
-            ActivateInteractionQTE();
+            //ActivateInteractionQTE();
             //StartCoroutine(Cooldown());
 
         }

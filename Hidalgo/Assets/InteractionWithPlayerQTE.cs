@@ -45,8 +45,9 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     public void ResetInteraction()
     {
         StopAllCoroutines();
-       
-        StartCoroutine(Cooldown());
+
+        if (this.gameObject.activeSelf)
+            StartCoroutine(Cooldown());
     }
     IEnumerator Cooldown()
     {
@@ -59,7 +60,7 @@ public class InteractionWithPlayerQTE : MonoBehaviour
         extraRange.SetActive(false);
 
         yield return new WaitForSeconds(resetTimecooldown);
-        
+
         extraRange.SetActive(true);
         this.GetComponent<Collider2D>().enabled = true;
         this.canTrigger = true;
@@ -100,7 +101,7 @@ public class InteractionWithPlayerQTE : MonoBehaviour
             maskInteraction.transform.localScale = Vector3.Lerp(originalScaleMask, Vector3.zero, tFactor);
         }
 
-        if ((timeCurrent >= timeToTriggerQTE || tFactor >= 1) && canTrigger )
+        if ((timeCurrent >= timeToTriggerQTE || tFactor >= 1) && canTrigger)
         {
             TriggerNewQTE();
             canTrigger = false;
@@ -115,6 +116,6 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     {
         var tmpQte = Instantiate(QTEprefab, target.transform.position, Quaternion.identity, target.transform).GetComponent<QuickTimeEventController>();
         tmpQte.interactionBase = this;
-        
+
     }
 }
