@@ -47,7 +47,7 @@ public class KeyInputQTE : MonoBehaviour
             Debug.Log(collision.gameObject.name);
             Debug.Log("exit call");
 
-            touched = true;
+            //touched = true;
             OnWrong();
         }
 

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,18 +16,23 @@ public class Rocinante : MovementType
     private Animator _animator;
     private Rigidbody2D _rigidbody2d;
 
-    public SpringJoint2D cuerda;
+    public event Action onSpringTargetChanged;
+
+    private SpringJoint2D spring;
+    public GameObject cuerda;
 
 
 
 
     public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
     public float Speed { get => speed * speedMultiplier; }
+    public SpringJoint2D Spring { get => spring; set { spring = value; onSpringTargetChanged?.Invoke(); } }
 
     private void Start()
     {
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        Spring = GetComponent<SpringJoint2D>();
     }
 
     private void Update()
@@ -43,6 +49,7 @@ public class Rocinante : MovementType
         //Debug.Log("X " + DiferenciaX);
         //Debug.Log("Y " + DiferenciaY);
         //Debug.Log("Quijote está en " + Follows.position);
+        
     }
 
     public void SetSpeedMultiplier(float value)
@@ -56,20 +63,22 @@ public class Rocinante : MovementType
 
     public void FollowTarget(Transform targetNew)
     {
-        cuerda.gameObject.SetActive(true);
+        Spring.gameObject.SetActive(true);
         Follows = targetNew;
-        cuerda.connectedBody = targetNew.GetComponent<Rigidbody2D>();
-        cuerda.autoConfigureDistance = false;
+        Spring.connectedBody = targetNew.GetComponent<Rigidbody2D>();
+        Spring.autoConfigureDistance = false;
 
-        cuerda.distance = 3.5f;
+        cuerda.SetActive(true);
+        Spring.distance = 3.5f;
         //cuerda.connectedAnchor = Vector2.zero;
 
 
     }
     public void StopFollowingTarget()
     {
-        cuerda.connectedBody = null;
-        cuerda.gameObject.SetActive(false);
+        Spring.connectedBody = null;
+        cuerda.SetActive(false);
+
     }
 
     public void Move()
