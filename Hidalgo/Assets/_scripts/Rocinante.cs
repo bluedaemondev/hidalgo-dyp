@@ -16,6 +16,9 @@ public class Rocinante : MovementType
     private LayerMask layerMask;
     private Animator _animator;
     private Rigidbody2D _rigidbody2d;
+    private float nextSoundTime = 0;
+    [SerializeField]
+    private AudioClip FootstepSound;
 
     public event Action onSpringTargetChanged;
 
@@ -42,6 +45,12 @@ public class Rocinante : MovementType
         if (Follows != null)
         {
             _animator.SetBool("IsMoving", true);
+
+            if (Time.time >= nextSoundTime)
+            {
+                SoundManager.instance.PlayEffect(FootstepSound);
+                nextSoundTime = Time.time + FootstepSound.length;
+            }
 
             var raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
 
