@@ -8,7 +8,7 @@ public class LightningAreaController : MonoBehaviour
     private float _sumStunChance = 0;
     private List<IStunneable> _entitiesInArea;
 
-    [Range(0, 100f)]
+    [Range(75, 1000f)]
     public float requiredChanceForStun = 100f;
 
     [Range(0.1f, 5f), Header("tiempo que queda stuneada la entidad")]
