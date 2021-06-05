@@ -74,6 +74,9 @@ public class Player : MovementType, IStunneable, ISighteable
         NMovement.Add(KeyCode.W);
         NMovement.Add(KeyCode.D);
         NMovement.Add(KeyCode.A);
+
+        QuijoteState = 1f;
+        ArmorState = 1f;
     }
 
     internal void DestunAfterTime(float v)
