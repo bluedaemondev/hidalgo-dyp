@@ -10,6 +10,7 @@ public class FinishLineController : MonoBehaviour
     bool hasQuijote;
 
     public GameObject uiShowMissingPickup;
+    public GameObject uiShowWinPopup;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -30,11 +31,13 @@ public class FinishLineController : MonoBehaviour
             hasQuijote && collision.gameObject.layer == 10/*== LayerMask.GetMask("Companion")*/)
         {
             PickupsScapeGameManager.instance.Win();
+            uiShowWinPopup.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         uiShowMissingPickup.SetActive(false);
+        uiShowWinPopup.SetActive(false);
     }
 
 }
