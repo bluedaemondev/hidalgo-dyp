@@ -24,6 +24,8 @@ public class Movement
 
         if (_player._rigidbody2D.velocity.magnitude > 0.1f)
         {
+            _player.QuijoteState = 2f;
+            _player.SetQuijoteState();
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.MOVING;
 
             if(Time.time>=nextSoundTime)
@@ -34,6 +36,8 @@ public class Movement
         }
         else
         {
+            _player.QuijoteState = 1f;
+            _player.SetQuijoteState();
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.IDLE;
         }
 
