@@ -1,7 +1,394 @@
 fileFormatVersion: 2
 guid: d64a0d7b786a0134790d4a340416f1e9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6667274689475288331
+    second: Mapa_PozoAgua 1_0
+  - first:
+      213: 4427566664313557443
+    second: Mapa_PozoAgua 1_1
+  - first:
+      213: 1546542710908879142
+    second: Mapa_PozoAgua 1_2
+  - first:
+      213: 5464683558563516090
+    second: Mapa_PozoAgua 1_3
+  - first:
+      213: 5737897921291678901
+    second: Mapa_PozoAgua 1_4
+  - first:
+      213: -5774505369073957351
+    second: Mapa_PozoAgua 1_5
+  - first:
+      213: 5770010447388650744
+    second: Mapa_PozoAgua 1_6
+  - first:
+      213: 8469502936942438620
+    second: Mapa_PozoAgua 1_7
+  - first:
+      213: -2524812049917196496
+    second: Mapa_PozoAgua 1_8
+  - first:
+      213: 8490483019382741727
+    second: Mapa_PozoAgua 1_9
+  - first:
+      213: 2849368101163002922
+    second: Mapa_PozoAgua 1_10
+  - first:
+      213: -4126090804915816834
+    second: Mapa_PozoAgua 1_11
+  - first:
+      213: -5593403192203989327
+    second: Mapa_PozoAgua 1_12
+  - first:
+      213: 7990370858160952727
+    second: Mapa_PozoAgua 1_13
+  - first:
+      213: 8737745120133074588
+    second: Mapa_PozoAgua 1_14
+  - first:
+      213: 1072755220461473643
+    second: Mapa_PozoAgua 1_15
+  - first:
+      213: -3335436928411438293
+    second: Mapa_PozoAgua 1_16
+  - first:
+      213: -7687369568236213498
+    second: Mapa_PozoAgua 1_17
+  - first:
+      213: 5017344983451444794
+    second: Mapa_PozoAgua 1_18
+  - first:
+      213: 4798943879577034324
+    second: Mapa_PozoAgua 1_19
+  - first:
+      213: 8654085924695814770
+    second: Mapa_PozoAgua 1_20
+  - first:
+      213: -5815925708338820620
+    second: Mapa_PozoAgua 1_21
+  - first:
+      213: -1402236218006146868
+    second: Mapa_PozoAgua 1_22
+  - first:
+      213: 9219207112799100171
+    second: Mapa_PozoAgua 1_23
+  - first:
+      213: 7738616663975874765
+    second: Mapa_PozoAgua 1_24
+  - first:
+      213: 8143991611459600293
+    second: Mapa_PozoAgua 1_25
+  - first:
+      213: 1488549418450256636
+    second: Mapa_PozoAgua 1_26
+  - first:
+      213: 5103546594189197104
+    second: Mapa_PozoAgua 1_27
+  - first:
+      213: -2583858461847560447
+    second: Mapa_PozoAgua 1_28
+  - first:
+      213: -4712827735070941523
+    second: Mapa_PozoAgua 1_29
+  - first:
+      213: -5883113346552886458
+    second: Mapa_PozoAgua 1_30
+  - first:
+      213: -2770134588794240960
+    second: Mapa_PozoAgua 1_31
+  - first:
+      213: -4966768575962978931
+    second: Mapa_PozoAgua 1_32
+  - first:
+      213: -4574837682628710468
+    second: Mapa_PozoAgua 1_33
+  - first:
+      213: 2311160302100133760
+    second: Mapa_PozoAgua 1_34
+  - first:
+      213: -3778260880304284807
+    second: Mapa_PozoAgua 1_35
+  - first:
+      213: 2380353288202777409
+    second: Mapa_PozoAgua 1_36
+  - first:
+      213: 2404548466512741296
+    second: Mapa_PozoAgua 1_37
+  - first:
+      213: 5908261740916261269
+    second: Mapa_PozoAgua 1_38
+  - first:
+      213: 5914670462580155601
+    second: Mapa_PozoAgua 1_39
+  - first:
+      213: -7646035314995078052
+    second: Mapa_PozoAgua 1_40
+  - first:
+      213: -2416167086664452414
+    second: Mapa_PozoAgua 1_41
+  - first:
+      213: -8822162604986817883
+    second: Mapa_PozoAgua 1_42
+  - first:
+      213: -2589521604396784186
+    second: Mapa_PozoAgua 1_43
+  - first:
+      213: -5325594791266750178
+    second: Mapa_PozoAgua 1_44
+  - first:
+      213: -6351004540373724570
+    second: Mapa_PozoAgua 1_45
+  - first:
+      213: 1956770811853913793
+    second: Mapa_PozoAgua 1_46
+  - first:
+      213: -1994129243122284455
+    second: Mapa_PozoAgua 1_47
+  - first:
+      213: -3848272525664417126
+    second: Mapa_PozoAgua 1_48
+  - first:
+      213: -9132896816013369680
+    second: Mapa_PozoAgua 1_49
+  - first:
+      213: 901957396291647571
+    second: Mapa_PozoAgua 1_50
+  - first:
+      213: 4061903034837832004
+    second: Mapa_PozoAgua 1_51
+  - first:
+      213: 3712070087106385070
+    second: Mapa_PozoAgua 1_52
+  - first:
+      213: 4507804275492020213
+    second: Mapa_PozoAgua 1_53
+  - first:
+      213: -9051145523788953767
+    second: Mapa_PozoAgua 1_54
+  - first:
+      213: -1242010954128221977
+    second: Mapa_PozoAgua 1_55
+  - first:
+      213: -8546128104705126082
+    second: Mapa_PozoAgua 1_56
+  - first:
+      213: -9179853358049899900
+    second: Mapa_PozoAgua 1_57
+  - first:
+      213: 7440261596793665407
+    second: Mapa_PozoAgua 1_58
+  - first:
+      213: -5731705078576786158
+    second: Mapa_PozoAgua 1_59
+  - first:
+      213: 8373363209102378907
+    second: Mapa_PozoAgua 1_60
+  - first:
+      213: 1017792786543232367
+    second: Mapa_PozoAgua 1_61
+  - first:
+      213: 1882449386826967094
+    second: Mapa_PozoAgua 1_62
+  - first:
+      213: -6888429499263926871
+    second: Mapa_PozoAgua 1_63
+  - first:
+      213: -4485875446415194462
+    second: Mapa_PozoAgua 1_64
+  - first:
+      213: 4262034751773669771
+    second: Mapa_PozoAgua 1_65
+  - first:
+      213: 9064039176570246633
+    second: Mapa_PozoAgua 1_66
+  - first:
+      213: 8738241658173258701
+    second: Mapa_PozoAgua 1_67
+  - first:
+      213: 6372370930912997729
+    second: Mapa_PozoAgua 1_68
+  - first:
+      213: -1590584909227369657
+    second: Mapa_PozoAgua 1_69
+  - first:
+      213: 5371651667279378268
+    second: Mapa_PozoAgua 1_70
+  - first:
+      213: -2508427443595086790
+    second: Mapa_PozoAgua 1_71
+  - first:
+      213: 375160088551182119
+    second: Mapa_PozoAgua 1_72
+  - first:
+      213: 3269247645849606380
+    second: Mapa_PozoAgua 1_73
+  - first:
+      213: -3298265943519617577
+    second: Mapa_PozoAgua 1_74
+  - first:
+      213: -6808140010620017217
+    second: Mapa_PozoAgua 1_75
+  - first:
+      213: -7047384904573578781
+    second: Mapa_PozoAgua 1_76
+  - first:
+      213: -2290167138755275665
+    second: Mapa_PozoAgua 1_77
+  - first:
+      213: 546359692644637094
+    second: Mapa_PozoAgua 1_78
+  - first:
+      213: -4774490969256185383
+    second: Mapa_PozoAgua 1_79
+  - first:
+      213: 4307489124308169911
+    second: Mapa_PozoAgua 1_80
+  - first:
+      213: -3828417605281423935
+    second: Mapa_PozoAgua 1_81
+  - first:
+      213: -4194590806876655364
+    second: Mapa_PozoAgua 1_82
+  - first:
+      213: 7845758682307627619
+    second: Mapa_PozoAgua 1_83
+  - first:
+      213: -2506754915293958586
+    second: Mapa_PozoAgua 1_84
+  - first:
+      213: -7816254643905593047
+    second: Mapa_PozoAgua 1_85
+  - first:
+      213: 619773688628034067
+    second: Mapa_PozoAgua 1_86
+  - first:
+      213: 6227694713569028239
+    second: Mapa_PozoAgua 1_87
+  - first:
+      213: -4219931305001436870
+    second: Mapa_PozoAgua 1_88
+  - first:
+      213: 1114160331584793349
+    second: Mapa_PozoAgua 1_89
+  - first:
+      213: 2117646143946088363
+    second: Mapa_PozoAgua 1_90
+  - first:
+      213: -8222199435925285214
+    second: Mapa_PozoAgua 1_91
+  - first:
+      213: 2803737681063682020
+    second: Mapa_PozoAgua 1_92
+  - first:
+      213: -8294049580204647628
+    second: Mapa_PozoAgua 1_93
+  - first:
+      213: 8511473480171566700
+    second: Mapa_PozoAgua 1_94
+  - first:
+      213: -7967189751075581989
+    second: Mapa_PozoAgua 1_95
+  - first:
+      213: -8447323514045768535
+    second: Mapa_PozoAgua 1_96
+  - first:
+      213: -1717284236849265003
+    second: Mapa_PozoAgua 1_97
+  - first:
+      213: 4209200035315716043
+    second: Mapa_PozoAgua 1_98
+  - first:
+      213: 6344546874022931805
+    second: Mapa_PozoAgua 1_99
+  - first:
+      213: 4336521969093494029
+    second: Mapa_PozoAgua 1_100
+  - first:
+      213: -4852816779656885147
+    second: Mapa_PozoAgua 1_101
+  - first:
+      213: -6270897197126005929
+    second: Mapa_PozoAgua 1_102
+  - first:
+      213: -4519295453581510666
+    second: Mapa_PozoAgua 1_103
+  - first:
+      213: 2778640926015343874
+    second: Mapa_PozoAgua 1_104
+  - first:
+      213: 5522577095129270080
+    second: Mapa_PozoAgua 1_105
+  - first:
+      213: 5573412986974570601
+    second: Mapa_PozoAgua 1_106
+  - first:
+      213: -3652136414515051161
+    second: Mapa_PozoAgua 1_107
+  - first:
+      213: 2605607320654607023
+    second: Mapa_PozoAgua 1_108
+  - first:
+      213: -2184228837987961367
+    second: Mapa_PozoAgua 1_109
+  - first:
+      213: 5521224216027943784
+    second: Mapa_PozoAgua 1_110
+  - first:
+      213: 72294795597086776
+    second: Mapa_PozoAgua 1_111
+  - first:
+      213: -1410024953058438238
+    second: Mapa_PozoAgua 1_112
+  - first:
+      213: -1032874525510344664
+    second: Mapa_PozoAgua 1_113
+  - first:
+      213: -6325219081551719067
+    second: Mapa_PozoAgua 1_114
+  - first:
+      213: 2653896272610884189
+    second: Mapa_PozoAgua 1_115
+  - first:
+      213: -6550776770125199880
+    second: Mapa_PozoAgua 1_116
+  - first:
+      213: 1217556714155823859
+    second: Mapa_PozoAgua 1_117
+  - first:
+      213: 6684003075739189235
+    second: Mapa_PozoAgua 1_118
+  - first:
+      213: 1880030569832195342
+    second: Mapa_PozoAgua 1_119
+  - first:
+      213: 2834277086957053284
+    second: Mapa_PozoAgua 1_120
+  - first:
+      213: 4098493573332978643
+    second: Mapa_PozoAgua 1_121
+  - first:
+      213: 4590243790180506664
+    second: Mapa_PozoAgua 1_122
+  - first:
+      213: 7035484419501206034
+    second: Mapa_PozoAgua 1_123
+  - first:
+      213: -214056548259075241
+    second: Mapa_PozoAgua 1_124
+  - first:
+      213: 4903250678977272038
+    second: Mapa_PozoAgua 1_125
+  - first:
+      213: -864685109883608222
+    second: Mapa_PozoAgua 1_126
+  - first:
+      213: 6400291359533389985
+    second: Mapa_PozoAgua 1_127
+  - first:
+      213: 5566782221611833014
+    second: Mapa_PozoAgua 1_128
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +428,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -111,7 +498,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mapa_PozoAgua 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 500
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f26fd1aef41973a0800000000000000
+      internalID: -6667274689475288331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mapa_PozoAgua 1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c155c54c60e17d30800000000000000
+      internalID: 4427566664313557443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
