@@ -17,14 +17,6 @@ BlendTree:
     m_DirectBlendParameter: WalkingState
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 8197485145797734868}
-    m_Threshold: 2
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: WalkingState
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: 26632836063915442}
     m_Threshold: 3
     m_Position: {x: 0, y: 0}
@@ -40,7 +32,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: WalkingState
     m_Mirror: 0
-  m_BlendParameter: QuijoteState
+  m_BlendParameter: ArmorState
   m_BlendParameterY: WalkingState
   m_MinThreshold: 1
   m_MaxThreshold: 4
@@ -619,14 +611,6 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 232483777898856302}
     m_Threshold: 1
-    m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: Idle
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: -2580443930925693206}
-    m_Threshold: 2
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0

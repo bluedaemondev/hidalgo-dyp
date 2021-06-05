@@ -6,7 +6,7 @@ public class HelmetEvent : MonoBehaviour
 {
     public GameObject ZonaRayos;
     public GameObject Wall1;
-
+    public Player player;
     public List<GameObject> lsitCharcos;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +20,9 @@ public class HelmetEvent : MonoBehaviour
                     chr.SetActive(false);
                 }
         }
+
+        player.ArmorState = 3f;
+        player.SetArmorState();
 
         if (Wall1 != null)
         {
