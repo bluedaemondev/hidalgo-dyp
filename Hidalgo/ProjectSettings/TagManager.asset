@@ -44,6 +44,9 @@ TagManager:
   - name: Piso
     uniqueID: 1897957475
     locked: 0
+  - name: Piso2
+    uniqueID: 3922733603
+    locked: 0
   - name: Charcos_Agua
     uniqueID: 1094182003
     locked: 0
