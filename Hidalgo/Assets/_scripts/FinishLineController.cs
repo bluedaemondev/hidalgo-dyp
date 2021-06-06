@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class FinishLineController : MonoBehaviour
 {
@@ -11,7 +12,12 @@ public class FinishLineController : MonoBehaviour
 
     public GameObject uiShowMissingPickup;
     public GameObject uiShowWinPopup;
+    public PlayableDirector timeline;
 
+    void Start()
+    {
+        timeline = GetComponent<PlayableDirector>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -31,7 +37,7 @@ public class FinishLineController : MonoBehaviour
             hasQuijote && collision.gameObject.layer == 10/*== LayerMask.GetMask("Companion")*/)
         {
             PickupsScapeGameManager.instance.Win();
-            uiShowWinPopup.SetActive(true);
+            timeline.Play();
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

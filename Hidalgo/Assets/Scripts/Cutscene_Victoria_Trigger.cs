@@ -1,16 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Cutscene_Victoria_Trigger : MonoBehaviour
 {
-    public GameObject Cutscene_V;
+    public PlayableDirector timeline;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void Start()
     {
-        if (collision.gameObject.layer == 15) //colisión contra trigger para cutscene en salida
+        timeline = GetComponent<PlayableDirector>();
+    }
+
+    void OnTriggerExit (Collider c)
+    {
+        if (c.gameObject.tag == "Player")
         {
-            Cutscene_V.SetActive(true); //play cutscene de victoria
+            timeline.Stop();
+        }
+    }
+
+    void OnTriggerEnter (Collider c)
+    {
+        if (c.gameObject.tag == "Player")
+        {
+            timeline.Play();
         }
     }
 }
