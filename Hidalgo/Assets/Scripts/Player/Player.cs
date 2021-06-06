@@ -10,8 +10,14 @@ public class Player : MovementType, IStunneable, ISighteable
     public AudioClip newFootstepSound;
     public AudioClip oldFootstepSound;
     [SerializeField] private float speed = 2.6f;
+    private AudioSource audioSource;
     public float QuijoteState = 1;
     public float ArmorState = 1;
+
+    [SerializeField]
+    private AudioClip[] mudClips;
+    [SerializeField]
+    private AudioClip[] waterClips;
 
     public GameObject box;
 
@@ -74,6 +80,8 @@ public class Player : MovementType, IStunneable, ISighteable
         NMovement.Add(KeyCode.W);
         NMovement.Add(KeyCode.D);
         NMovement.Add(KeyCode.A);
+
+        audioSource = GetComponent<AudioSource>();
 
         QuijoteState = 1f;
         ArmorState = 1f;
@@ -179,6 +187,17 @@ public class Player : MovementType, IStunneable, ISighteable
         yield return new WaitForSeconds(time);
         this.speedMultiplier = originalMultiplier;
 
+    }
+
+    private void Step()
+    {
+        AudioClip clip = GetRandomMudClip();
+        audioSource.PlayOneShot(clip);
+    }
+
+    private AudioClip GetRandomMudClip()
+    {
+        return mudClips[Random.Range(0, mudClips.Length)];
     }
 
     public void ChangeFootstepSound(AudioClip newFootstepSound)
