@@ -24,16 +24,22 @@ public class Movement
 
         if (_player._rigidbody2D.velocity.magnitude > 0.1f)
         {
+            _player.QuijoteState = 2f;
+            _player.SetQuijoteState();
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.MOVING;
 
             if(Time.time>=nextSoundTime)
             {
                 SoundManager.instance.PlayEffect(_player.currentFootstepSound);
                 nextSoundTime = Time.time + _player.currentFootstepSound.length;
+
+                Debug.Log(_player.currentFootstepSound);
             }
         }
         else
         {
+            _player.QuijoteState = 1f;
+            _player.SetQuijoteState();
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.IDLE;
         }
 

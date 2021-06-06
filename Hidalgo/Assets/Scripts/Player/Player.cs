@@ -10,6 +10,8 @@ public class Player : MovementType, IStunneable, ISighteable
     public AudioClip newFootstepSound;
     public AudioClip oldFootstepSound;
     [SerializeField] private float speed = 2.6f;
+    public float QuijoteState = 1;
+    public float ArmorState = 1;
 
     public GameObject box;
 
@@ -72,6 +74,9 @@ public class Player : MovementType, IStunneable, ISighteable
         NMovement.Add(KeyCode.W);
         NMovement.Add(KeyCode.D);
         NMovement.Add(KeyCode.A);
+
+        QuijoteState = 1f;
+        ArmorState = 1f;
     }
 
     internal void DestunAfterTime(float v)
@@ -196,6 +201,16 @@ public class Player : MovementType, IStunneable, ISighteable
     public bool IsStunned()
     {
         return this.speedMultiplier == 0;
+    }
+
+    public void SetQuijoteState()
+    {
+        myAnimator.SetFloat("QuijoteState", QuijoteState);
+    }
+
+    public void SetArmorState()
+    {
+        myAnimator.SetFloat("ArmorState", ArmorState);
     }
 
     public void GetSeen(FieldOfView seenBy)
