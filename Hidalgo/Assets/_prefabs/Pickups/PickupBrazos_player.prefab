@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Color: {r: 0.8627451, g: 1, b: 0.6666667, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0.144
-  m_ApplyToSortingLayers: 9b9597da9b9597da
+  m_ApplyToSortingLayers: 71af859963882071232ad0e973e43741b95633c99b9597daff1f117800000000b5d15b9f6b40f10ecb691705b75f734e35743867
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -140,8 +140,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1621372491
+  m_SortingLayer: 1
   m_SortingOrder: 2
   m_Sprite: {fileID: -8175383175104280613, guid: a3b1b1f33e51ce54ebf4d32f44f8fe6a,
     type: 3}
@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 3883909841367172609}
   - component: {fileID: 1184914232559052225}
   - component: {fileID: 1514634536695989194}
+  - component: {fileID: 1953551807}
   m_Layer: 13
   m_Name: PickupBrazos_player
   m_TagString: Untagged
@@ -182,9 +183,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3883909841367172610}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.2, y: -30.64, z: 29.89425}
-  m_LocalScale: {x: 2.8114, y: 2.8114, z: 2.8114}
+  m_LocalScale: {x: 2.2920783, y: 2.2920783, z: 2.2920783}
   m_Children:
   - {fileID: 3883909841061193370}
   - {fileID: 3602565613757674590}
@@ -218,7 +219,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.28887224, y: 0.23399249}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -229,7 +230,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.5777445, y: 1.4679849}
   m_EdgeRadius: 0
 --- !u!114 &1184914232559052225
 MonoBehaviour:
@@ -243,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2410bd0685fd90c49a6c381ba63f9627, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addTimeParameter: 15
+  addTimeParameter: 120
   useAddMax: 0
   interactWith:
     serializedVersion: 2
@@ -267,3 +268,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1953551807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3883909841367172610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48897636a44661f4f9e8e8112cea8bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  Wall: {fileID: 0}
