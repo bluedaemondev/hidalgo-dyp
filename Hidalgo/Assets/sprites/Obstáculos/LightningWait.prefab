@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 569667806}
   - component: {fileID: 569667808}
   - component: {fileID: 569667807}
+  - component: {fileID: 619619826917801997}
   m_Layer: 11
   m_Name: collision
   m_TagString: Untagged
@@ -93,12 +94,26 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &619619826917801997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569667805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79023620c4d205a4fa56150d157cd521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stunTime: 1.25
+  canTrigger: 1
 --- !u!1 &216705398354023365
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +241,7 @@ Animator:
   m_GameObject: {fileID: 3202795016633845947}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: acbe4b0132a5ad14faae024c726322f9, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -280,7 +295,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.04, y: 8.6}
+  m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
