@@ -12,4 +12,8 @@ public class ObstacleEntity : MonoBehaviour
     {
         Destroy(this.gameObject);
     }
+    public void PlayLightningEffect()
+    {
+        ClimateController.instance.LightningEffect(Vector3.zero, false);
+    }
 }
