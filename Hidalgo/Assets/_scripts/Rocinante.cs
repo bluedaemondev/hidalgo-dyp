@@ -90,11 +90,13 @@ public class Rocinante : MovementType
 
         Spring.connectedBody = targetNew.GetComponent<Rigidbody2D>();
         Spring.autoConfigureDistance = false;
-
-        onSpringTargetChanged?.Invoke();
+        Spring.distance = 4;
 
         cuerda.SetActive(true);
-        Spring.distance = 3.5f;
+        // activar si la cuerda queda atada al nuevo punto
+        //cuerda.GetComponent<FollowTargetOnUpdate>().targetFollow = targetNew;
+        
+        onSpringTargetChanged?.Invoke();
         //cuerda.connectedAnchor = Vector2.zero;
 
 

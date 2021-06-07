@@ -12,6 +12,7 @@ public class ApplesDistraction : MonoBehaviour
 
     public float cooldownAfterPassed = 4f;
     public Rocinante rocinante;
+    public LayerMask rocinanteLayer;
 
     Coroutine cooldown;
 
@@ -38,7 +39,12 @@ public class ApplesDistraction : MonoBehaviour
 
     private IEnumerator Cooldown()
     {
+        //while (rocinante.Spring.connectedBody == this.myRigidbody)
+        //{
         this.aggroRange.enabled = false;
+        //    yield return null;
+        //}
+
         this.interactionQTE.DeactivateRange();
 
         yield return new WaitForSeconds(cooldownAfterPassed);
@@ -49,7 +55,7 @@ public class ApplesDistraction : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == rocinante.gameObject)
+        if (Common.GetLayersFromMask(rocinanteLayer).Contains(collision.gameObject.layer))
         {
             if (cooldown == null)
             {

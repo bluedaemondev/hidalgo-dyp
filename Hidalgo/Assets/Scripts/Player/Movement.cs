@@ -33,7 +33,7 @@ public class Movement
                 SoundManager.instance.PlayEffect(_player.currentFootstepSound);
                 nextSoundTime = Time.time + _player.currentFootstepSound.length;
 
-                Debug.Log(_player.currentFootstepSound);
+                //Debug.Log(_player.currentFootstepSound);
             }
         }
         else
