@@ -15,6 +15,9 @@ public class Rocinante : MovementType
     [SerializeField]
     private LayerMask layerMask;
     private Animator _animator;
+
+    
+
     private Rigidbody2D _rigidbody2d;
     private float nextSoundTime = 0;
     [SerializeField]
@@ -123,6 +126,10 @@ public class Rocinante : MovementType
         SoundManager.instance.PlayEffect(HorseSound);
         FollowTarget(distraction.transform);
 
+    }
+    public bool IsAttachedToPlayer()
+    {
+        return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
     }
 
 
