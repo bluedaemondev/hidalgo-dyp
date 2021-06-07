@@ -28,13 +28,13 @@ public class Movement
             _player.SetQuijoteState();
             _player.GetComponent<AnimatedCharacterController>().State = CharacterState.MOVING;
 
-            if(Time.time>=nextSoundTime)
-            {
-                SoundManager.instance.PlayEffect(_player.currentFootstepSound);
-                nextSoundTime = Time.time + _player.currentFootstepSound.length;
+           // if(Time.time>=nextSoundTime)
+           // {
+               // SoundManager.instance.PlayEffect(_player.currentFootstepSound);
+               // nextSoundTime = Time.time + _player.currentFootstepSound.length;
 
-                Debug.Log(_player.currentFootstepSound);
-            }
+               // Debug.Log(_player.currentFootstepSound);
+           // }
         }
         else
         {
