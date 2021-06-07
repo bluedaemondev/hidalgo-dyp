@@ -15,7 +15,8 @@ public class LightningAreaController : MonoBehaviour
     public float stunForSeconds = 2f;
     [Header("Invertir el control en rayo")]
     public bool invertControlInPlayer = false;
-    [Header("to be defined")]
+
+    [Header("Prefab opcional con timer")]
     public GameObject prefabLightning;
 
     public ParticleSystem particlesRayosPlayer;
@@ -49,8 +50,12 @@ public class LightningAreaController : MonoBehaviour
         {
             this.ResetStunChance(true);
 
-            var stun = PickEntityToStun();
-            stun.GetStunned(this.stunForSeconds);
+            /*var stun = */
+            PickEntityToStun();
+
+            // activar en el trigger del rayo
+
+            //stun.GetStunned(this.stunForSeconds);
         }
 
 
@@ -95,7 +100,10 @@ public class LightningAreaController : MonoBehaviour
         //    Instantiate(prefabLightning, positionToHit, Quaternion.identity);
         //}
 
-        ClimateController.instance.LightningEffect(positionToHit);
+        if (prefabLightning == null)
+            ClimateController.instance.LightningEffect(positionToHit);
+        else
+            Instantiate(prefabLightning, entity.GetRigidbody().transform.position, Quaternion.identity);
 
         Debug.Log("Lightning! " + positionToHit + " || " + entity);
     }

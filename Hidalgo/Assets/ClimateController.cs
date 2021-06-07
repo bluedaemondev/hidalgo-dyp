@@ -56,16 +56,19 @@ public class ClimateController : MonoBehaviour
         onChangeClimate.AddListener(SelectTracksMixer);
         this.CurrentWeather = ClimateState.CLEAR;
     }
-    public void LightningEffect(Vector3 position)
+    public void LightningEffect(Vector3 position, bool instantiateLightningBase = true)
     {
         LightManager.instance.Lightning();
-        var tmp = Instantiate(prefabLightning, position, Quaternion.identity);
+
+        if (instantiateLightningBase)
+            Instantiate(prefabLightning, position, Quaternion.identity);
 
         //tmp.GetComponent<Animator>().SetTrigger("go");
     }
     private void SelectTracksMixer(ClimateState newState)
     {
-        switch (newState) {
+        switch (newState)
+        {
             case ClimateState.THUNDERS:
                 SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.thunderAmbient);
                 SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.quijoteComplaining1);
