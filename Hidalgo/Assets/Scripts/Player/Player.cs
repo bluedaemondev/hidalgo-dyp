@@ -15,7 +15,7 @@ public class Player : MovementType, IStunneable, ISighteable
     public float ArmorState = 1;
 
     [SerializeField]
-    private AudioClip[] mudClips;
+    private AudioClip[] grassClips;
     [SerializeField]
     private AudioClip[] waterClips;
 
@@ -189,15 +189,26 @@ public class Player : MovementType, IStunneable, ISighteable
 
     }
 
-    private void Step()
+    private void Step(AnimationEvent animationEvent)
     {
-        AudioClip clip = GetRandomMudClip();
-        audioSource.PlayOneShot(clip);
+        if(animationEvent.animatorClipInfo.weight > 0.5)
+        {
+            AudioClip clip = GetRandomGrassClip();
+            audioSource.PlayOneShot(clip);
+
+            Debug.Log(clip);
+        }
+        
     }
 
-    private AudioClip GetRandomMudClip()
+    private AudioClip GetRandomGrassClip()
     {
-        return mudClips[Random.Range(0, mudClips.Length)];
+        return grassClips[Random.Range(0, grassClips.Length)];
+    }
+
+    private AudioClip GetRandomWaterClip()
+    {
+        return waterClips[Random.Range(0, waterClips.Length)];
     }
 
     public void ChangeFootstepSound(AudioClip newFootstepSound)
