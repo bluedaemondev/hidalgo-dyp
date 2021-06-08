@@ -65,7 +65,7 @@ public class PickupsScapeGameManager : MonoBehaviour
     public void AddMaxTime(float tAdd)
     {
         // flag reservado, se usa para agregar un tiempo igual al maximo que esta definido en el componente
-        // (si pongo en el editor que el contador es 2 minutos, va a agregar 2 minutos por cada pickup levantado.
+     /*   // (si pongo en el editor que el contador es 2 minutos, va a agregar 2 minutos por cada pickup levantado.
         //  hay que usar un valor bajo y probar este metodo si sirve mejor asi o enviando x segundos)
         if(tAdd == 0)
         {
@@ -85,7 +85,7 @@ public class PickupsScapeGameManager : MonoBehaviour
                 loseUiGO.SetActive(true);
             }
 
-        }
+        }*/
         
     }
     void EnableWinObj()
