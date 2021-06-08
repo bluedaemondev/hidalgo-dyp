@@ -4160,6 +4160,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6737514
       objectReference: {fileID: 0}
+    - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd6a81bd3da6ac4495a707194d572a0, type: 3}
 --- !u!4 &87673415 stripped
@@ -5426,6 +5431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7537102
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd6a81bd3da6ac4495a707194d572a0, type: 3}
@@ -11900,6 +11910,7 @@ GameObject:
   - component: {fileID: 273141231}
   - component: {fileID: 273141230}
   - component: {fileID: 273141232}
+  - component: {fileID: 273141233}
   m_Layer: 0
   m_Name: Soldado
   m_TagString: Untagged
@@ -12018,6 +12029,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0809286, y: 1.9268609}
   m_EdgeRadius: 0
+--- !u!95 &273141233
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273141228}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 920e071eeaa7f9f4b867da6946282768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &273535905
 GameObject:
   m_ObjectHideFlags: 0
@@ -12455,6 +12485,7 @@ GameObject:
   - component: {fileID: 296359287}
   - component: {fileID: 296359286}
   - component: {fileID: 296359288}
+  - component: {fileID: 296359289}
   m_Layer: 0
   m_Name: Soldado
   m_TagString: Untagged
@@ -12573,6 +12604,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0809286, y: 1.9268609}
   m_EdgeRadius: 0
+--- !u!95 &296359289
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296359284}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 920e071eeaa7f9f4b867da6946282768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &302117303
 GameObject:
   m_ObjectHideFlags: 0
@@ -21714,6 +21764,7 @@ GameObject:
   - component: {fileID: 559978450}
   - component: {fileID: 559978449}
   - component: {fileID: 559978448}
+  - component: {fileID: 559978451}
   m_Layer: 0
   m_Name: Soldado
   m_TagString: Untagged
@@ -21832,6 +21883,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &559978451
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559978446}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 920e071eeaa7f9f4b867da6946282768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &569093428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31687,6 +31757,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7574427
       objectReference: {fileID: 0}
+    - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd6a81bd3da6ac4495a707194d572a0, type: 3}
 --- !u!4 &749241949 stripped
@@ -35819,6 +35894,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7462209
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd6a81bd3da6ac4495a707194d572a0, type: 3}
@@ -50836,6 +50916,7 @@ GameObject:
   - component: {fileID: 1190729865}
   - component: {fileID: 1190729864}
   - component: {fileID: 1190729866}
+  - component: {fileID: 1190729867}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -50928,6 +51009,25 @@ MonoBehaviour:
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
   SoldadoState: 2
+--- !u!95 &1190729867
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190729863}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0b6e5185b7d0c6042b10740249fb2932, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1192925678
 GameObject:
   m_ObjectHideFlags: 0
@@ -95465,6 +95565,7 @@ GameObject:
   - component: {fileID: 1592044260}
   - component: {fileID: 1592044259}
   - component: {fileID: 1592044261}
+  - component: {fileID: 1592044262}
   m_Layer: 0
   m_Name: Soldado
   m_TagString: Untagged
@@ -95583,6 +95684,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0809286, y: 1.9268609}
   m_EdgeRadius: 0
+--- !u!95 &1592044262
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592044257}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 920e071eeaa7f9f4b867da6946282768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1594721084
 GameObject:
   m_ObjectHideFlags: 0
@@ -99425,6 +99545,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6995953
+      objectReference: {fileID: 0}
+    - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd6a81bd3da6ac4495a707194d572a0, type: 3}
@@ -105314,6 +105439,7 @@ GameObject:
   - component: {fileID: 1833258812}
   - component: {fileID: 1833258811}
   - component: {fileID: 1833258813}
+  - component: {fileID: 1833258814}
   m_Layer: 0
   m_Name: Soldado
   m_TagString: Untagged
@@ -105432,6 +105558,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0809286, y: 1.9268609}
   m_EdgeRadius: 0
+--- !u!95 &1833258814
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833258809}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 920e071eeaa7f9f4b867da6946282768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1840155811
 GameObject:
   m_ObjectHideFlags: 0
@@ -105664,6 +105809,7 @@ GameObject:
   - component: {fileID: 1846439992}
   - component: {fileID: 1846439991}
   - component: {fileID: 1846439993}
+  - component: {fileID: 1846439994}
   m_Layer: 0
   m_Name: Soldado
   m_TagString: Untagged
@@ -105782,6 +105928,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0809286, y: 1.9268609}
   m_EdgeRadius: 0
+--- !u!95 &1846439994
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846439989}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 920e071eeaa7f9f4b867da6946282768, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1851769703
 GameObject:
   m_ObjectHideFlags: 0
