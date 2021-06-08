@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class FootstepChanger : MonoBehaviour
 {
-    public AudioClip newFootstepSound;
     public Player player;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        player.ChangeFootstepSound(newFootstepSound);
+        player.OnWater = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        player.RetrieveFootstepSound();
+        player.OnWater = false;
     }
 }
