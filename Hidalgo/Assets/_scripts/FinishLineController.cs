@@ -25,25 +25,30 @@ public class FinishLineController : MonoBehaviour
         //if (!lstLayers.Contains(collision.gameObject.layer))
         //    return;
 
-        if (collision.gameObject.layer == 9 /*LayerMask.GetMask("Player")*/)
-            hasQuijote = true;
-        else if (collision.gameObject.layer == 10/*LayerMask.GetMask("Companion")*/)
-            hasRocinante = true;
+        //if (collision.gameObject.layer == 9 /*LayerMask.GetMask("Player")*/)
+        //    hasQuijote = true;
+        //else if (collision.gameObject.layer == 10/*LayerMask.GetMask("Companion")*/)
+        //    hasRocinante = true;
 
-        if (!hasRocinante || !PickupsScapeGameManager.instance.PickupsCompleted())
-            uiShowMissingPickup.SetActive(true);
+        //if (!hasRocinante || !PickupsScapeGameManager.instance.PickupsCompleted())
+        //    uiShowMissingPickup.SetActive(true);
 
-        if (hasRocinante && collision.gameObject.layer == 9/*== LayerMask.GetMask("Player")*/ ||
-            hasQuijote && collision.gameObject.layer == 10/*== LayerMask.GetMask("Companion")*/)
+        //if (hasRocinante && collision.gameObject.layer == 9/*== LayerMask.GetMask("Player")*/ ||
+        //    hasQuijote && collision.gameObject.layer == 10/*== LayerMask.GetMask("Companion")*/)
+        //{
+        //    PickupsScapeGameManager.instance.Win();
+        //    timeline.Play();
+        //}
+
+        if(FindObjectOfType<Rocinante>().IsAttachedToPlayer() && PickupsScapeGameManager.instance.PickupsCompleted())
         {
-            PickupsScapeGameManager.instance.Win();
             timeline.Play();
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        uiShowMissingPickup.SetActive(false);
-        uiShowWinPopup.SetActive(false);
-    }
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    uiShowMissingPickup.SetActive(false);
+    //    uiShowWinPopup.SetActive(false);
+    //}
 
 }

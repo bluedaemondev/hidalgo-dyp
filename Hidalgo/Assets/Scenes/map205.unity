@@ -23867,11 +23867,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.65092
+      value: -102.649574
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.359222
+      value: -27.359386
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27898,6 +27898,11 @@ PrefabInstance:
       propertyPath: timeline
       value: 
       objectReference: {fileID: 260089352}
+    - target: {fileID: 5765046138682837296, guid: e4b093c711077764fa6379f81612e5cb,
+        type: 3}
+      propertyPath: layersToInteract.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 5765046138682837297, guid: e4b093c711077764fa6379f81612e5cb,
         type: 3}
       propertyPath: m_LocalPosition.x
