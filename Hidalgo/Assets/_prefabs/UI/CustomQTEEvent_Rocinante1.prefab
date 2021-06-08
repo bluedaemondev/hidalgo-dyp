@@ -495,7 +495,7 @@ MonoBehaviour:
   startingPoint: {fileID: 191976497160653430}
   endingPoint: {fileID: 191976496213783171}
   timeTotalInQte: 3
-  requiredTotal: 5
+  requiredTotal: 0
   interactionBase: {fileID: 0}
 --- !u!1 &795595440155692324
 GameObject:
