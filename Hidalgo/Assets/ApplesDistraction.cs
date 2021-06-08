@@ -34,6 +34,8 @@ public class ApplesDistraction : MonoBehaviour
 
     void SetActiveBasedOnSpringState()
     {
+        Debug.Log("jkhashdk " + rocinante.IsAttachedToPlayer());
+
         if (rocinante.IsAttachedToPlayer())
         {
             // abro la posibilidad de disparar el QTE

@@ -36,7 +36,7 @@ public class Rocinante : MovementType
 
     public InteractionWithPlayerQTE qteFollow;
 
-    public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); onSpringTargetChanged?.Invoke(); } }
+    public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); onSpringTargetChanged(); } }
     public float Speed { get => speed * speedMultiplier; }
 
     Vector2 posAux;
@@ -135,8 +135,8 @@ public class Rocinante : MovementType
         cuerda.SetActive(true);
         // activar si la cuerda queda atada al nuevo punto
         //cuerda.GetComponent<FollowTargetOnUpdate>().targetFollow = targetNew;
-
-        onSpringTargetChanged?.Invoke();
+        Debug.Log("jkaskdhjgajsdgh");
+        onSpringTargetChanged();
         //cuerda.connectedAnchor = Vector2.zero;
 
 
@@ -178,7 +178,7 @@ public class Rocinante : MovementType
     public bool IsAttachedToPlayer()
     {
         //return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
-        return this.Follows == PickupsScapeGameManager.instance.Player;
+        return this.Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer;
     }
 
 
