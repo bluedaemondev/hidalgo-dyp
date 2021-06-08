@@ -15,8 +15,17 @@ public class HudPlayerPickupScene : MonoBehaviour
     {
         instance = this;
     }
+
     public void CheckRocinante()
     {
-
+        this.checkedRocinante.SetActive(true);
+    }
+    public void CheckPiecesComplete()
+    {
+        this.checkedPieces.SetActive(true);
+    }
+    public void CheckEscape()
+    {
+        this.checkedLast.SetActive(true);
     }
 }
