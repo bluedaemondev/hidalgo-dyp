@@ -20,6 +20,8 @@ public class ApplesDistraction : MonoBehaviour
     {
         if (rocinante == null)
             rocinante = FindObjectOfType<Rocinante>();
+        if (myRigidbody == null)
+            myRigidbody = GetComponent<Rigidbody2D>();
 
         this.aggroRange = GetComponent<Collider2D>();
         rocinante.onSpringTargetChanged += SetActiveBasedOnSpringState;
