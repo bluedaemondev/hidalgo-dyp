@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CloseInKeyInput : MonoBehaviour
 {
     // Update is called once per frame
@@ -12,4 +13,5 @@ public class CloseInKeyInput : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
+
 }

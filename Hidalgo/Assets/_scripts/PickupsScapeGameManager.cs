@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 /// <summary>
 /// Manager de acciones en la escena para el nivel top down en el que llevas a 
@@ -120,5 +123,15 @@ public class PickupsScapeGameManager : MonoBehaviour
     {
         Debug.Log("Ganaste rey felicitaciones por esta experiencia fantastica");
         Application.Quit();
+    }
+
+    public void Reiniciar()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Menu_Principal()
+    {
+        SceneManager.LoadScene(0);
     }
 }
