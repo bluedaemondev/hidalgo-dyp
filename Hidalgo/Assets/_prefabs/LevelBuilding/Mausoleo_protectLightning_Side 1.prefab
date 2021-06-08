@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1756715420301328850}
   - component: {fileID: 1756715420301328853}
   - component: {fileID: 8615558794797697474}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: colliderWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
