@@ -248,7 +248,7 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -47.939625, y: -69.55784}
+  m_ConnectedAnchor: {x: -10.51, y: -24.41}
   m_AutoConfigureDistance: 0
   m_Distance: 3.6
   m_DampingRatio: 1
@@ -670,12 +670,23 @@ PrefabInstance:
     - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: onPassed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: FollowTarget
+      value: Feed
       objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: resetTimecooldown
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: onPassed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Rigidbody2D, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd6a81bd3da6ac4495a707194d572a0, type: 3}

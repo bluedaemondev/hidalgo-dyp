@@ -15,6 +15,9 @@ public class Rocinante : MovementType
     [SerializeField]
     private LayerMask layerMask;
     private Animator _animator;
+
+    
+
     private Rigidbody2D _rigidbody2d;
     private float nextSoundTime = 0;
     [SerializeField]
@@ -28,6 +31,7 @@ public class Rocinante : MovementType
     public GameObject cuerda;
 
 
+    public InteractionWithPlayerQTE qteFollow;
 
     public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
     public float Speed { get => speed * speedMultiplier; }
@@ -38,12 +42,15 @@ public class Rocinante : MovementType
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         Spring = GetComponent<SpringJoint2D>();
+
+        if (qteFollow == null)
+            qteFollow = transform.GetComponentInChildren<InteractionWithPlayerQTE>();
+
         //raycast2D = new RaycastHit2D();
     }
 
     private void Update()
     {
-
         if (Follows != null)
         {
             _animator.SetBool("IsMoving", true);
@@ -87,11 +94,13 @@ public class Rocinante : MovementType
 
         Spring.connectedBody = targetNew.GetComponent<Rigidbody2D>();
         Spring.autoConfigureDistance = false;
-
-        onSpringTargetChanged?.Invoke();
+        Spring.distance = 4;
 
         cuerda.SetActive(true);
-        Spring.distance = 3.5f;
+        // activar si la cuerda queda atada al nuevo punto
+        //cuerda.GetComponent<FollowTargetOnUpdate>().targetFollow = targetNew;
+        
+        onSpringTargetChanged?.Invoke();
         //cuerda.connectedAnchor = Vector2.zero;
 
 
@@ -123,6 +132,10 @@ public class Rocinante : MovementType
         SoundManager.instance.PlayEffect(HorseSound);
         FollowTarget(distraction.transform);
 
+    }
+    public bool IsAttachedToPlayer()
+    {
+        return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
     }
 
 

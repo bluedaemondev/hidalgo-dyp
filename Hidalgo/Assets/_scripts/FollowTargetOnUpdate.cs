@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowTargetOnUpdate : MonoBehaviour
 {
     [SerializeField] private Vector3 offset;
-    [SerializeField] private Transform targetFollow;
+     public Transform targetFollow;
 
 
     [Header("Pisar el offset entre el objeto y target al iniciar"),

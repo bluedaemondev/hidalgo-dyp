@@ -15,6 +15,8 @@ public class Player : MovementType, IStunneable, ISighteable
 
     public GameObject box;
 
+    public bool hasPickedUpRocinanteFirstTime = false;
+
     public void InitBoxControls()
     {
         this.GetStunned(0.25f);

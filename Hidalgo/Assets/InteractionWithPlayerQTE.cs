@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 using UnityEngine.Events;
+using System;
 
 public class InteractionWithPlayerQTE : MonoBehaviour
 {
@@ -13,10 +14,11 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     private GameObject maskInteraction;
     [SerializeField]
     private GameObject extraRange;
+    private Collider2D rangeStartEvent;
+    private GameObject containerSprites;
 
     private Vector2 originalScaleMask;
     public bool canTrigger = true;
-    public bool ResetsAfterAction = false;
 
     [Header("Tiempo que tengo que estar en rango hasta accion")]
     public float timeToTriggerQTE = 3f;
@@ -37,11 +39,18 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.originalScaleMask = maskInteraction.transform.localScale;
-        if (ResetsAfterAction)
-            onPassed.AddListener(this.ResetInteraction);
-    }
+        this.rangeStartEvent = GetComponent<Collider2D>();
+        this.containerSprites = transform.GetChild(0).gameObject;
 
+        this.originalScaleMask = maskInteraction.transform.localScale;
+        //if (ResetsAfterAction)
+        //    onPassed.AddListener(this.ResetInteraction);
+    }
+    
+    public void DeleteAfterPassedRoutine()
+    {
+        Destroy(this.gameObject);
+    }
     public void ResetInteraction()
     {
         StopAllCoroutines();
@@ -92,8 +101,6 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     }
     void ComputePlayerInRange()
     {
-
-
         this.timeCurrent += Time.deltaTime;
         if (tFactor < 1)
         {
@@ -106,10 +113,8 @@ public class InteractionWithPlayerQTE : MonoBehaviour
             TriggerNewQTE();
             canTrigger = false;
 
-            if (ResetsAfterAction)
-                ResetInteraction();
-            //else
-            //    StartCoroutine(Cooldown());
+            //if (ResetsAfterAction)
+            //    ResetInteraction();
         }
     }
     public void TriggerNewQTE()
@@ -117,5 +122,15 @@ public class InteractionWithPlayerQTE : MonoBehaviour
         var tmpQte = Instantiate(QTEprefab, target.transform.position, Quaternion.identity, target.transform).GetComponent<QuickTimeEventController>();
         tmpQte.interactionBase = this;
 
+    }
+    public void ActivateRange()
+    {
+        this.rangeStartEvent.enabled = true;
+        this.containerSprites.SetActive(true);
+    }
+    public void DeactivateRange()
+    {
+        this.rangeStartEvent.enabled = false;
+        this.containerSprites.SetActive(false);
     }
 }
