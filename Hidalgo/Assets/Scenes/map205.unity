@@ -9873,7 +9873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.01, y: -18.3}
+  m_AnchoredPosition: {x: 1.5, y: -23.1}
   m_SizeDelta: {x: 133.46068, y: 46.16602}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &230075449
@@ -9896,10 +9896,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Find every \narmor piece, and bring Rocinante to the town's exit!"
+  m_text: "\xBFQu\xE9 es un caballero sin su brillante armadura y su fiel corcel?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
-  m_sharedMaterial: {fileID: 4521077226401758716, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
+  m_fontAsset: {fileID: 11400000, guid: 2a7ce6006e8a27c4799c170c3673d633, type: 2}
+  m_sharedMaterial: {fileID: 1736819604638996427, guid: 2a7ce6006e8a27c4799c170c3673d633,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9924,10 +9924,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 36
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -9960,7 +9960,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 7.7196054, y: 0, z: 12.714652, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -24345,11 +24345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.44552
+      value: 18.5
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.91732
+      value: -142.79276
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24398,12 +24398,12 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.72
+      value: 18.5
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.032763
+      value: -142.79276
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -50573,7 +50573,7 @@ PrefabInstance:
     - target: {fileID: 1605342968319315313, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2532046822324902453, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
@@ -50719,7 +50719,7 @@ PrefabInstance:
     - target: {fileID: 4887164902797625408, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5320265891481392623, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
@@ -56608,12 +56608,12 @@ PrefabInstance:
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.72
+      value: 18.5
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.64
+      value: -143.4
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -102630,7 +102630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.30001, y: 2.07}
+  m_AnchoredPosition: {x: -0.1, y: 2.9}
   m_SizeDelta: {x: 262.65735, y: 45.440666}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1795365792
@@ -102653,7 +102653,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You are forgetting something!
+  m_text: "\xA1No tan r\xE1pido!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d, type: 2}
   m_sharedMaterial: {fileID: 4521077226401758716, guid: 24d9b0b1aee8a4d44932f0f8ea9c9e2d,
@@ -102681,8 +102681,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
