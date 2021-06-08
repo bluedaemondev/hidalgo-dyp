@@ -45,7 +45,6 @@ public class Rocinante : MovementType
 
     private void Update()
     {
-
         if (Follows != null && _rigidbody2d.velocity.magnitude > 0.2)
         {
             rocinanteState = 2;
