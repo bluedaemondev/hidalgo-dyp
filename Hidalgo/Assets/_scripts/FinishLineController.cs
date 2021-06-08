@@ -43,6 +43,8 @@ public class FinishLineController : MonoBehaviour
         if(FindObjectOfType<Rocinante>().IsAttachedToPlayer() && PickupsScapeGameManager.instance.PickupsCompleted())
         {
             timeline.Play();
+
+            HudPlayerPickupScene.instance.CheckEscape();
         }
 
         if (!FindObjectOfType<Rocinante>().IsAttachedToPlayer() || !PickupsScapeGameManager.instance.PickupsCompleted())

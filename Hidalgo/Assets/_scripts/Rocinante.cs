@@ -75,6 +75,8 @@ public class Rocinante : MovementType
                 nextSoundTime = Time.time + FootstepSound.length;
             }
 
+            HudPlayerPickupScene.instance.CheckRocinante();
+
             var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
             var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
 
