@@ -3576,6 +3576,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
+        type: 3}
     - target: {fileID: 4377191738819789972, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6851,6 +6857,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 1024643918239200681, guid: 06e998a8f1aa13d4486e8a65ef1a0805, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06e998a8f1aa13d4486e8a65ef1a0805, type: 3}
@@ -13595,6 +13607,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetInteraction
       objectReference: {fileID: 0}
+    - target: {fileID: 6477167888708822474, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
 --- !u!114 &329389053 stripped
@@ -14787,6 +14805,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetInteraction
       objectReference: {fileID: 0}
+    - target: {fileID: 6477167888708822474, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 7c44d4eba37d97040af222a041bc4d4e,
+        type: 3}
     - target: {fileID: 7141060730170974732, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_Offset.y
@@ -16179,6 +16203,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
+        type: 3}
     - target: {fileID: 4377191738819789972, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22014,6 +22044,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
+        type: 3}
     - target: {fileID: 4377191738819789972, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23869,11 +23905,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.44552
+      value: -102.19495
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.91732
+      value: -25.250813
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -29210,6 +29246,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 7c44d4eba37d97040af222a041bc4d4e,
+        type: 3}
     - target: {fileID: 4377191739019035962, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -36321,6 +36363,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
+        type: 3}
     - target: {fileID: 4377191738819789972, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43506,6 +43554,12 @@ PrefabInstance:
       propertyPath: onPassed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 360229595}
+    - target: {fileID: 6477167888708822474, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
 --- !u!4 &1053801143 stripped
@@ -44574,6 +44628,12 @@ PrefabInstance:
       propertyPath: onPassed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 360229595}
+    - target: {fileID: 6477167888708822474, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
 --- !u!1 &1084432617
@@ -45818,6 +45878,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetInteraction
       objectReference: {fileID: 0}
+    - target: {fileID: 6477167888708822474, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46269f7fb0aef78499a8ae50946c69fe, type: 3}
 --- !u!114 &1104915136 stripped
@@ -54764,6 +54830,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 7c44d4eba37d97040af222a041bc4d4e,
+        type: 3}
     m_RemovedComponents:
     - {fileID: 1024643918239200681, guid: 06e998a8f1aa13d4486e8a65ef1a0805, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06e998a8f1aa13d4486e8a65ef1a0805, type: 3}
@@ -58678,6 +58750,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
+        type: 3}
     - target: {fileID: 4377191738819789972, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -100132,6 +100210,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ResetInteraction
       objectReference: {fileID: 0}
+    - target: {fileID: 6477167888708822474, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 845daf11cf2ffab41b9d2ed1c8053eac,
+        type: 3}
     - target: {fileID: 7141060730170974732, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_Enabled
@@ -100569,6 +100653,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 7c44d4eba37d97040af222a041bc4d4e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06e998a8f1aa13d4486e8a65ef1a0805, type: 3}
 --- !u!114 &1726422124 stripped
@@ -107465,6 +107555,12 @@ PrefabInstance:
       propertyPath: onFailed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
+        type: 3}
     - target: {fileID: 4377191738819789972, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -119081,6 +119177,12 @@ PrefabInstance:
       propertyPath: onPassed.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 4377191738190089029, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: 7c44d4eba37d97040af222a041bc4d4e,
+        type: 3}
     - target: {fileID: 4377191738190089031, guid: 06e998a8f1aa13d4486e8a65ef1a0805,
         type: 3}
       propertyPath: m_Layer
