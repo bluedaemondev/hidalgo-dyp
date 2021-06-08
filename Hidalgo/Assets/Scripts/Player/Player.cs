@@ -10,8 +10,15 @@ public class Player : MovementType, IStunneable, ISighteable
     public AudioClip newFootstepSound;
     public AudioClip oldFootstepSound;
     [SerializeField] private float speed = 2.6f;
+    private AudioSource audioSource;
     public float QuijoteState = 1;
     public float ArmorState = 1;
+    public bool OnWater = false;
+
+    [SerializeField]
+    private AudioClip[] grassClips;
+    [SerializeField]
+    private AudioClip[] waterClips;
 
     public GameObject box;
 
@@ -76,6 +83,8 @@ public class Player : MovementType, IStunneable, ISighteable
         NMovement.Add(KeyCode.W);
         NMovement.Add(KeyCode.D);
         NMovement.Add(KeyCode.A);
+
+        audioSource = GetComponent<AudioSource>();
 
         QuijoteState = 1f;
         ArmorState = 1f;
@@ -183,16 +192,32 @@ public class Player : MovementType, IStunneable, ISighteable
 
     }
 
-    public void ChangeFootstepSound(AudioClip newFootstepSound)
+    private void Step(AnimationEvent animationEvent)
     {
-        oldFootstepSound = currentFootstepSound;
-
-        currentFootstepSound = newFootstepSound;
+        if(animationEvent.animatorClipInfo.weight > 0.5)
+        {
+            if(!OnWater)
+            {
+                AudioClip clip = GetRandomGrassClip();
+                audioSource.PlayOneShot(clip);
+            }
+            else
+            {
+                AudioClip clip = GetRandomWaterClip();
+                audioSource.PlayOneShot(clip);
+            }
+            
+        }  
     }
 
-    public void RetrieveFootstepSound()
+    private AudioClip GetRandomGrassClip()
     {
-        currentFootstepSound = oldFootstepSound;
+        return grassClips[Random.Range(0, grassClips.Length)];
+    }
+
+    private AudioClip GetRandomWaterClip()
+    {
+        return waterClips[Random.Range(0, waterClips.Length)];
     }
 
     public void Destun()
