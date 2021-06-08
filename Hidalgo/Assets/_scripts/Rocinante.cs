@@ -92,7 +92,8 @@ public class Rocinante : MovementType
             {
                 posAux = raycast2Dplayer.point;
                 Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
-                _rigidbody2d.MovePosition((Vector2)transform.position  /** Speed * Time.deltaTime*/);
+                _rigidbody2d.MovePosition((Vector2)posAux  /** Speed * Time.deltaTime*/);
+
             }
 
         }
