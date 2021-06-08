@@ -16,11 +16,13 @@ public class Rocinante : MovementType
     private LayerMask layerMask;
     private Animator _animator;
     private Rigidbody2D _rigidbody2d;
+    private Vector3 LastMoveDir;
     private float nextSoundTime = 0;
     [SerializeField]
     private AudioClip FootstepSound;
     [SerializeField]
     private AudioClip HorseSound;
+    public float rocinanteState = 1;
 
     public event Action onSpringTargetChanged;
 
@@ -44,11 +46,12 @@ public class Rocinante : MovementType
     private void Update()
     {
 
-        if (Follows != null)
+        if (Follows != null && _rigidbody2d.velocity.magnitude > 0.2)
         {
-            _animator.SetBool("IsMoving", true);
+            rocinanteState = 2;
+            SetRocinanteState();
 
-            if (Time.time >= nextSoundTime)
+            if (Time.time >= nextSoundTime && rocinanteState == 2)
             {
                 SoundManager.instance.PlayEffect(FootstepSound);
                 nextSoundTime = Time.time + FootstepSound.length;
@@ -63,6 +66,14 @@ public class Rocinante : MovementType
             _animator.SetFloat("AnimMoveX", DiferenciaX);
             _animator.SetFloat("AnimMoveY", DiferenciaY);
 
+            _animator.SetFloat("AnimLastMoveY", DiferenciaY);
+            _animator.SetFloat("AnimLastMoveX", DiferenciaX);
+
+        }
+        else
+        {
+            rocinanteState = 1;
+            SetRocinanteState();
         }
 
         //Debug.Log("X " + DiferenciaX);
@@ -101,6 +112,11 @@ public class Rocinante : MovementType
         Spring.connectedBody = null;
         cuerda.SetActive(false);
 
+    }
+
+    public void SetRocinanteState()
+    {
+        _animator.SetFloat("RocinanteState", rocinanteState);
     }
 
     public void Move()
