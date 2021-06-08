@@ -19,9 +19,6 @@ public class InteractionWithPlayerQTE : MonoBehaviour
 
     private Vector2 originalScaleMask;
     public bool canTrigger = true;
-    public bool ResetsAfterAction = false;
-
-
 
     [Header("Tiempo que tengo que estar en rango hasta accion")]
     public float timeToTriggerQTE = 3f;
@@ -49,7 +46,11 @@ public class InteractionWithPlayerQTE : MonoBehaviour
         //if (ResetsAfterAction)
         //    onPassed.AddListener(this.ResetInteraction);
     }
-
+    
+    public void DeleteAfterPassedRoutine()
+    {
+        Destroy(this.gameObject);
+    }
     public void ResetInteraction()
     {
         StopAllCoroutines();
@@ -112,10 +113,8 @@ public class InteractionWithPlayerQTE : MonoBehaviour
             TriggerNewQTE();
             canTrigger = false;
 
-            if (ResetsAfterAction)
-                ResetInteraction();
-            //else
-            //    StartCoroutine(Cooldown());
+            //if (ResetsAfterAction)
+            //    ResetInteraction();
         }
     }
     public void TriggerNewQTE()

@@ -18,6 +18,9 @@ public class ApplesDistraction : MonoBehaviour
 
     void Start()
     {
+        if (rocinante == null)
+            rocinante = FindObjectOfType<Rocinante>();
+
         this.aggroRange = GetComponent<Collider2D>();
         rocinante.onSpringTargetChanged += SetActiveBasedOnSpringState;
     }

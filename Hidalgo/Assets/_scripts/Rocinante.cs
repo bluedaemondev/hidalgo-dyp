@@ -31,6 +31,7 @@ public class Rocinante : MovementType
     public GameObject cuerda;
 
 
+    public InteractionWithPlayerQTE qteFollow;
 
     public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
     public float Speed { get => speed * speedMultiplier; }
@@ -41,12 +42,15 @@ public class Rocinante : MovementType
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         Spring = GetComponent<SpringJoint2D>();
+
+        if (qteFollow == null)
+            qteFollow = transform.GetComponentInChildren<InteractionWithPlayerQTE>();
+
         //raycast2D = new RaycastHit2D();
     }
 
     private void Update()
     {
-
         if (Follows != null)
         {
             _animator.SetBool("IsMoving", true);
