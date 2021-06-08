@@ -886,7 +886,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 752344861}
         m_TargetAssemblyTypeName: MainMenuUIScript, Assembly-CSharp
-        m_MethodName: PlayNextScene
+        m_MethodName: ShowHowToPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3320,7 +3320,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 752344861}
         m_TargetAssemblyTypeName: MainMenuUIScript, Assembly-CSharp
-        m_MethodName: PlayNextScene
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
