@@ -22,6 +22,11 @@ public class ApplesDistraction : MonoBehaviour
             rocinante = FindObjectOfType<Rocinante>();
         if (myRigidbody == null)
             myRigidbody = GetComponent<Rigidbody2D>();
+        
+        if(interactionQTE == null)
+        {
+            interactionQTE = transform.GetComponentInChildren<InteractionWithPlayerQTE>();
+        }
 
         this.aggroRange = GetComponent<Collider2D>();
         rocinante.onSpringTargetChanged += SetActiveBasedOnSpringState;
