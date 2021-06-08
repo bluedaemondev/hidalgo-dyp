@@ -48,7 +48,16 @@ public class FinishLineController : MonoBehaviour
         if (!FindObjectOfType<Rocinante>().IsAttachedToPlayer() || !PickupsScapeGameManager.instance.PickupsCompleted())
         {
             uiShowMissingPickup.SetActive(true);
+
+            StartCoroutine(DisableUI());
         }
+
+        IEnumerator DisableUI()
+        {
+            yield return new WaitForSeconds(5);
+            uiShowMissingPickup.SetActive(false);
+        }
+
     }
     //private void OnTriggerExit2D(Collider2D collision)
     //{
