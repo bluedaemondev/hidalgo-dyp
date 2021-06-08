@@ -8,9 +8,17 @@ public class PatrollingEnemy : MonoBehaviour
     public Transform PointB;
     public float TravelTime = 1f;
     public Vector3 AuxScale;
+    public Animator myAnimator;
+
+    private float SoldadoState = 2;
 
     private float CurrentTravelTime;
     private bool MovingToB;
+
+    private void Awake()
+    {
+        myAnimator = GetComponent<Animator>();
+    }
 
     private bool canMove = true;
     void Update()
@@ -25,6 +33,8 @@ public class PatrollingEnemy : MonoBehaviour
                     MovingToB = false;
                     FlipScale();
                     AwaitInPlace(2f);
+
+                  
                 }
             }
             else
@@ -36,7 +46,7 @@ public class PatrollingEnemy : MonoBehaviour
                     FlipScale();
                     AwaitInPlace(2f);
 
-
+                    
                 }
             }
 
@@ -50,8 +60,11 @@ public class PatrollingEnemy : MonoBehaviour
     private IEnumerator LockMovementFor(float time)
     {
         canMove = false;
+        SoldadoState = 1;
         yield return new WaitForSeconds(time);
         canMove = true;
+        SoldadoState = 2;
+
     }
     private void FlipScale()
     {
@@ -60,4 +73,6 @@ public class PatrollingEnemy : MonoBehaviour
         transform.localScale = AuxScale;
         
     }
+
+    
 }
