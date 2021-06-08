@@ -16,7 +16,7 @@ public class Rocinante : MovementType
     private LayerMask layerMask;
     private Animator _animator;
 
-    
+
 
     private Rigidbody2D _rigidbody2d;
     private Vector3 LastMoveDir;
@@ -29,21 +29,23 @@ public class Rocinante : MovementType
 
     public event Action onSpringTargetChanged;
 
-    private SpringJoint2D spring;
+    //private SpringJoint2D spring;
     public GameObject cuerda;
 
+    //private Action onUpdate;
 
     public InteractionWithPlayerQTE qteFollow;
 
-    public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); } }
+    public Transform Follows { get => _follows; set { _follows = value; Debug.Log("following = " + _follows); onSpringTargetChanged?.Invoke(); } }
     public float Speed { get => speed * speedMultiplier; }
-    public SpringJoint2D Spring { get => spring; set { spring = value; onSpringTargetChanged?.Invoke(); } }
+
+    Vector2 posAux;
 
     private void Start()
     {
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-        Spring = GetComponent<SpringJoint2D>();
+        //Spring = GetComponent<SpringJoint2D>();
 
         if (qteFollow == null)
             qteFollow = transform.GetComponentInChildren<InteractionWithPlayerQTE>();
@@ -51,10 +53,19 @@ public class Rocinante : MovementType
         //raycast2D = new RaycastHit2D();
     }
 
+    private void OnDrawGizmos()
+    {
+        if (posAux != null)
+        {
+            Gizmos.DrawSphere(posAux, 0.4f);
+        }
+    }
+
     private void Update()
     {
-        if (Follows != null && _rigidbody2d.velocity.magnitude > 0.2)
+        if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer) /*&& _rigidbody2d.velocity.magnitude > 0.2*/
         {
+            //Debug.Log("pija");
             rocinanteState = 2;
             SetRocinanteState();
 
@@ -64,17 +75,25 @@ public class Rocinante : MovementType
                 nextSoundTime = Time.time + FootstepSound.length;
             }
 
-            var raycast2D = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+            var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+            var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
 
-            var DiferenciaX = raycast2D.point.x - transform.position.x;
 
-            var DiferenciaY = raycast2D.point.y - transform.position.y;
+            var DiferenciaX = raycast2Dplayer.point.x - transform.position.x;
+            var DiferenciaY = raycast2Dplayer.point.y - transform.position.y;
 
             _animator.SetFloat("AnimMoveX", DiferenciaX);
             _animator.SetFloat("AnimMoveY", DiferenciaY);
 
             _animator.SetFloat("AnimLastMoveY", DiferenciaY);
             _animator.SetFloat("AnimLastMoveX", DiferenciaX);
+
+            if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
+            {
+                posAux = raycast2Dplayer.point;
+                Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
+                _rigidbody2d.MovePosition((Vector2)transform.position  /** Speed * Time.deltaTime*/);
+            }
 
         }
         else
@@ -100,17 +119,17 @@ public class Rocinante : MovementType
 
     public void FollowTarget(Transform targetNew)
     {
-        Spring.gameObject.SetActive(true);
+        //Spring.gameObject.SetActive(true);
         Follows = targetNew;
 
-        Spring.connectedBody = targetNew.GetComponent<Rigidbody2D>();
-        Spring.autoConfigureDistance = false;
-        Spring.distance = 4;
+        //Spring.connectedBody = targetNew.GetComponent<Rigidbody2D>();
+        //Spring.autoConfigureDistance = false;
+        //Spring.distance = 4;
 
         cuerda.SetActive(true);
         // activar si la cuerda queda atada al nuevo punto
         //cuerda.GetComponent<FollowTargetOnUpdate>().targetFollow = targetNew;
-        
+
         onSpringTargetChanged?.Invoke();
         //cuerda.connectedAnchor = Vector2.zero;
 
@@ -119,7 +138,7 @@ public class Rocinante : MovementType
 
     public void StopFollowingTarget()
     {
-        Spring.connectedBody = null;
+        //Spring.connectedBody = null;
         cuerda.SetActive(false);
 
     }
@@ -152,7 +171,8 @@ public class Rocinante : MovementType
     }
     public bool IsAttachedToPlayer()
     {
-        return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
+        //return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
+        return this.Follows == PickupsScapeGameManager.instance.Player;
     }
 
 
