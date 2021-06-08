@@ -8,16 +8,16 @@ public class PatrollingEnemy : MonoBehaviour
     public Transform PointB;
     public float TravelTime = 1f;
     public Vector3 AuxScale;
-    public Animator myAnimator;
+    // public Animator myAnimator;
 
-    private float SoldadoState = 2;
+    public float SoldadoState = 2f;
 
     private float CurrentTravelTime;
     private bool MovingToB;
 
     private void Awake()
     {
-        myAnimator = GetComponent<Animator>();
+       // myAnimator = GetComponent<Animator>();
     }
 
     private bool canMove = true;
@@ -25,16 +25,25 @@ public class PatrollingEnemy : MonoBehaviour
     {
         if (canMove)
         {
+            SoldadoState = 2f;
+            SetSoldadoState();
+            var DistanceAX = transform.position.x - PointA.position.x;
+            var DistanceAY = transform.position.y - PointA.position.y;
+            var DistanceBX = transform.position.x - PointB.position.x;
+            var DistanceBY = transform.position.x - PointA.position.y;
+
             if (MovingToB)
             {
                 CurrentTravelTime += Time.deltaTime;
                 if (CurrentTravelTime >= TravelTime)
                 {
                     MovingToB = false;
-                    FlipScale();
+                   // FlipScale();
                     AwaitInPlace(2f);
 
-                  
+                   //  myAnimator.SetFloat("SoldadoMoveX", DistanceBX);
+                   //  myAnimator.SetFloat("SoldadoMoveY", DistanceBY);
+
                 }
             }
             else
@@ -43,10 +52,11 @@ public class PatrollingEnemy : MonoBehaviour
                 if (CurrentTravelTime <= 0f)
                 {
                     MovingToB = true;
-                    FlipScale();
+                   // FlipScale();
                     AwaitInPlace(2f);
-
-                    
+                
+                   //  myAnimator.SetFloat("SoldadoMoveX", DistanceAX);
+                   //  myAnimator.SetFloat("SoldadoMoveY", DistanceAY);
                 }
             }
 
@@ -60,10 +70,12 @@ public class PatrollingEnemy : MonoBehaviour
     private IEnumerator LockMovementFor(float time)
     {
         canMove = false;
-        SoldadoState = 1;
+        SoldadoState = 1f;
+        SetSoldadoState();
         yield return new WaitForSeconds(time);
         canMove = true;
-        SoldadoState = 2;
+        SoldadoState = 2f;
+        SetSoldadoState();
 
     }
     private void FlipScale()
@@ -72,6 +84,11 @@ public class PatrollingEnemy : MonoBehaviour
         AuxScale.x = -AuxScale.x;
         transform.localScale = AuxScale;
         
+    }
+
+    public void SetSoldadoState()
+    {
+       // myAnimator.SetFloat("SoldadoState", SoldadoState);
     }
 
     
