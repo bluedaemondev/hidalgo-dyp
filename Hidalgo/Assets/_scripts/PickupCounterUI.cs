@@ -8,10 +8,10 @@ public class PickupCounterUI : MonoBehaviour
     public List<Sprite> spriteStates;
     [SerializeField] private int currentIndex;
     [SerializeField] private Image image;
-    public GameObject timer;
+    //public GameObject timer;
 
     private bool triggeredHasRocinante;
-    public HorseUIContainer uiRocinante;
+    //public HorseUIContainer uiRocinante;
 
 
     public bool IsCompleted()
@@ -30,10 +30,10 @@ public class PickupCounterUI : MonoBehaviour
     private void Start()
     {
         PickupsScapeGameManager.instance.onPickupItem.AddListener(this.StepNextSprite);
-        if (uiRocinante == null)
-        {
-            uiRocinante = FindObjectOfType<HorseUIContainer>();
-        }
+        //if (uiRocinante == null)
+        //{
+        //    uiRocinante = FindObjectOfType<HorseUIContainer>();
+        //}
     }
 
     public void StepNextSprite(string idPickup = "default") // perdon por esto pero necesito el evento :( -juan
@@ -41,16 +41,22 @@ public class PickupCounterUI : MonoBehaviour
         if (!triggeredHasRocinante && idPickup == "0")
         {
             triggeredHasRocinante = true;
+            HudPlayerPickupScene.instance.CheckRocinante();
         }
 
         if (currentIndex < spriteStates.Count && triggeredHasRocinante && idPickup != "0")
             currentIndex++;
 
-        timer.GetComponent<TimerCountdown>().ResetTimer();
+        //timer.GetComponent<TimerCountdown>().ResetTimer();
 
         if (currentIndex < spriteStates.Count && idPickup != "0")
             image.sprite = spriteStates[currentIndex];
         
+        if(idPickup == "2")
+        {
+            HudPlayerPickupScene.instance.CheckPiecesComplete();
+        }
+
         CheckEndList();
     }
 
