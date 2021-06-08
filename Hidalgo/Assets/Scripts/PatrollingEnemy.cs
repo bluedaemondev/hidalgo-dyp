@@ -17,6 +17,7 @@ public class PatrollingEnemy : MonoBehaviour
 
     private void Awake()
     {
+        SoldadoState = 2f;
         myAnimator = GetComponent<Animator>();
     }
 
