@@ -15,10 +15,22 @@ public class LightManager : MonoBehaviour
     public float flashIntensity = 10;
 
     public Light2D globalLightScene;
+    private float originalLightIntensity;
+
+    Coroutine lightningCoroutine;
+
 
     public void Lightning()
     {
-        StartCoroutine(LightningFlash());
+        lightningCoroutine = StartCoroutine(LightningFlash());
+    }
+
+    private void Update()
+    {
+        if(lightningCoroutine == null && globalLightScene.intensity != originalLightIntensity)
+        {
+            globalLightScene.intensity = originalLightIntensity;
+        }
     }
     IEnumerator LightningFlash()
     {
@@ -48,6 +60,7 @@ public class LightManager : MonoBehaviour
     }
     private void Start()
     {
+        originalLightIntensity = globalLightScene.intensity;
         StartCoroutine(TimeToDaytime());
     }
 }
