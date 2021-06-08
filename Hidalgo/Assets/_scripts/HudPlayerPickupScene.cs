@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class HudPlayerPickupScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static HudPlayerPickupScene instance { get; private set; }
 
-    // Update is called once per frame
-    void Update()
+    public GameObject checkedRocinante;
+    public GameObject checkedPieces;
+    public GameObject checkedLast;
+
+    // Start is called before the first frame update
+    void Awake()
     {
-        
+        instance = this;
+    }
+    public void CheckRocinante()
+    {
+
     }
 }
