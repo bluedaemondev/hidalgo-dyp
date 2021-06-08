@@ -92,8 +92,6 @@ public class Rocinante : MovementType
             {
                 posAux = raycast2Dplayer.point;
                 Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
-                _rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
-
             }
 
         }
@@ -107,6 +105,11 @@ public class Rocinante : MovementType
         //Debug.Log("Y " + DiferenciaY);
         //Debug.Log("Quijote está en " + Follows.position);
 
+    }
+
+    private void FixedUpdate()
+    {
+        _rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
     }
 
     public void SetSpeedMultiplier(float value)
