@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: a409f346ba2ea794d90ad7314208145b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5024737455553385178
+    second: Guard_Spritesheet_Mirror_0
+  - first:
+      213: 3924166260350182497
+    second: Guard_Spritesheet_Mirror_1
+  - first:
+      213: -5025031644559836260
+    second: Guard_Spritesheet_Mirror_2
+  - first:
+      213: -1569895882456880382
+    second: Guard_Spritesheet_Mirror_3
+  - first:
+      213: -4057570941399087825
+    second: Guard_Spritesheet_Mirror_4
+  - first:
+      213: 3449632484483462399
+    second: Guard_Spritesheet_Mirror_5
+  - first:
+      213: 8962955048097229241
+    second: Guard_Spritesheet_Mirror_6
+  - first:
+      213: -8045444069950012724
+    second: Guard_Spritesheet_Mirror_7
+  - first:
+      213: 1306422023939166405
+    second: Guard_Spritesheet_Mirror_8
+  - first:
+      213: 6345752008958826017
+    second: Guard_Spritesheet_Mirror_9
+  - first:
+      213: 8012505838956391704
+    second: Guard_Spritesheet_Mirror_10
+  - first:
+      213: -4551104611198939956
+    second: Guard_Spritesheet_Mirror_11
+  - first:
+      213: 763369706994781679
+    second: Guard_Spritesheet_Mirror_12
+  - first:
+      213: 7054044099445645868
+    second: Guard_Spritesheet_Mirror_13
+  - first:
+      213: -5306725511566435681
+    second: Guard_Spritesheet_Mirror_14
+  - first:
+      213: 8132122885147918083
+    second: Guard_Spritesheet_Mirror_15
+  - first:
+      213: -7241669898911319014
+    second: Guard_Spritesheet_Mirror_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1605
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad21cd7f7147bb540800000000000000
+      internalID: 5024737455553385178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_1
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1605
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164eeb33c60757630800000000000000
+      internalID: 3924166260350182497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_2
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1605
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bf9e0d750834ab0800000000000000
+      internalID: -5025031644559836260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1605
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b2fc7330c963ae0800000000000000
+      internalID: -1569895882456880382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_4
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1605
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25c5fa0abc90b7c0800000000000000
+      internalID: -4057570941399087825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4f84bb77e8fdf20800000000000000
+      internalID: 3449632484483462399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1070
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b921a3e020d26c70800000000000000
+      internalID: 8962955048097229241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1070
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24b56be37d85090800000000000000
+      internalID: -8045444069950012724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1070
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c014a7b8e7512210800000000000000
+      internalID: 1306422023939166405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1070
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12656b6b4d3a01850800000000000000
+      internalID: 6345752008958826017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 535
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d2db3cb93223f60800000000000000
+      internalID: 8012505838956391704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_11
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 535
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc48d9087a37d0c0800000000000000
+      internalID: -4551104611198939956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_12
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 535
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedc7b934b8089a00800000000000000
+      internalID: 763369706994781679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_13
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 535
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22e5690cbff4e160800000000000000
+      internalID: 7054044099445645868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_14
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 535
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a54927349ba56b0800000000000000
+      internalID: -5306725511566435681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_15
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 0
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ff01f9daa1bd070800000000000000
+      internalID: 8132122885147918083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guard_Spritesheet_Mirror_16
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 405
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c70ce489b608b90800000000000000
+      internalID: -7241669898911319014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
