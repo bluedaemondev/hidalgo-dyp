@@ -43,7 +43,6 @@ public class FinishLineController : MonoBehaviour
         if(FindObjectOfType<Rocinante>().IsAttachedToPlayer() && PickupsScapeGameManager.instance.PickupsCompleted())
         {
             timeline.Play();
-            uiShowWinPopup.SetActive(true);
         }
     }
     //private void OnTriggerExit2D(Collider2D collision)
