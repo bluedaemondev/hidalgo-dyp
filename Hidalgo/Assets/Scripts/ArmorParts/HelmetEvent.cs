@@ -26,7 +26,7 @@ public class HelmetEvent : MonoBehaviour
 
         if (Wall1 != null)
         {
-            ClimateController.instance.LightningEffect(Wall1.transform.position);
+            ClimateController.instance.LightningEffect(Wall1.transform.position, true);
             Destroy(Wall1);
         }
     }
