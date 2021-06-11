@@ -28,9 +28,11 @@ public class Enemy_M2 : MonoBehaviour
     void KnockedOut()
     {
         Debug.Log("Enemy knocked out");
-        
+
         //Knocked out anim
 
-        //Disable enemy
+        //Disable enemy (body stays there for now)
+        GetComponent<Collider2D>().enabled = false;
+        this.enabled = false;
     }
 }
