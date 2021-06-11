@@ -14,6 +14,8 @@ public class PlayerCombat : MonoBehaviour
     public float golpeRange = 0.5f;
     public LayerMask enemyLayers;
 
+    public int golpeDamage = 40;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -51,7 +53,7 @@ public class PlayerCombat : MonoBehaviour
         //Damage enemies
         foreach(Collider2D enemy in hitEnemies)
         {
-            Debug.Log("Le dimos a" + enemy.name);
+            enemy.GetComponent<Enemy_M2>().TakeDamage(golpeDamage);
         }
     }
 
