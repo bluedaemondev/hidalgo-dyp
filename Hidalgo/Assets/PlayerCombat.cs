@@ -10,6 +10,10 @@ public class PlayerCombat : MonoBehaviour
     private bool isAttacking;
     private float attackTimer;
 
+    public Transform golpePoint;
+    public float golpeRange = 0.5f;
+    public LayerMask enemyLayers;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -41,9 +45,23 @@ public class PlayerCombat : MonoBehaviour
         this.isAttacking = true;
         this.spriteRenderer.sprite = golpeSprite;
 
-        
         //Detect enemies in range of Golpe
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(golpePoint.position, golpeRange, enemyLayers);
+
         //Damage enemies
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("Le dimos a" + enemy.name);
+        }
+    }
+
+    //Gizmos for Golpe point and range
+    void OnDrawGizmosSelected()
+    {
+        if (golpePoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(golpePoint.position, golpeRange);
     }
 }
 
