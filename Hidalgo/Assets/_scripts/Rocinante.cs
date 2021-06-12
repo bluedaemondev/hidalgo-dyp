@@ -63,53 +63,46 @@ public class Rocinante : MovementType
 
     private void Update()
     {
-        if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer) /*&& _rigidbody2d.velocity.magnitude > 0.2*/
+        if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer)  
         {
             //Debug.Log("pija");
-            rocinanteState = 2;
-            SetRocinanteState();
 
-            if (Time.time >= nextSoundTime)
-            {
-                SoundManager.instance.PlayEffect(FootstepSound);
-                nextSoundTime = Time.time + FootstepSound.length;
-            }
+                rocinanteState = 2;
+                SetRocinanteState();
 
-            HudPlayerPickupScene.instance.CheckRocinante();
+                if (Time.time >= nextSoundTime)
+                {
+                    SoundManager.instance.PlayEffect(FootstepSound);
+                    nextSoundTime = Time.time + FootstepSound.length;
+                }
 
-            var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
-            var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
+                HudPlayerPickupScene.instance.CheckRocinante();
 
+                var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+                var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
 
-            var DiferenciaX = raycast2Dplayer.point.x - transform.position.x;
-            var DiferenciaY = raycast2Dplayer.point.y - transform.position.y;
+                var DiferenciaX = raycast2Dplayer.point.x - transform.position.x;
+                var DiferenciaY = raycast2Dplayer.point.y - transform.position.y;
 
-            _animator.SetFloat("AnimMoveX", DiferenciaX);
-            _animator.SetFloat("AnimMoveY", DiferenciaY);
+                _animator.SetFloat("AnimMoveX", DiferenciaX);
+                _animator.SetFloat("AnimMoveY", DiferenciaY);
 
-            _animator.SetFloat("AnimLastMoveY", DiferenciaY);
-            _animator.SetFloat("AnimLastMoveX", DiferenciaX);
+                _animator.SetFloat("AnimLastMoveY", DiferenciaY);
+                _animator.SetFloat("AnimLastMoveX", DiferenciaX);
 
-            // if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
-            // {
-            //     posAux = raycast2Dplayer.point;
-            //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
-            // }
-
-            var delta = Vector2.Distance(transform.position, Follows.position);
-
-            if (delta <= deltaMaxDist && delta >= deltaMinToMove)
-            {
-                var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-                transform.position = direction;
-            }
-
+                Move();
+                // if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
+                // {
+                //     posAux = raycast2Dplayer.point;
+                //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
+                // }        
         }
         else
         {
             rocinanteState = 1;
             SetRocinanteState();
         }
+
 
         //Debug.Log("X " + DiferenciaX);
         //Debug.Log("Y " + DiferenciaY);
@@ -170,8 +163,8 @@ public class Rocinante : MovementType
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-            //transform.position = direction;
-            _rigidbody2d.MovePosition(direction);
+            transform.position = direction;
+           // _rigidbody2d.MovePosition(direction);
         }
 
     }
