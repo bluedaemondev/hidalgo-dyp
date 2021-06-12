@@ -90,10 +90,18 @@ public class Rocinante : MovementType
             _animator.SetFloat("AnimLastMoveY", DiferenciaY);
             _animator.SetFloat("AnimLastMoveX", DiferenciaX);
 
-            if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
+            // if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
+            // {
+            //     posAux = raycast2Dplayer.point;
+            //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
+            // }
+
+            var delta = Vector2.Distance(transform.position, Follows.position);
+
+            if (delta <= deltaMaxDist && delta >= deltaMinToMove)
             {
-                posAux = raycast2Dplayer.point;
-                Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
+                var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
+                transform.position = direction;
             }
 
         }
@@ -111,7 +119,7 @@ public class Rocinante : MovementType
 
     private void FixedUpdate()
     {
-        _rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
+        //_rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
     }
 
     public void SetSpeedMultiplier(float value)
