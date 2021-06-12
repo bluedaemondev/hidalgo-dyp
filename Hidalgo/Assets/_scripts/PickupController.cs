@@ -11,7 +11,7 @@ public class PickupController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        PickupsScapeGameManager.instance.onPickupItem.Invoke(this.id);
+        //PickupsScapeGameManager.instance.onPickupItem.Invoke(this.id);
 
         if (destroyOnPickup)
             Destroy(this.gameObject);
@@ -19,7 +19,7 @@ public class PickupController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        PickupsScapeGameManager.instance.onPickupItem.Invoke(this.id);
+        //PickupsScapeGameManager.instance.onPickupItem.Invoke(this.id);
     }
 
 }

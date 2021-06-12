@@ -7,8 +7,14 @@ public class Enemy_M2 : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
 
+    [SerializeField]
+    Transform targetPickup;
+    [SerializeField]
+    private Vector2 originalPosition;
+
     void Start()
     {
+        originalPosition = transform.position;
         currentHealth = maxHealth;
     }
 
