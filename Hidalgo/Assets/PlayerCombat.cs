@@ -18,6 +18,7 @@ public class PlayerCombat : MonoBehaviour
     public string animation_WalkName = "walking";
     public string animation_IdleName = "idle";
     public string animation_pickingUpName = "pickup";
+    public string animation_damagedName = "damaged";
 
     Collider2D[] hitEnemies;
 

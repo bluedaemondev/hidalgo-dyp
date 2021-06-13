@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
         return (float)health / healthMax;
     }
 
-    protected void Init(int maxHealth, int currentHealth)
+    public void Init(int maxHealth, int currentHealth)
     {
         this.healthMax = maxHealth;
         this.health = currentHealth;
@@ -49,8 +49,9 @@ public class Health : MonoBehaviour
         OnHealthChanged?.Invoke(this, EventArgs.Empty);
         OnDamaged?.Invoke(this, EventArgs.Empty);
 
-        EffectFactory.instance.InstantiateEffectAt(bloodPrefab, transform.position, Quaternion.identity);
-        
+        if (bloodPrefab != null)
+            EffectFactory.instance.InstantiateEffectAt(bloodPrefab, transform.position, Quaternion.identity);
+
         camshake?.ShakeCameraNormal(8, 0.3f);
 
         if (health <= 0)

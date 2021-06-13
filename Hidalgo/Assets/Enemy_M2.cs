@@ -22,13 +22,24 @@ public class Enemy_M2 : MonoBehaviour
 
     public Func<Vector2> moveTowardsTarget;
     protected Health health;
+
+    public Animator _animator;
+    public string animation_AttackName = "attacking";
+    public string animation_WalkName = "walking";
+    public string animation_IdleName = "idle";
+    public string animation_pickingUpName = "pickup";
+    public string animation_damagedName = "damaged";
+    public string animation_knockedOutName = "knocked_out";
+
     void Start()
     {
+        _animator = GetComponent<Animator>();
         health = GetComponent<Health>();
+        health.Init(maxHealth, currentHealth);
 
         _rigidbody = GetComponent<Rigidbody2D>();
         originalPosition = transform.position;
-        currentHealth = maxHealth;
+        //currentHealth = maxHealth;
 
     }
     private void Update()
@@ -56,13 +67,15 @@ public class Enemy_M2 : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+        health.Damage(damage);
+        _animator.Play(animation_damagedName);
 
         //Play Hurt anim
 
         if (currentHealth <= 0)
         {
             KnockedOut();
+            _animator.Play(animation_knockedOutName);
         }
     }
 

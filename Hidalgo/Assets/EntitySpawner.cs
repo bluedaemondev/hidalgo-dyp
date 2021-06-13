@@ -14,7 +14,7 @@ public class EntitySpawner : MonoBehaviour
 
     public bool spawnActive = true;
 
-    public GameObject pivotPoint;
+    private Transform pivotPoint;
 
     public void SetTimerDoubleSpeed()
     {
@@ -33,6 +33,7 @@ public class EntitySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pivotPoint = PickupTracker.instance.GetRandomPickup();
         StartCoroutine(SpawnCyclic());
     }
     private void OnDrawGizmos()
@@ -52,10 +53,10 @@ public class EntitySpawner : MonoBehaviour
 
             //transform.position = randPointRadius;
 
-            GameObject newEnemy = Instantiate(entityToSpawn[rRange], (Vector2)pivotPoint.transform.position - randPointRadius, Quaternion.identity);
+            GameObject newEnemy = Instantiate(entityToSpawn[rRange], (Vector2)pivotPoint.position - randPointRadius, Quaternion.identity);
             newEnemy.transform.position = randPointRadius;
             // usar angulo de rotacion de los enemiogos para que miren al frente al instanciarlos
-            newEnemy.GetComponent<Enemy_M2>().SetFollowTarget(pivotPoint.transform.position);
+            newEnemy.GetComponent<Enemy_M2>().SetFollowTarget(pivotPoint.position);
 
             yield return new WaitForSeconds(timeSpawn * timeSpawnModifier);
         }
