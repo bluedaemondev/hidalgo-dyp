@@ -94,8 +94,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  movementSpeed: 0.68
   targetPickup: {fileID: 0}
   originalPosition: {x: 0, y: 0}
+  pickupTransform: {fileID: 0}
 --- !u!1 &8131639792586151007
 GameObject:
   m_ObjectHideFlags: 0

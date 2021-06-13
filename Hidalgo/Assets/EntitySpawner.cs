@@ -4,44 +4,62 @@ using UnityEngine;
 
 public class EntitySpawner : MonoBehaviour
 {
-    public GameObject entityToSpawn;
+    public List<GameObject> entityToSpawn;
 
     public float radiusSpawn = 10f;
     public float timeSpawn = 4f;
 
-    public Transform rotateAround;
-    public bool useRotationPivot;
+    [Header("si queremos dar +/- tiempo entre spawn de enemigo por momentos")]
+    public float timeSpawnModifier = 1f;
+
+    public bool spawnActive = true;
+
+    public GameObject pivotPoint;
+
+
+    public void SetTimerDoubleSpeed()
+    {
+        this.timeSpawnModifier = 0.5f;
+    }
+    public void ResetTimerSpeed()
+    {
+        this.timeSpawnModifier = 1f;
+    }
+    public void SetTimerSlowSpeed()
+    {
+        this.timeSpawnModifier = 1.5f;
+    }
+
 
     // Start is called before the first frame update
     void Start()
     {
-
+        StartCoroutine(SpawnCyclic());
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnDrawGizmos()
     {
-        transform.position = GeneratePointBasedOnPivot(rotateAround.position, transform.position);
+        Gizmos.DrawWireSphere(Vector3.zero, radiusSpawn);
     }
-
-    Vector2 GeneratePointBasedOnPivot(Vector2 positionPivot, Vector2 pointTransform)
+    Vector2 GenerateRandomPosInsideRadius()
     {
-        Vector2 dir = new Vector2();
-
-        var randX = Random.Range(0.1f, 1f);
-        var randY = Random.Range(0.1f, 1f);
-
-        var randPhase = Random.Range(-30, 31);
-
-        var angle = Mathf.Atan(randY / randX) * Mathf.Rad2Deg + randPhase;
-
-        var offset = (pointTransform - positionPivot).magnitude;
-
-        Debug.Log(angle);
-
-        dir.x =  Mathf.Tan(angle) * randX * offset - positionPivot.x ;
-        dir.y =  Mathf.Tan(angle) * randY * offset - positionPivot.y;
-
-        return dir;
+        return Random.insideUnitCircle.normalized * radiusSpawn;
     }
+    IEnumerator SpawnCyclic()
+    {
+        while (spawnActive && entityToSpawn != null)
+        {
+            int rRange = Random.Range(0, entityToSpawn.Count);
+            var randPointRadius = GenerateRandomPosInsideRadius();
+
+            //transform.position = randPointRadius;
+
+            GameObject newEnemy = Instantiate(entityToSpawn[rRange], (Vector2)pivotPoint.transform.position - randPointRadius, Quaternion.identity);
+            newEnemy.transform.position = randPointRadius;
+            // usar angulo de rotacion de los enemiogos para que miren al frente al instanciarlos
+            newEnemy.GetComponent<Enemy_M2>().SetFollowTarget(pivotPoint.transform.position);
+
+            yield return new WaitForSeconds(timeSpawn * timeSpawnModifier);
+        }
+    }
+
 }

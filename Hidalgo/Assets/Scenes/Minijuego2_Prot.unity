@@ -604,7 +604,7 @@ MonoBehaviour:
     ModeOverride: 1
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.777559, y: 1}
+    m_SensorSize: {x: 1.7774295, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6339,6 +6339,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3398540625760825826, guid: 5ac659af00f2f7b47beac81a8853c057,
         type: 3}
+    - target: {fileID: 7416074908376029040, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
+        type: 3}
+      propertyPath: timeSpawn
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416074908376029040, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
+        type: 3}
+      propertyPath: radiusSpawn
+      value: 60.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416074908376029040, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
+        type: 3}
+      propertyPath: entityToSpawn.Array.data[0]
+      value: 
+      objectReference: {fileID: 3398540625760825826, guid: 5ac659af00f2f7b47beac81a8853c057,
+        type: 3}
+    - target: {fileID: 7416074908376029040, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
+        type: 3}
+      propertyPath: pivotPoint
+      value: 
+      objectReference: {fileID: 1016179159}
     - target: {fileID: 7416074908376029041, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
         type: 3}
       propertyPath: m_Name
