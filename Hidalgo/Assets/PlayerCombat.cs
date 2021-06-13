@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    public Sprite golpeSprite;
-    public Sprite idleSprite;
-    private SpriteRenderer spriteRenderer;
+    
+
     private bool isAttacking;
     private float attackTimer;
 
@@ -14,11 +13,19 @@ public class PlayerCombat : MonoBehaviour
     public float golpeRange = 0.5f;
     public LayerMask enemyLayers;
 
+    public Animator _animator;
+    public string animation_AttackName = "attacking";
+    public string animation_WalkName = "walking";
+    public string animation_IdleName = "idle";
+    public string animation_pickingUpName = "pickup";
+
+    Collider2D[] hitEnemies;
+
     public int golpeDamage = 40;
 
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -36,7 +43,7 @@ public class PlayerCombat : MonoBehaviour
             {
                 this.isAttacking = false;
                 this.attackTimer = 0f;
-                this.spriteRenderer.sprite = idleSprite;
+                this._animator.Play(animation_IdleName);
             }
         }
     }
@@ -45,10 +52,10 @@ public class PlayerCombat : MonoBehaviour
     {
         //Change to Golpe sprite
         this.isAttacking = true;
-        this.spriteRenderer.sprite = golpeSprite;
+        this._animator.Play(animation_AttackName);
 
         //Detect enemies in range of Golpe
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(golpePoint.position, golpeRange, enemyLayers);
+        hitEnemies = Physics2D.OverlapCircleAll(golpePoint.position, golpeRange, enemyLayers);
 
         //Damage enemies
         foreach(Collider2D enemy in hitEnemies)
@@ -64,6 +71,13 @@ public class PlayerCombat : MonoBehaviour
             return;
 
         Gizmos.DrawWireSphere(golpePoint.position, golpeRange);
+        if(hitEnemies != null)
+        {
+            foreach(var item in hitEnemies)
+            {
+                Gizmos.DrawWireCube(item.transform.position, Vector3.one);
+            }
+        }
     }
 }
 

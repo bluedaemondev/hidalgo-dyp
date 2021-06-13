@@ -14,12 +14,12 @@ public class Health : MonoBehaviour
     private int health;
 
     public GameObject bloodPrefab;
+    CameraShake camshake;
 
     private void Start()
     {
         health = healthMax;
-
-
+        camshake = FindObjectOfType<CameraShake>();
     }
 
     public int GetMaxLife()
@@ -32,6 +32,12 @@ public class Health : MonoBehaviour
         return (float)health / healthMax;
     }
 
+    protected void Init(int maxHealth, int currentHealth)
+    {
+        this.healthMax = maxHealth;
+        this.health = currentHealth;
+    }
+
     public void Damage(int amount)
     {
         health -= amount;
@@ -39,22 +45,23 @@ public class Health : MonoBehaviour
         {
             health = 0;
         }
+
         OnHealthChanged?.Invoke(this, EventArgs.Empty);
         OnDamaged?.Invoke(this, EventArgs.Empty);
 
         EffectFactory.instance.InstantiateEffectAt(bloodPrefab, transform.position, Quaternion.identity);
-        FindObjectOfType<CameraShake>().ShakeCameraNormal(8, 0.3f);
+        
+        camshake?.ShakeCameraNormal(8, 0.3f);
 
         if (health <= 0)
         {
             Die();
-            FindObjectOfType<CameraShake>().ShakeCameraNormal(2, 2f);
-
         }
     }
 
     public void Die()
     {
+        camshake?.ShakeCameraNormal(2, 2f);
         OnDead?.Invoke(this, EventArgs.Empty);
         SendMessage("OnDie");
 

@@ -21,9 +21,11 @@ public class Enemy_M2 : MonoBehaviour
     public Transform pickupTransform;
 
     public Func<Vector2> moveTowardsTarget;
-
+    protected Health health;
     void Start()
     {
+        health = GetComponent<Health>();
+
         _rigidbody = GetComponent<Rigidbody2D>();
         originalPosition = transform.position;
         currentHealth = maxHealth;

@@ -16,7 +16,6 @@ public class EntitySpawner : MonoBehaviour
 
     public GameObject pivotPoint;
 
-
     public void SetTimerDoubleSpeed()
     {
         this.timeSpawnModifier = 0.5f;
