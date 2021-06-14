@@ -63,50 +63,41 @@ public class Rocinante : MovementType
 
     private void Update()
     {
-        if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer)  
+        if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer) /*&& _rigidbody2d.velocity.magnitude > 0.2*/
         {
-            //Debug.Log("pija");
+           
 
-                rocinanteState = 2;
-                SetRocinanteState();
-
-                if (Time.time >= nextSoundTime)
-                {
-                    SoundManager.instance.PlayEffect(FootstepSound);
-                    nextSoundTime = Time.time + FootstepSound.length;
-                }
-
-                HudPlayerPickupScene.instance.CheckRocinante();
-
-                var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
-                var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
-
-                var DiferenciaX = raycast2Dplayer.point.x - transform.position.x;
-                var DiferenciaY = raycast2Dplayer.point.y - transform.position.y;
-
-                _animator.SetFloat("AnimMoveX", DiferenciaX);
-                _animator.SetFloat("AnimMoveY", DiferenciaY);
-
-                _animator.SetFloat("AnimLastMoveY", DiferenciaY);
-                _animator.SetFloat("AnimLastMoveX", DiferenciaX);
-
-                Move();
-                // if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
-                // {
-                //     posAux = raycast2Dplayer.point;
-                //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
-                // }        
-        }
-        else
-        {
-            rocinanteState = 1;
+            rocinanteState = 2;
             SetRocinanteState();
+
+            if (Time.time >= nextSoundTime)
+            {
+                SoundManager.instance.PlayEffect(FootstepSound);
+                nextSoundTime = Time.time + FootstepSound.length;
+            }
+        
+            HudPlayerPickupScene.instance.CheckRocinante();
+
+            var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
+            var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
+
+            var DiferenciaX = raycast2Dplayer.point.x - transform.position.x;
+            var DiferenciaY = raycast2Dplayer.point.y - transform.position.y;
+
+            _animator.SetFloat("AnimMoveX", DiferenciaX);
+            _animator.SetFloat("AnimMoveY", DiferenciaY);
+
+            _animator.SetFloat("AnimLastMoveY", DiferenciaY);
+            _animator.SetFloat("AnimLastMoveX", DiferenciaX);
+
+            Move();
+
+            // if (Vector2.Distance(transform.position, raycast2Dplayer.point) >= deltaMinToMove && Vector2.Distance(transform.position, raycast2Dplayer.point) <= deltaMaxDist)
+            // {
+            //     posAux = raycast2Dplayer.point;
+            //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
+            // }        
         }
-
-
-        //Debug.Log("X " + DiferenciaX);
-        //Debug.Log("Y " + DiferenciaY);
-        //Debug.Log("Quijote está en " + Follows.position);
 
     }
 
@@ -166,6 +157,7 @@ public class Rocinante : MovementType
             transform.position = direction;
            // _rigidbody2d.MovePosition(direction);
         }
+
 
     }
 
