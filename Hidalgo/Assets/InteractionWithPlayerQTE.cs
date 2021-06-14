@@ -9,12 +9,12 @@ public class InteractionWithPlayerQTE : MonoBehaviour
 {
     [SerializeField]
     private Light2D lightInteraction;
-    [SerializeField]
-    private GameObject Distraccion;
-    ApplesDistraction PrimerID;
-    ApplesDistraction SegundoID;
-    [SerializeField]
-    private GameObject DistraccionUno;
+   // [SerializeField]
+   // private GameObject Distraccion;
+   // ApplesDistraction PrimerID;
+   // ApplesDistraction SegundoID;
+   // [SerializeField]
+   // private GameObject DistraccionUno;
     [SerializeField]
     private GameObject maskInteraction;
     [SerializeField]
@@ -42,11 +42,11 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     public UnityEvent onPassed;
     public UnityEvent onFailed;
 
-    void Awake()
-    {
-      PrimerID =  Distraccion.GetComponent<ApplesDistraction>();
-      SegundoID = DistraccionUno.GetComponent<ApplesDistraction>();
-    }
+   // void Awake()
+   // {
+   //   PrimerID =  Distraccion.GetComponent<ApplesDistraction>();
+   //   SegundoID = DistraccionUno.GetComponent<ApplesDistraction>();
+   // }
     // Start is called before the first frame update
     void Start()
     {
@@ -57,10 +57,10 @@ public class InteractionWithPlayerQTE : MonoBehaviour
         //if (ResetsAfterAction)
         //    onPassed.AddListener(this.ResetInteraction);
 
-        Debug.Log("VA 1 " + PrimerID.MyID);
-        Debug.Log("VA 2 " + SegundoID.MyID);
-        Debug.Log("SA 1 " + PrimerID.IDToSave);
-        Debug.Log("SA 2 " + SegundoID.IDToSave);
+       // Debug.Log("VA 1 " + PrimerID.MyID);
+       // Debug.Log("VA 2 " + SegundoID.MyID);
+       // Debug.Log("SA 1 " + PrimerID.IDToSave);
+       // Debug.Log("SA 2 " + SegundoID.IDToSave);
     }
     
     public void DeleteAfterPassedRoutine()
@@ -126,7 +126,7 @@ public class InteractionWithPlayerQTE : MonoBehaviour
             maskInteraction.transform.localScale = Vector3.Lerp(originalScaleMask, Vector3.zero, tFactor);
         }
 
-        if ((timeCurrent >= timeToTriggerQTE || tFactor >= 1) && canTrigger && Distraction.MyID == Distraction.IDToSave)
+        if ((timeCurrent >= timeToTriggerQTE || tFactor >= 1) && canTrigger) //&& Distraction.MyID == Distraction.IDToSave)
         {
             Debug.Log("TEHRE OYU GO");
 

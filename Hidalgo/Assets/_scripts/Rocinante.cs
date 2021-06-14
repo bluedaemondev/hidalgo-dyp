@@ -15,6 +15,8 @@ public class Rocinante : MovementType
     [SerializeField]
     private LayerMask layerMask;
     private Animator _animator;
+    public int MyID;
+    public int IDToSave;
 
 
 
@@ -40,6 +42,12 @@ public class Rocinante : MovementType
     public float Speed { get => speed * speedMultiplier; }
 
     Vector2 posAux;
+
+    void Awake ()
+    {
+        MyID = 0;
+        IDToSave = 0;
+    }
 
     private void Start()
     {
