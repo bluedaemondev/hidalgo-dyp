@@ -9,13 +9,19 @@ public class InteractionWithPlayerQTE : MonoBehaviour
 {
     [SerializeField]
     private Light2D lightInteraction;
-
+    [SerializeField]
+    private GameObject Distraccion;
+    ApplesDistraction PrimerID;
+    ApplesDistraction SegundoID;
+    [SerializeField]
+    private GameObject DistraccionUno;
     [SerializeField]
     private GameObject maskInteraction;
     [SerializeField]
     private GameObject extraRange;
     private Collider2D rangeStartEvent;
     private GameObject containerSprites;
+    ApplesDistraction Distraction;
 
     private Vector2 originalScaleMask;
     public bool canTrigger = true;
@@ -36,6 +42,11 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     public UnityEvent onPassed;
     public UnityEvent onFailed;
 
+    void Awake()
+    {
+      PrimerID =  Distraccion.GetComponent<ApplesDistraction>();
+      SegundoID = DistraccionUno.GetComponent<ApplesDistraction>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +56,11 @@ public class InteractionWithPlayerQTE : MonoBehaviour
         this.originalScaleMask = maskInteraction.transform.localScale;
         //if (ResetsAfterAction)
         //    onPassed.AddListener(this.ResetInteraction);
+
+        Debug.Log("VA 1 " + PrimerID.MyID);
+        Debug.Log("VA 2 " + SegundoID.MyID);
+        Debug.Log("SA 1 " + PrimerID.IDToSave);
+        Debug.Log("SA 2 " + SegundoID.IDToSave);
     }
     
     public void DeleteAfterPassedRoutine()
@@ -88,7 +104,9 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     {
         if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer) && canTrigger)
         {
+            Distraction = collision.GetComponent<ApplesDistraction>();
             ComputePlayerInRange();
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -108,8 +126,10 @@ public class InteractionWithPlayerQTE : MonoBehaviour
             maskInteraction.transform.localScale = Vector3.Lerp(originalScaleMask, Vector3.zero, tFactor);
         }
 
-        if ((timeCurrent >= timeToTriggerQTE || tFactor >= 1) && canTrigger)
+        if ((timeCurrent >= timeToTriggerQTE || tFactor >= 1) && canTrigger && Distraction.MyID == Distraction.IDToSave)
         {
+            Debug.Log("TEHRE OYU GO");
+
             TriggerNewQTE();
             canTrigger = false;
 
