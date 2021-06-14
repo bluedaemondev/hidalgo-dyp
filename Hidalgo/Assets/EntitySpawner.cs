@@ -56,7 +56,11 @@ public class EntitySpawner : MonoBehaviour
             GameObject newEnemy = Instantiate(entityToSpawn[rRange], (Vector2)pivotPoint.position - randPointRadius, Quaternion.identity);
             newEnemy.transform.position = randPointRadius;
             // usar angulo de rotacion de los enemiogos para que miren al frente al instanciarlos
-            newEnemy.GetComponent<Enemy_M2>().SetFollowTarget(pivotPoint.position);
+
+            if (newEnemy.TryGetComponent<Enemy_M2>(out Enemy_M2 m2))
+            {
+                m2.SetFollowTarget(pivotPoint.position);
+            }
 
             yield return new WaitForSeconds(timeSpawn * timeSpawnModifier);
         }

@@ -8,6 +8,6 @@ public class SetAnimationOnTrigger : MonoBehaviour
     public string triggerName = "knocked";
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _animator.SetTrigger("knocked");
+        _animator.SetTrigger(triggerName);
     }
 }

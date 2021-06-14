@@ -38,7 +38,6 @@ public class Enemy_M2 : MonoBehaviour
         health.Init(maxHealth, currentHealth);
 
         _rigidbody = GetComponent<Rigidbody2D>();
-        originalPosition = transform.position;
         //currentHealth = maxHealth;
 
     }
@@ -93,6 +92,7 @@ public class Enemy_M2 : MonoBehaviour
     public void SetFollowTarget(Vector2 positionToReach)
     {
         this.positionNext = positionToReach;
+        this.originalPosition = transform.position;
         this.moveTowardsTarget = MoveTowardsPickups;
     }
 }
