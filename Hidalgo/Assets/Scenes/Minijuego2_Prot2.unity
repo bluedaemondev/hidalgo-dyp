@@ -631,7 +631,7 @@ Transform:
   m_Children:
   - {fileID: 1395512543}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &953452375
 MonoBehaviour:
@@ -837,7 +837,7 @@ Transform:
   m_Children:
   - {fileID: 810460442}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1016179159
 GameObject:
@@ -925,8 +925,9 @@ Transform:
   - {fileID: 1089484199}
   - {fileID: 104638668}
   - {fileID: 1851847927}
+  - {fileID: 1581285593}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1016179162
 CircleCollider2D:
@@ -5867,7 +5868,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1283185600
 GameObject:
@@ -6209,9 +6210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581285593}
   - component: {fileID: 1581285591}
-  - component: {fileID: 1581285594}
   - component: {fileID: 1581285595}
-  - component: {fileID: 1581285596}
   - component: {fileID: 1581285597}
   - component: {fileID: 1581285592}
   m_Layer: 9
@@ -6269,29 +6268,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581285590}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.4, y: 12.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.9005004, y: 0.9030798, z: 0}
+  m_LocalScale: {x: 0.07201593, y: 0.07201593, z: 0.07201593}
   m_Children:
   - {fileID: 677167889}
   - {fileID: 1525808573}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1016179161}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1581285594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581285590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bffe0a6d64b6594299341d1dcbd4473, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 27
-  rb: {fileID: 1581285591}
-  cam: {fileID: 0}
 --- !u!58 &1581285595
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6308,30 +6292,6 @@ CircleCollider2D:
   m_Offset: {x: 0.04202652, y: -0.3701129}
   serializedVersion: 2
   m_Radius: 2.5883784
---- !u!114 &1581285596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581285590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c882247c50698d64c94d681e6c8201ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  golpePoint: {fileID: 677167889}
-  golpeRange: 2.13
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 65536
-  _animator: {fileID: 0}
-  animation_AttackName: attacking
-  animation_WalkName: walking
-  animation_IdleName: idle
-  animation_pickingUpName: pickup
-  animation_damagedName: damaged
-  golpeDamage: 40
 --- !u!114 &1581285597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11630,7 +11590,7 @@ PrefabInstance:
     - target: {fileID: 7416074908376029055, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7416074908376029055, guid: 8dac90d7e695ab64ea7a1e72d38e2bc1,
         type: 3}
