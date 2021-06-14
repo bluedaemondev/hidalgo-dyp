@@ -154,8 +154,9 @@ public class Rocinante : MovementType
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-            transform.position = direction;
-           // _rigidbody2d.MovePosition(direction);
+           // transform.position = direction;
+            _rigidbody2d.MovePosition(direction);
+
         }
 
 
