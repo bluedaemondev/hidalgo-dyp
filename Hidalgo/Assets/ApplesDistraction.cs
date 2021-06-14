@@ -9,19 +9,12 @@ public class ApplesDistraction : MonoBehaviour
     [SerializeField]
     private Rigidbody2D myRigidbody;
     private Collider2D aggroRange;
-    [SerializeField]
-    public int MyID;
+
     public float cooldownAfterPassed = 4f;
     public Rocinante rocinante;
     public LayerMask rocinanteLayer;
-    public int IDToSave;
 
     Coroutine cooldown;
-
-    void Awake()
-    {
-        IDToSave = 1000;
-    }
 
     void Start()
     {
@@ -48,14 +41,11 @@ public class ApplesDistraction : MonoBehaviour
             // abro la posibilidad de disparar el QTE
             this.aggroRange.enabled = true;
             this.interactionQTE.ActivateRange();
-
-            Debug.Log("Buenas Tardes");
         }
         else if (cooldown == null)
         {
             // solo le saco el aggro hasta que pase el QTE
             this.aggroRange.enabled = false;
-            Debug.Log("Buenas Noches");
         }
     }
 
@@ -82,7 +72,6 @@ public class ApplesDistraction : MonoBehaviour
             if (cooldown == null)
             {
                 rocinante.Feed(this.myRigidbody);
-                IDToSave = MyID;
                 cooldown = StartCoroutine(Cooldown());
             }
         }
