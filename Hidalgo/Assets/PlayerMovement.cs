@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
         cam = Camera.main;
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         //Input for movement

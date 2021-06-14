@@ -11,6 +11,8 @@ public class PlayerCombat : MonoBehaviour
 
     public Transform golpePoint;
     public float golpeRange = 0.5f;
+    public float golpeRate = 1f;
+    float nextGolpeTime = 0f;
     public LayerMask enemyLayers;
 
     public Animator _animator;
@@ -31,10 +33,17 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+
+        //Input for Golpe, limited by golpeRate
+        if (Time.time >= nextGolpeTime)
         {
-            Golpe();
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                Golpe();
+                nextGolpeTime = Time.time + golpeRate / 2f;
+            }
         }
+       
 
         //Change sprite back to idle sprite after Golpe
         if (this.isAttacking)
