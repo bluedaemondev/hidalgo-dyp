@@ -10,5 +10,7 @@ public class BreastplateEvent : MonoBehaviour
     {
         player.ArmorState = 4f;
         player.SetArmorState();
+
+        HudPlayerPickupScene.instance.CheckPiecesComplete();
     }
 }
