@@ -8,6 +8,7 @@ public class Rocinante : MovementType
     [SerializeField] private float speed = 2;
     private float speedMultiplier = 1f;
 
+    //public float deltaMidDist = 1;
     public float deltaMaxDist = 2;
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
@@ -15,7 +16,7 @@ public class Rocinante : MovementType
     [SerializeField]
     private LayerMask layerMask;
     private Animator _animator;
-
+    Vector3 lastPos;
 
 
     private Rigidbody2D _rigidbody2d;
@@ -46,7 +47,7 @@ public class Rocinante : MovementType
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
         //Spring = GetComponent<SpringJoint2D>();
-
+        lastPos = transform.position;
         if (qteFollow == null)
             qteFollow = transform.GetComponentInChildren<InteractionWithPlayerQTE>();
 
@@ -143,15 +144,28 @@ public class Rocinante : MovementType
 
         var delta = Vector2.Distance(transform.position, Follows.position);
 
+       // if (delta <= deltaMidDist && delta >= deltaMinToMove)
+       // {
+           
+       //    _rigidbody2d.AddForce((Follows.position - transform.position) * Speed / 80);
+
+       //     Debug.Log("Tamo cerca");
+           
+
+       //}
+       // if(delta <= deltaMaxDist && delta >= deltaMidDist)
+       // {
+       //     _rigidbody2d.AddForce((Follows.position - transform.position) * Speed);
+
+       // }
+
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
-           // var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-           // transform.position = direction;
-           // _rigidbody2d.MovePosition(direction);
-           _rigidbody2d.AddForce((Follows.position - transform.position) * Speed);
-           // _rigidbody2d.MovePosition(new Vector3(transform.position.x, transform.position.y + Speed * Time.deltaTime));
-
+             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
+            // transform.position = direction;
+             _rigidbody2d.MovePosition(direction);
         }
+
 
         RocinanteStateController();
 
@@ -159,7 +173,31 @@ public class Rocinante : MovementType
 
     private void RocinanteStateController()
     {
-        if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude > 0.8)
+        /*  if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude > 0.8)
+          {
+              if (Time.time >= nextSoundTime)
+              {
+                  SoundManager.instance.PlayEffect(FootstepSound);
+                  nextSoundTime = Time.time + FootstepSound.length;
+              }
+
+              rocinanteState = 2;
+              SetRocinanteState();
+          }
+          else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude < 0.8)
+          {
+              rocinanteState = 1;
+              SetRocinanteState();
+          }
+          else
+          {
+
+          }*/
+
+        var displacement = transform.position - lastPos;
+        lastPos = transform.position;
+
+        if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude > 0.001)
         {
             if (Time.time >= nextSoundTime)
             {
@@ -170,7 +208,7 @@ public class Rocinante : MovementType
             rocinanteState = 2;
             SetRocinanteState();
         }
-        else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude < 0.8)
+        else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude < 0.001)
         {
             rocinanteState = 1;
             SetRocinanteState();
