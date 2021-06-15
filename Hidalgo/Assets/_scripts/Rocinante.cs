@@ -225,6 +225,16 @@ public class Rocinante : MovementType
         SoundManager.instance.PlayEffect(HorseSound);
         FollowTarget(distraction.transform);
 
+        var raycast2Ddistraction = Physics2D.Raycast(distraction.transform.position, transform.position);
+        var DiferenciaEatingX = raycast2Ddistraction.point.x - transform.position.x;
+        var DiferenciaEatingY = raycast2Ddistraction.point.y - transform.position.y;
+
+        _animator.SetFloat("EatingMoveX", DiferenciaEatingX);
+        _animator.SetFloat("EatingMoveY", DiferenciaEatingY);
+
+        rocinanteState = 3;
+        SetRocinanteState();
+
     }
     public bool IsAttachedToPlayer()
     {
