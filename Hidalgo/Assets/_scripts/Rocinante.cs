@@ -67,12 +67,6 @@ public class Rocinante : MovementType
         {
   
             Debug.Log(_rigidbody2d.velocity.magnitude);
-
-            if (Time.time >= nextSoundTime)
-            {
-                SoundManager.instance.PlayEffect(FootstepSound);
-                nextSoundTime = Time.time + FootstepSound.length;
-            }
         
             HudPlayerPickupScene.instance.CheckRocinante();
 
@@ -159,10 +153,32 @@ public class Rocinante : MovementType
 
         }
 
+        RocinanteStateController();
 
-        rocinanteState = 2;
-        SetRocinanteState();
+    }
 
+    private void RocinanteStateController()
+    {
+        if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude > 0.8)
+        {
+            if (Time.time >= nextSoundTime)
+            {
+                SoundManager.instance.PlayEffect(FootstepSound);
+                nextSoundTime = Time.time + FootstepSound.length;
+            }
+
+            rocinanteState = 2;
+            SetRocinanteState();
+        }
+        else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude < 0.8)
+        {
+            rocinanteState = 1;
+            SetRocinanteState();
+        }
+        else
+        {
+
+        }
     }
 
     public void Feed(Rigidbody2D distraction)
