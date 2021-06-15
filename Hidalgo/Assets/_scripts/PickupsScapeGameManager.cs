@@ -134,4 +134,9 @@ public class PickupsScapeGameManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void ContinuarMinijuego2()
+    {
+        SceneManager.LoadScene(3);
+    }
 }

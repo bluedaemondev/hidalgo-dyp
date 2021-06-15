@@ -24490,11 +24490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.18763
+      value: -98.922615
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.232758
+      value: -25.91732
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27370,6 +27370,26 @@ PrefabInstance:
       propertyPath: checkedLast
       value: 
       objectReference: {fileID: 868898986}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -31.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 389.5807
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 200.36928
+      objectReference: {fileID: 0}
     - target: {fileID: 6499589921052280873, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -43004,7 +43024,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2083852510}
         m_TargetAssemblyTypeName: PickupsScapeGameManager, Assembly-CSharp
-        m_MethodName: Reiniciar
+        m_MethodName: ContinuarMinijuego2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -52021,6 +52041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1353750983}
+  useMouse: 0
 --- !u!1 &1228269000
 GameObject:
   m_ObjectHideFlags: 0
@@ -63658,7 +63679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reiniciar
+  m_text: Continuar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2a7ce6006e8a27c4799c170c3673d633, type: 2}
   m_sharedMaterial: {fileID: 1736819604638996427, guid: 2a7ce6006e8a27c4799c170c3673d633,
