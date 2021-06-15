@@ -65,10 +65,8 @@ public class Rocinante : MovementType
     {
         if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer) /*&& _rigidbody2d.velocity.magnitude > 0.2*/
         {
-           
-
-            rocinanteState = 2;
-            SetRocinanteState();
+  
+            Debug.Log(_rigidbody2d.velocity.magnitude);
 
             if (Time.time >= nextSoundTime)
             {
@@ -156,9 +154,14 @@ public class Rocinante : MovementType
             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
            // transform.position = direction;
             _rigidbody2d.MovePosition(direction);
+           // _rigidbody2d.AddForce((Follows.position - transform.position) * Speed);
+           // _rigidbody2d.MovePosition(new Vector3(transform.position.x, transform.position.y + Speed * Time.deltaTime));
 
         }
 
+
+        rocinanteState = 2;
+        SetRocinanteState();
 
     }
 
