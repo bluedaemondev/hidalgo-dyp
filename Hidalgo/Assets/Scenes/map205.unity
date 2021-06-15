@@ -50898,17 +50898,17 @@ PrefabInstance:
     - target: {fileID: 3679879058201602058, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: speed
-      value: 13
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602058, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: deltaMinToMove
-      value: 6
+      value: 4.2
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602058, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: deltaMaxDist
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
