@@ -5,6 +5,9 @@ using UnityEngine;
 public class EffectFactory : MonoBehaviour
 {
     public static EffectFactory instance { get; private set; }
+
+    public CameraShake camShake;
+
     void Awake()
     {
         if (!instance)
