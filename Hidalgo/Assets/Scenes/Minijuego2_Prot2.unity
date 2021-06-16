@@ -5946,8 +5946,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1271368618}
   - component: {fileID: 1271368619}
-  - component: {fileID: 1271368620}
-  - component: {fileID: 1271368621}
   m_Layer: 0
   m_Name: ContainerPlayer
   m_TagString: Untagged
@@ -5963,7 +5961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271368617}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.54, y: -2.12, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1581285593}
@@ -5977,53 +5975,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271368617}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24e6514b845396e4981f7f6582c841d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   useMouse: 1
---- !u!114 &1271368620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271368617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bffe0a6d64b6594299341d1dcbd4473, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
-  rb: {fileID: 1581285591}
-  cam: {fileID: 953452457}
---- !u!114 &1271368621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271368617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c882247c50698d64c94d681e6c8201ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  golpePoint: {fileID: 677167889}
-  golpeRange: 0.5
-  golpeRate: 1
-  enemyLayers:
-    serializedVersion: 2
-    m_Bits: 65536
-  _animator: {fileID: 0}
-  animation_AttackName: attacking
-  animation_WalkName: walking
-  animation_IdleName: idle
-  animation_pickingUpName: pickup
-  animation_damagedName: damaged
-  golpeDamage: 40
 --- !u!1 &1283185600
 GameObject:
   m_ObjectHideFlags: 0
@@ -6214,8 +6172,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525808572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.07, y: 1.97, z: 0}
-  m_LocalScale: {x: 1.9053309, y: 1.9053309, z: 1.9053309}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1581285593}
   m_RootOrder: 1
@@ -6443,9 +6401,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.452389, y: 2.5237532}
+  m_Offset: {x: 0.04202652, y: -0.3701129}
   serializedVersion: 2
-  m_Radius: 3.6040127
+  m_Radius: 2.5883784
 --- !u!114 &1581285597
 MonoBehaviour:
   m_ObjectHideFlags: 0
