@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+using Random = UnityEngine.Random;
 
 public class EntitySpawner : MonoBehaviour
 {
@@ -15,6 +18,9 @@ public class EntitySpawner : MonoBehaviour
     public bool spawnActive = true;
 
     private Transform pivotPoint;
+
+    private Func<Vector2> GenerateSpawnPosition;
+    [SerializeField] private bool _usesRadius;
 
     public void SetTimerDoubleSpeed()
     {
@@ -34,6 +40,12 @@ public class EntitySpawner : MonoBehaviour
     void Start()
     {
         pivotPoint = PickupTracker.instance.GetRandomPickup();
+
+        if (_usesRadius)
+            GenerateSpawnPosition = GenerateRandomPosInsideRadius;
+        else
+            GenerateSpawnPosition = GenerateAtSpawnerPosition;
+
         StartCoroutine(SpawnCyclic());
     }
     private void OnDrawGizmos()
@@ -44,12 +56,16 @@ public class EntitySpawner : MonoBehaviour
     {
         return Random.insideUnitCircle.normalized * radiusSpawn;
     }
+    Vector2 GenerateAtSpawnerPosition()
+    {
+        return transform.position;
+    }
     IEnumerator SpawnCyclic()
     {
         while (spawnActive && entityToSpawn != null)
         {
             int rRange = Random.Range(0, entityToSpawn.Count);
-            var randPointRadius = GenerateRandomPosInsideRadius();
+            var randPointRadius = GenerateSpawnPosition();
 
             //transform.position = randPointRadius;
 
