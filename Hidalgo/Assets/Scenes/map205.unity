@@ -24490,11 +24490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98.922615
+      value: -102.476135
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.91732
+      value: -25.11295
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -120726,7 +120726,7 @@ PrefabInstance:
         type: 3}
       propertyPath: QTEprefab
       value: 
-      objectReference: {fileID: 191976497278711737, guid: 9717ed0ff132499409c0e30cad24ea8e,
+      objectReference: {fileID: 191976497278711737, guid: 9ba7aa8a82742a345bbf07595a2986f3,
         type: 3}
     - target: {fileID: 5884249325981078502, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
