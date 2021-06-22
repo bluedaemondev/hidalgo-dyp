@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 3d20afdde5925144fb7e1893a1dbe3b0
   - enabled: 1
-    path: Assets/Book-Page Curl/Example/scenes/Example_1_Basic Book.unity
+    path: Assets/Book-Page Curl/Example/scenes/Cutscene_1.unity
     guid: d3f5912676a6d8b4fa852d1305cd3814
   - enabled: 1
     path: Assets/Scenes/map205.unity
