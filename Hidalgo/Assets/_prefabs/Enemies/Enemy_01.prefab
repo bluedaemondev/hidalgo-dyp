@@ -5207,7 +5207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 680e50dba9932ef43a2807b55ca1eed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 3
   movementSpeed: 0.68
   targetPickup: {fileID: 0}
   originalPosition: {x: 0, y: 0}
