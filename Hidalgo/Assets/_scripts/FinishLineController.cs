@@ -40,14 +40,15 @@ public class FinishLineController : MonoBehaviour
         //    timeline.Play();
         //}
 
-        if(FindObjectOfType<Rocinante>().IsAttachedToPlayer() && HudPlayerPickupScene.instance.checkedPieces.activeSelf)
+        //FindObjectOfType<Rocinante>().IsAttachedToPlayer() && HudPlayerPickupScene.instance.checkedPieces.activeSelf
+        if (HudPlayerPickupScene.instance.checkedRocinante.activeSelf && HudPlayerPickupScene.instance.checkedPieces.activeSelf)
         {
             timeline.Play();
 
             HudPlayerPickupScene.instance.CheckEscape();
         }
-
-        if (!FindObjectOfType<Rocinante>().IsAttachedToPlayer() || !PickupsScapeGameManager.instance.PickupsCompleted())
+        // (!FindObjectOfType<Rocinante>().IsAttachedToPlayer() || !PickupsScapeGameManager.instance.PickupsCompleted())
+        if (!HudPlayerPickupScene.instance.checkedRocinante.activeSelf || !HudPlayerPickupScene.instance.checkedPieces.activeSelf)
         {
             uiShowMissingPickup.SetActive(true);
 
@@ -56,7 +57,7 @@ public class FinishLineController : MonoBehaviour
 
         IEnumerator DisableUI()
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(4);
             uiShowMissingPickup.SetActive(false);
         }
 

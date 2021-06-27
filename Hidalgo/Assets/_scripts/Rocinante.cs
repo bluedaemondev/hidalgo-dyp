@@ -64,13 +64,12 @@ public class Rocinante : MovementType
 
     private void Update()
     {
+
         if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer) /*&& _rigidbody2d.velocity.magnitude > 0.2*/
         {
   
-            Debug.Log(_rigidbody2d.velocity.magnitude);
+            //Debug.Log(_rigidbody2d.velocity.magnitude);
         
-            HudPlayerPickupScene.instance.CheckRocinante();
-
             var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
             var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
 
@@ -90,7 +89,13 @@ public class Rocinante : MovementType
             //     posAux = raycast2Dplayer.point;
             //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
             // }        
+           
         }
+
+       // if(!IsAttachedToPlayer())
+       // {
+       //     HudPlayerPickupScene.instance.NoCheckRocinante();
+       // }
 
     }
 
@@ -133,7 +138,10 @@ public class Rocinante : MovementType
         cuerda.SetActive(false);
 
     }
-
+    public void UncheckRocinante()
+    {
+        HudPlayerPickupScene.instance.NoCheckRocinante();
+    }
     public void SetRocinanteState()
     {
         _animator.SetFloat("RocinanteState", rocinanteState);
@@ -164,8 +172,16 @@ public class Rocinante : MovementType
              var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
             // transform.position = direction;
              _rigidbody2d.MovePosition(direction);
+
+            HudPlayerPickupScene.instance.CheckRocinante();
+        }
+        else if (delta >= deltaMaxDist)
+        {
+            HudPlayerPickupScene.instance.NoCheckRocinante();
+            
         }
 
+        
 
         RocinanteStateController();
 
