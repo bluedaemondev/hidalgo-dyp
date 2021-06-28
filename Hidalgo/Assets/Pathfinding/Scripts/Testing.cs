@@ -38,6 +38,7 @@ public class Testing : MonoBehaviour {
         if (Input.GetMouseButtonDown(0)) {
             Vector3 mouseWorldPosition = UtilsClass.GetMouseWorldPosition();
             pathfinding.GetGrid().GetXY(mouseWorldPosition, out int x, out int y);
+
             List<PathNode> path = pathfinding.FindPath(0, 0, x, y);
             if (path != null) {
                 for (int i=0; i<path.Count - 1; i++) {
