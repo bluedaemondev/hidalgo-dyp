@@ -75,7 +75,10 @@ public class Enemy_M2 : MonoBehaviour
     }
     public void SetExitTarget()
     {
-        
+        _animator.SetBool(animation_WalkBool, true);
+        _pathfinder.SetMovementPath(originalPosition);
+
+        _pathfinder.onStopMovingCallback = () => { Debug.Log("callback"); };
     }
 
 
