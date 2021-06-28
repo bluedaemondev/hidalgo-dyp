@@ -73,7 +73,7 @@ public class EntitySpawner : MonoBehaviour
             newEnemy.transform.position = randPointRadius;
             // usar angulo de rotacion de los enemiogos para que miren al frente al instanciarlos
 
-            if (newEnemy.TryGetComponent<Enemy_M2>(out Enemy_M2 m2))
+            if (newEnemy.TryGetComponent(out ChaserEnemyM2 m2))
             {
                 m2.SetPickupTarget(PickupTracker.instance.GetRandomPickup().position);
             }

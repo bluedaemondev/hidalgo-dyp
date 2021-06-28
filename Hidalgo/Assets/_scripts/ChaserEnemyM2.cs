@@ -3,35 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_M2 : MonoBehaviour
+public class ChaserEnemyM2 : EnemyM2
 {
-    public int maxHealth = 100;
-    int currentHealth;
-    public float movementSpeed = 4f;
-
     [SerializeField]
     Transform targetPickup;
-    [SerializeField]
-    private Vector2 originalPosition;
-
-    private Vector2 positionNext;
-    private Vector2 movementDir;
-    private Rigidbody2D _rigidbody;
-
+    
     public Transform pickupTransform;
 
     public Func<Vector2> moveTowardsTarget;
-    protected Health health;
 
-    public Animator _animator;
     public string animation_AttackName = "attacking";
     public string animation_WalkBool = "walking";
-    public string animation_IdleName = "idle";
     public string animation_pickingUpName = "pickup";
     public string animation_damagedName = "damaged";
     public string animation_knockedOutTrigger = "knocked_out";
-
-    [SerializeField] CharacterPathfindingMovementHandler _pathfinder;
 
     /// <summary>
     /// Estados del enemigo que agarra los pickups: 
@@ -55,32 +40,33 @@ public class Enemy_M2 : MonoBehaviour
         Init();
     }
 
-
-    public void TakeDamage(int damage)
+    public override float TakeDamage(float value)
     {
-        health.Damage(damage);
+        value = base.TakeDamage(value);
         _animator.Play(animation_damagedName);
 
         if (currentHealth <= 0)
         {
             KnockedOut();
         }
+
+        return value;
     }
+
     public void SetPickupTarget(Vector2 positionToReach)
     {
         _animator.SetBool(animation_WalkBool, true);
-        _pathfinder.SetMovementPath(positionToReach);
+        this.SetTarget(positionToReach);
 
         _pathfinder.onStopMovingCallback = SetExitTarget;
     }
     public void SetExitTarget()
     {
         _animator.SetBool(animation_WalkBool, true);
-        _pathfinder.SetMovementPath(originalPosition);
+        this.SetTarget(originalPosition);
 
-        _pathfinder.onStopMovingCallback = () => { Debug.Log("callback"); };
+        _pathfinder.onStopMovingCallback = () => { Debug.Log("callback exit map"); };
     }
-
 
     private void KnockedOut()
     {
@@ -91,7 +77,7 @@ public class Enemy_M2 : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
     }
-    private void Init()
+    protected override void Init()
     {
         _animator = GetComponent<Animator>();
         health = GetComponent<Health>();
@@ -103,7 +89,6 @@ public class Enemy_M2 : MonoBehaviour
             _pathfinder = GetComponent<CharacterPathfindingMovementHandler>();
 
         originalPosition = transform.position;
-        //currentHealth = maxHealth;
     }
 
 }
