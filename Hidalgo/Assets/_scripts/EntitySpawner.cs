@@ -75,6 +75,7 @@ public class EntitySpawner : MonoBehaviour
 
             if (newEnemy.TryGetComponent(out ChaserEnemyM2 m2))
             {
+                m2.Init();
                 m2.SetPickupTarget(PickupTracker.instance.GetRandomPickup().position);
             }
 

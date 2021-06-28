@@ -34,12 +34,6 @@ public class ChaserEnemyM2 : EnemyM2
     /// al agarrar un objeto, para salir del mapa
     /// no tiene ataque?
 
-
-    void Start()
-    {
-        Init();
-    }
-
     public override float TakeDamage(float value)
     {
         value = base.TakeDamage(value);
@@ -77,7 +71,7 @@ public class ChaserEnemyM2 : EnemyM2
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
     }
-    protected override void Init()
+    public override void Init()
     {
         _animator = GetComponent<Animator>();
         health = GetComponent<Health>();

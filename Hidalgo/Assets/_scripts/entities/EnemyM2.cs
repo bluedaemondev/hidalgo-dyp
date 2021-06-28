@@ -16,7 +16,7 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
 
     protected CharacterPathfindingMovementHandler _pathfinder;
 
-    protected abstract void Init();
+    public abstract void Init();
 
     public virtual float TakeDamage(float value)
     {
@@ -42,6 +42,6 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
 
     public virtual void ClearPath()
     {
-        throw new System.NotImplementedException();
+        _pathfinder.SetTargetPosition(_pathfinder.GetPosition());
     }
 }
