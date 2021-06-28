@@ -75,7 +75,7 @@ public class EntitySpawner : MonoBehaviour
 
             if (newEnemy.TryGetComponent<Enemy_M2>(out Enemy_M2 m2))
             {
-                m2.SetFollowTarget(pivotPoint.position);
+                m2.SetPickupTarget(PickupTracker.instance.GetRandomPickup().position);
             }
 
             yield return new WaitForSeconds(timeSpawn * timeSpawnModifier);

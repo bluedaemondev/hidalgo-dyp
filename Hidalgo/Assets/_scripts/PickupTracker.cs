@@ -9,7 +9,7 @@ public class PickupTracker : MonoBehaviour
     public static PickupTracker instance { get; private set; }
 
 
-    public bool useChildren = true;
+    public bool useChildren = false;
     public List<GameObject> pickupsWOriginal;
 
     public GameObject particlesRestoredItem;

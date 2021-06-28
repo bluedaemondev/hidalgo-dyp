@@ -25,42 +25,34 @@ public class Enemy_M2 : MonoBehaviour
 
     public Animator _animator;
     public string animation_AttackName = "attacking";
-    public string animation_WalkName = "walking";
+    public string animation_WalkBool = "walking";
     public string animation_IdleName = "idle";
     public string animation_pickingUpName = "pickup";
     public string animation_damagedName = "damaged";
-    public string animation_knockedOutName = "knocked_out";
+    public string animation_knockedOutTrigger = "knocked_out";
+
+    [SerializeField] CharacterPathfindingMovementHandler _pathfinder;
+
+    /// <summary>
+    /// Estados del enemigo que agarra los pickups: 
+    /// - caminando
+    /// - agarrando pickup
+    /// - caminando para salir del mapa
+    /// - noqueado
+    /// - desapareciendo
+    /// - peleando/atacando
+    /// </summary>
+
+
+    /// <summary>
+    /// Solo recibe acciones para hacer basado en animacion y ontriggerenter de los pickups
+    /// al agarrar un objeto, para salir del mapa
+    /// no tiene ataque?
+
 
     void Start()
     {
-        _animator = GetComponent<Animator>();
-        health = GetComponent<Health>();
-        health.Init(maxHealth, currentHealth);
-
-        _rigidbody = GetComponent<Rigidbody2D>();
-        //currentHealth = maxHealth;
-
-    }
-    private void Update()
-    {
-        this.movementDir = moveTowardsTarget();
-
-        if (this.movementDir == positionNext)
-        {
-            this.moveTowardsTarget = MoveTowardsExit;
-        }
-    }
-    Vector2 MoveTowardsPickups()
-    {
-        return Vector2.Lerp(transform.position, positionNext, movementSpeed * Time.deltaTime);
-    }
-    Vector2 MoveTowardsExit()
-    {
-        return Vector2.Lerp(transform.position, originalPosition, movementSpeed * Time.deltaTime);
-    }
-    private void FixedUpdate()
-    {
-        _rigidbody.MovePosition(movementDir);
+        Init();
     }
 
 
@@ -69,30 +61,46 @@ public class Enemy_M2 : MonoBehaviour
         health.Damage(damage);
         _animator.Play(animation_damagedName);
 
-        //Play Hurt anim
-
         if (currentHealth <= 0)
         {
             KnockedOut();
-            _animator.Play(animation_knockedOutName);
         }
     }
+    public void SetPickupTarget(Vector2 positionToReach)
+    {
+        _animator.SetBool(animation_WalkBool, true);
+        _pathfinder.SetMovementPath(positionToReach);
 
-    void KnockedOut()
+        _pathfinder.onStopMovingCallback = SetExitTarget;
+    }
+    public void SetExitTarget()
+    {
+        
+    }
+
+
+    private void KnockedOut()
     {
         Debug.Log("Enemy knocked out");
-
-        //Knocked out anim
-
+        _animator.SetTrigger(animation_knockedOutTrigger);
+        
         //Disable enemy (body stays there for now)
         GetComponent<Collider2D>().enabled = false;
         this.enabled = false;
     }
-
-    public void SetFollowTarget(Vector2 positionToReach)
+    private void Init()
     {
-        this.positionNext = positionToReach;
-        this.originalPosition = transform.position;
-        this.moveTowardsTarget = MoveTowardsPickups;
+        _animator = GetComponent<Animator>();
+        health = GetComponent<Health>();
+        health.Init(maxHealth, currentHealth);
+
+        _rigidbody = GetComponent<Rigidbody2D>();
+
+        if (!_pathfinder)
+            _pathfinder = GetComponent<CharacterPathfindingMovementHandler>();
+
+        originalPosition = transform.position;
+        //currentHealth = maxHealth;
     }
+
 }

@@ -15,33 +15,35 @@ using System.Collections.Generic;
 using UnityEngine;
 //using V_AnimationSystem;
 using CodeMonkey.Utils;
+using System;
 
-public class CharacterPathfindingMovementHandler : MonoBehaviour {
+public class CharacterPathfindingMovementHandler : MonoBehaviour
+{
 
     private const float speed = 40f;
 
     private int currentPathIndex;
     private List<Vector3> pathVectorList;
 
+    public GameObject onPathSetEffect;
 
-    //private void Start() {
-    //    Transform bodyTransform = transform.Find("Body");
-        
-    //    //unitSkeleton = new V_UnitSkeleton(1f, bodyTransform.TransformPoint, (Mesh mesh) => bodyTransform.GetComponent<MeshFilter>().mesh = mesh);
-    //    //unitAnimation = new V_UnitAnimation(unitSkeleton);
-    //    //animatedWalker = new AnimatedWalker(unitAnimation, UnitAnimType.GetUnitAnimType("dMarine_Idle"), UnitAnimType.GetUnitAnimType("dMarine_Walk"), 1f, 1f);
-    //}
+    public Action onStopMovingCallback;
 
-    private void Update() {
+
+    private void Update()
+    {
         HandleMovement();
-        //unitSkeleton.Update(Time.deltaTime);
-
-        if (Input.GetMouseButtonDown(0)) {
-            SetTargetPosition(UtilsClass.GetMouseWorldPosition());
-        }
     }
-    
-    private void HandleMovement() {
+    public void SetMovementPath(Vector3 worldPosition)
+    {
+        // efecto en donde va a ir el enemigo, para contabilizar prioridades
+        EffectFactory.instance.InstantiateEffectAt(onPathSetEffect, worldPosition, Quaternion.identity);
+
+        SetTargetPosition(worldPosition);
+    }
+
+    private void HandleMovement()
+    {
         if (pathVectorList != null)
         {
             Vector3 targetPosition = pathVectorList[currentPathIndex];
@@ -68,19 +70,24 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour {
         //}
     }
 
-    private void StopMoving() {
+    private void StopMoving()
+    {
         pathVectorList = null;
+        onStopMovingCallback?.Invoke();
     }
 
-    public Vector3 GetPosition() {
+    public Vector3 GetPosition()
+    {
         return transform.position;
     }
 
-    public void SetTargetPosition(Vector3 targetPosition) {
+    public void SetTargetPosition(Vector3 targetPosition)
+    {
         currentPathIndex = 0;
         pathVectorList = Pathfinding.Instance.FindPath(GetPosition(), targetPosition);
 
-        if (pathVectorList != null && pathVectorList.Count > 1) {
+        if (pathVectorList != null && pathVectorList.Count > 1)
+        {
             pathVectorList.RemoveAt(0);
         }
     }

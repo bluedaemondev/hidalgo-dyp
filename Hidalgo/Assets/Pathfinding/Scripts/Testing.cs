@@ -23,8 +23,13 @@ public class Testing : MonoBehaviour {
     [SerializeField] private CharacterPathfindingMovementHandler characterPathfinding;
     private Pathfinding pathfinding;
 
+    public int width = 20;
+    public int height = 20;
+
+
+
     private void Start() {
-        pathfinding = new Pathfinding(20, 10);
+        pathfinding = new Pathfinding(width, height);
         pathfindingDebugStepVisual.Setup(pathfinding.GetGrid());
         pathfindingVisual.SetGrid(pathfinding.GetGrid());
     }
