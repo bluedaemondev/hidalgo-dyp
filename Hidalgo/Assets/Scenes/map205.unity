@@ -4186,6 +4186,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 559978447}
     m_Modifications:
+    - target: {fileID: 5884249324998073392, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073397, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_Name
@@ -4265,6 +4270,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6737514
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: e88d1ac7567532d47bc780faf6dabaf8,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: resetTimecooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -5247,6 +5268,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1846439990}
     m_Modifications:
+    - target: {fileID: 5884249324998073392, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073397, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_Name
@@ -5326,6 +5352,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7537102
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: b7387ccb3a82cad478953e5dac19cc13,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: resetTimecooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -11958,6 +12000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 13
   PointA: {fileID: 1014451433}
   PointB: {fileID: 1626974256}
   TravelTime: 7
@@ -12727,6 +12770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   PointA: {fileID: 1946113101}
   PointB: {fileID: 176084544}
   TravelTime: 7
@@ -19680,6 +19724,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 273141229}
     m_Modifications:
+    - target: {fileID: 5884249324998073392, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073397, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_Name
@@ -19759,6 +19808,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6737514
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: e88d1ac7567532d47bc780faf6dabaf8,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: resetTimecooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -22031,6 +22096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   PointA: {fileID: 810295225}
   PointB: {fileID: 1871118711}
   TravelTime: 7
@@ -24554,11 +24620,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.7
+      value: -102.06777
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -132.99277
+      value: -24.928875
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24607,12 +24673,12 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.7
+      value: -102.54
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -132.99277
+      value: -24.732763
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -31678,6 +31744,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1592044258}
     m_Modifications:
+    - target: {fileID: 5884249324998073392, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073397, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_Name
@@ -31757,6 +31828,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7574427
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: b7387ccb3a82cad478953e5dac19cc13,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: resetTimecooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -36049,6 +36136,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 296359285}
     m_Modifications:
+    - target: {fileID: 5884249324998073392, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073397, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_Name
@@ -36128,6 +36220,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.7462209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: e88d1ac7567532d47bc780faf6dabaf8,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: resetTimecooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -57335,12 +57443,12 @@ PrefabInstance:
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.7
+      value: -102.54
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -133.6
+      value: -25.34
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -94459,6 +94567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   PointA: {fileID: 273535906}
   PointB: {fileID: 1876881888}
   TravelTime: 7
@@ -98365,6 +98474,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1833258810}
     m_Modifications:
+    - target: {fileID: 5884249324998073392, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5884249324998073397, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_Name
@@ -98444,6 +98558,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.6995953
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: QTEprefab
+      value: 
+      objectReference: {fileID: 191976497278711737, guid: b7387ccb3a82cad478953e5dac19cc13,
+        type: 3}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: resetTimecooldown
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -104381,6 +104511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   PointA: {fileID: 1679367322}
   PointB: {fileID: 689573161}
   TravelTime: 7
@@ -104751,6 +104882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
   PointA: {fileID: 103103168}
   PointB: {fileID: 1336547478}
   TravelTime: 7

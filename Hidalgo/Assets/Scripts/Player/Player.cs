@@ -192,6 +192,11 @@ public class Player : MovementType, IStunneable, ISighteable
 
     }
 
+    public void SetSpeed(float newSpeed)
+    {
+        speed = newSpeed;
+    }
+
     private void Step(AnimationEvent animationEvent)
     {
         if(animationEvent.animatorClipInfo.weight > 0.5)
