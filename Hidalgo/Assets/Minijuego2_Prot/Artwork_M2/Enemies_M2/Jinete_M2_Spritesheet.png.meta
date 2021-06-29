@@ -1,91 +1,88 @@
 fileFormatVersion: 2
-guid: e2bb612f82d43e446b387a5f81353a48
+guid: 85d47c8196c7bfb43a10f76ac1d044b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4410860982694588814
-    second: INCOMPLETO_Jinete_M2_Spritesheet_0
+      213: -7450051543792738102
+    second: Jinete_M2_Spritesheet_0
   - first:
-      213: -6570626141566454776
-    second: INCOMPLETO_Jinete_M2_Spritesheet_1
+      213: 3054805159049772736
+    second: Jinete_M2_Spritesheet_1
   - first:
-      213: -3637961981849983817
-    second: INCOMPLETO_Jinete_M2_Spritesheet_2
+      213: -1972297410004538225
+    second: Jinete_M2_Spritesheet_2
   - first:
-      213: 6837494380127174629
-    second: INCOMPLETO_Jinete_M2_Spritesheet_3
+      213: -3042730070194354005
+    second: Jinete_M2_Spritesheet_3
   - first:
-      213: -6841948318344529663
-    second: INCOMPLETO_Jinete_M2_Spritesheet_4
+      213: -1478977117606252975
+    second: Jinete_M2_Spritesheet_4
   - first:
-      213: 6297698240306662110
-    second: INCOMPLETO_Jinete_M2_Spritesheet_5
+      213: 6876164842388264469
+    second: Jinete_M2_Spritesheet_5
   - first:
-      213: 3442069068281175488
-    second: INCOMPLETO_Jinete_M2_Spritesheet_6
+      213: 8656293191071392126
+    second: Jinete_M2_Spritesheet_6
   - first:
-      213: -1205878179468300408
-    second: INCOMPLETO_Jinete_M2_Spritesheet_7
+      213: 1512696389535139606
+    second: Jinete_M2_Spritesheet_7
   - first:
-      213: -8148550467500904353
-    second: INCOMPLETO_Jinete_M2_Spritesheet_8
+      213: -1157682475202708094
+    second: Jinete_M2_Spritesheet_8
   - first:
-      213: -4413153882822847669
-    second: INCOMPLETO_Jinete_M2_Spritesheet_9
+      213: 241670151160059178
+    second: Jinete_M2_Spritesheet_9
   - first:
-      213: -7345855477041572274
-    second: INCOMPLETO_Jinete_M2_Spritesheet_10
+      213: 7029392324062140730
+    second: Jinete_M2_Spritesheet_10
   - first:
-      213: -2225197302535152664
-    second: INCOMPLETO_Jinete_M2_Spritesheet_11
+      213: -8402076208760205853
+    second: Jinete_M2_Spritesheet_11
   - first:
-      213: 4643951756924053161
-    second: INCOMPLETO_Jinete_M2_Spritesheet_12
+      213: 6922476537140314593
+    second: Jinete_M2_Spritesheet_12
   - first:
-      213: 590313800522960897
-    second: INCOMPLETO_Jinete_M2_Spritesheet_13
+      213: 1744984305074866099
+    second: Jinete_M2_Spritesheet_13
   - first:
-      213: 4619786341643633844
-    second: INCOMPLETO_Jinete_M2_Spritesheet_14
+      213: -1587581917719553365
+    second: Jinete_M2_Spritesheet_14
   - first:
-      213: -6443340226263093123
-    second: INCOMPLETO_Jinete_M2_Spritesheet_15
+      213: -4996222440633226056
+    second: Jinete_M2_Spritesheet_15
   - first:
-      213: 7848497326246601772
-    second: INCOMPLETO_Jinete_M2_Spritesheet_16
+      213: 4300082231612709704
+    second: Jinete_M2_Spritesheet_16
   - first:
-      213: -1655467318413974047
-    second: INCOMPLETO_Jinete_M2_Spritesheet_17
+      213: 3660877601851582012
+    second: Jinete_M2_Spritesheet_17
   - first:
-      213: -135464953289045504
-    second: INCOMPLETO_Jinete_M2_Spritesheet_18
+      213: -1758446850563339552
+    second: Jinete_M2_Spritesheet_18
   - first:
-      213: 2833013278503460047
-    second: INCOMPLETO_Jinete_M2_Spritesheet_19
+      213: -7805891669793453232
+    second: Jinete_M2_Spritesheet_19
   - first:
-      213: 1024759139383940099
-    second: INCOMPLETO_Jinete_M2_Spritesheet_20
+      213: -4975219979920324708
+    second: Jinete_M2_Spritesheet_20
   - first:
-      213: 5003341097644305013
-    second: INCOMPLETO_Jinete_M2_Spritesheet_21
+      213: -3153460076557623132
+    second: Jinete_M2_Spritesheet_21
   - first:
-      213: -7153622639391568636
-    second: INCOMPLETO_Jinete_M2_Spritesheet_22
+      213: -8256777100535134132
+    second: Jinete_M2_Spritesheet_22
   - first:
-      213: -6552897277866625271
-    second: INCOMPLETO_Jinete_M2_Spritesheet_23
+      213: -977594845093465110
+    second: Jinete_M2_Spritesheet_23
   - first:
-      213: 3262156163822759329
-    second: INCOMPLETO_Jinete_M2_Spritesheet_24
+      213: -5037767305839885394
+    second: Jinete_M2_Spritesheet_24
   - first:
-      213: 9195138957744515218
-    second: INCOMPLETO_Jinete_M2_Spritesheet_25
+      213: 3113534653760109953
+    second: Jinete_M2_Spritesheet_25
   - first:
-      213: 801839885881903638
-    second: INCOMPLETO_Jinete_M2_Spritesheet_26
-  - first:
-      213: 4131793203162875214
-    second: INCOMPLETO_Jinete_M2_Spritesheet_27
+      213: -7237769883691137416
+    second: Jinete_M2_Spritesheet_26
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -197,7 +194,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_0
+      name: Jinete_M2_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 176
@@ -205,20 +202,20 @@ TextureImporter:
         width: 324
         height: 598
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e81342ba1b6863d30800000000000000
-      internalID: 4410860982694588814
+      spriteID: ac022edc7991c9890800000000000000
+      internalID: -7450051543792738102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_1
+      name: Jinete_M2_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 679
@@ -226,20 +223,20 @@ TextureImporter:
         width: 324
         height: 608
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8043900465270d4a0800000000000000
-      internalID: -6570626141566454776
+      spriteID: 0ce313b6b19d46a20800000000000000
+      internalID: 3054805159049772736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_2
+      name: Jinete_M2_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 1250
@@ -247,20 +244,20 @@ TextureImporter:
         width: 332
         height: 620
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b4a47d2adc538dc0800000000000000
-      internalID: -3637961981849983817
+      spriteID: f8ca14d84fdf0a4e0800000000000000
+      internalID: -1972297410004538225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_3
+      name: Jinete_M2_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 1790
@@ -268,20 +265,20 @@ TextureImporter:
         width: 346
         height: 610
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5efb53189e8a3ee50800000000000000
-      internalID: 6837494380127174629
+      spriteID: ba88aaa4f1d06c5d0800000000000000
+      internalID: -3042730070194354005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_6
+      name: Jinete_M2_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 2339
@@ -289,20 +286,20 @@ TextureImporter:
         width: 349
         height: 606
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cd524ba49fa4cf20800000000000000
-      internalID: 3442069068281175488
+      spriteID: e7161755bc4512870800000000000000
+      internalID: 8656293191071392126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_7
+      name: Jinete_M2_Spritesheet_7
       rect:
         serializedVersion: 2
         x: 190
@@ -310,62 +307,62 @@ TextureImporter:
         width: 247
         height: 588
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88fa56e4f2cd34fe0800000000000000
-      internalID: -1205878179468300408
+      spriteID: 61702470a5d2ef410800000000000000
+      internalID: 1512696389535139606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_8
+      name: Jinete_M2_Spritesheet_8
       rect:
         serializedVersion: 2
         x: 596
-        y: 923
-        width: 315
-        height: 564
+        y: 899
+        width: 317
+        height: 588
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f50f34ec5888aee80800000000000000
-      internalID: -8148550467500904353
+      spriteID: 28df8d62ce51fefe0800000000000000
+      internalID: -1157682475202708094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_9
+      name: Jinete_M2_Spritesheet_9
       rect:
         serializedVersion: 2
         x: 1023
-        y: 899
+        y: 896
         width: 334
-        height: 561
+        height: 564
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43553bece351c2c0800000000000000
-      internalID: -4413153882822847669
+      spriteID: a25d5b8d8b59a5300800000000000000
+      internalID: 241670151160059178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_10
+      name: Jinete_M2_Spritesheet_10
       rect:
         serializedVersion: 2
         x: 1462
@@ -373,20 +370,20 @@ TextureImporter:
         width: 315
         height: 571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4654971d574e0a90800000000000000
-      internalID: -7345855477041572274
+      spriteID: a39d49e431b6d8160800000000000000
+      internalID: 7029392324062140730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_11
+      name: Jinete_M2_Spritesheet_11
       rect:
         serializedVersion: 2
         x: 1848
@@ -394,20 +391,20 @@ TextureImporter:
         width: 374
         height: 676
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8eb1c3bc7d28e11e0800000000000000
-      internalID: -2225197302535152664
+      spriteID: 3ed46194434d56b80800000000000000
+      internalID: -8402076208760205853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_12
+      name: Jinete_M2_Spritesheet_12
       rect:
         serializedVersion: 2
         x: 2346
@@ -415,20 +412,20 @@ TextureImporter:
         width: 337
         height: 564
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a66289a481a27040800000000000000
-      internalID: 4643951756924053161
+      spriteID: 1e18932dbb3911060800000000000000
+      internalID: 6922476537140314593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_13
+      name: Jinete_M2_Spritesheet_13
       rect:
         serializedVersion: 2
         x: 2852
@@ -436,20 +433,20 @@ TextureImporter:
         width: 307
         height: 635
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1009e222647313800800000000000000
-      internalID: 590313800522960897
+      spriteID: 3b78e9aeafd673810800000000000000
+      internalID: 1744984305074866099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_14
+      name: Jinete_M2_Spritesheet_14
       rect:
         serializedVersion: 2
         x: 3296
@@ -457,20 +454,20 @@ TextureImporter:
         width: 327
         height: 598
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b4ced77337cc1040800000000000000
-      internalID: 4619786341643633844
+      spriteID: baa1e7e38a6c7f9e0800000000000000
+      internalID: -1587581917719553365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_15
+      name: Jinete_M2_Spritesheet_15
       rect:
         serializedVersion: 2
         x: 3772
@@ -478,20 +475,20 @@ TextureImporter:
         width: 283
         height: 625
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d707a96d338a496a0800000000000000
-      internalID: -6443340226263093123
+      spriteID: 8bca83f492ad9aab0800000000000000
+      internalID: -4996222440633226056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_16
+      name: Jinete_M2_Spritesheet_16
       rect:
         serializedVersion: 2
         x: 176
@@ -499,20 +496,20 @@ TextureImporter:
         width: 283
         height: 615
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c24288f2cb67bec60800000000000000
-      internalID: 7848497326246601772
+      spriteID: 84b9e30c106fcab30800000000000000
+      internalID: 4300082231612709704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_17
+      name: Jinete_M2_Spritesheet_17
       rect:
         serializedVersion: 2
         x: 679
@@ -520,20 +517,20 @@ TextureImporter:
         width: 283
         height: 625
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e5aaa4be399609e0800000000000000
-      internalID: -1655467318413974047
+      spriteID: c362c8068cc0ec230800000000000000
+      internalID: 3660877601851582012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_18
+      name: Jinete_M2_Spritesheet_18
       rect:
         serializedVersion: 2
         x: 1250
@@ -541,20 +538,20 @@ TextureImporter:
         width: 298
         height: 622
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00a01bbb75bbe1ef0800000000000000
-      internalID: -135464953289045504
+      spriteID: 0ea84c3f7edb897e0800000000000000
+      internalID: -1758446850563339552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_19
+      name: Jinete_M2_Spritesheet_19
       rect:
         serializedVersion: 2
         x: 1790
@@ -562,20 +559,20 @@ TextureImporter:
         width: 305
         height: 620
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fccd92d1192e05720800000000000000
-      internalID: 2833013278503460047
+      spriteID: 05bc7ca32e6eba390800000000000000
+      internalID: -7805891669793453232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: INCOMPLETO_Jinete_M2_Spritesheet_21
+      name: Jinete_M2_Spritesheet_21
       rect:
         serializedVersion: 2
         x: 2339
@@ -583,14 +580,14 @@ TextureImporter:
         width: 339
         height: 615
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57aa33f28307f6540800000000000000
-      internalID: 5003341097644305013
+      spriteID: 4a02863a4c8ac34d0800000000000000
+      internalID: -3153460076557623132
       vertices: []
       indices: 
       edges: []
