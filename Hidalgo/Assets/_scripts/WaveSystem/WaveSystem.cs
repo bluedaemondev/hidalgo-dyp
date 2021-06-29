@@ -74,14 +74,18 @@ public class WaveSystem : MonoBehaviour
     private IEnumerator SpawnGrouppedList(int groupByCountId)
     {
         int countOffsetArray = 0;
+
         for (int x = 0; x < groupByCountId; x++)
         {
             countOffsetArray += groupByCount[x];
         }
-        for (int idx = countOffsetArray; idx < groupByCount[groupByCountId]; idx++)
+
+        Debug.Log("oofset " + countOffsetArray);
+
+        for (int idx = 0; idx < groupByCount[groupByCountId]; idx++)
         {
-            yield return new WaitForSeconds(waveGroups[idx].timeFromLast);
-            var entity = Instantiate(waveGroups[idx].entityPrefab, waveGroups[idx].spawnPoint, Quaternion.identity, transform);
+            yield return new WaitForSeconds(waveGroups[idx + countOffsetArray].timeFromLast);
+            var entity = Instantiate(waveGroups[idx + countOffsetArray].entityPrefab, waveGroups[idx + countOffsetArray].spawnPoint, Quaternion.identity, transform);
 
             // completar con el merge despues
             //entity.GetComponent<ISpawneable>().Init();
