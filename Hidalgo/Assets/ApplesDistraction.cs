@@ -73,6 +73,7 @@ public class ApplesDistraction : MonoBehaviour
             {
                 rocinante.Feed(this.myRigidbody);
                 cooldown = StartCoroutine(Cooldown());
+                rocinante.UncheckRocinante();
             }
         }
     }

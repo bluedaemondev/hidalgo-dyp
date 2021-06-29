@@ -20,6 +20,10 @@ public class HudPlayerPickupScene : MonoBehaviour
     {
         this.checkedRocinante.SetActive(true);
     }
+    public void NoCheckRocinante()
+    {
+        this.checkedRocinante.SetActive(false);
+    }
     public void CheckPiecesComplete()
     {
         this.checkedPieces.SetActive(true);
