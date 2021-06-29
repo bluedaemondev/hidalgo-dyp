@@ -36,6 +36,7 @@ public class PathfindingM2 : MonoBehaviour
         //pathfindingVisual.SetGrid(pathfinding.GetGrid());
     }
 
+    #region OLD
     //private void Update()
     //{
     //    if (Input.GetMouseButtonDown(0))
@@ -56,6 +57,8 @@ public class PathfindingM2 : MonoBehaviour
 
 
     //}
+    #endregion
+
 
     public void SetNodeUnwalkable(Vector3 worldPositionNode)
     {

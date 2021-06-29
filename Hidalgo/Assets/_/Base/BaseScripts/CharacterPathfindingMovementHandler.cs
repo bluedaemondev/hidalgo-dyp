@@ -35,12 +35,19 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
     {
         HandleMovement();
     }
-    public void SetMovementPath(Vector3 worldPosition)
+    public void SetMovementPath(Vector3 worldPositionOrigin, Vector3 targetPosition)
     {
-        Pathfinding.Instance.GetGrid().GetXY(worldPosition, out int x, out int y);
+        Pathfinding.Instance.GetGrid().GetXY(worldPositionOrigin, out int x, out int y);
+        Pathfinding.Instance.GetGrid().GetXY(worldPositionOrigin, out int xTarget, out int yTarget);
 
-        List<PathNode> path = Pathfinding.Instance.FindPath(0, 0, x, y);
-        
+        Debug.Log("world position " + x + " " + y);
+        Debug.Log("target position " + xTarget + " " + yTarget);
+
+
+        List<PathNode> path = Pathfinding.Instance.FindPath(x, y, xTarget, yTarget);
+
+        Debug.Log(path != null);
+
         if (path != null)
         {
             for (int i = 0; i < path.Count - 1; i++)
@@ -49,11 +56,11 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
             }
         }
 
-        
-        // efecto en donde va a ir el enemigo, para contabilizar prioridades
-        EffectFactory.instance.InstantiateEffectAt(onPathSetEffect, worldPosition, Quaternion.identity);
 
-        SetTargetPosition(worldPosition);
+        // efecto en donde va a ir el enemigo, para contabilizar prioridades
+        EffectFactory.instance.InstantiateEffectAt(onPathSetEffect, worldPositionOrigin, Quaternion.identity);
+
+        SetTargetPosition(worldPositionOrigin);
     }
 
     private void HandleMovement()

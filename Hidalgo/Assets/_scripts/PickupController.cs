@@ -28,7 +28,7 @@ public class PickupController : MonoBehaviour
 
         if (destroyOnPickup)
         {    //Destroy(this.gameObject);
-            Debug.Log("destroying pickup");
+            Debug.Log("destroying pickup " + this.gameObject.name);
         }
     }
 

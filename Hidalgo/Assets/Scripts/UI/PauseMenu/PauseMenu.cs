@@ -14,7 +14,7 @@ public class PauseMenu : MonoBehaviour
     //public CounterController CounterState;
 
     public GameObject PauseMenuUI;
-    public CounterController CounterState;
+    //public CounterController CounterState;
 
     //private void Awake()
     //{
@@ -23,7 +23,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Start()
     {
-     CounterState = GameObject.FindObjectOfType<CounterController>();
+     //CounterState = GameObject.FindObjectOfType<CounterController>();
     }
     void Update()
     {
@@ -48,7 +48,7 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
-        CounterState.ContinueTimer();
+        //CounterState.ContinueTimer();
         //CounterState.ContinueTimer();
     }
 
@@ -57,7 +57,7 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
-        CounterState.PauseTimer();
+        //CounterState.PauseTimer();
         //CounterState.PauseTimer();
     }
 

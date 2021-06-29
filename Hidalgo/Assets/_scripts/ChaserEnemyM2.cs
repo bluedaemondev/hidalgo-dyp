@@ -17,7 +17,7 @@ public class ChaserEnemyM2 : EnemyM2
 
     public void SetHandPickup(Sprite sprite)
     {
-        throw new NotImplementedException();
+        spriteRendHandPickupPlaceholder.sprite = sprite;
     }
 
     /// <summary>
