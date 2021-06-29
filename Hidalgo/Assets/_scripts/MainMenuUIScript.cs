@@ -9,6 +9,11 @@ public class MainMenuUIScript : MonoBehaviour
     public GameObject creditsPanel;
     public GameObject howToPlayPanel;
 
+    public void LoadSceneByIndex(int buildindex)
+    {
+        SceneManager.LoadScene(buildindex);
+    }
+
 
     private void Awake()
     {
