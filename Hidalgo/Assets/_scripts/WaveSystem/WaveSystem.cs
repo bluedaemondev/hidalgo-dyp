@@ -106,7 +106,6 @@ public class WaveSystem : MonoBehaviour
             yield return new WaitForSeconds(waveGroups[idx + countOffsetArray].timeFromLast);
             var entity = Instantiate(waveGroups[idx + countOffsetArray].entityPrefab, waveGroups[idx + countOffsetArray].GetSpawnPoint(), Quaternion.identity, transform).GetComponent<EnemyM2>();
 
-            // completar con el merge despues
             entity.Init();
 
             if (entity is ChaserEnemyM2)

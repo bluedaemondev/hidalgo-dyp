@@ -36,7 +36,8 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
 
     public virtual void SetTarget(Vector3 positionToReach)
     {
-        _pathfinder.SetMovementPath(transform.position, positionToReach);
+        //_pathfinder.SetMovementPath(transform.position, positionToReach);
+        _pathfinder.SetMovementPath(_pathfinder.GetPosition(), positionToReach);
     
     }
 
