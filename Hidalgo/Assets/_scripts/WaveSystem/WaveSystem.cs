@@ -32,6 +32,7 @@ public class WaveSystem : MonoBehaviour
     public event System.Action onEnemyDied;
     public event System.Action onLastWaveEnemyDied;
 
+    [Space, Header("Para mostrar enemigos restantes de la oleada")]
     public TMPro.TextMeshProUGUI textStatusRemaining;
 
     private void Awake()
