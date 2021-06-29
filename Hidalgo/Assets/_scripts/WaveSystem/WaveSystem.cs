@@ -28,7 +28,8 @@ public class WaveSystem : MonoBehaviour
     public List<WaveItem> waveGroups;
 
     public event System.Action onSpawnEnemy;
-    public event System.Action onWaveFinishedSpawning;
+
+    public event System.Action<int> onWaveFinishedSpawning;
     public event System.Action onEnemyDied;
     public event System.Action onLastWaveEnemyDied;
 
@@ -39,8 +40,18 @@ public class WaveSystem : MonoBehaviour
     {
         if (instance)
             Destroy(instance.gameObject);
-        
+
         instance = this;
+
+        onWaveFinishedSpawning +=
+            (finishedWaveId) =>
+            {
+                Debug.Log("finalizando wave " + finishedWaveId);
+                if (finishedWaveId < groupByCount.Length - 1)
+                    StartCoroutine(SpawnGrouppedList(finishedWaveId + 1));
+            };
+
+        StartSpawning();
     }
 
 
@@ -67,15 +78,16 @@ public class WaveSystem : MonoBehaviour
         {
             countOffsetArray += groupByCount[x];
         }
-        foreach (var item in waveGroups)
+        for (int idx = countOffsetArray; idx < groupByCount[groupByCountId]; idx++)
         {
-            yield return new WaitForSeconds(item.timeFromLast);
-            var entity = Instantiate(item.entityPrefab, item.spawnPoint, Quaternion.identity, transform);
+            yield return new WaitForSeconds(waveGroups[idx].timeFromLast);
+            var entity = Instantiate(waveGroups[idx].entityPrefab, waveGroups[idx].spawnPoint, Quaternion.identity, transform);
 
             // completar con el merge despues
             //entity.GetComponent<ISpawneable>().Init();
         }
 
+        onWaveFinishedSpawning(groupByCountId);
     }
 
 }
