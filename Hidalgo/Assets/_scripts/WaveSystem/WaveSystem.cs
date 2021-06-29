@@ -7,13 +7,32 @@ public struct WaveItem
 {
     public GameObject entityPrefab;
     public Vector3 spawnPoint;
+    public Transform optionalSpawnpoint;
     public float timeFromLast;
 
-    public WaveItem(GameObject eprefab, Vector3 spawnP, float timeOffset)
+    //public WaveItem(GameObject eprefab, Vector3 spawnP, float timeOffset, Transform optOrigin = null)
+    //{
+    //    this.entityPrefab = eprefab;
+    //    optionalSpawnpoint = optOrigin;
+
+    //    if (optOrigin != null)
+    //    {
+    //        this.spawnPoint = optOrigin.position;
+    //    }
+    //    else
+    //    {
+    //        this.spawnPoint = spawnP;
+    //    }
+
+    //    this.timeFromLast = timeOffset;
+    //}
+
+    public Vector3 GetSpawnPoint()
     {
-        this.entityPrefab = eprefab;
-        this.spawnPoint = spawnP;
-        this.timeFromLast = timeOffset;
+        if (optionalSpawnpoint != null)
+            return optionalSpawnpoint.position;
+        else
+            return spawnPoint;
     }
 
 }
@@ -85,10 +104,14 @@ public class WaveSystem : MonoBehaviour
         for (int idx = 0; idx < groupByCount[groupByCountId]; idx++)
         {
             yield return new WaitForSeconds(waveGroups[idx + countOffsetArray].timeFromLast);
-            var entity = Instantiate(waveGroups[idx + countOffsetArray].entityPrefab, waveGroups[idx + countOffsetArray].spawnPoint, Quaternion.identity, transform);
+            var entity = Instantiate(waveGroups[idx + countOffsetArray].entityPrefab, waveGroups[idx + countOffsetArray].GetSpawnPoint(), Quaternion.identity, transform).GetComponent<EnemyM2>();
 
             // completar con el merge despues
-            //entity.GetComponent<ISpawneable>().Init();
+            entity.Init();
+
+            if (entity is ChaserEnemyM2)
+                (entity as ChaserEnemyM2).SetPickupTarget(PickupTracker.instance.GetRandomPickup().position);
+
         }
 
         onWaveFinishedSpawning(groupByCountId);
