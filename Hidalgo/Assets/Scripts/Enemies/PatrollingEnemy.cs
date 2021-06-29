@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PatrollingEnemy : MonoBehaviour
 {
+    [SerializeField]
+    private float speed;
     public Transform PointA;
     public Transform PointB;
     public float TravelTime = 1f;
@@ -62,7 +64,8 @@ public class PatrollingEnemy : MonoBehaviour
                 }
             }
 
-            transform.position = Vector3.Lerp(PointA.position, PointB.position, CurrentTravelTime / TravelTime);
+            //transform.position = Vector3.MoveTowards(PointA.position, PointB.position, speed * Time.deltaTime);
+             transform.position = Vector3.Lerp(PointA.position, PointB.position, CurrentTravelTime / TravelTime);
         }
     }
     private void AwaitInPlace(float time)
@@ -86,6 +89,11 @@ public class PatrollingEnemy : MonoBehaviour
         AuxScale.x = -AuxScale.x;
         transform.localScale = AuxScale;
         
+    }
+
+    public void SetTravelTime (float newTime)
+    {
+        TravelTime = newTime;
     }
 
     public void SetSoldadoState()
