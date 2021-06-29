@@ -180,6 +180,8 @@ MonoBehaviour:
   PointB: {fileID: 8203375746430281971}
   TravelTime: 3
   AuxScale: {x: 0, y: 0, z: 0}
+  myAnimator: {fileID: 0}
+  SoldadoState: 2
 --- !u!1 &8203375746430281970
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +283,7 @@ SpriteRenderer:
   m_SortingLayerID: -1621372491
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8643665524854283260, guid: 21d7ef30090062a439efa4f0fbef3ec9,
+  m_Sprite: {fileID: -3320535354747736113, guid: 997e048ec4d5d4f42bf758108da58dd7,
     type: 3}
   m_Color: {r: 0.5283019, g: 0.11213957, b: 0.11213957, a: 1}
   m_FlipX: 0
