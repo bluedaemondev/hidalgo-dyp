@@ -602,7 +602,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &10519417
@@ -9795,7 +9795,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &383762062
@@ -11789,7 +11789,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0.5}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -13050,6 +13050,7 @@ MonoBehaviour:
   stunForSeconds: 2
   invertControlInPlayer: 0
   prefabLightning: {fileID: 646155360267873736}
+  particlesRayosPlayer: {fileID: 0}
 --- !u!1 &505634451
 GameObject:
   m_ObjectHideFlags: 0
@@ -13161,6 +13162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 995916d8c87b66646918aba1ab4bd899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camShake: {fileID: 0}
 --- !u!1 &513242457
 GameObject:
   m_ObjectHideFlags: 0
@@ -18184,7 +18186,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &755988083
@@ -19238,7 +19240,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &790654252
@@ -22400,7 +22402,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7366667, y: 0.84833336}
+    oldSize: {x: 2.21, y: 2.545}
     newSize: {x: 2.15, y: 19.37}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -33536,7 +33538,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1221460481
@@ -40638,7 +40640,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -627599973
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 802d7f1115539d140954ea089747901c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -40781,7 +40783,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0.5}
     oldSize: {x: 1, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
@@ -47957,7 +47959,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -627599973
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: -15
   m_Sprite: {fileID: 21300000, guid: 03276fcd05e298a48bd8b3c8850ba491, type: 3}
   m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
@@ -48754,7 +48756,7 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0.5}
     oldSize: {x: 1, y: 1}
     newSize: {x: 2.9007432, y: 2.9049664}
     adaptiveTilingThreshold: 0.5
@@ -59697,6 +59699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e36afacc031b34299e7d8ea2258b5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabLightning: {fileID: 0}
   currentWeather: 0
   onChangeClimate:
     m_PersistentCalls:
@@ -59882,7 +59885,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1742283727
@@ -60345,7 +60348,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1769169050
@@ -63309,7 +63312,7 @@ SpriteRenderer:
   m_Size: {x: 6.6666665, y: 6.6666665}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1864303156
@@ -75831,9 +75834,21 @@ PrefabInstance:
       propertyPath: targetFollow
       value: 
       objectReference: {fileID: 985133706}
+    - target: {fileID: 519420031, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
+      propertyPath: orthographic size
+      value: 8.79
+      objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.221459
+      value: -8.22183
+      objectReference: {fileID: 0}
+    - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 37.138912
+      objectReference: {fileID: 0}
+    - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.8
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156930, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -75843,7 +75858,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.221459
+      value: -8.22183
       objectReference: {fileID: 0}
     - target: {fileID: 7143910963493934742, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -77046,6 +77061,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6499589921052280873, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 24.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6632110830744623418, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_LocalPosition.x
