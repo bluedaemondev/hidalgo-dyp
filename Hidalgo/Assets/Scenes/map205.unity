@@ -18665,6 +18665,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1708645927}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &454657689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2220370221442166732, guid: 4742bb89be4afb14abd913d65846208b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708645927}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &457243448
 GameObject:
   m_ObjectHideFlags: 0
@@ -23199,6 +23205,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1038585276}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &580546120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 580546121}
+  - component: {fileID: 580546123}
+  - component: {fileID: 580546122}
+  m_Layer: 0
+  m_Name: PauseGameInputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &580546121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580546120}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.19810009, y: 10.304358, z: -0.5078125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 454657689}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &580546122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580546120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e768cb19d9ff45f4a8cfff9e0ada5653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &580546123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580546120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b00131b2ef19f348ab87ab5a911a19f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMenuUI: {fileID: 454657688}
+  CounterState: {fileID: 580546122}
 --- !u!1 &586057241
 GameObject:
   m_ObjectHideFlags: 0
@@ -27383,22 +27447,42 @@ PrefabInstance:
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.38
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.51
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 383.49957
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 190.55733
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.014471684
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.92844355
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.9850001
+      objectReference: {fileID: 0}
+    - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.062443603
       objectReference: {fileID: 0}
     - target: {fileID: 4890017980867890175, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
