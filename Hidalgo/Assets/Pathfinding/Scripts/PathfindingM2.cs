@@ -32,8 +32,8 @@ public class PathfindingM2 : MonoBehaviour
     private void Awake()
     {
         pathfinding = new Pathfinding(width, height);
-        //pathfindingDebugStepVisual.Setup(pathfinding.GetGrid());
-        //pathfindingVisual.SetGrid(pathfinding.GetGrid());
+        pathfindingDebugStepVisual.Setup(pathfinding.GetGrid());
+        pathfindingVisual.SetGrid(pathfinding.GetGrid());
     }
 
     #region OLD
