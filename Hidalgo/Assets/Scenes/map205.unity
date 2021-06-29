@@ -4282,6 +4282,11 @@ PrefabInstance:
       propertyPath: resetTimecooldown
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_IsActive
@@ -5358,6 +5363,11 @@ PrefabInstance:
         type: 3}
       propertyPath: resetTimecooldown
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -19804,6 +19814,11 @@ PrefabInstance:
       propertyPath: resetTimecooldown
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_IsActive
@@ -31741,6 +31756,11 @@ PrefabInstance:
       propertyPath: resetTimecooldown
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
       propertyPath: m_IsActive
@@ -36127,6 +36147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: resetTimecooldown
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
@@ -98460,6 +98485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: resetTimecooldown
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5884249324998073399, guid: 9cd6a81bd3da6ac4495a707194d572a0,
+        type: 3}
+      propertyPath: timeToTriggerQTE
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 7140906153884424225, guid: 9cd6a81bd3da6ac4495a707194d572a0,
         type: 3}
