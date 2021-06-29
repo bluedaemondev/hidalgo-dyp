@@ -38,11 +38,10 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
     public void SetMovementPath(Vector3 worldPositionOrigin, Vector3 targetPosition)
     {
         Pathfinding.Instance.GetGrid().GetXY(worldPositionOrigin, out int x, out int y);
-        Pathfinding.Instance.GetGrid().GetXY(worldPositionOrigin, out int xTarget, out int yTarget);
+        Pathfinding.Instance.GetGrid().GetXY(targetPosition, out int xTarget, out int yTarget);
 
         Debug.Log("world position " + x + " " + y);
         Debug.Log("target position " + xTarget + " " + yTarget);
-
 
         List<PathNode> path = Pathfinding.Instance.FindPath(x, y, xTarget, yTarget);
 
