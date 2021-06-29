@@ -26,6 +26,10 @@ public class Health : MonoBehaviour
     {
         return this.healthMax;
     }
+    public float GetHealth()
+    {
+        return (float)health;
+    }
 
     public float GetHealthNormalized()
     {
