@@ -20,7 +20,8 @@ using System;
 public class CharacterPathfindingMovementHandler : MonoBehaviour
 {
 
-    private const float speed = 40f;
+    public float speed = 40f;
+    public float speedMultiplier = 1;
 
     private int currentPathIndex;
     private List<Vector3> pathVectorList;
@@ -53,7 +54,7 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
 
                 float distanceBefore = Vector3.Distance(transform.position, targetPosition);
                 //animatedWalker.SetMoveVector(moveDir);
-                transform.position = transform.position + moveDir * speed * Time.deltaTime;
+                transform.position = transform.position + moveDir * speed * speedMultiplier * Time.deltaTime;
             }
             else
             {

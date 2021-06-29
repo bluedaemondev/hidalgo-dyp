@@ -16,15 +16,21 @@ public class PickupController : MonoBehaviour
         //PickupsScapeGameManager.instance.onPickupItem.Invoke(this.id);
         if (!Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer))
             return;
-        
-        
-        if (destroyOnPickup)
-            Destroy(this.gameObject);
 
+        if (collision.GetComponent<ChaserEnemyM2>() != null)
+        {
+            var chaser = collision.GetComponent<ChaserEnemyM2>();
+            PickupTracker.instance.SetPickupMissing(gameObject.name);
+
+            chaser.SetHandPickup(transform.GetChild(0).GetComponent<SpriteRenderer>().sprite);
+
+        }
+
+        if (destroyOnPickup)
+        {    //Destroy(this.gameObject);
+            Debug.Log("destroying pickup");
+        }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //PickupsScapeGameManager.instance.onPickupItem.Invoke(this.id);
-    }
+
 
 }

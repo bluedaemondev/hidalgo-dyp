@@ -27,7 +27,7 @@ public class LightManager : MonoBehaviour
 
     private void Update()
     {
-        if(lightningCoroutine == null && globalLightScene.intensity != originalLightIntensity)
+        if (lightningCoroutine == null && globalLightScene.intensity != originalLightIntensity)
         {
             globalLightScene.intensity = originalLightIntensity;
         }
@@ -37,7 +37,15 @@ public class LightManager : MonoBehaviour
         var originalIntensityGlobal = this.globalLightScene.intensity;
 
         this.globalLightScene.intensity = flashIntensity;
-        SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.lightning);
+        try
+        {
+            SoundManager.instance.PlayAmbient(PickupsScapeGameManager.instance.soundLibrary.lightning);
+        }
+        catch
+        {
+            Debug.LogWarning("No hay sound library");
+        }
+
         yield return new WaitForSeconds(lightningFlashDuration);
         this.globalLightScene.intensity = originalIntensityGlobal;
     }

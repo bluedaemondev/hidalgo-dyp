@@ -5,18 +5,20 @@ using UnityEngine;
 
 public class ChaserEnemyM2 : EnemyM2
 {
-    [SerializeField]
-    Transform targetPickup;
-    
-    public Transform pickupTransform;
+    public float velocityMultiplierWithPickup = 1.5f;
+    public SpriteRenderer spriteRendHandPickupPlaceholder;
 
-    public Func<Vector2> moveTowardsTarget;
 
-    public string animation_AttackName = "attacking";
     public string animation_WalkBool = "walking";
-    public string animation_pickingUpName = "pickup";
-    public string animation_damagedName = "damaged";
-    public string animation_knockedOutTrigger = "knocked_out";
+    public string animation_hasPickupBool = "hasPickup";
+
+    public string animation_damagedTrigger = "damaged";
+    public string animation_knockedOutTrigger = "knocked";
+
+    public void SetHandPickup(Sprite sprite)
+    {
+        throw new NotImplementedException();
+    }
 
     /// <summary>
     /// Estados del enemigo que agarra los pickups: 
@@ -37,7 +39,7 @@ public class ChaserEnemyM2 : EnemyM2
     public override float TakeDamage(float value)
     {
         value = base.TakeDamage(value);
-        _animator.Play(animation_damagedName);
+        _animator.SetTrigger(animation_damagedTrigger);
 
         if (currentHealth <= 0)
         {
@@ -51,13 +53,19 @@ public class ChaserEnemyM2 : EnemyM2
     {
         _animator.SetBool(animation_WalkBool, true);
         this.SetTarget(positionToReach);
+        _pathfinder.speedMultiplier = 1;
 
-        _pathfinder.onStopMovingCallback = SetExitTarget;
+        _pathfinder.onStopMovingCallback = () => { Debug.Log("callback pickup object"); };
+        // probando desde animacion
+        //_pathfinder.onStopMovingCallback = SetExitTarget;
     }
     public void SetExitTarget()
     {
         _animator.SetBool(animation_WalkBool, true);
+        _animator.SetBool(animation_hasPickupBool, true);
+
         this.SetTarget(originalPosition);
+        _pathfinder.speedMultiplier = velocityMultiplierWithPickup;
 
         _pathfinder.onStopMovingCallback = () => { Debug.Log("callback exit map"); };
     }

@@ -8,15 +8,13 @@ public class PickupTracker : MonoBehaviour
 {
     public static PickupTracker instance { get; private set; }
 
+    public Transform gridPivotPoint;
 
     public bool useChildren = false;
     public List<GameObject> pickupsWOriginal;
 
     public GameObject particlesRestoredItem;
     public GameObject particlesMissingItem;
-
-
-    private List<GameObject> missingPickups;
 
     public event Action<GameObject> onPickupMissing;
 
@@ -45,14 +43,14 @@ public class PickupTracker : MonoBehaviour
         EffectFactory.instance.camShake.ShakeCameraNormal(1, 0.125f);
     }
 
-    public void SetPickupMissing(GameObject pickup)
+    public void SetPickupMissing(string pickupHierarchyName)
     {
-        pickupsWOriginal.Remove(pickup);
+        pickupsWOriginal.Find(p => pickupHierarchyName == p.name).SetActive(false);
 
-        if (!missingPickups.Contains(pickup))
-        {
-            missingPickups.Add(pickup);
-        }
+        //if (!missingPickups.Contains(pickup))
+        //{
+        //    missingPickups.Add(pickup);
+        //}
     }
     public Transform GetRandomPickup()
     {

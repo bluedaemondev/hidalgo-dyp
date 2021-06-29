@@ -28,7 +28,7 @@ public class Testing : MonoBehaviour {
 
 
 
-    private void Start() {
+    private void Awake() {
         pathfinding = new Pathfinding(width, height);
         pathfindingDebugStepVisual.Setup(pathfinding.GetGrid());
         pathfindingVisual.SetGrid(pathfinding.GetGrid());
