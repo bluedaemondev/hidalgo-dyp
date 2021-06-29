@@ -3917,7 +3917,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -5777,7 +5777,7 @@ PrefabInstance:
     - target: {fileID: 3465649634926794681, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.48928434
+      value: -0.89010894
       objectReference: {fileID: 0}
     - target: {fileID: 3465649634926794681, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
@@ -5787,7 +5787,7 @@ PrefabInstance:
     - target: {fileID: 3465649634926794681, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
       propertyPath: m_Size.y
-      value: 2.21911
+      value: 3.0207593
       objectReference: {fileID: 0}
     - target: {fileID: 3465649634926794686, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
@@ -7074,7 +7074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -22804,7 +22804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -27370,25 +27370,45 @@ PrefabInstance:
       propertyPath: checkedLast
       value: 
       objectReference: {fileID: 868898986}
+    - target: {fileID: 1373192024173458223, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190005268076744427, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -31.52
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.13
+      value: -0.51
       objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 389.5807
+      value: 383.49957
       objectReference: {fileID: 0}
     - target: {fileID: 3274750615261507743, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200.36928
+      value: 190.55733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890017980867890175, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039855415735877130, guid: 74aa5a008925cec42800cfffaaa63a9f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6499589921052280873, guid: 74aa5a008925cec42800cfffaaa63a9f,
         type: 3}
@@ -28244,7 +28264,7 @@ PrefabInstance:
     - target: {fileID: 3465649634926794681, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.48928434
+      value: -0.7203126
       objectReference: {fileID: 0}
     - target: {fileID: 3465649634926794681, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
@@ -28254,7 +28274,7 @@ PrefabInstance:
     - target: {fileID: 3465649634926794681, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
       propertyPath: m_Size.y
-      value: 2.21911
+      value: 2.6811662
       objectReference: {fileID: 0}
     - target: {fileID: 3465649634926794686, guid: b8919bcedd544a24ea277f9eebf9695d,
         type: 3}
@@ -52172,7 +52192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -55772,7 +55792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -58393,7 +58413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -99916,6 +99936,11 @@ PrefabInstance:
       propertyPath: rocinante
       value: 
       objectReference: {fileID: 89083126}
+    - target: {fileID: 5658321156346091705, guid: 46269f7fb0aef78499a8ae50946c69fe,
+        type: 3}
+      propertyPath: cooldownAfterPassed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5780205231829775265, guid: 46269f7fb0aef78499a8ae50946c69fe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -107587,7 +107612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
@@ -118084,7 +118109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionQTE: {fileID: 0}
   myRigidbody: {fileID: 0}
-  cooldownAfterPassed: 4
+  cooldownAfterPassed: 2
   rocinante: {fileID: 89083126}
   rocinanteLayer:
     serializedVersion: 2
