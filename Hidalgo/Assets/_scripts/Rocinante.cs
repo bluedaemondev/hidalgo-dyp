@@ -171,36 +171,17 @@ public class Rocinante : MovementType
 
         var delta = Vector2.Distance(transform.position, Follows.position);
 
-        // if (delta <= deltaMidDist && delta >= deltaMinToMove)
-        // {
-
-        //    _rigidbody2d.AddForce((Follows.position - transform.position) * Speed / 80);
-
-        //     Debug.Log("Tamo cerca");
-
-
-        //}
-        // if(delta <= deltaMaxDist && delta >= deltaMidDist)
-        // {
-        //     _rigidbody2d.AddForce((Follows.position - transform.position) * Speed);
-
-        // }
-
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
-            var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-            // transform.position = direction;
-            _rigidbody2d.MovePosition(direction);
+            Vector2 direction =  (Follows.position - transform.position).normalized * Speed * Time.deltaTime;
+            _rigidbody2d.MovePosition((Vector2)transform.position + direction);
 
             HudPlayerPickupScene.instance.CheckRocinante();
         }
         else if (delta >= deltaMaxDist)
         {
             HudPlayerPickupScene.instance.NoCheckRocinante();
-
         }
-
-
 
         RocinanteStateController();
 
@@ -208,27 +189,6 @@ public class Rocinante : MovementType
 
     private void RocinanteStateController()
     {
-        /*  if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude > 0.8)
-          {
-              if (Time.time >= nextSoundTime)
-              {
-                  SoundManager.instance.PlayEffect(FootstepSound);
-                  nextSoundTime = Time.time + FootstepSound.length;
-              }
-
-              rocinanteState = 2;
-              SetRocinanteState();
-          }
-          else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude < 0.8)
-          {
-              rocinanteState = 1;
-              SetRocinanteState();
-          }
-          else
-          {
-
-          }*/
-
         var displacement = transform.position - lastPos;
         lastPos = transform.position;
 
@@ -248,10 +208,7 @@ public class Rocinante : MovementType
             rocinanteState = 1;
             SetRocinanteState();
         }
-        else
-        {
-
-        }
+        
     }
 
     public void Feed(Rigidbody2D distraction)
@@ -273,7 +230,6 @@ public class Rocinante : MovementType
     }
     public bool IsAttachedToPlayer()
     {
-        //return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
         return this.Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer;
     }
 
