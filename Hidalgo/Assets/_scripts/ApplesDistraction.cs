@@ -34,7 +34,7 @@ public class ApplesDistraction : MonoBehaviour
 
     void SetActiveBasedOnSpringState()
     {
-        Debug.Log("jkhashdk " + rocinante.IsAttachedToPlayer());
+        //Debug.Log("jkhashdk " + rocinante.IsAttachedToPlayer());
 
         if (rocinante.IsAttachedToPlayer())
         {

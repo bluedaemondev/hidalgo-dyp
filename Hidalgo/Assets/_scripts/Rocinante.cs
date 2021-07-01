@@ -118,10 +118,10 @@ public class Rocinante : MovementType
 
     }
 
-    private void FixedUpdate()
-    {
-        //_rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
-    }
+    //private void FixedUpdate()
+    //{
+    //    //_rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
+    //}
 
     public void SetSpeedMultiplier(float value)
     {
@@ -161,9 +161,12 @@ public class Rocinante : MovementType
     {
         HudPlayerPickupScene.instance.NoCheckRocinante();
     }
-    public void SetRocinanteState()
+    public void SetRocinanteState(float state)
     {
-        _animator.SetFloat("RocinanteState", rocinanteState);
+        if (_animator.GetFloat("RocinanteState") != state)
+        {
+            _animator.SetFloat("RocinanteState", state);
+        }
     }
 
     public void Move()
@@ -173,8 +176,21 @@ public class Rocinante : MovementType
 
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
-            Vector2 direction =  (Follows.position - transform.position).normalized * Speed * Time.deltaTime;
+            Vector2 direction = (Follows.position - transform.position).normalized * Speed * Time.deltaTime;
+
+            if (direction.magnitude <= 0.2f)
+                SetRocinanteState(1);
+
             _rigidbody2d.MovePosition((Vector2)transform.position + direction);
+
+
+            if (Time.time >= nextSoundTime)
+            {
+                SoundManager.instance.PlayEffect(FootstepSound);
+                nextSoundTime = Time.time + FootstepSound.length;
+            }
+
+            SetRocinanteState(2);
 
             HudPlayerPickupScene.instance.CheckRocinante();
         }
@@ -183,33 +199,34 @@ public class Rocinante : MovementType
             HudPlayerPickupScene.instance.NoCheckRocinante();
         }
 
-        RocinanteStateController();
+
+        //RocinanteStateController();
 
     }
 
-    private void RocinanteStateController()
-    {
-        var displacement = transform.position - lastPos;
-        lastPos = transform.position;
+    //private void RocinanteStateController()
+    //{
+    //    var displacement = transform.position - lastPos;
+    //    lastPos = transform.position;
 
-        if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude > 0.001)
-        {
-            if (Time.time >= nextSoundTime)
-            {
-                SoundManager.instance.PlayEffect(FootstepSound);
-                nextSoundTime = Time.time + FootstepSound.length;
-            }
+    //    if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude > 0.05)
+    //    {
+    //        if (Time.time >= nextSoundTime)
+    //        {
+    //            SoundManager.instance.PlayEffect(FootstepSound);
+    //            nextSoundTime = Time.time + FootstepSound.length;
+    //        }
 
-            rocinanteState = 2;
-            SetRocinanteState();
-        }
-        else if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude < 0.001)
-        {
-            rocinanteState = 1;
-            SetRocinanteState();
-        }
-        
-    }
+    //        rocinanteState = 2;
+    //        SetRocinanteState();
+    //    }
+    //    else if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude < 0.05)
+    //    {
+    //        rocinanteState = 1;
+    //        SetRocinanteState();
+    //    }
+
+    //}
 
     public void Feed(Rigidbody2D distraction)
     {
@@ -224,8 +241,7 @@ public class Rocinante : MovementType
         _animator.SetFloat("EatingMoveX", DiferenciaEatingX);
         _animator.SetFloat("EatingMoveY", DiferenciaEatingY);
 
-        rocinanteState = 3;
-        SetRocinanteState();
+        SetRocinanteState(3);
 
     }
     public bool IsAttachedToPlayer()
