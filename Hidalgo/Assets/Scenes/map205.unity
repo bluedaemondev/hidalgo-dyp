@@ -23328,7 +23328,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 454657688}
-  CounterState: {fileID: 580546122}
 --- !u!1 &586057241
 GameObject:
   m_ObjectHideFlags: 0
@@ -24620,11 +24619,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.06777
+      value: -102.0906
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -24.928875
+      value: -24.919395
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -51369,6 +51368,11 @@ PrefabInstance:
       propertyPath: deltaMaxDist
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3679879058201602058, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: obstaclesLayermask.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3679879058201602060, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51435,6 +51439,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 3679879058201602063, guid: bf3113eea5735d443a1d9910244cf1cf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3679879058291100652, guid: bf3113eea5735d443a1d9910244cf1cf,
         type: 3}
       propertyPath: m_SortingOrder
