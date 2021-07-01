@@ -180,6 +180,7 @@ public class Rocinante : MovementType
 
             if (direction.magnitude <= 0.2f)
                 SetRocinanteState(1);
+            //lel
 
             _rigidbody2d.MovePosition((Vector2)transform.position + direction);
 
