@@ -62,6 +62,7 @@ public class ChaserEnemyM2 : EnemyM2
     private void FixedUpdate()
     {
         this._rigidbody.MovePosition(positionNext);
+        
     }
 
     public void SetPickupTarget(Vector2 positionToReach)
