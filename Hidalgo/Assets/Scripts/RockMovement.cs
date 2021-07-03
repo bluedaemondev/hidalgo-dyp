@@ -13,13 +13,14 @@ public class RockMovement : MonoBehaviour
     public Player player;
     Vector3 midPoint;
     Vector3 originalScale;
+    [SerializeField]
     Vector3 maxScale;
 
     void Start()
     {
         start = transform.position;
         des = player.transform.position;
-
+        originalScale = transform.localScale;
         midPoint = (des + transform.position) / 2;
     }
 
@@ -37,7 +38,7 @@ public class RockMovement : MonoBehaviour
         if (deltaMid < deltaEnd)
         {
             //GetComponent<BoxCollider>().enabled = false;
-            transform.localScale = Vector3.Lerp(originalScale, maxScale, scaleSpeed * Time.deltaTime);
+           // transform.localScale = Vector3.Lerp(originalScale, maxScale, scaleSpeed * Time.deltaTime);
         }
         Debug.Log(midPoint);
 
@@ -45,7 +46,7 @@ public class RockMovement : MonoBehaviour
         if (deltaEnd < deltaStart)
         {
             //GetComponent<BoxCollider>().enabled = true;
-            transform.localScale = Vector3.Lerp(maxScale, originalScale, scaleSpeed * Time.deltaTime);
+            //transform.localScale = Vector3.Lerp(maxScale, originalScale, scaleSpeed * Time.deltaTime);
 
         }
     }
