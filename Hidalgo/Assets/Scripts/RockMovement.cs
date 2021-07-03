@@ -38,7 +38,7 @@ public class RockMovement : MonoBehaviour
         if (deltaMid < deltaEnd)
         {
             //GetComponent<BoxCollider>().enabled = false;
-           // transform.localScale = Vector3.Lerp(originalScale, maxScale, scaleSpeed * Time.deltaTime);
+            transform.localScale = Vector3.Lerp(originalScale * 1.5f, originalScale, scaleSpeed * Time.deltaTime);
         }
         Debug.Log(midPoint);
 
@@ -46,7 +46,7 @@ public class RockMovement : MonoBehaviour
         if (deltaEnd < deltaStart)
         {
             //GetComponent<BoxCollider>().enabled = true;
-            //transform.localScale = Vector3.Lerp(maxScale, originalScale, scaleSpeed * Time.deltaTime);
+            transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
 
         }
     }
