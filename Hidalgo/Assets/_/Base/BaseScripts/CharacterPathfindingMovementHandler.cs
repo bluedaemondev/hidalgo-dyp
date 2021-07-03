@@ -30,7 +30,6 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
 
     public Action onStopMovingCallback;
 
-
     private void Update()
     {
         HandleMovement();
@@ -43,7 +42,7 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
         Debug.Log("world position " + x + " " + y);
         Debug.Log("target position " + xTarget + " " + yTarget);
 
-        List<PathNode> path = Pathfinding.Instance.FindPath(x, y, xTarget, yTarget);
+        List<PathNode> path = Pathfinding.Instance.FindPath(0, 0, xTarget, yTarget);
 
         Debug.Log(path != null);
 
@@ -55,11 +54,10 @@ public class CharacterPathfindingMovementHandler : MonoBehaviour
             }
         }
 
-
+        SetTargetPosition(worldPositionOrigin);
         // efecto en donde va a ir el enemigo, para contabilizar prioridades
         EffectFactory.instance.InstantiateEffectAt(onPathSetEffect, worldPositionOrigin, Quaternion.identity);
 
-        SetTargetPosition(worldPositionOrigin);
     }
 
     private void HandleMovement()

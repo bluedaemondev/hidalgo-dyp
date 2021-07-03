@@ -109,7 +109,7 @@ public class WaveSystem : MonoBehaviour
             entity.Init();
 
             if (entity is ChaserEnemyM2)
-                (entity as ChaserEnemyM2).SetPickupTarget(PickupTracker.instance.GetRandomPickup().position);
+                (entity as ChaserEnemyM2).SetPickupTarget(PickupTracker.instance.GetNearestPickup(entity.transform.position).position);
 
         }
 

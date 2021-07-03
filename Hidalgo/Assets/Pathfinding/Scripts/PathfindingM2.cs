@@ -36,6 +36,12 @@ public class PathfindingM2 : MonoBehaviour
         pathfindingVisual.SetGrid(pathfinding.GetGrid());
     }
 
+    public void SetNodeUnwalkable(Vector3 worldPositionNode)
+    {
+        pathfinding.GetGrid().GetXY(worldPositionNode, out int x, out int y);
+        pathfinding.GetNode(x, y).SetIsWalkable(pathfinding.GetNode(x, y).isWalkable = false);
+    }
+
     #region OLD
     //private void Update()
     //{
@@ -58,12 +64,4 @@ public class PathfindingM2 : MonoBehaviour
 
     //}
     #endregion
-
-
-    public void SetNodeUnwalkable(Vector3 worldPositionNode)
-    {
-        pathfinding.GetGrid().GetXY(worldPositionNode, out int x, out int y);
-        pathfinding.GetNode(x, y).SetIsWalkable(pathfinding.GetNode(x, y).isWalkable = false);
-    }
-
 }

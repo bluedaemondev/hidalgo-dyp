@@ -59,5 +59,29 @@ public class PickupTracker : MonoBehaviour
         return pickupsWOriginal[rand].transform;
     }
 
+    /// <summary>
+    /// Hace la distancia mas corta en linea recta 
+    /// </summary>
+    /// <param name="positionToCompare">posicion del enemigo que agarra el pickup</param>
+    /// <returns></returns>
+    public Transform GetNearestPickup(Vector2 positionToCompare)
+    {
+        int minDistanceIdx = 0;
+        float comparer = 9999999999;
+
+        for (int i = 0; i< pickupsWOriginal.Count; i++)
+        {
+            var distance = Vector2.Distance(pickupsWOriginal[i].transform.position, positionToCompare);
+            if(distance <= comparer)
+            {
+                minDistanceIdx = i;
+                comparer = distance;
+            }
+        }
+
+        return pickupsWOriginal[minDistanceIdx].transform;
+
+    }
+
 
 }

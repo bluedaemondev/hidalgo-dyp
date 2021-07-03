@@ -10,11 +10,14 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
     public float movementSpeed = 4f;
 
     protected Vector2 originalPosition;
+    [SerializeField]
+    protected Vector2 targetPosition;
+
     protected Rigidbody2D _rigidbody;
     protected Health health;
     protected Animator _animator;
 
-    protected CharacterPathfindingMovementHandler _pathfinder;
+    //protected CharacterPathfindingMovementHandler _pathfinder;
 
     public abstract void Init();
 
@@ -36,13 +39,15 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
 
     public virtual void SetTarget(Vector3 positionToReach)
     {
-        //_pathfinder.SetMovementPath(transform.position, positionToReach);
-        _pathfinder.SetMovementPath(_pathfinder.GetPosition(), positionToReach);
-    
+        this.targetPosition = positionToReach;
+        Debug.Log("Setting path to target position = " + targetPosition);
     }
 
+    /// <summary>
+    /// fuera de uso
+    /// </summary>
     public virtual void ClearPath()
     {
-        _pathfinder.SetTargetPosition(_pathfinder.GetPosition());
+        this.targetPosition = Vector2.positiveInfinity;
     }
 }
