@@ -52,7 +52,7 @@ public class RockMovement : MonoBehaviour
         if (deltaEnd < deltaStart)
         {
             myAnimator.SetTrigger("IsMid");
-            fallArea.GetComponent<FallArea>().StartDecreasing();            
+
             GetComponent<BoxCollider>().enabled = true;
             //transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
 

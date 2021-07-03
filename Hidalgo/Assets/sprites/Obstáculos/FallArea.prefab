@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6407879526814434588}
   - component: {fileID: 9009273129185248734}
-  - component: {fileID: 4013718377215281494}
-  - component: {fileID: 2048997155109444032}
+  - component: {fileID: -3379657666189979160}
   m_Layer: 0
   m_Name: FallArea
   m_TagString: Untagged
@@ -84,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4013718377215281494
+--- !u!95 &-3379657666189979160
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -103,15 +102,3 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2048997155109444032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7180469293716577399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37dff6a3dbbce074a92a2933f1ed70f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

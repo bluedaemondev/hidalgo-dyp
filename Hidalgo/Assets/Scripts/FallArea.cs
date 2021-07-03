@@ -6,7 +6,7 @@ public class FallArea : MonoBehaviour
 {
     Animator myAnimator;
 
-    private void Start()
+    private void Awake()
     {
         myAnimator = GetComponent<Animator>();
     }
