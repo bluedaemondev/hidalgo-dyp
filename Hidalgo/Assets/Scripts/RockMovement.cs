@@ -15,6 +15,9 @@ public class RockMovement : MonoBehaviour
     Vector3 originalScale;
     [SerializeField]
     Vector3 maxScale;
+    [SerializeField]
+    GameObject fallArea;
+    Animator myAnimator;
 
     void Start()
     {
@@ -22,6 +25,8 @@ public class RockMovement : MonoBehaviour
         des = player.transform.position;
         originalScale = transform.localScale;
         midPoint = (des + transform.position) / 2;
+        Instantiate(fallArea, des, Quaternion.identity);
+        myAnimator = GetComponent<Animator>();
     }
 
     void Update()
@@ -37,16 +42,19 @@ public class RockMovement : MonoBehaviour
 
         if (deltaMid < deltaEnd)
         {
-            //GetComponent<BoxCollider>().enabled = false;
-            transform.localScale = Vector3.Lerp(originalScale * 1.5f, originalScale, scaleSpeed * Time.deltaTime);
+            
+            GetComponent<BoxCollider>().enabled = false;
+            //transform.localScale = Vector3.Lerp(originalScale * 1.5f, originalScale, scaleSpeed * Time.deltaTime);
         }
         Debug.Log(midPoint);
 
         //Si mi distancia a End es menor que mi distancia a Start bajo escala y activo collider.
         if (deltaEnd < deltaStart)
         {
-            //GetComponent<BoxCollider>().enabled = true;
-            transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
+            myAnimator.SetTrigger("IsMid");
+            fallArea.GetComponent<FallArea>().StartDecreasing();            
+            GetComponent<BoxCollider>().enabled = true;
+            //transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
 
         }
     }
