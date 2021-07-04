@@ -16,7 +16,13 @@ public class PickupTracker : MonoBehaviour
     public GameObject particlesRestoredItem;
     public GameObject particlesMissingItem;
 
+    // avisos en pantalla para reforzar el feedback de que perdiste
+    // un objeto
     public event Action<GameObject> onPickupMissing;
+    // cuando sueltan un pickup, todos recalculan distancia
+    // si es menor, se van hasta ahi; sino, siguen a donde iban
+    public event Action<Vector3> onPickupDropped;
+
 
 
     // Start is called before the first frame update
@@ -83,5 +89,10 @@ public class PickupTracker : MonoBehaviour
 
     }
 
+    public void CallbackDropped(PickupController pickupInHand)
+    {
+        Debug.Log("dropped pickup " + pickupInHand);
+        this.onPickupDropped(pickupInHand.transform.position);
 
+    }
 }

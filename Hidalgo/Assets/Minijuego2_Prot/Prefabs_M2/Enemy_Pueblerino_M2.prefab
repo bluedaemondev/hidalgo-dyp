@@ -5208,13 +5208,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
-  movementSpeed: 9.53
+  movementSpeed: 14.56
+  targetPosition: {x: 0, y: 0}
   velocityMultiplierWithPickup: 1.5
-  spriteRendHandPickupPlaceholder: {fileID: 516699544884917585}
+  spriteRendHandPickup: {fileID: 0}
   animation_WalkBool: walking
   animation_hasPickupBool: hasPickup
   animation_damagedTrigger: damaged
-  animation_knockedOutTrigger: knocked_out
+  animation_knockedOutTrigger: knocked
+  pickupInHand: {fileID: 0}
   positionNext: {x: 0, y: 0}
 --- !u!95 &-2889747249814726720
 Animator:

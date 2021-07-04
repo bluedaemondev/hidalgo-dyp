@@ -6,7 +6,7 @@ using UnityEngine;
 public class ChaserEnemyM2 : EnemyM2
 {
     public float velocityMultiplierWithPickup = 1.5f;
-    public SpriteRenderer spriteRendHandPickupPlaceholder;
+    public SpriteRenderer spriteRendHandPickup;
 
     public string animation_WalkBool = "walking";
     public string animation_hasPickupBool = "hasPickup";
@@ -14,11 +14,30 @@ public class ChaserEnemyM2 : EnemyM2
     public string animation_damagedTrigger = "damaged";
     public string animation_knockedOutTrigger = "knocked";
 
+    public PickupController pickupInHand = null;
+
     public Vector2 positionNext;
 
-    public void SetHandPickup(Sprite sprite)
+    public void SetHandPickup(PickupController pickup)
     {
-        spriteRendHandPickupPlaceholder.sprite = sprite;
+        _animator.SetBool(animation_hasPickupBool, true);
+        pickupInHand = pickup;
+        pickupInHand.transform.parent = transform;
+
+        spriteRendHandPickup.sprite = pickup.spriteAsset;
+
+    }
+    public void DropHandPickup()
+    {
+        if (pickupInHand != null)
+        {
+            PickupTracker.instance.CallbackDropped(pickupInHand);
+        }
+    }
+
+    public void DestroyObject02()
+    {
+        Destroy(gameObject, 0.2f);
     }
 
     /// <summary>
@@ -74,7 +93,7 @@ public class ChaserEnemyM2 : EnemyM2
     public void SetExitTarget()
     {
         _animator.SetBool(animation_WalkBool, true);
-        _animator.SetBool(animation_hasPickupBool, true);
+        //_animator.SetBool(animation_hasPickupBool, true);
 
         this.SetTarget(originalPosition);
         this.movementSpeed = this.movementSpeed * this.velocityMultiplierWithPickup;
@@ -84,6 +103,8 @@ public class ChaserEnemyM2 : EnemyM2
     {
         Debug.Log("Enemy knocked out");
         _animator.SetTrigger(animation_knockedOutTrigger);
+
+        DropHandPickup();
 
         //Disable enemy (body stays there for now)
         GetComponent<Collider2D>().enabled = false;
