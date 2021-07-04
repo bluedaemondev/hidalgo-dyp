@@ -18,6 +18,8 @@ public class ChaserEnemyM2 : EnemyM2
 
     public Vector2 positionNext;
 
+    private Action ArtificialFixedUpdate;
+
     public void SetHandPickup(PickupController pickup)
     {
         _animator.SetBool(animation_hasPickupBool, true);
@@ -31,6 +33,7 @@ public class ChaserEnemyM2 : EnemyM2
     {
         if (pickupInHand != null)
         {
+            _animator.SetBool(animation_hasPickupBool, false);
             PickupTracker.instance.CallbackDropped(pickupInHand);
         }
     }
@@ -80,7 +83,7 @@ public class ChaserEnemyM2 : EnemyM2
 
     private void FixedUpdate()
     {
-        this._rigidbody.MovePosition(positionNext);
+        ArtificialFixedUpdate();
         
     }
 
@@ -98,9 +101,14 @@ public class ChaserEnemyM2 : EnemyM2
         this.SetTarget(originalPosition);
         this.movementSpeed = this.movementSpeed * this.velocityMultiplierWithPickup;
     }
-
+    private void Move()
+    {
+        this._rigidbody.MovePosition(positionNext);
+    }
     private void KnockedOut()
     {
+        ArtificialFixedUpdate = delegate { };
+
         Debug.Log("Enemy knocked out");
         _animator.SetTrigger(animation_knockedOutTrigger);
 
@@ -108,7 +116,8 @@ public class ChaserEnemyM2 : EnemyM2
 
         //Disable enemy (body stays there for now)
         GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        
+        //this.enabled = false;
     }
     public override void Init()
     {
@@ -119,6 +128,8 @@ public class ChaserEnemyM2 : EnemyM2
         _rigidbody = GetComponent<Rigidbody2D>();
 
         originalPosition = transform.position;
+
+        ArtificialFixedUpdate = Move;
     }
 
 }
