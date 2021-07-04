@@ -22,7 +22,7 @@ TagManager:
   - CameraConfiner
   - Cutscene_Victoria
   - Enemies_M2
-  - Trigger_FTUX_Beginning
+  - FTUX_TimelineManager
   - 
   - 
   - 
