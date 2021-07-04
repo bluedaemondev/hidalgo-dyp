@@ -19,6 +19,8 @@ public class RockMovement : MonoBehaviour
     [SerializeField]
     GameObject fallArea;
     Animator myAnimator;
+    [SerializeField]
+    private float timeToDestroy = 5;
 
     void Start()
     {
@@ -57,7 +59,15 @@ public class RockMovement : MonoBehaviour
 
             GetComponent<BoxCollider>().enabled = true;
             //transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
-
+            StartCoroutine(WaitToDestroy());
         }
     }
+
+    IEnumerator WaitToDestroy()
+    {
+
+        yield return new WaitForSeconds(timeToDestroy);
+        Destroy(this.gameObject);
+    }
+
 }
