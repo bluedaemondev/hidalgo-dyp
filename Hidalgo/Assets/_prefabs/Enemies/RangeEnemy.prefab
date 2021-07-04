@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2388594309006630677}
   - component: {fileID: 2388594309006630676}
   - component: {fileID: 2388594309006630667}
-  m_Layer: 0
+  - component: {fileID: 3868346278027563655}
+  m_Layer: 16
   m_Name: RangeEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,9 +97,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1fb2f439b670ad4e9b324b56d7d6653, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 1
   speed: 3
   player: {fileID: 0}
   projectile: {fileID: 3247510774019236608, guid: a5fb6e116be3e164aaaf9d6422b947a5,
     type: 3}
   waitTime: 3
   waitTimeToAttack: 3
+--- !u!114 &3868346278027563655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388594309006630666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6dc14308761b2340a85025795c1fbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodPrefab: {fileID: 0}

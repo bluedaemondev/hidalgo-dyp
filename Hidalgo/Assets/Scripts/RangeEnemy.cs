@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RangeEnemy : MonoBehaviour
 {
+    private Health health;
+    [SerializeField]
+    private int maxHealth = 1;
     [SerializeField]
     private float speed = 3f;
     Vector3 des;
@@ -23,11 +26,13 @@ public class RangeEnemy : MonoBehaviour
 
     void Start()
     {
-        
+        health = GetComponent<Health>();
         isWalking = true;
         Attacked = true;
         des = player.transform.position;
         myAnimator = GetComponent<Animator>();
+
+        health.Init(maxHealth, maxHealth);
     }
 
 
