@@ -8,9 +8,10 @@ public class RockMovement : MonoBehaviour
     private float speed = .5f;
     [SerializeField]
     private float scaleSpeed = 1.5f;
+    [SerializeField]
+    GameObject player;
     Vector3 start;
     Vector3 des;
-    public Player player;
     Vector3 midPoint;
     Vector3 originalScale;
     [SerializeField]
@@ -21,6 +22,7 @@ public class RockMovement : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         start = transform.position;
         des = player.transform.position;
         originalScale = transform.localScale;
