@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 3cff197cb8076d1449586616dc1a2f73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5204982733736935954
+    second: Mouse_FTUX_Spritesheet_0
+  - first:
+      213: -7948058337972399121
+    second: Mouse_FTUX_Spritesheet_1
+  - first:
+      213: -1529784571378449751
+    second: Mouse_FTUX_Spritesheet_2
+  - first:
+      213: -1132120055346841098
+    second: Mouse_FTUX_Spritesheet_3
+  - first:
+      213: -5219709219221016775
+    second: Mouse_FTUX_Spritesheet_4
+  - first:
+      213: 4012624542189003046
+    second: Mouse_FTUX_Spritesheet_5
+  - first:
+      213: -6289953752376199208
+    second: Mouse_FTUX_Spritesheet_6
+  - first:
+      213: -6522982203295004421
+    second: Mouse_FTUX_Spritesheet_7
+  - first:
+      213: 2566584557166237429
+    second: Mouse_FTUX_Spritesheet_8
+  - first:
+      213: 8779646176934822560
+    second: Mouse_FTUX_Spritesheet_9
+  - first:
+      213: -5634865969536243519
+    second: Mouse_FTUX_Spritesheet_10
+  - first:
+      213: 5644103278287834807
+    second: Mouse_FTUX_Spritesheet_11
+  - first:
+      213: 1013963538471633709
+    second: Mouse_FTUX_Spritesheet_12
+  - first:
+      213: 2615321751493779543
+    second: Mouse_FTUX_Spritesheet_13
+  - first:
+      213: -5325473841849999441
+    second: Mouse_FTUX_Spritesheet_14
+  - first:
+      213: -7235791449079419480
+    second: Mouse_FTUX_Spritesheet_15
+  - first:
+      213: -2784103634547798939
+    second: Mouse_FTUX_Spritesheet_16
+  - first:
+      213: -5029212568684717759
+    second: Mouse_FTUX_Spritesheet_17
+  - first:
+      213: 7774631603578110594
+    second: Mouse_FTUX_Spritesheet_18
+  - first:
+      213: -5668328019723805066
+    second: Mouse_FTUX_Spritesheet_19
+  - first:
+      213: 3268567541951067767
+    second: Mouse_FTUX_Spritesheet_20
+  - first:
+      213: 6420542119521223956
+    second: Mouse_FTUX_Spritesheet_21
+  - first:
+      213: 7849323944019342653
+    second: Mouse_FTUX_Spritesheet_22
+  - first:
+      213: -8784931589023946336
+    second: Mouse_FTUX_Spritesheet_23
+  - first:
+      213: -2416203866363650482
+    second: Mouse_FTUX_Spritesheet_24
+  - first:
+      213: 3621475294939967398
+    second: Mouse_FTUX_Spritesheet_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 700
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7250
+        width: 1910
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2128e6a1830db3840800000000000000
+      internalID: 5204982733736935954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 7250
+        width: 1634
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3d21f5d03d2b190800000000000000
+      internalID: -7948058337972399121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 7256
+        width: 1816
+        height: 536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a24d18990d15cae0800000000000000
+      internalID: -1529784571378449751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 6182
+        y: 7277
+        width: 1655
+        height: 608
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9b4f1dec6e940f0800000000000000
+      internalID: -1132120055346841098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6178
+        width: 1551
+        height: 620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fef7dce1edf87b0800000000000000
+      internalID: -5219709219221016775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 6147
+        width: 1680
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621a036e2c4bfa730800000000000000
+      internalID: 4012624542189003046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 6137
+        width: 1858
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d73bf7436895b8a0800000000000000
+      internalID: -6289953752376199208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 6137
+        width: 1764
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf808601f36b975a0800000000000000
+      internalID: -6522982203295004421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4815
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.5026551, y: -0.0074875806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f695ef6e075e9320800000000000000
+      internalID: 2566584557166237429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 4815
+        width: 1920
+        height: 707
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.0037978198}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a201dd6ea197d970800000000000000
+      internalID: 8779646176934822560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 4815
+        width: 1665
+        height: 858
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.0022388094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ead8614fecc1b0800000000000000
+      internalID: -5634865969536243519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6125
+        y: 4825
+        width: 1629
+        height: 890
+      alignment: 9
+      pivot: {x: 0.5000003, y: 0.0029982664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bec6f12702e35e40800000000000000
+      internalID: 5644103278287834807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3404
+        width: 1666
+        height: 848
+      alignment: 9
+      pivot: {x: 0.50000006, y: -0.002479697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23cccd4772521e00800000000000000
+      internalID: 1013963538471633709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 3404
+        width: 1905
+        height: 828
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0027866825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750a323c64d7b4420800000000000000
+      internalID: 2615321751493779543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 3399
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.5025577, y: 0.0020794824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf55e3a1cd1816b0800000000000000
+      internalID: -5325473841849999441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2124
+        width: 1910
+        height: 541
+      alignment: 9
+      pivot: {x: 0.50000006, y: -0.0019427456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adefc0930e459b90800000000000000
+      internalID: -7235791449079419480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 2108
+        width: 2034
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5, y: -0.009986799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c87e4ce70ec59d0800000000000000
+      internalID: -2784103634547798939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 2107
+        width: 1785
+        height: 627
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0050331126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1491e9f80d5a43ab0800000000000000
+      internalID: -5029212568684717759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 6354
+        y: 2107
+        width: 1645
+        height: 910
+      alignment: 9
+      pivot: {x: 0.496631, y: 0.0067133307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2828cce604a05eb60800000000000000
+      internalID: 7774631603578110594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 473
+        width: 1795
+        height: 1030
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.0049983053}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e18f9b2bd0651b0800000000000000
+      internalID: -5668328019723805066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 463
+        width: 1811
+        height: 1050
+      alignment: 9
+      pivot: {x: 0.5, y: 0.003870966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7767d5e9cd84c5d20800000000000000
+      internalID: 3268567541951067767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 458
+        width: 1879
+        height: 990
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0038053263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4150f7b4a095a1950800000000000000
+      internalID: 6420542119521223956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 6318
+        y: 452
+        width: 2076
+        height: 670
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0045573674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35bd322a866eec60800000000000000
+      internalID: 7849323944019342653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 8623
+        y: 448
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.502894, y: -0.0019429149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9ae1ca347a51680800000000000000
+      internalID: -8784931589023946336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
