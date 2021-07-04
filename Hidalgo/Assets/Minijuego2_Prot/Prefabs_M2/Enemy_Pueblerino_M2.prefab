@@ -5208,7 +5208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
-  movementSpeed: 14.56
+  movementSpeed: 24
   targetPosition: {x: 0, y: 0}
   velocityMultiplierWithPickup: 1.5
   spriteRendHandPickup: {fileID: 516699544884917585}
@@ -5218,6 +5218,8 @@ MonoBehaviour:
   animation_knockedOutTrigger: knocked
   pickupInHand: {fileID: 0}
   positionNext: {x: 0, y: 0}
+  interactionWithPickup: {fileID: 311094367886810881}
+  timeResetPickupBox: 3
 --- !u!95 &-2889747249814726720
 Animator:
   serializedVersion: 3

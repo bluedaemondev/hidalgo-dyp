@@ -20,6 +20,9 @@ public class ChaserEnemyM2 : EnemyM2
 
     private Action ArtificialFixedUpdate;
 
+    public BoxCollider2D interactionWithPickup;
+    public float timeResetPickupBox = 1.5f;
+
     public void SetHandPickup(PickupController pickup)
     {
         _animator.SetBool(animation_hasPickupBool, true);
@@ -35,10 +38,20 @@ public class ChaserEnemyM2 : EnemyM2
         {
             _animator.SetBool(animation_hasPickupBool, false);
             pickupInHand.ResetPickupComponents();
+            StartCoroutine(DisablePickupFor(timeResetPickupBox));
 
             PickupTracker.instance.CallbackDropped(pickupInHand);
+            pickupInHand = null;
 
         }
+    }
+
+    private IEnumerator DisablePickupFor(float time)
+    {
+        SetExitTarget();
+        interactionWithPickup.enabled = false;
+        yield return new WaitForSeconds(time);
+        interactionWithPickup.enabled = true;
     }
 
     public void DestroyObject02()
@@ -99,7 +112,7 @@ public class ChaserEnemyM2 : EnemyM2
 
         if(distanceToDrop <= currentDistanceToTarget)
         {
-            this.targetPosition = positionDrop;
+            SetPickupTarget(positionDrop);
         }
     }
 
@@ -138,6 +151,10 @@ public class ChaserEnemyM2 : EnemyM2
     private void Start()
     {
         PickupTracker.instance.onPickupDropped += CompareDroppedPickupToMyTarget;
+    }
+    private void OnDestroy()
+    {
+        PickupTracker.instance.onPickupDropped -= CompareDroppedPickupToMyTarget;
     }
     public override void Init()
     {

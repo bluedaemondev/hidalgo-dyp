@@ -92,6 +92,7 @@ public class PickupTracker : MonoBehaviour
     public void CallbackDropped(PickupController pickupInHand)
     {
         Debug.Log("dropped pickup " + pickupInHand);
+        pickupInHand.ResetPickupComponents();
         this.onPickupDropped(pickupInHand.transform.position);
 
     }

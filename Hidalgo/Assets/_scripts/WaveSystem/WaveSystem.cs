@@ -99,8 +99,6 @@ public class WaveSystem : MonoBehaviour
             countOffsetArray += groupByCount[x];
         }
 
-        Debug.Log("oofset " + countOffsetArray);
-
         for (int idx = 0; idx < groupByCount[groupByCountId]; idx++)
         {
             yield return new WaitForSeconds(waveGroups[idx + countOffsetArray].timeFromLast);
