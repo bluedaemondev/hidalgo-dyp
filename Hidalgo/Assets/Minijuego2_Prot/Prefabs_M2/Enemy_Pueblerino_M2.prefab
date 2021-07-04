@@ -69,8 +69,8 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2014388223
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Time: 1.79
   m_Parameters:
@@ -5211,7 +5211,7 @@ MonoBehaviour:
   movementSpeed: 14.56
   targetPosition: {x: 0, y: 0}
   velocityMultiplierWithPickup: 1.5
-  spriteRendHandPickup: {fileID: 0}
+  spriteRendHandPickup: {fileID: 516699544884917585}
   animation_WalkBool: walking
   animation_hasPickupBool: hasPickup
   animation_damagedTrigger: damaged

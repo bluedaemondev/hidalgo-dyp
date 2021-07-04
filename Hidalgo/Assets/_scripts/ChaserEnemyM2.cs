@@ -34,7 +34,10 @@ public class ChaserEnemyM2 : EnemyM2
         if (pickupInHand != null)
         {
             _animator.SetBool(animation_hasPickupBool, false);
+            pickupInHand.ResetPickupComponents();
+
             PickupTracker.instance.CallbackDropped(pickupInHand);
+
         }
     }
 
@@ -84,7 +87,20 @@ public class ChaserEnemyM2 : EnemyM2
     private void FixedUpdate()
     {
         ArtificialFixedUpdate();
-        
+    }
+
+    public void CompareDroppedPickupToMyTarget(Vector2 positionDrop)
+    {
+        if (pickupInHand != null)
+            return;
+
+        float currentDistanceToTarget = Vector2.Distance(transform.position, targetPosition);
+        float distanceToDrop = Vector2.Distance(transform.position, positionDrop);
+
+        if(distanceToDrop <= currentDistanceToTarget)
+        {
+            this.targetPosition = positionDrop;
+        }
     }
 
     public void SetPickupTarget(Vector2 positionToReach)
@@ -118,6 +134,10 @@ public class ChaserEnemyM2 : EnemyM2
         GetComponent<Collider2D>().enabled = false;
         
         //this.enabled = false;
+    }
+    private void Start()
+    {
+        PickupTracker.instance.onPickupDropped += CompareDroppedPickupToMyTarget;
     }
     public override void Init()
     {

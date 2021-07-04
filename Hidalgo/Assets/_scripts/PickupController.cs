@@ -10,6 +10,8 @@ public class PickupController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public Sprite spriteAsset;
 
+    private Transform originalParent;
+
     [SerializeField] private string id;
     [SerializeField] private bool destroyOnPickup = false;
     public string Id { get => id; }
@@ -18,6 +20,8 @@ public class PickupController : MonoBehaviour
 
     private void Start()
     {
+        this.originalParent = transform.parent;
+
         this.spriteRenderer = transform.GetChild(0).GetComponent<SpriteRenderer>();
         this.collider2d = GetComponent<Collider2D>();
 
@@ -25,7 +29,7 @@ public class PickupController : MonoBehaviour
         this.originalPosition = transform.position;
 
         // coleccion para sprrend,coll,position
-        this.ResetPickup();
+        this.ResetPickupComponents();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,8 +41,8 @@ public class PickupController : MonoBehaviour
         if (collision.GetComponent<ChaserEnemyM2>() != null)
         {
             var chaser = collision.GetComponent<ChaserEnemyM2>();
-            PickupTracker.instance.SetPickupMissing(gameObject.name);
 
+            PickupTracker.instance.SetPickupMissing(gameObject.name);
 
             chaser.SetHandPickup(this);
             this.collider2d.enabled = false;
@@ -53,13 +57,17 @@ public class PickupController : MonoBehaviour
         }
     }
 
-    internal void ResetPickup()
+    public void ResetPickupComponents(bool resetPosition = false)
     {
-
         collider2d.enabled = true;
         spriteRenderer.enabled = true;
 
-        transform.position = this.originalPosition;
+        this.transform.parent = originalParent;
+
+        if (resetPosition)
+        {
+            transform.position = this.originalPosition;
+        }
 
     }
 }

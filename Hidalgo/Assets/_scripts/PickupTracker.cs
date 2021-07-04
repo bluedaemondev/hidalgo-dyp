@@ -21,7 +21,7 @@ public class PickupTracker : MonoBehaviour
     public event Action<GameObject> onPickupMissing;
     // cuando sueltan un pickup, todos recalculan distancia
     // si es menor, se van hasta ahi; sino, siguen a donde iban
-    public event Action<Vector3> onPickupDropped;
+    public event Action<Vector2> onPickupDropped;
 
 
 
@@ -51,7 +51,7 @@ public class PickupTracker : MonoBehaviour
 
     public void SetPickupMissing(string pickupHierarchyName)
     {
-        pickupsWOriginal.Find(p => pickupHierarchyName == p.name).SetActive(false);
+        //pickupsWOriginal.Find(p => pickupHierarchyName == p.name).SetActive(false);
 
         //if (!missingPickups.Contains(pickup))
         //{
