@@ -20,7 +20,7 @@ public class ChaserEnemyM2 : EnemyM2
 
     private Action ArtificialFixedUpdate;
 
-    public BoxCollider2D interactionWithPickup;
+    public List<BoxCollider2D> interactionWithPickup;
     public float timeResetPickupBox = 1.5f;
 
     public void SetHandPickup(PickupController pickup)
@@ -49,9 +49,15 @@ public class ChaserEnemyM2 : EnemyM2
     private IEnumerator DisablePickupFor(float time)
     {
         SetExitTarget();
-        interactionWithPickup.enabled = false;
+        foreach(var item in interactionWithPickup)
+        {
+            item.enabled = false;
+        }
         yield return new WaitForSeconds(time);
-        interactionWithPickup.enabled = true;
+        foreach (var item in interactionWithPickup)
+        {
+            item.enabled = true;
+        }
     }
 
     public void DestroyObject02()

@@ -5218,7 +5218,9 @@ MonoBehaviour:
   animation_knockedOutTrigger: knocked
   pickupInHand: {fileID: 0}
   positionNext: {x: 0, y: 0}
-  interactionWithPickup: {fileID: 311094367886810881}
+  interactionWithPickup:
+  - {fileID: 3398540625760825824}
+  - {fileID: 311094367886810881}
   timeResetPickupBox: 3
 --- !u!95 &-2889747249814726720
 Animator:

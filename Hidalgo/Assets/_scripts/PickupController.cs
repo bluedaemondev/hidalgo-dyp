@@ -57,13 +57,17 @@ public class PickupController : MonoBehaviour
         }
     }
 
-    public void ResetPickupComponents(bool resetPosition = false)
+    public void ResetPickupComponents(bool resetPosition = false, bool useOffset = false)
     {
         collider2d.enabled = true;
         spriteRenderer.enabled = true;
 
         this.transform.parent = originalParent;
 
+        if (useOffset)
+        {
+            transform.position += (Vector3)Vector2.one * 6; 
+        }
         if (resetPosition)
         {
             transform.position = this.originalPosition;
