@@ -23,6 +23,9 @@ public class PickupTracker : MonoBehaviour
     // si es menor, se van hasta ahi; sino, siguen a donde iban
     public event Action<Vector2> onPickupDropped;
 
+    public Cinemachine.CinemachineTargetGroup group;
+
+    public float weightPickupMissing = 2;
 
 
     // Start is called before the first frame update
@@ -40,6 +43,11 @@ public class PickupTracker : MonoBehaviour
 
     void UpdateVisualsMissing(GameObject pickup)
     {
+        int groupMember = group.FindMember(pickup.transform);
+        var tmp = group.GetWeightedBoundsForMember(groupMember);
+        tmp.
+
+        
         EffectFactory.instance.InstantiateEffectAt(particlesMissingItem, pickup.transform.position, Quaternion.identity);
         EffectFactory.instance.camShake.ShakeCameraNormal(2, 0.75f);
     }
@@ -51,6 +59,7 @@ public class PickupTracker : MonoBehaviour
 
     public void SetPickupMissing(string pickupHierarchyName)
     {
+
         //pickupsWOriginal.Find(p => pickupHierarchyName == p.name).SetActive(false);
 
         //if (!missingPickups.Contains(pickup))

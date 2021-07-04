@@ -42,7 +42,7 @@ public class PickupController : MonoBehaviour
         {
             var chaser = collision.GetComponent<ChaserEnemyM2>();
 
-            PickupTracker.instance.SetPickupMissing(gameObject.name);
+            PickupTracker.instance.(gameObject.name);
 
             chaser.SetHandPickup(this);
             this.collider2d.enabled = false;

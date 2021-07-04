@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    
-
     private bool isAttacking;
     private float attackTimer;
 
