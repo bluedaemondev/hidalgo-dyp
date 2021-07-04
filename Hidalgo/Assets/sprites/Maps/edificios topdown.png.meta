@@ -1,28 +1,64 @@
 fileFormatVersion: 2
-guid: 8e8301a58c6bb9c46937db20ec531c08
+guid: 524b4346a8d181d4087c4527d352c098
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1004572662737593765
-    second: edificios topdown copy_0
+      213: -711635242645409638
+    second: edificios topdown_0
   - first:
-      213: -8541068327459664579
-    second: edificios topdown copy_1
+      213: -5288216624440784906
+    second: edificios topdown_1
   - first:
-      213: 3948287722919440021
-    second: edificios topdown copy_2
+      213: -5415120940742177724
+    second: edificios topdown_2
   - first:
-      213: 6457209724342957742
-    second: edificios topdown copy_3
+      213: -4245121267028704700
+    second: edificios topdown_3
   - first:
-      213: 1094638393523260324
-    second: edificios topdown copy_4
+      213: 8133372504147252255
+    second: edificios topdown_4
   - first:
-      213: -7225564379850428570
-    second: edificios topdown copy_5
+      213: 5213239151390859454
+    second: edificios topdown_5
   - first:
-      213: 3383994271210726026
-    second: edificios topdown copy_6
+      213: 4451074109167379845
+    second: edificios topdown_6
+  - first:
+      213: 7097244048450389438
+    second: edificios topdown_7
+  - first:
+      213: -1706076379668263743
+    second: edificios topdown_8
+  - first:
+      213: 7940739057390718555
+    second: edificios topdown_9
+  - first:
+      213: 1050666087494333857
+    second: edificios topdown_10
+  - first:
+      213: 1671637571148964584
+    second: edificios topdown_11
+  - first:
+      213: -5152491157410500981
+    second: edificios topdown_12
+  - first:
+      213: -9192119639477417785
+    second: edificios topdown_13
+  - first:
+      213: 2449862686842996268
+    second: edificios topdown_14
+  - first:
+      213: -6016766952624300194
+    second: edificios topdown_15
+  - first:
+      213: 1183634950148829157
+    second: edificios topdown_16
+  - first:
+      213: -6298523395204567699
+    second: edificios topdown_17
+  - first:
+      213: 7764957211931095088
+    second: edificios topdown_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: edificios topdown copy_0
+      name: edificios topdown_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 561
-        width: 4
-        height: 12
+        x: 80
+        y: 254
+        width: 382
+        height: 607
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5ea89a385f0fd00800000000000000
-      internalID: 1004572662737593765
+      spriteID: a90b8786483cf16f0800000000000000
+      internalID: -711635242645409638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: edificios topdown copy_1
+      name: edificios topdown_3
       rect:
         serializedVersion: 2
-        x: 42
-        y: 141
-        width: 535
-        height: 648
+        x: 536
+        y: 325
+        width: 268
+        height: 394
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3d4d63db97087980800000000000000
-      internalID: -8541068327459664579
+      spriteID: 4424c4203bc4615c0800000000000000
+      internalID: -4245121267028704700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: edificios topdown copy_2
+      name: edificios topdown_4
       rect:
         serializedVersion: 2
-        x: 758
-        y: 228
-        width: 353
-        height: 519
+        x: 844
+        y: 264
+        width: 410
+        height: 461
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59e26abd3c22bc630800000000000000
-      internalID: 3948287722919440021
+      spriteID: f1450a7333b8fd070800000000000000
+      internalID: 8133372504147252255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: edificios topdown copy_3
+      name: edificios topdown_5
       rect:
         serializedVersion: 2
-        x: 1448
-        y: 140
-        width: 353
-        height: 649
+        x: 1294
+        y: 323
+        width: 252
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea6f8a3580e9c9950800000000000000
-      internalID: 6457209724342957742
+      spriteID: eb0afc32365295840800000000000000
+      internalID: 5213239151390859454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: edificios topdown copy_4
+      name: edificios topdown_6
       rect:
         serializedVersion: 2
-        x: 21
-        y: 400
-        width: 5
-        height: 24
+        x: 1587
+        y: 270
+        width: 314
+        height: 469
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,50 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab457bb1dfe03f00800000000000000
-      internalID: 1094638393523260324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: edificios topdown copy_5
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 349
-        width: 5
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66fac4daa73a9bb90800000000000000
-      internalID: -7225564379850428570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: edificios topdown copy_6
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 274
-        width: 7
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a82e8794cdc56fe20800000000000000
-      internalID: 3383994271210726026
+      spriteID: 5852cd9c15465cd30800000000000000
+      internalID: 4451074109167379845
       vertices: []
       indices: 
       edges: []
