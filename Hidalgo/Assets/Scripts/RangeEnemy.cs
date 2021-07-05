@@ -49,6 +49,7 @@ public class RangeEnemy : MonoBehaviour
 
         if (isWalking)
         {
+            SetEnemyState(1);
             transform.position = Vector3.MoveTowards(transform.position, des, speed * Time.deltaTime);
             StartCoroutine(WalkingTime());
         }
@@ -74,6 +75,7 @@ public class RangeEnemy : MonoBehaviour
 
     IEnumerator WalkingTime()
     {
+        SetEnemyState(2);
         yield return new WaitForSeconds(waitTime);
         isWalking = false;
     }
@@ -85,8 +87,15 @@ public class RangeEnemy : MonoBehaviour
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
-
-
     }
+
+    public void SetEnemyState(float state)
+    {
+        if (myAnimator.GetFloat("RangeEnemyState") != state)
+        {
+            myAnimator.SetFloat("RangeEnemyState", state);
+        }
+    }
+
 }
 
