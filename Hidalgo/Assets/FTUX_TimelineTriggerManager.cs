@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
 
-public class FTUX_Mercado_TriggerController : MonoBehaviour
+public class FTUX_TimelineTriggerManager : MonoBehaviour
 {
-    public PlayableDirector FTUX_Mercado;
+    public PlayableDirector FTUX_Timeline;
     public LayerMask layersToInteract;
 
     void Start()
     {
-        FTUX_Mercado = GetComponent<PlayableDirector>();
+        FTUX_Timeline = GetComponent<PlayableDirector>();
     }
 
 
@@ -18,7 +18,7 @@ public class FTUX_Mercado_TriggerController : MonoBehaviour
     {
         if (collision.gameObject.layer == 9 && HudPlayerPickupScene.instance.checkedRocinante.activeSelf)
         {
-            FTUX_Mercado.Play();
+            FTUX_Timeline.Play();
         }
     }
 }
