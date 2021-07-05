@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 7, y: 5.026116}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2388594309006630667
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 1
   speed: 3
-  player: {fileID: 0}
+  player: {fileID: 7769154025178303396, guid: f9c44dc4c1f41344aade5300dfb5361f, type: 3}
   projectile: {fileID: 3247510774019236608, guid: a5fb6e116be3e164aaaf9d6422b947a5,
     type: 3}
   waitTime: 3
