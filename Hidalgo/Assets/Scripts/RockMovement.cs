@@ -21,6 +21,7 @@ public class RockMovement : MonoBehaviour
     Animator myAnimator;
     [SerializeField]
     private float timeToDestroy = 5;
+    private int damageAmount = 25;
 
     void Start()
     {
@@ -67,6 +68,17 @@ public class RockMovement : MonoBehaviour
     {
 
         yield return new WaitForSeconds(timeToDestroy);
+        Destroy(this.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Health HitEntity = collision.GetComponent<Health>();
+
+        if (HitEntity != null)
+        {
+            HitEntity.Damage(damageAmount);
+        }
         Destroy(this.gameObject);
     }
 
