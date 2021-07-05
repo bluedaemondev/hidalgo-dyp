@@ -47,8 +47,8 @@ public class RockMovement : MonoBehaviour
 
         if (deltaMid < deltaEnd)
         {
-            
-            GetComponent<BoxCollider>().enabled = false;
+           
+            GetComponent<BoxCollider2D>().enabled = false;
             //transform.localScale = Vector3.Lerp(originalScale * 1.5f, originalScale, scaleSpeed * Time.deltaTime);
         }
         Debug.Log(midPoint);
@@ -56,9 +56,10 @@ public class RockMovement : MonoBehaviour
         //Si mi distancia a End es menor que mi distancia a Start bajo escala y activo collider.
         if (deltaEnd < deltaStart)
         {
+            //Debug.Log("Miti miti");
             myAnimator.SetTrigger("IsMid");
 
-            GetComponent<BoxCollider>().enabled = true;
+            GetComponent<BoxCollider2D>().enabled = true;
             //transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
             StartCoroutine(WaitToDestroy());
         }
