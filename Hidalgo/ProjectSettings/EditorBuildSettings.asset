@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 3d20afdde5925144fb7e1893a1dbe3b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Book-Page Curl/Example/scenes/Cutscene_1.unity
     guid: d3f5912676a6d8b4fa852d1305cd3814
   - enabled: 1
     path: Assets/Scenes/map205.unity
     guid: bfe61dfc8c1988c48a637cc4a349ae37
-  - enabled: 1
+  - enabled: 0
     path: Assets/Book-Page Curl/Example/scenes/Cutscene_2.unity
     guid: 3eeec34448d507946936de971fe1c5a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Minijuego2_Prot.unity
     guid: 1e0c46e8c00ea294a9b5244f8105d0a0
   m_configObjects: {}
