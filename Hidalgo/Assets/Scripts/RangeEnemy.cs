@@ -5,6 +5,7 @@ using UnityEngine;
 public class RangeEnemy : MonoBehaviour
 {
     private Health health;
+    private Rigidbody2D myRigidBody;
     [SerializeField]
     private int maxHealth = 1;
     [SerializeField]
@@ -31,13 +32,21 @@ public class RangeEnemy : MonoBehaviour
         Attacked = true;
         des = player.transform.position;
         myAnimator = GetComponent<Animator>();
-
+        myRigidBody = GetComponent<Rigidbody2D>();
         health.Init(maxHealth, maxHealth);
     }
 
 
     void Update()
     {
+
+        /*Vector3 direction = Point.transform.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        myRigidBody.rotation = angle;*/
+
+        RotateTowards(des);
+        //RotateTowards(Point.transform.position);
+
         if (isWalking)
         {
             transform.position = Vector3.MoveTowards(transform.position, des, speed * Time.deltaTime);
@@ -51,6 +60,7 @@ public class RangeEnemy : MonoBehaviour
             isDone = true;
             StartCoroutine(WaitToAttack());
         }
+
 
         //Debug.Log("eto que " + Attacked);
     }
@@ -68,7 +78,15 @@ public class RangeEnemy : MonoBehaviour
         isWalking = false;
     }
 
-    
+    private void RotateTowards(Vector2 target)
+    {
+        var offset = 90f;
+        Vector2 direction = target - (Vector2)transform.position;
+        direction.Normalize();
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
 
-    
+
+    }
 }
+
