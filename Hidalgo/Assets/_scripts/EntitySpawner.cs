@@ -39,7 +39,7 @@ public class EntitySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pivotPoint = PickupTracker.instance.GetRandomPickup();
+        pivotPoint = PickupTracker.instance.GetNearestPickup(transform.position);
 
         if (_usesRadius)
             GenerateSpawnPosition = GenerateRandomPosInsideRadius;
@@ -50,7 +50,7 @@ public class EntitySpawner : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(Vector3.zero, radiusSpawn);
+        Gizmos.DrawWireSphere(transform.position, radiusSpawn);
     }
     Vector2 GenerateRandomPosInsideRadius()
     {
@@ -76,7 +76,7 @@ public class EntitySpawner : MonoBehaviour
             if (newEnemy.TryGetComponent(out ChaserEnemyM2 m2))
             {
                 m2.Init();
-                m2.SetPickupTarget(PickupTracker.instance.GetRandomPickup().position);
+                m2.SetPickupTarget(PickupTracker.instance.GetNearestPickup(m2.transform.position).position);
             }
 
             yield return new WaitForSeconds(timeSpawn * timeSpawnModifier);

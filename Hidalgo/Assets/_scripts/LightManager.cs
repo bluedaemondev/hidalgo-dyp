@@ -29,6 +29,7 @@ public class LightManager : MonoBehaviour
     {
         if (lightningCoroutine == null && globalLightScene.intensity != originalLightIntensity)
         {
+            StopAllCoroutines();
             globalLightScene.intensity = originalLightIntensity;
         }
     }

@@ -95,8 +95,10 @@ public class InteractionWithPlayerQTE : MonoBehaviour
     {
         if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer))
         {
-            ResetInteraction();
-
+            //ResetInteraction();
+            extraRange.SetActive(true);
+            this.GetComponent<Collider2D>().enabled = true;
+            this.canTrigger = true;
         }
     }
     void ComputePlayerInRange()

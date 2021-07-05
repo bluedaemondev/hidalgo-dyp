@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour
 {
-    
-
     private bool isAttacking;
     private float attackTimer;
 
@@ -81,13 +79,13 @@ public class PlayerCombat : MonoBehaviour
             return;
 
         Gizmos.DrawWireSphere(golpePoint.position, golpeRange);
-        if(hitEnemies != null)
-        {
-            foreach(var item in hitEnemies)
-            {
-                Gizmos.DrawWireCube(item.transform.position, Vector3.one);
-            }
-        }
+        //if(hitEnemies != null)
+        //{
+        //    foreach(var item in hitEnemies)
+        //    {
+        //        Gizmos.DrawWireCube(item.transform.position, Vector3.one);
+        //    }
+        //}
     }
 }
 

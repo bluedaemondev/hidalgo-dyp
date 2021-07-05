@@ -16,7 +16,16 @@ public class PickupTracker : MonoBehaviour
     public GameObject particlesRestoredItem;
     public GameObject particlesMissingItem;
 
+    // avisos en pantalla para reforzar el feedback de que perdiste
+    // un objeto
     public event Action<GameObject> onPickupMissing;
+    // cuando sueltan un pickup, todos recalculan distancia
+    // si es menor, se van hasta ahi; sino, siguen a donde iban
+    public event Action<Vector2> onPickupDropped;
+
+    public Cinemachine.CinemachineTargetGroup group;
+
+    public float weightPickupMissing = 2;
 
 
     // Start is called before the first frame update
@@ -34,6 +43,12 @@ public class PickupTracker : MonoBehaviour
 
     void UpdateVisualsMissing(GameObject pickup)
     {
+        int groupMember = group.FindMember(pickup.transform);
+        var tmp = group.GetWeightedBoundsForMember(groupMember);
+        /// TO DO:
+        /// implementar cinemachine target group weight lerp
+        /// moviendo el peso hasta 2, para que acompañe la camara mas de cerca
+        
         EffectFactory.instance.InstantiateEffectAt(particlesMissingItem, pickup.transform.position, Quaternion.identity);
         EffectFactory.instance.camShake.ShakeCameraNormal(2, 0.75f);
     }
@@ -45,7 +60,8 @@ public class PickupTracker : MonoBehaviour
 
     public void SetPickupMissing(string pickupHierarchyName)
     {
-        pickupsWOriginal.Find(p => pickupHierarchyName == p.name).SetActive(false);
+
+        //pickupsWOriginal.Find(p => pickupHierarchyName == p.name).SetActive(false);
 
         //if (!missingPickups.Contains(pickup))
         //{
@@ -59,5 +75,35 @@ public class PickupTracker : MonoBehaviour
         return pickupsWOriginal[rand].transform;
     }
 
+    /// <summary>
+    /// Hace la distancia mas corta en linea recta 
+    /// </summary>
+    /// <param name="positionToCompare">posicion del enemigo que agarra el pickup</param>
+    /// <returns></returns>
+    public Transform GetNearestPickup(Vector2 positionToCompare)
+    {
+        int minDistanceIdx = 0;
+        float comparer = 9999999999;
 
+        for (int i = 0; i< pickupsWOriginal.Count; i++)
+        {
+            var distance = Vector2.Distance(pickupsWOriginal[i].transform.position, positionToCompare);
+            if(distance <= comparer)
+            {
+                minDistanceIdx = i;
+                comparer = distance;
+            }
+        }
+
+        return pickupsWOriginal[minDistanceIdx].transform;
+
+    }
+
+    public void CallbackDropped(PickupController pickupInHand)
+    {
+        //Debug.Log("dropped pickup " + pickupInHand);
+        pickupInHand.ResetPickupComponents(false, true);
+        this.onPickupDropped(pickupInHand.transform.position);
+
+    }
 }

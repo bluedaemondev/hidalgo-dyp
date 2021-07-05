@@ -6,8 +6,7 @@ using UnityEngine;
 public class ChaserEnemyM2 : EnemyM2
 {
     public float velocityMultiplierWithPickup = 1.5f;
-    public SpriteRenderer spriteRendHandPickupPlaceholder;
-
+    public SpriteRenderer spriteRendHandPickup;
 
     public string animation_WalkBool = "walking";
     public string animation_hasPickupBool = "hasPickup";
@@ -15,9 +14,55 @@ public class ChaserEnemyM2 : EnemyM2
     public string animation_damagedTrigger = "damaged";
     public string animation_knockedOutTrigger = "knocked";
 
-    public void SetHandPickup(Sprite sprite)
+    public PickupController pickupInHand = null;
+
+    public Vector2 positionNext;
+
+    private Action ArtificialFixedUpdate;
+
+    public List<BoxCollider2D> interactionWithPickup;
+    public float timeResetPickupBox = 1.5f;
+
+    public void SetHandPickup(PickupController pickup)
     {
-        throw new NotImplementedException();
+        _animator.SetBool(animation_hasPickupBool, true);
+        pickupInHand = pickup;
+        pickupInHand.transform.parent = transform;
+
+        spriteRendHandPickup.sprite = pickup.spriteAsset;
+
+    }
+    public void DropHandPickup()
+    {
+        if (pickupInHand != null)
+        {
+            _animator.SetBool(animation_hasPickupBool, false);
+            pickupInHand.ResetPickupComponents();
+            StartCoroutine(DisablePickupFor(timeResetPickupBox));
+
+            PickupTracker.instance.CallbackDropped(pickupInHand);
+            pickupInHand = null;
+
+        }
+    }
+
+    private IEnumerator DisablePickupFor(float time)
+    {
+        SetExitTarget();
+        foreach(var item in interactionWithPickup)
+        {
+            item.enabled = false;
+        }
+        yield return new WaitForSeconds(time);
+        foreach (var item in interactionWithPickup)
+        {
+            item.enabled = true;
+        }
+    }
+
+    public void DestroyObject02()
+    {
+        Destroy(gameObject, 0.2f);
     }
 
     /// <summary>
@@ -49,35 +94,73 @@ public class ChaserEnemyM2 : EnemyM2
         return value;
     }
 
+    /// <summary>
+    /// Llamado todos los frames desde el animator, guarda la posicion siguiente para mover en fixed update
+    /// </summary>
+    public void MoveTowardsTargetPosition()
+    {
+        var direction = (targetPosition - (Vector2)transform.position).normalized;
+        positionNext = direction * Time.deltaTime * movementSpeed + (Vector2)transform.position;
+    }
+
+    private void FixedUpdate()
+    {
+        ArtificialFixedUpdate();
+    }
+
+    public void CompareDroppedPickupToMyTarget(Vector2 positionDrop)
+    {
+        if (pickupInHand != null)
+            return;
+
+        float currentDistanceToTarget = Vector2.Distance(transform.position, targetPosition);
+        float distanceToDrop = Vector2.Distance(transform.position, positionDrop);
+
+        if(distanceToDrop <= currentDistanceToTarget)
+        {
+            SetPickupTarget(positionDrop);
+        }
+    }
+
     public void SetPickupTarget(Vector2 positionToReach)
     {
         _animator.SetBool(animation_WalkBool, true);
-        this.SetTarget(positionToReach);
-        _pathfinder.speedMultiplier = 1;
 
-        _pathfinder.onStopMovingCallback = () => { Debug.Log("callback pickup object"); };
-        // probando desde animacion
-        //_pathfinder.onStopMovingCallback = SetExitTarget;
+        this.SetTarget(positionToReach);
     }
     public void SetExitTarget()
     {
         _animator.SetBool(animation_WalkBool, true);
-        _animator.SetBool(animation_hasPickupBool, true);
+        //_animator.SetBool(animation_hasPickupBool, true);
 
         this.SetTarget(originalPosition);
-        _pathfinder.speedMultiplier = velocityMultiplierWithPickup;
-
-        _pathfinder.onStopMovingCallback = () => { Debug.Log("callback exit map"); };
+        this.movementSpeed = this.movementSpeed * this.velocityMultiplierWithPickup;
     }
-
+    private void Move()
+    {
+        this._rigidbody.MovePosition(positionNext);
+    }
     private void KnockedOut()
     {
-        Debug.Log("Enemy knocked out");
+        ArtificialFixedUpdate = delegate { };
+
+        //Debug.Log("Enemy knocked out");
         _animator.SetTrigger(animation_knockedOutTrigger);
-        
+
+        DropHandPickup();
+
         //Disable enemy (body stays there for now)
         GetComponent<Collider2D>().enabled = false;
-        this.enabled = false;
+        
+        //this.enabled = false;
+    }
+    private void Start()
+    {
+        PickupTracker.instance.onPickupDropped += CompareDroppedPickupToMyTarget;
+    }
+    private void OnDestroy()
+    {
+        PickupTracker.instance.onPickupDropped -= CompareDroppedPickupToMyTarget;
     }
     public override void Init()
     {
@@ -87,10 +170,9 @@ public class ChaserEnemyM2 : EnemyM2
 
         _rigidbody = GetComponent<Rigidbody2D>();
 
-        if (!_pathfinder)
-            _pathfinder = GetComponent<CharacterPathfindingMovementHandler>();
-
         originalPosition = transform.position;
+
+        ArtificialFixedUpdate = Move;
     }
 
 }

@@ -13,8 +13,12 @@ public class Rocinante : MovementType
     public float deltaMinToMove = 1.4f;
     private Transform _follows;
     //private RaycastHit2D raycast2D;
+
     [SerializeField]
     private LayerMask layerMask;
+    [SerializeField]
+    private LayerMask obstaclesLayermask;
+
     private Animator _animator;
     Vector3 lastPos;
 
@@ -67,11 +71,26 @@ public class Rocinante : MovementType
 
         if (Follows != null && Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer) /*&& _rigidbody2d.velocity.magnitude > 0.2*/
         {
-  
+
             //Debug.Log(_rigidbody2d.velocity.magnitude);
-        
+
             var raycast2Dplayer = Physics2D.Raycast(Follows.position, transform.position, layerMask);
-            var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position); // implementar
+
+            /// actualizacion : implementado y deprecado 
+            /// 1-7-21 a 1-7-21 
+            /// RIP
+
+            // implementar
+            //var raycast2Dwalls = Physics2D.RaycastAll(Follows.position, transform.position, deltaMaxDist, obstaclesLayermask); 
+
+            //foreach (var item in raycast2Dwalls)
+            //{
+            //    if (Vector2.Distance(item.point, raycast2Dplayer.point) < Vector2.Distance(transform.position, Follows.position))
+            //    {
+            //        Debug.Log("hay pared en el medio " + item.transform.name);
+            //        return;
+            //    }
+            //}
 
             var DiferenciaX = raycast2Dplayer.point.x - transform.position.x;
             var DiferenciaY = raycast2Dplayer.point.y - transform.position.y;
@@ -89,20 +108,20 @@ public class Rocinante : MovementType
             //     posAux = raycast2Dplayer.point;
             //     Debug.Log((posAux /** Speed * Time.deltaTime*/) + " " + this.Follows.gameObject.name);
             // }        
-           
+
         }
 
-       // if(!IsAttachedToPlayer())
-       // {
-       //     HudPlayerPickupScene.instance.NoCheckRocinante();
-       // }
+        // if(!IsAttachedToPlayer())
+        // {
+        //     HudPlayerPickupScene.instance.NoCheckRocinante();
+        // }
 
     }
 
-    private void FixedUpdate()
-    {
-        //_rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
-    }
+    //private void FixedUpdate()
+    //{
+    //    //_rigidbody2d.MovePosition(Vector2.Lerp(transform.position, posAux, Speed * Time.deltaTime)); //(Vector2)posAux  /** Speed * Time.deltaTime*/
+    //}
 
     public void SetSpeedMultiplier(float value)
     {
@@ -142,9 +161,12 @@ public class Rocinante : MovementType
     {
         HudPlayerPickupScene.instance.NoCheckRocinante();
     }
-    public void SetRocinanteState()
+    public void SetRocinanteState(float state)
     {
-        _animator.SetFloat("RocinanteState", rocinanteState);
+        if (_animator.GetFloat("RocinanteState") != state)
+        {
+            _animator.SetFloat("RocinanteState", state);
+        }
     }
 
     public void Move()
@@ -152,88 +174,60 @@ public class Rocinante : MovementType
 
         var delta = Vector2.Distance(transform.position, Follows.position);
 
-       // if (delta <= deltaMidDist && delta >= deltaMinToMove)
-       // {
-           
-       //    _rigidbody2d.AddForce((Follows.position - transform.position) * Speed / 80);
-
-       //     Debug.Log("Tamo cerca");
-           
-
-       //}
-       // if(delta <= deltaMaxDist && delta >= deltaMidDist)
-       // {
-       //     _rigidbody2d.AddForce((Follows.position - transform.position) * Speed);
-
-       // }
-
         if (delta <= deltaMaxDist && delta >= deltaMinToMove)
         {
-             var direction = Vector2.MoveTowards(transform.position, Follows.position, Speed * Time.deltaTime);
-            // transform.position = direction;
-             _rigidbody2d.MovePosition(direction);
+            Vector2 direction = (Follows.position - transform.position).normalized * Speed * Time.deltaTime;
 
-            HudPlayerPickupScene.instance.CheckRocinante();
-        }
-        else if (delta >= deltaMaxDist)
-        {
-            HudPlayerPickupScene.instance.NoCheckRocinante();
-            
-        }
+            if (direction.magnitude <= 0.2f)
+                SetRocinanteState(1);
+            //lel
 
-        
+            _rigidbody2d.MovePosition((Vector2)transform.position + direction);
 
-        RocinanteStateController();
 
-    }
-
-    private void RocinanteStateController()
-    {
-        /*  if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude > 0.8)
-          {
-              if (Time.time >= nextSoundTime)
-              {
-                  SoundManager.instance.PlayEffect(FootstepSound);
-                  nextSoundTime = Time.time + FootstepSound.length;
-              }
-
-              rocinanteState = 2;
-              SetRocinanteState();
-          }
-          else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && _rigidbody2d.velocity.magnitude < 0.8)
-          {
-              rocinanteState = 1;
-              SetRocinanteState();
-          }
-          else
-          {
-
-          }*/
-
-        var displacement = transform.position - lastPos;
-        lastPos = transform.position;
-
-        if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude > 0.001)
-        {
             if (Time.time >= nextSoundTime)
             {
                 SoundManager.instance.PlayEffect(FootstepSound);
                 nextSoundTime = Time.time + FootstepSound.length;
             }
 
-            rocinanteState = 2;
-            SetRocinanteState();
-        }
-        else if(Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude < 0.001)
-        {
-            rocinanteState = 1;
-            SetRocinanteState();
-        }
-        else
-        {
+            SetRocinanteState(2);
 
+            HudPlayerPickupScene.instance.CheckRocinante();
         }
+        else if (delta >= deltaMaxDist)
+        {
+            HudPlayerPickupScene.instance.NoCheckRocinante();
+        }
+
+
+        //RocinanteStateController();
+
     }
+
+    //private void RocinanteStateController()
+    //{
+    //    var displacement = transform.position - lastPos;
+    //    lastPos = transform.position;
+
+    //    if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude > 0.05)
+    //    {
+    //        if (Time.time >= nextSoundTime)
+    //        {
+    //            SoundManager.instance.PlayEffect(FootstepSound);
+    //            nextSoundTime = Time.time + FootstepSound.length;
+    //        }
+
+    //        rocinanteState = 2;
+    //        SetRocinanteState();
+    //    }
+    //    else if (Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer && displacement.magnitude < 0.05)
+    //    {
+    //        rocinanteState = 1;
+    //        SetRocinanteState();
+    //    }
+
+    //}
 
     public void Feed(Rigidbody2D distraction)
     {
@@ -248,13 +242,11 @@ public class Rocinante : MovementType
         _animator.SetFloat("EatingMoveX", DiferenciaEatingX);
         _animator.SetFloat("EatingMoveY", DiferenciaEatingY);
 
-        rocinanteState = 3;
-        SetRocinanteState();
+        SetRocinanteState(3);
 
     }
     public bool IsAttachedToPlayer()
     {
-        //return this.spring.connectedBody != null && this.spring.connectedBody == PickupsScapeGameManager.instance.Player.GetRigidbody();
         return this.Follows.gameObject.layer == PickupsScapeGameManager.instance.Player.gameObject.layer;
     }
 
