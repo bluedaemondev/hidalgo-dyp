@@ -26586,6 +26586,7 @@ GameObject:
   - component: {fileID: 631136682}
   - component: {fileID: 631136683}
   - component: {fileID: 631136684}
+  - component: {fileID: 631136685}
   m_Layer: 0
   m_Name: Mouse_FTUX
   m_TagString: Untagged
@@ -26601,7 +26602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631136680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.34, y: -2.82, z: 0}
+  m_LocalPosition: {x: -21.16, y: -2.82, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2072008379}
@@ -26669,7 +26670,7 @@ Animator:
   m_GameObject: {fileID: 631136680}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6e79f5b05b9efc44eb8c769ff93bf5d7, type: 2}
+  m_Controller: {fileID: 9100000, guid: b7339d92f766f33469e04c4561f218d8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -26689,7 +26690,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 963ffee539bc8024982d3ce15246ba48, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -26774,6 +26775,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &631136685
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631136680}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.23062421, y: 0.07337812}
+  m_Size: {x: 2.477434, y: 0.9259894}
+  m_Direction: 1
 --- !u!1 &632283555
 GameObject:
   m_ObjectHideFlags: 0
@@ -108491,12 +108508,10 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 1084991894377075949, guid: 8347b687ab9590646a12b8b0b8d7795b, type: 2}
     value: {fileID: 631136683}
-  - key: {fileID: -4735966115465660350, guid: 8347b687ab9590646a12b8b0b8d7795b, type: 2}
-    value: {fileID: 2072008377}
-  - key: {fileID: -3498554076054482986, guid: 8347b687ab9590646a12b8b0b8d7795b, type: 2}
-    value: {fileID: 631136683}
   - key: {fileID: 7537867407646171944, guid: 8347b687ab9590646a12b8b0b8d7795b, type: 2}
     value: {fileID: 631136684}
+  - key: {fileID: 5078382919578311648, guid: 8347b687ab9590646a12b8b0b8d7795b, type: 2}
+    value: {fileID: 631136683}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1889566734
@@ -120037,7 +120052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072008377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -96.05, y: -29.39, z: 0}
+  m_LocalPosition: {x: -93.35, y: -29.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 631136681}

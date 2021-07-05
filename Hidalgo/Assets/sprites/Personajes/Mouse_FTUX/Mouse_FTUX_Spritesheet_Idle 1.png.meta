@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: e81ebe7de31cd3444adeaaa1d053a753
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3266716744126266239
+    second: Mouse_FTUX_Spritesheet_Idle 1_0
+  - first:
+      213: 6074159236623558895
+    second: Mouse_FTUX_Spritesheet_Idle 1_1
+  - first:
+      213: 2278348079558493189
+    second: Mouse_FTUX_Spritesheet_Idle 1_2
+  - first:
+      213: -412519619739041616
+    second: Mouse_FTUX_Spritesheet_Idle 1_3
+  - first:
+      213: 6442040743744174038
+    second: Mouse_FTUX_Spritesheet_Idle 1_4
+  - first:
+      213: -492957131743611665
+    second: Mouse_FTUX_Spritesheet_Idle 1_5
+  - first:
+      213: 2625425055900544532
+    second: Mouse_FTUX_Spritesheet_Idle 1_6
+  - first:
+      213: -8256847968343277282
+    second: Mouse_FTUX_Spritesheet_Idle 1_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 750
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1726
+        width: 1660
+        height: 848
+      alignment: 9
+      pivot: {x: 0.5014652, y: 0.0038341307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1848884dd6a4aa2d0800000000000000
+      internalID: -3266716744126266239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_1
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 1721
+        width: 1660
+        height: 889
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.00095294486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8ea18b4afbb4450800000000000000
+      internalID: 6074159236623558895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_2
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 1721
+        width: 1660
+        height: 858
+      alignment: 9
+      pivot: {x: 0.5, y: -0.00016034178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50407c4d1815e9f10800000000000000
+      internalID: 2278348079558493189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_3
+      rect:
+        serializedVersion: 2
+        x: 6495
+        y: 1716
+        width: 1660
+        height: 889
+      alignment: 9
+      pivot: {x: 0.49781492, y: -0.0026663232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0439a679f664af0800000000000000
+      internalID: -412519619739041616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 125
+        width: 2252
+        height: 598
+      alignment: 9
+      pivot: {x: 0.49905193, y: -0.00012219789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7f67fcce9b66950800000000000000
+      internalID: 6442040743744174038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_5
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 114
+        width: 2252
+        height: 619
+      alignment: 9
+      pivot: {x: 0.50109184, y: -0.0038619158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe43de8b91aa829f0800000000000000
+      internalID: -492957131743611665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_6
+      rect:
+        serializedVersion: 2
+        x: 5053
+        y: 125
+        width: 2252
+        height: 598
+      alignment: 9
+      pivot: {x: 0.50094134, y: 0.002296754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eac51ad226f6420800000000000000
+      internalID: 2625425055900544532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Idle 1_7
+      rect:
+        serializedVersion: 2
+        x: 7504
+        y: 114
+        width: 2252
+        height: 619
+      alignment: 9
+      pivot: {x: 0.5, y: 0.00042178595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e114e7af488c96d80800000000000000
+      internalID: -8256847968343277282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
