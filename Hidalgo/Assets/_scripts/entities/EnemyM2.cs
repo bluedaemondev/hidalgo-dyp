@@ -40,7 +40,7 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
     public virtual void SetTarget(Vector3 positionToReach)
     {
         this.targetPosition = positionToReach;
-        Debug.Log("Setting path to target position = " + targetPosition);
+        //Debug.Log("Setting path to target position = " + targetPosition);
     }
 
     /// <summary>

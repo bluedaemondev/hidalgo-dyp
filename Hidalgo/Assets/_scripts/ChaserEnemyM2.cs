@@ -144,7 +144,7 @@ public class ChaserEnemyM2 : EnemyM2
     {
         ArtificialFixedUpdate = delegate { };
 
-        Debug.Log("Enemy knocked out");
+        //Debug.Log("Enemy knocked out");
         _animator.SetTrigger(animation_knockedOutTrigger);
 
         DropHandPickup();

@@ -45,8 +45,9 @@ public class PickupTracker : MonoBehaviour
     {
         int groupMember = group.FindMember(pickup.transform);
         var tmp = group.GetWeightedBoundsForMember(groupMember);
-        tmp.
-
+        /// TO DO:
+        /// implementar cinemachine target group weight lerp
+        /// moviendo el peso hasta 2, para que acompañe la camara mas de cerca
         
         EffectFactory.instance.InstantiateEffectAt(particlesMissingItem, pickup.transform.position, Quaternion.identity);
         EffectFactory.instance.camShake.ShakeCameraNormal(2, 0.75f);
@@ -100,7 +101,7 @@ public class PickupTracker : MonoBehaviour
 
     public void CallbackDropped(PickupController pickupInHand)
     {
-        Debug.Log("dropped pickup " + pickupInHand);
+        //Debug.Log("dropped pickup " + pickupInHand);
         pickupInHand.ResetPickupComponents(false, true);
         this.onPickupDropped(pickupInHand.transform.position);
 

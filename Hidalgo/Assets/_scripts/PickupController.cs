@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PickupController : MonoBehaviour
 {
+    public bool isOut = false;
+
     private Collider2D collider2d;
     private Vector2 originalPosition;
     private SpriteRenderer spriteRenderer;
@@ -28,6 +30,8 @@ public class PickupController : MonoBehaviour
         this.spriteAsset = spriteRenderer.sprite;
         this.originalPosition = transform.position;
 
+        Debug.Log("pickup  - " + this.name + " " + this.originalPosition);
+
         // coleccion para sprrend,coll,position
         this.ResetPickupComponents();
     }
@@ -42,7 +46,9 @@ public class PickupController : MonoBehaviour
         {
             var chaser = collision.GetComponent<ChaserEnemyM2>();
 
-            PickupTracker.instance.(gameObject.name);
+            //PickupTracker.instance.mis(gameObject.name);
+
+            this.isOut = true;
 
             chaser.SetHandPickup(this);
             this.collider2d.enabled = false;
@@ -62,16 +68,21 @@ public class PickupController : MonoBehaviour
         collider2d.enabled = true;
         spriteRenderer.enabled = true;
 
-        this.transform.parent = originalParent;
-
         if (useOffset)
         {
             transform.position += (Vector3)Vector2.one * 6; 
         }
         if (resetPosition)
         {
+            Debug.Log(this.transform.position);
+            Debug.Log("pickup  - " + this.name + " " + this.originalPosition);
+
             transform.position = this.originalPosition;
+            isOut = false;
         }
+
+        this.transform.parent = originalParent;
+
 
     }
 }
