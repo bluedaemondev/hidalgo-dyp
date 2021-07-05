@@ -8,7 +8,7 @@ public class PickupController : MonoBehaviour
     public bool isOut = false;
 
     private Collider2D collider2d;
-    private Vector2 originalPosition;
+    public Vector2 originalPosition;
     private SpriteRenderer spriteRenderer;
     public Sprite spriteAsset;
 
@@ -77,7 +77,6 @@ public class PickupController : MonoBehaviour
             Debug.Log(this.transform.position);
             Debug.Log("pickup  - " + this.name + " " + this.originalPosition);
 
-            transform.position = this.originalPosition;
             isOut = false;
         }
 
