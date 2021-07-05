@@ -5,12 +5,14 @@ using UnityEngine.Playables;
 
 public class FTUX_TimelineTriggerManager : MonoBehaviour
 {
-    public PlayableDirector FTUX_Timeline;
+    public PlayableDirector FTUX_Timeline_Mercado;
+    public PlayableDirector FTUX_Timeline_Cementerio;
     public LayerMask layersToInteract;
 
     void Start()
     {
-        FTUX_Timeline = GetComponent<PlayableDirector>();
+        FTUX_Timeline_Mercado = GetComponent<PlayableDirector>();
+        FTUX_Timeline_Cementerio = GetComponent<PlayableDirector>();
     }
 
 
@@ -18,7 +20,12 @@ public class FTUX_TimelineTriggerManager : MonoBehaviour
     {
         if (collision.gameObject.layer == 9 && HudPlayerPickupScene.instance.checkedRocinante.activeSelf)
         {
-            FTUX_Timeline.Play();
+            FTUX_Timeline_Mercado.Play();
+        }
+
+        else if (collision.gameObject.layer == 9 && collision.gameObject.layer == 13 && HudPlayerPickupScene.instance.checkedRocinante.activeSelf)
+        {
+            FTUX_Timeline_Cementerio.Play();
         }
     }
 }
