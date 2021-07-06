@@ -23,6 +23,8 @@ public class RangeEnemy : MonoBehaviour
     [SerializeField]
     private float waitTimeToAttack = 3;
     bool isDone = false;
+    [SerializeField]
+    GameObject target;
 
 
     void Start()
@@ -30,7 +32,9 @@ public class RangeEnemy : MonoBehaviour
         health = GetComponent<Health>();
         isWalking = true;
         Attacked = true;
-        des = player.transform.position;
+        //des = player.transform.position;
+        target = GameObject.Find("Punto_Defensa");
+        des = target.transform.position;
         myAnimator = GetComponent<Animator>();
         myRigidBody = GetComponent<Rigidbody2D>();
         health.Init(maxHealth, maxHealth);
