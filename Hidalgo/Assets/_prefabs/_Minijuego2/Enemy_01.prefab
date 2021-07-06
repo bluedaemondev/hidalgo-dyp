@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 680e50dba9932ef43a2807b55ca1eed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 1
   movementSpeed: 24
   targetPosition: {x: 0, y: 0}
   velocityMultiplierWithPickup: 1.5
