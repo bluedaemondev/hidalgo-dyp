@@ -25128,11 +25128,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.56459
+      value: -102.31678
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.416975
+      value: -25.519886
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25779,6 +25779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 360229596}
+  controller: {fileID: 0}
 --- !u!1 &613240865
 GameObject:
   m_ObjectHideFlags: 0
@@ -55685,6 +55686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onPickup: {fileID: 8300000, guid: 63f50ad92129a2b4eb2b106fca0710bf, type: 3}
+  onPickupTutorial: {fileID: 5788057553824920523, guid: 7944610487e1ee04183a29fcfcd956bb,
+    type: 3}
 --- !u!1 &1296013368
 GameObject:
   m_ObjectHideFlags: 0
