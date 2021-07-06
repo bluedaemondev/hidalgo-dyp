@@ -59,7 +59,7 @@ public class RangeEnemy : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, des, speed * Time.deltaTime);
             StartCoroutine(WalkingTime());
         }
-        else if (!isDone)
+        /*else if (!isDone)
         {
             //Attack();
             Instantiate(projectile, transform.position, Quaternion.identity);
@@ -69,7 +69,12 @@ public class RangeEnemy : MonoBehaviour
         }
 
 
-        //Debug.Log("eto que " + Attacked);
+        //Debug.Log("eto que " + Attacked);*/
+    }
+
+    public void Attack()
+    {
+        Instantiate(projectile, transform.position, Quaternion.identity);
     }
 
     IEnumerator WaitToAttack()
