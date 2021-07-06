@@ -24,6 +24,8 @@ public class PlayerCombat : MonoBehaviour
 
     public int golpeDamage = 40;
 
+    public AudioClip audioWhooshAttack;
+
     void Start()
     {
         _animator = GetComponent<Animator>();
@@ -41,7 +43,7 @@ public class PlayerCombat : MonoBehaviour
                 nextGolpeTime = Time.time + golpeRate / 2f;
             }
         }
-       
+
 
         //Change sprite back to idle sprite after Golpe
         if (this.isAttacking)
@@ -61,12 +63,14 @@ public class PlayerCombat : MonoBehaviour
         //Change to Golpe sprite
         this.isAttacking = true;
         this._animator.Play(animation_AttackName);
+        SoundManager.instance.PlayEffect(audioWhooshAttack);
+        EffectFactory.instance.camShake.ShakeCameraNormal(0.2f, 0.2f);
 
         //Detect enemies in range of Golpe
         hitEnemies = Physics2D.OverlapCircleAll(golpePoint.position, golpeRange, enemyLayers);
 
         //Damage enemies
-        foreach(Collider2D enemy in hitEnemies)
+        foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyM2>().TakeDamage(golpeDamage);
         }

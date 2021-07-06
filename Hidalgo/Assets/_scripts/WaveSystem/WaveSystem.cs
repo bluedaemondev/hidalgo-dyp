@@ -81,6 +81,7 @@ public class WaveSystem : MonoBehaviour
 
         instance = this;
 
+        /// Debugging => hace una ronda tras otra
         //onWaveFinishedSpawning +=
         //    (finishedWaveId) =>
         //    {
@@ -88,7 +89,9 @@ public class WaveSystem : MonoBehaviour
         //        if (finishedWaveId < groupByCount.Length - 1)
         //            StartCoroutine(SpawnGrouppedList(finishedWaveId + 1));
         //    };
-
+    }
+    private void Start()
+    {
         StartSpawning(currentWave);
     }
 
@@ -102,12 +105,6 @@ public class WaveSystem : MonoBehaviour
         StartCoroutine(SpawnGrouppedList(idGroup));
         HudWavesM2.instance.OnNewWave(idGroup + 1);
         currentWave++;
-
-        //try
-        //{
-        //    textStatusRemaining.text = "Enemigos restantes: " + groupByCount[idGroup];
-        //}
-        //catch { }
     }
 
 

@@ -196,6 +196,7 @@ MonoBehaviour:
   - {fileID: 850364298414588815}
   - {fileID: 2357117421730180462}
   timeResetPickupBox: 3
+  canTakeDamage: 1
 --- !u!95 &8287359215228003759
 Animator:
   serializedVersion: 3
@@ -228,6 +229,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloodPrefab: {fileID: 0}
+  audioHit: {fileID: 8300000, guid: 2c4821b08c9839446917c2fce78ec71b, type: 3}
+  audioDeath:
+  - {fileID: 8300000, guid: 4ed62d3499c2a974695fa501828ff9ec, type: 3}
+  - {fileID: 8300000, guid: b05474464d0256744a3d822338cb10a1, type: 3}
 --- !u!1 &2144127316974969782
 GameObject:
   m_ObjectHideFlags: 0

@@ -87,6 +87,7 @@ public class ChaserEnemyM2 : EnemyM2
     {
         canTakeDamage = false;
         yield return new WaitForSeconds(time);
+        _animator.SetTrigger(animation_damagedTrigger);
         canTakeDamage = true;
     }
     public override float TakeDamage(float value)

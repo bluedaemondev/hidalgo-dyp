@@ -14,6 +14,8 @@ public class Health : MonoBehaviour
     private int health;
 
     public GameObject bloodPrefab;
+    public AudioClip audioHit;
+    public List<AudioClip> audioDeath;
 
     private void Start()
     {
@@ -43,9 +45,16 @@ public class Health : MonoBehaviour
     public void Damage(int amount)
     {
         health -= amount;
+
+        if (this.audioHit != null)
+            SoundManager.instance.PlayEffect(this.audioHit);
+
+
         if (health < 0)
         {
             health = 0;
+
+            
         }
 
         OnHealthChanged?.Invoke(this, EventArgs.Empty);
@@ -59,6 +68,12 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            if (this.audioHit != null)
+            {
+                int randDeath = UnityEngine.Random.Range(0, audioDeath.Count);
+                SoundManager.instance.PlayEffect(this.audioDeath[randDeath]);
+            }
+            this.enabled = false;
         }
     }
 
