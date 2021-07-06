@@ -30,7 +30,7 @@ public class PickupController : MonoBehaviour
         this.spriteAsset = spriteRenderer.sprite;
         this.originalPosition = transform.position;
 
-        Debug.Log("pickup  - " + this.name + " " + this.originalPosition);
+        //Debug.Log("pickup  - " + this.name + " " + this.originalPosition);
 
         // coleccion para sprrend,coll,position
         this.ResetPickupComponents();
@@ -53,6 +53,8 @@ public class PickupController : MonoBehaviour
             chaser.SetHandPickup(this);
             this.collider2d.enabled = false;
             this.spriteRenderer.enabled = false;
+
+            Debug.Log("setting out ontriggerenter");
             chaser.SetExitTarget();
         }
 

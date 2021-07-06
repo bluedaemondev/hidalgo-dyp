@@ -49,7 +49,7 @@ public class ChaserEnemyM2 : EnemyM2
     private IEnumerator DisablePickupFor(float time)
     {
         SetExitTarget();
-        foreach(var item in interactionWithPickup)
+        foreach (var item in interactionWithPickup)
         {
             item.enabled = false;
         }
@@ -116,7 +116,7 @@ public class ChaserEnemyM2 : EnemyM2
         float currentDistanceToTarget = Vector2.Distance(transform.position, targetPosition);
         float distanceToDrop = Vector2.Distance(transform.position, positionDrop);
 
-        if(distanceToDrop <= currentDistanceToTarget)
+        if (distanceToDrop <= currentDistanceToTarget)
         {
             SetPickupTarget(positionDrop);
         }
@@ -124,16 +124,19 @@ public class ChaserEnemyM2 : EnemyM2
 
     public void SetPickupTarget(Vector2 positionToReach)
     {
+        Debug.Log(name + " total que puede ir mal = " + positionToReach);
+        this.SetTarget(positionToReach);
         _animator.SetBool(animation_WalkBool, true);
 
-        this.SetTarget(positionToReach);
     }
     public void SetExitTarget()
     {
+        Debug.Log(name + " total vuelta que puede ir mal = " + originalPosition);
+
+        this.SetTarget(originalPosition);
         _animator.SetBool(animation_WalkBool, true);
         //_animator.SetBool(animation_hasPickupBool, true);
 
-        this.SetTarget(originalPosition);
         this.movementSpeed = this.movementSpeed * this.velocityMultiplierWithPickup;
     }
     private void Move()
@@ -151,12 +154,13 @@ public class ChaserEnemyM2 : EnemyM2
 
         //Disable enemy (body stays there for now)
         GetComponent<Collider2D>().enabled = false;
-        
+
         //this.enabled = false;
     }
     private void Start()
     {
         PickupTracker.instance.onPickupDropped += CompareDroppedPickupToMyTarget;
+
     }
     private void OnDestroy()
     {
@@ -171,8 +175,9 @@ public class ChaserEnemyM2 : EnemyM2
         _rigidbody = GetComponent<Rigidbody2D>();
 
         originalPosition = transform.position;
-
         ArtificialFixedUpdate = Move;
+
+
     }
 
 }
