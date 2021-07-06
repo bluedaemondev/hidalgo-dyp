@@ -552,9 +552,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4366
-        y: 2118
+        y: 2108
         width: 1785
-        height: 620
+        height: 623
       alignment: 9
       pivot: {x: 0.49999973, y: 0.0007166709}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +572,10 @@ TextureImporter:
       name: Mouse_FTUX_Spritesheet_Mirrored_18
       rect:
         serializedVersion: 2
-        x: 6359
-        y: 2223
+        x: 6356
+        y: 2108
         width: 1645
-        height: 791
+        height: 900
       alignment: 9
       pivot: {x: 0.50326127, y: 0.0048442315}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,9 +594,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 42
-        y: 854
+        y: 448
         width: 1795
-        height: 655
+        height: 1055
       alignment: 9
       pivot: {x: 0.5032423, y: 0.0024198808}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,9 +615,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2134
-        y: 947
+        y: 448
         width: 1811
-        height: 552
+        height: 1055
       alignment: 9
       pivot: {x: 0.5, y: -0.0060787476}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,9 +636,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4241
-        y: 651
+        y: 448
         width: 1879
-        height: 786
+        height: 990
       alignment: 9
       pivot: {x: 0.5, y: -0.0035035422}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,9 +657,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6375
-        y: 505
+        y: 448
         width: 2076
-        height: 609
+        height: 675
       alignment: 9
       pivot: {x: 0.5, y: -0.0064944313}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,48 +690,6 @@ TextureImporter:
       bones: []
       spriteID: ee71b7492eff0a9e0800000000000000
       internalID: -1612007317979850770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mouse_FTUX_Spritesheet_Mirrored_24
-      rect:
-        serializedVersion: 2
-        x: 6318
-        y: 916
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f803f339d8982c3b0800000000000000
-      internalID: -5493677354284797809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mouse_FTUX_Spritesheet_Mirrored_25
-      rect:
-        serializedVersion: 2
-        x: 6359
-        y: 916
-        width: 11
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f0099d578145e210800000000000000
-      internalID: 1361566511996141809
       vertices: []
       indices: 
       edges: []
