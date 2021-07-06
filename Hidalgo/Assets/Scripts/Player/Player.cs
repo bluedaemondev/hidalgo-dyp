@@ -26,8 +26,12 @@ public class Player : MovementType, IStunneable, ISighteable
 
     public void InitBoxControls()
     {
-        this.GetStunned(0.25f);
-        SwitchBoxActive();
+        //this.GetStunned(0.25f);
+        this.SetSpeedMultiplier(0);
+        SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.equipBox);
+        this.box.SetActive(true);
+
+        //SwitchBoxActive();
         this._controller.canUseBox = true;
     }
 
