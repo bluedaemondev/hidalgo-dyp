@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class TriggerLightningAreaCounter : MonoBehaviour
 {
     [Header("Optional")]
-    [SerializeField] PolygonCollider2D _col;
+    [SerializeField] TilemapCollider2D _col;
     [Space, Header("Required")]
     [SerializeField] LightningAreaController _controller;
     [SerializeField] float _sumPerStep;
@@ -14,7 +15,7 @@ public class TriggerLightningAreaCounter : MonoBehaviour
 
     public void InitTriggerZone(LightningAreaController controller)
     {
-        this._col = GetComponent<PolygonCollider2D>();
+        this._col = GetComponent<TilemapCollider2D>();
         //this._sumPerStep = sumPerStep;
         this._controller = controller;
     }
