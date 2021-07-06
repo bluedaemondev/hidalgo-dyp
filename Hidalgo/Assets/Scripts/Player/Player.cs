@@ -14,7 +14,8 @@ public class Player : MovementType, IStunneable, ISighteable
     public float QuijoteState = 1;
     public float ArmorState = 1;
     public bool OnWater = false;
-
+    public bool OnBox = false;
+    CircleCollider2D circleCollider2D;
     [SerializeField]
     GameObject checkpoint;
 
@@ -47,12 +48,16 @@ public class Player : MovementType, IStunneable, ISighteable
         {
             this.SetSpeedMultiplier(0);
             SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.equipBox);
+            circleCollider2D.enabled = false;
+            OnBox = true;
+
         }
         else
         {
             this.SetSpeedMultiplier(1);
             SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.deEquipBox);
-
+            circleCollider2D.enabled = true;
+            OnBox = false;
         }
 
     }
@@ -142,7 +147,7 @@ public class Player : MovementType, IStunneable, ISighteable
         _movement = new Movement(this);
         _controller = new Controller(Movement, this);
         _sightable = new Sightable(myAnimator, false, this, 5f, sliderSeenStatus);
-
+        circleCollider2D = GetComponent<CircleCollider2D>();
         _controller.OnStart();
     }
 

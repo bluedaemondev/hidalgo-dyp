@@ -5,12 +5,38 @@ using UnityEngine;
 public class PatrollingEnemy : MonoBehaviour
 {
     [SerializeField]
+    Player player;
+    [SerializeField]
+    private LayerMask layerMask;
+    [SerializeField]
     private float speed;
     public Transform PointA;
     public Transform PointB;
     public float TravelTime = 1f;
     public Vector3 AuxScale;
+    private float originalTravelTime;
+    Vector3 originalPointB;
+    Vector3 originalPointA;
+
     public Animator myAnimator;
+
+    [SerializeField]
+    private float DiferenciaYB;
+
+    [SerializeField]
+    private float DiferenciaYA;
+
+    [SerializeField]
+    private float DiferenciaXB1;
+
+    [SerializeField]
+    private float DiferenciaXB2;
+
+    [SerializeField]
+    private float DiferenciaXA1;
+
+    [SerializeField]
+    private float DiferenciaXA2;
 
     public float SoldadoState = 2f;
 
@@ -21,6 +47,13 @@ public class PatrollingEnemy : MonoBehaviour
     {
         SoldadoState = 2f;
         myAnimator = GetComponent<Animator>();
+    }
+
+    private void Start()
+    {
+        originalPointA = PointA.position;
+        originalPointB = PointB.position;
+        originalTravelTime = TravelTime;
     }
 
     private bool canMove = true;
@@ -38,12 +71,30 @@ public class PatrollingEnemy : MonoBehaviour
             if (MovingToB)
             {
 
+                var raycast2DB = Physics2D.Raycast(player.transform.position, transform.position, layerMask);
+                var DiferenciaY = raycast2DB.point.y - transform.position.y;
+                var DiferenciaX = raycast2DB.point.x - transform.position.x;
+
+                Debug.Log("B" + DiferenciaY);
+
+                if (DiferenciaY < DiferenciaYB && DiferenciaY > 0 && DiferenciaX >= DiferenciaXB1 && DiferenciaX <= DiferenciaXB2 && player.OnBox)
+                {
+                    PointB.position = transform.position;
+                    CurrentTravelTime = TravelTime;
+                    TravelTime = TravelTime / 2;
+
+                }
+
                 CurrentTravelTime += Time.deltaTime;
                 if (CurrentTravelTime >= TravelTime)
                 {
+                    ResetPointA();
+                    ResetTravelTime();
+
                     MovingToB = false;
                     //FlipScale();
                     AwaitInPlace(2f);
+
 
                     myAnimator.SetFloat("SoldadoMoveX", DistanceBX);
                     myAnimator.SetFloat("SoldadoMoveY", DistanceBY);
@@ -51,13 +102,31 @@ public class PatrollingEnemy : MonoBehaviour
             }
             else
             {
+                var raycast2DA = Physics2D.Raycast(player.transform.position, transform.position, layerMask);
+                var DiferenciaY = raycast2DA.point.y - transform.position.y;
+                var DiferenciaX = raycast2DA.point.x - transform.position.x;
+
+                Debug.Log("A" + DiferenciaY);
+                Debug.Log("AX" + DiferenciaX);
+
+                if (DiferenciaY > DiferenciaYA && DiferenciaY < 0 && DiferenciaX >= DiferenciaXA1 && DiferenciaX <= DiferenciaXA2 && player.OnBox)
+                {
+                    PointA.position = transform.position;
+                    CurrentTravelTime = 0;
+                    TravelTime = TravelTime / 2;
+                    
+                }
 
                 CurrentTravelTime -= Time.deltaTime;
                 if (CurrentTravelTime <= 0f)
                 {
+                    ResetPointB();
+                    ResetTravelTime();
+
                     MovingToB = true;
                     //FlipScale();
                     AwaitInPlace(2f);
+
 
                     myAnimator.SetFloat("SoldadoMoveX", DistanceAX);
                     myAnimator.SetFloat("SoldadoMoveY", DistanceAY);                
@@ -94,6 +163,21 @@ public class PatrollingEnemy : MonoBehaviour
     public void SetTravelTime (float newTime)
     {
         TravelTime = newTime;
+    }
+
+    private void ResetPointB()
+    {
+        PointB.position = originalPointB;
+    }
+
+    private void ResetTravelTime()
+    {
+        TravelTime = originalTravelTime;
+    }
+
+    private void ResetPointA()
+    {
+        PointA.position = originalPointA;
     }
 
     public void SetSoldadoState()
