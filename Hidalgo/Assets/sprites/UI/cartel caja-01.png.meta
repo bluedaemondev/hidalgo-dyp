@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 353b588c114a95249b0c5d1b9c9e8191
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8530194943768685828
+    second: cartel caja-01_0
+  - first:
+      213: -3136468799668060322
+    second: cartel caja-01_1
+  - first:
+      213: -8832987024550227027
+    second: cartel caja-01_2
+  - first:
+      213: 8315374075585751909
+    second: cartel caja-01_3
+  - first:
+      213: -3968619772944688603
+    second: cartel caja-01_4
+  - first:
+      213: 6607594319257572812
+    second: cartel caja-01_5
+  - first:
+      213: 9161204461116512627
+    second: cartel caja-01_6
+  - first:
+      213: -8208027681014787177
+    second: cartel caja-01_7
+  - first:
+      213: -2809887048437788939
+    second: cartel caja-01_8
+  - first:
+      213: 3979786747833158613
+    second: cartel caja-01_9
+  - first:
+      213: -5104548031733619295
+    second: cartel caja-01_10
+  - first:
+      213: 3044243797718943098
+    second: cartel caja-01_11
+  - first:
+      213: -2975422424712798776
+    second: cartel caja-01_12
+  - first:
+      213: -4003111122727481936
+    second: cartel caja-01_13
+  - first:
+      213: -8437735735987966280
+    second: cartel caja-01_14
+  - first:
+      213: 7561269302112611776
+    second: cartel caja-01_15
+  - first:
+      213: 501675396074592542
+    second: cartel caja-01_16
+  - first:
+      213: -123766747000601584
+    second: cartel caja-01_17
+  - first:
+      213: 4550534208484324520
+    second: cartel caja-01_18
+  - first:
+      213: 1524791057159573547
+    second: cartel caja-01_19
+  - first:
+      213: -6190003843764083786
+    second: cartel caja-01_20
+  - first:
+      213: -8957058511334923234
+    second: cartel caja-01_21
+  - first:
+      213: 5938465523395777637
+    second: cartel caja-01_22
+  - first:
+      213: -6881510413028051778
+    second: cartel caja-01_23
+  - first:
+      213: 6312291642852857186
+    second: cartel caja-01_24
+  - first:
+      213: 8874838533649412760
+    second: cartel caja-01_25
+  - first:
+      213: -515230923454186270
+    second: cartel caja-01_26
+  - first:
+      213: -7612568869080058312
+    second: cartel caja-01_27
+  - first:
+      213: 8235657792778740602
+    second: cartel caja-01_28
+  - first:
+      213: 2162311258765998280
+    second: cartel caja-01_29
+  - first:
+      213: 2154381623578701376
+    second: cartel caja-01_30
+  - first:
+      213: -8225067116934616433
+    second: cartel caja-01_31
+  - first:
+      213: 9146681924843082380
+    second: cartel caja-01_32
+  - first:
+      213: -6741883276232147443
+    second: cartel caja-01_33
+  - first:
+      213: -7454248285361814408
+    second: cartel caja-01_34
+  - first:
+      213: 7844586311912604958
+    second: cartel caja-01_35
+  - first:
+      213: -7939330096280873575
+    second: cartel caja-01_36
+  - first:
+      213: 2664941429891901657
+    second: cartel caja-01_37
+  - first:
+      213: -9190433852084307122
+    second: cartel caja-01_38
+  - first:
+      213: 7283274011847372297
+    second: cartel caja-01_39
+  - first:
+      213: -3171515965576118801
+    second: cartel caja-01_40
+  - first:
+      213: 1981769507889244581
+    second: cartel caja-01_41
+  - first:
+      213: -7620945753900198977
+    second: cartel caja-01_42
+  - first:
+      213: 2965999864903893250
+    second: cartel caja-01_43
+  - first:
+      213: 4707604718300516148
+    second: cartel caja-01_44
+  - first:
+      213: -6741858081101425987
+    second: cartel caja-01_45
+  - first:
+      213: 7730571366012979452
+    second: cartel caja-01_46
+  - first:
+      213: 6462394830441707211
+    second: cartel caja-01_47
+  - first:
+      213: 3977163360848669885
+    second: cartel caja-01_48
+  - first:
+      213: 4405997643433003075
+    second: cartel caja-01_49
+  - first:
+      213: -3974432416497541053
+    second: cartel caja-01_50
+  - first:
+      213: 1347386994863212718
+    second: cartel caja-01_51
+  - first:
+      213: 2057666307964417564
+    second: cartel caja-01_52
+  - first:
+      213: -6622321709498552969
+    second: cartel caja-01_53
+  - first:
+      213: -9083109246742519135
+    second: cartel caja-01_54
+  - first:
+      213: -6272074685239497302
+    second: cartel caja-01_55
+  - first:
+      213: -5897327324153835526
+    second: cartel caja-01_56
+  - first:
+      213: 1734294648411594874
+    second: cartel caja-01_57
+  - first:
+      213: 6694988287046005669
+    second: cartel caja-01_58
+  - first:
+      213: -1050921426609259036
+    second: cartel caja-01_59
+  - first:
+      213: 7394460830686644303
+    second: cartel caja-01_60
+  - first:
+      213: 4297040687092843444
+    second: cartel caja-01_61
+  - first:
+      213: -4521675160481108956
+    second: cartel caja-01_62
+  - first:
+      213: 272274872260492467
+    second: cartel caja-01_63
+  - first:
+      213: 1897179651532323450
+    second: cartel caja-01_64
+  - first:
+      213: -4115227693736263355
+    second: cartel caja-01_65
+  - first:
+      213: -6238323304150759523
+    second: cartel caja-01_66
+  - first:
+      213: -4270233783975767812
+    second: cartel caja-01_67
+  - first:
+      213: -6418326144895552731
+    second: cartel caja-01_68
+  - first:
+      213: 3810119878717577455
+    second: cartel caja-01_69
+  - first:
+      213: 1071511009994581861
+    second: cartel caja-01_70
+  - first:
+      213: -2408224496123379716
+    second: cartel caja-01_71
+  - first:
+      213: 1111933508830264725
+    second: cartel caja-01_72
+  - first:
+      213: 5828425242228678193
+    second: cartel caja-01_73
+  - first:
+      213: 8308485667875319086
+    second: cartel caja-01_74
+  - first:
+      213: -4940624738227607199
+    second: cartel caja-01_75
+  - first:
+      213: -295325811613985641
+    second: cartel caja-01_76
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartel caja-01_0
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 37
+        width: 4215
+        height: 4426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d6a204b17516670800000000000000
+      internalID: 8530194943768685828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_2
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 3353
+        width: 656
+        height: 896
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da39c00b91dea6580800000000000000
+      internalID: -8832987024550227027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_6
+      rect:
+        serializedVersion: 2
+        x: 6029
+        y: 3471
+        width: 487
+        height: 744
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379d2935be2232f70800000000000000
+      internalID: 9161204461116512627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_52
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2482
+        width: 426
+        height: 907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c163288ea9c4e8c10800000000000000
+      internalID: 2057666307964417564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_69
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 2823
+        width: 82
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89d92c7d340e430800000000000000
+      internalID: 3810119878717577455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_70
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2697
+        width: 94
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a5a32695cede00800000000000000
+      internalID: 1071511009994581861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_71
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1428
+        width: 489
+        height: 902
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfffb218494449ed0800000000000000
+      internalID: -2408224496123379716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_72
+      rect:
+        serializedVersion: 2
+        x: 6561
+        y: 2139
+        width: 726
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7eaf82a16e6f00800000000000000
+      internalID: 1111933508830264725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_73
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1736
+        width: 453
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ed5f2a0e9b2e050800000000000000
+      internalID: 5828425242228678193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_74
+      rect:
+        serializedVersion: 2
+        x: 6557
+        y: 1662
+        width: 726
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2de127d1bbad4370800000000000000
+      internalID: 8308485667875319086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_75
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 881
+        width: 1641
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169af652aff5f6bb0800000000000000
+      internalID: -4940624738227607199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartel caja-01_76
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 299
+        width: 1641
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7949eb13dbac6ebf0800000000000000
+      internalID: -295325811613985641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
