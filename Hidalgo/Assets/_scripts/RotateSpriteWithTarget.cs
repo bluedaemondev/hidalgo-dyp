@@ -26,7 +26,7 @@ public class RotateSpriteWithTarget : MonoBehaviour
 
     private void TurnSprite()
     {
-        Vector3 aimDirection = (transform.position - target.position).normalized;
+        Vector3 aimDirection = (target.position- transform.position).normalized;
         float angleRot = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
         transform.eulerAngles = new Vector3(0, 0, angleRot);
 

@@ -10945,12 +10945,27 @@ PrefabInstance:
     - target: {fileID: 564982937215531106, guid: 80264f8bee5532b47bd286daa0a6da93,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.9
+      value: -1.06
       objectReference: {fileID: 0}
     - target: {fileID: 564982937215531106, guid: 80264f8bee5532b47bd286daa0a6da93,
         type: 3}
       propertyPath: m_LocalScale.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 564982937215531106, guid: 80264f8bee5532b47bd286daa0a6da93,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508346796086375912, guid: 80264f8bee5532b47bd286daa0a6da93,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508346796086375912, guid: 80264f8bee5532b47bd286daa0a6da93,
+        type: 3}
+      propertyPath: m_FlipY
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2554867474237216486, guid: 80264f8bee5532b47bd286daa0a6da93,
         type: 3}
@@ -10961,6 +10976,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3109458556018263701, guid: 80264f8bee5532b47bd286daa0a6da93,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3109458556018263701, guid: 80264f8bee5532b47bd286daa0a6da93,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 4461817480769193979, guid: 80264f8bee5532b47bd286daa0a6da93,
         type: 3}
@@ -11060,7 +11085,7 @@ PrefabInstance:
     - target: {fileID: 8860544054175696494, guid: 80264f8bee5532b47bd286daa0a6da93,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80264f8bee5532b47bd286daa0a6da93, type: 3}
@@ -16464,6 +16489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FTUX_Timeline_Mercado: {fileID: 383954708}
+  FTUX_Timeline_MercadoFinal: {fileID: 0}
   FTUX_Timeline_Cementerio: {fileID: 0}
   layersToInteract:
     serializedVersion: 2
@@ -17953,6 +17979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FTUX_Timeline_Mercado: {fileID: 0}
+  FTUX_Timeline_MercadoFinal: {fileID: 0}
   FTUX_Timeline_Cementerio: {fileID: 423365227}
   layersToInteract:
     serializedVersion: 2
@@ -24968,11 +24995,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -102.54921
+      value: -20.2
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.37997
+      value: -25.192762
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25021,7 +25048,7 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -103
+      value: -20.2
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -57889,7 +57916,7 @@ PrefabInstance:
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -103
+      value: -20.2
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -112633,6 +112660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FTUX_Timeline_Mercado: {fileID: 2030390924}
+  FTUX_Timeline_MercadoFinal: {fileID: 0}
   FTUX_Timeline_Cementerio: {fileID: 0}
   layersToInteract:
     serializedVersion: 2
