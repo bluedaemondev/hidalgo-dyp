@@ -162,8 +162,16 @@ public class ChaserEnemyM2 : EnemyM2
     {
         this._rigidbody.MovePosition(positionNext);
 
-        var casted = Physics2D.Raycast(transform.position, Vector2.up * 10, 10, layerEdificioSalida);
-        Debug.DrawRay(transform.position, Vector2.up * 10, Color.black, 1);
+
+        var dir = (targetPosition - (Vector2)transform.position).normalized;
+
+        float angleRot = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        transform.eulerAngles = new Vector3(0, 0, angleRot);
+
+        Vector2 raycastHyp = new Vector2(dir.y / Mathf.Asin(angleRot), dir.x / Mathf.Acos(angleRot));
+
+        var casted = Physics2D.Raycast(transform.position, raycastHyp * 10, 10, layerEdificioSalida);
+        Debug.DrawRay(transform.position, raycastHyp * 10, Color.black, 1);
 
         if (casted.collider != null &&
         pickupInHand != null && !wasActivePickup)

@@ -60549,7 +60549,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1439120399, guid: a4e12f79cf4659c4998f813594bd0b25, type: 3}
       propertyPath: lsitCharcos.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1439120399, guid: a4e12f79cf4659c4998f813594bd0b25, type: 3}
       propertyPath: lsitCharcos.Array.data[0]
@@ -60611,6 +60611,10 @@ PrefabInstance:
       propertyPath: lsitCharcos.Array.data[11]
       value: 
       objectReference: {fileID: 296229342}
+    - target: {fileID: 1439120399, guid: a4e12f79cf4659c4998f813594bd0b25, type: 3}
+      propertyPath: lsitCharcos.Array.data[12]
+      value: 
+      objectReference: {fileID: 1839856749}
     - target: {fileID: 1774573708683921028, guid: a4e12f79cf4659c4998f813594bd0b25,
         type: 3}
       propertyPath: m_LocalPosition.x
