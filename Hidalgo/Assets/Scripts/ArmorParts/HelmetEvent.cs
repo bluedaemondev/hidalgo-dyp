@@ -9,8 +9,12 @@ public class HelmetEvent : MonoBehaviour
     public Player player;
     public List<GameObject> lsitCharcos;
 
+    public PickupController controller;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        PickupsScapeGameManager.instance.onPickupItem.Invoke(controller.Id);
+
         if (ZonaRayos != null)
         {
             ZonaRayos.SetActive(false);

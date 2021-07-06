@@ -165,10 +165,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3883909841367172615}
   - component: {fileID: 3883909841367172608}
-  - component: {fileID: 3883909841367172609}
   - component: {fileID: 1184914232559052225}
   - component: {fileID: 1514634536695989194}
   - component: {fileID: 1953551807}
+  - component: {fileID: 1953551810}
   m_Layer: 13
   m_Name: PickupBrazos_player
   m_TagString: Untagged
@@ -204,34 +204,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df3ce22025702f4d9fb12ca20f11fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOut: 0
+  originalPosition: {x: 0, y: 0}
+  spriteAsset: {fileID: 0}
   id: 1
   destroyOnPickup: 1
---- !u!61 &3883909841367172609
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3883909841367172610}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.28887224, y: 0.23399249}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.5777445, y: 1.4679849}
-  m_EdgeRadius: 0
+  interactsWith:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!114 &1184914232559052225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,7 +237,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3883909841367172610}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bfa8c0bd5cc072940878d25306879ec4, type: 2}
   m_CullingMode: 0
@@ -282,3 +262,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   Wall: {fileID: 0}
+  controller: {fileID: 3883909841367172608}
+--- !u!68 &1953551810
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3883909841367172610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.7859494, y: 0.43568468}
+  - {x: -0.886125, y: -0.6591752}
+  - {x: -0.27496883, y: 0.042595297}
+  - {x: -0.10685492, y: -0.36396897}
+  - {x: 0.07700987, y: -0.32957962}
+  - {x: 0.1785253, y: 0.06563247}
+  - {x: 0.22634721, y: 0.3470217}
+  - {x: -0.77357954, y: 0.4284948}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

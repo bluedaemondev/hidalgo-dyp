@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4349209651066695952}
   - component: {fileID: 1439120398}
   - component: {fileID: 1439120399}
+  - component: {fileID: 856118530095872210}
   m_Layer: 13
   m_Name: PickupCasco_player
   m_TagString: Untagged
@@ -50,8 +51,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0df3ce22025702f4d9fb12ca20f11fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isOut: 0
+  originalPosition: {x: 0, y: 0}
+  spriteAsset: {fileID: 0}
   id: 3
   destroyOnPickup: 1
+  interactsWith:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!61 &2069408805445170395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -65,7 +72,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.20017739, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -76,7 +83,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.4003547, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &4120729900610410267
 MonoBehaviour:
@@ -103,7 +110,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069408805445170392}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: bfa8c0bd5cc072940878d25306879ec4, type: 2}
   m_CullingMode: 0
@@ -140,6 +147,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ZonaRayos: {fileID: 0}
   Wall1: {fileID: 0}
+  player: {fileID: 0}
+  lsitCharcos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  controller: {fileID: 2069408805445170394}
+--- !u!114 &856118530095872210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069408805445170392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c99a3386d654c47b0149d661d34a51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2069408806220256321
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +305,7 @@ MonoBehaviour:
   m_Color: {r: 0.8627451, g: 1, b: 0.6666667, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0.144
-  m_ApplyToSortingLayers: 6388207173e43741b95633c99b9597daff1f117800000000b5d15b9f6b40f10ecb691705b75f734e
+  m_ApplyToSortingLayers: 71af859963882071232ad0e973e43741b95633c99b9597daff1f117800000000b5d15b9f6b40f10ecb691705b75f734e35743867
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
