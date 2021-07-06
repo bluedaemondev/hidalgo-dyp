@@ -197,8 +197,16 @@ public class Rocinante : MovementType
         }
         else if (delta >= deltaMaxDist)
         {
+            SetRocinanteState(1);
             HudPlayerPickupScene.instance.NoCheckRocinante();
         }
+        //Y... si no queda otra esto sirve
+
+        else if (delta <= deltaMinToMove)
+        {
+            SetRocinanteState(1);
+        }
+
 
 
         //RocinanteStateController();

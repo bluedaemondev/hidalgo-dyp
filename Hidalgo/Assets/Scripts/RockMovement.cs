@@ -63,6 +63,13 @@ public class RockMovement : MonoBehaviour
             //transform.localScale = Vector3.Lerp(originalScale, originalScale * 1.5f, scaleSpeed * Time.deltaTime);
             StartCoroutine(WaitToDestroy());
         }
+
+        //Cuando llega al lugar se desactiva el collider
+
+        if(transform.position == des)
+        {
+            GetComponent<BoxCollider2D>().enabled = false;
+        }
     }
 
     IEnumerator WaitToDestroy()
