@@ -11879,12 +11879,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 13
   PointA: {fileID: 1014451433}
   PointB: {fileID: 1626974256}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
+  DiferenciaYB: 0
+  DiferenciaYA: 0
+  DiferenciaXB1: 0
+  DiferenciaXB2: 0
+  DiferenciaXA1: 0
+  DiferenciaXA2: 0
   SoldadoState: 2
 --- !u!212 &273141231
 SpriteRenderer:
@@ -12649,12 +12659,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 0
   PointA: {fileID: 1946113101}
   PointB: {fileID: 176084544}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
+  DiferenciaYB: 0
+  DiferenciaYA: 0
+  DiferenciaXB1: 0
+  DiferenciaXB2: 0
+  DiferenciaXA1: 0
+  DiferenciaXA2: 0
   SoldadoState: 2
 --- !u!212 &296359287
 SpriteRenderer:
@@ -22341,12 +22361,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 0
   PointA: {fileID: 810295225}
   PointB: {fileID: 1871118711}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
+  DiferenciaYB: 0
+  DiferenciaYA: 0
+  DiferenciaXB1: 0
+  DiferenciaXB2: 0
+  DiferenciaXA1: 0
+  DiferenciaXA2: 0
   SoldadoState: 2
 --- !u!212 &559978450
 SpriteRenderer:
@@ -25274,6 +25304,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1017543246}
     m_Modifications:
+    - target: {fileID: 612933411, guid: 0292fdcd5f478d04d9faae42e14a255c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 360229596}
+    - target: {fileID: 612933411, guid: 0292fdcd5f478d04d9faae42e14a255c, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 612933412}
     - target: {fileID: 1829350983998124236, guid: 0292fdcd5f478d04d9faae42e14a255c,
         type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
@@ -25515,7 +25553,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 360229596}
-  controller: {fileID: 0}
+  controller: {fileID: 612933412}
+--- !u!114 &612933412 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5332328927847134793, guid: 0292fdcd5f478d04d9faae42e14a255c,
+    type: 3}
+  m_PrefabInstance: {fileID: 612933409}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612933410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df3ce22025702f4d9fb12ca20f11fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &613240865
 GameObject:
   m_ObjectHideFlags: 0
@@ -57962,6 +58012,11 @@ PrefabInstance:
       propertyPath: oldFootstepSound
       value: 
       objectReference: {fileID: 8300000, guid: 504dde79f5360064b9c439b26c135700, type: 3}
+    - target: {fileID: 7627999220082301765, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
+        type: 3}
+      propertyPath: checkpoint
+      value: 
+      objectReference: {fileID: 714039707}
     - target: {fileID: 7627999220082301766, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_Controller
@@ -97435,12 +97490,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 0
   PointA: {fileID: 273535906}
   PointB: {fileID: 1876881888}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
+  DiferenciaYB: 0
+  DiferenciaYA: 0
+  DiferenciaXB1: 0
+  DiferenciaXB2: 0
+  DiferenciaXA1: 0
+  DiferenciaXA2: 0
   SoldadoState: 2
 --- !u!212 &1592044260
 SpriteRenderer:
@@ -107548,12 +107613,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 0
   PointA: {fileID: 1679367322}
   PointB: {fileID: 689573161}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
+  DiferenciaYB: 0
+  DiferenciaYA: 0
+  DiferenciaXB1: 0
+  DiferenciaXB2: 0
+  DiferenciaXA1: 0
+  DiferenciaXA2: 0
   SoldadoState: 2
 --- !u!212 &1833258812
 SpriteRenderer:
@@ -107919,12 +107994,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   speed: 0
   PointA: {fileID: 103103168}
   PointB: {fileID: 1336547478}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
+  DiferenciaYB: 0
+  DiferenciaYA: 0
+  DiferenciaXB1: 0
+  DiferenciaXB2: 0
+  DiferenciaXA1: 0
+  DiferenciaXA2: 0
   SoldadoState: 2
 --- !u!212 &1846439992
 SpriteRenderer:
