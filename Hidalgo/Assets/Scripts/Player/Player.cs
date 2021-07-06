@@ -14,6 +14,10 @@ public class Player : MovementType, IStunneable, ISighteable
     public float QuijoteState = 1;
     public float ArmorState = 1;
     public bool OnWater = false;
+    public bool OnBox = false;
+    CircleCollider2D circleCollider2D;
+    [SerializeField]
+    GameObject checkpoint;
 
     [SerializeField]
     private AudioClip[] grassClips;
@@ -44,12 +48,16 @@ public class Player : MovementType, IStunneable, ISighteable
         {
             this.SetSpeedMultiplier(0);
             SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.equipBox);
+            circleCollider2D.enabled = false;
+            OnBox = true;
+
         }
         else
         {
             this.SetSpeedMultiplier(1);
             SoundManager.instance.PlayEffect(PickupsScapeGameManager.instance.soundLibrary.deEquipBox);
-
+            circleCollider2D.enabled = true;
+            OnBox = false;
         }
 
     }
@@ -139,7 +147,7 @@ public class Player : MovementType, IStunneable, ISighteable
         _movement = new Movement(this);
         _controller = new Controller(Movement, this);
         _sightable = new Sightable(myAnimator, false, this, 5f, sliderSeenStatus);
-
+        circleCollider2D = GetComponent<CircleCollider2D>();
         _controller.OnStart();
     }
 
@@ -203,9 +211,9 @@ public class Player : MovementType, IStunneable, ISighteable
 
     private void Step(AnimationEvent animationEvent)
     {
-        if(animationEvent.animatorClipInfo.weight > 0.5)
+        if (animationEvent.animatorClipInfo.weight > 0.5)
         {
-            if(!OnWater)
+            if (!OnWater)
             {
                 AudioClip clip = GetRandomGrassClip();
                 audioSource.PlayOneShot(clip);
@@ -215,8 +223,13 @@ public class Player : MovementType, IStunneable, ISighteable
                 AudioClip clip = GetRandomWaterClip();
                 audioSource.PlayOneShot(clip);
             }
-            
-        }  
+
+        }
+    }
+
+    public void RestartFromCheckpoint()
+    {
+        transform.position = checkpoint.transform.position;
     }
 
     private AudioClip GetRandomGrassClip()
