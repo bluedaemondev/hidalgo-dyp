@@ -97,10 +97,10 @@ public class GuardInteraction : MonoBehaviour
     {
         if (Common.GetLayersFromMask(interactsWith).Contains(collision.gameObject.layer))
         {
-            //ResetInteraction();
-            extraRange.SetActive(true);
-            this.GetComponent<Collider2D>().enabled = true;
-            this.canTrigger = true;
+            ResetInteraction();
+            //extraRange.SetActive(true);
+            //this.GetComponent<Collider2D>().enabled = true;
+            //this.canTrigger = true;
         }
     }
     void ComputePlayerInRange()
