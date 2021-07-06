@@ -16,6 +16,9 @@ public class Player : MovementType, IStunneable, ISighteable
     public bool OnWater = false;
 
     [SerializeField]
+    GameObject checkpoint;
+
+    [SerializeField]
     private AudioClip[] grassClips;
     [SerializeField]
     private AudioClip[] waterClips;
@@ -203,9 +206,9 @@ public class Player : MovementType, IStunneable, ISighteable
 
     private void Step(AnimationEvent animationEvent)
     {
-        if(animationEvent.animatorClipInfo.weight > 0.5)
+        if (animationEvent.animatorClipInfo.weight > 0.5)
         {
-            if(!OnWater)
+            if (!OnWater)
             {
                 AudioClip clip = GetRandomGrassClip();
                 audioSource.PlayOneShot(clip);
@@ -215,8 +218,13 @@ public class Player : MovementType, IStunneable, ISighteable
                 AudioClip clip = GetRandomWaterClip();
                 audioSource.PlayOneShot(clip);
             }
-            
-        }  
+
+        }
+    }
+
+    public void RestartFromCheckpoint()
+    {
+        transform.position = checkpoint.transform.position;
     }
 
     private AudioClip GetRandomGrassClip()
