@@ -24,42 +24,61 @@ public class PlayerCombat : MonoBehaviour
 
     public int golpeDamage = 40;
 
+    private System.Action AttackHandler;
+
+
     public AudioClip audioWhooshAttack;
 
     void Start()
     {
         _animator = GetComponent<Animator>();
+        AttackHandler = Golpe;
     }
 
     void Update()
     {
-
-        //Input for Golpe, limited by golpeRate
-        if (Time.time >= nextGolpeTime)
+        if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                Golpe();
-                nextGolpeTime = Time.time + golpeRate / 2f;
-            }
+            AttackHandler();
         }
 
+        ////Input for Golpe, limited by golpeRate
+        //if (Time.time >= nextGolpeTime)
+        //{
+        //    if (Input.GetKeyDown(KeyCode.Mouse0))
+        //    {
+        //        Golpe();
+        //        nextGolpeTime = Time.time + golpeRate / 2f;
+        //    }
+        //}
 
-        //Change sprite back to idle sprite after Golpe
-        if (this.isAttacking)
-        {
-            this.attackTimer += Time.deltaTime;
-            if (this.attackTimer >= 0.5f)
-            {
-                this.isAttacking = false;
-                this.attackTimer = 0f;
-                this._animator.Play(animation_IdleName);
-            }
-        }
+
+        ////Change sprite back to idle sprite after Golpe
+        //if (this.isAttacking)
+        //{
+        //    this.attackTimer += Time.deltaTime;
+        //    if (this.attackTimer >= 0.5f)
+        //    {
+        //        this.isAttacking = false;
+        //        this.attackTimer = 0f;
+        //        this._animator.Play(animation_IdleName);
+        //    }
+        //}
+    }
+
+    private IEnumerator CooldownAttack()
+    {
+        AttackHandler = delegate { };
+        //this._animator.Play(animation_IdleName);
+
+        yield return new WaitForSecondsRealtime(golpeRate);
+        AttackHandler = Golpe;
+
     }
 
     void Golpe()
     {
+
         //Change to Golpe sprite
         this.isAttacking = true;
         this._animator.Play(animation_AttackName);
@@ -74,6 +93,9 @@ public class PlayerCombat : MonoBehaviour
         {
             enemy.GetComponent<EnemyM2>().TakeDamage(golpeDamage);
         }
+
+        StartCoroutine(CooldownAttack());
+
     }
 
     //Gizmos for Golpe point and range

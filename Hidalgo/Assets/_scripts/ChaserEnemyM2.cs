@@ -87,7 +87,7 @@ public class ChaserEnemyM2 : EnemyM2
     {
         canTakeDamage = false;
         yield return new WaitForSeconds(time);
-        _animator.SetTrigger(animation_damagedTrigger);
+        _animator.ResetTrigger(animation_damagedTrigger);
         canTakeDamage = true;
     }
     public override float TakeDamage(float value)
@@ -97,13 +97,15 @@ public class ChaserEnemyM2 : EnemyM2
             return 0;
 
         value = base.TakeDamage(value);
-        _animator.SetTrigger(animation_damagedTrigger);
+        //_animator.SetTrigger(animation_damagedTrigger);
+        _animator.Play("Damaged");
 
         if (currentHealth <= 0)
         {
             KnockedOut();
         }
-        StartCoroutine(DeactivateHealth(1.2f));
+
+        //StartCoroutine(DeactivateHealth(1.2f));
 
         return value;
     }

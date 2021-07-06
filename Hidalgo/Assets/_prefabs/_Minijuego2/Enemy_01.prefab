@@ -228,7 +228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6dc14308761b2340a85025795c1fbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bloodPrefab: {fileID: 0}
+  bloodPrefab: {fileID: 4784104012152059631, guid: 993e9a14fa5f67d4698bd1b7306b5639,
+    type: 3}
   audioHit: {fileID: 8300000, guid: 2c4821b08c9839446917c2fce78ec71b, type: 3}
   audioDeath:
   - {fileID: 8300000, guid: 4ed62d3499c2a974695fa501828ff9ec, type: 3}
