@@ -6,11 +6,11 @@ using UnityEngine.Playables;
 public class FTUX_TimelineTriggerManager : MonoBehaviour
 {
     public PlayableDirector FTUX_Timeline_Mercado;
-    public PlayableDirector FTUX_Timeline_MercadoFinal;
     public PlayableDirector FTUX_Timeline_Cementerio;
     public LayerMask layersToInteract;
 
     bool FTUX_Timeline_Mercado_played = false;
+    bool FTUX_Timeline_CementerioInicio_played = false;
 
     void Start()
     {
@@ -32,6 +32,7 @@ public class FTUX_TimelineTriggerManager : MonoBehaviour
         else if (collision.gameObject.layer == 9 && collision.gameObject.layer == 13 && HudPlayerPickupScene.instance.checkedRocinante.activeSelf)
         {
             FTUX_Timeline_Cementerio.Play();
+            FTUX_Timeline_CementerioInicio_played = true;
         }
     }
 }

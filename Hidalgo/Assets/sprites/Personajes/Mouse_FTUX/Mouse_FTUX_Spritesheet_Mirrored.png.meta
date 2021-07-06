@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 7e198bb5d63960e49820a52033a512df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8564976335099958405
+    second: Mouse_FTUX_Spritesheet_Mirrored_0
+  - first:
+      213: -88389062346699563
+    second: Mouse_FTUX_Spritesheet_Mirrored_1
+  - first:
+      213: -5299881298381551231
+    second: Mouse_FTUX_Spritesheet_Mirrored_2
+  - first:
+      213: 6217990813529138173
+    second: Mouse_FTUX_Spritesheet_Mirrored_3
+  - first:
+      213: -6807560418066463015
+    second: Mouse_FTUX_Spritesheet_Mirrored_4
+  - first:
+      213: -2480005750792621879
+    second: Mouse_FTUX_Spritesheet_Mirrored_5
+  - first:
+      213: 5166906966379253390
+    second: Mouse_FTUX_Spritesheet_Mirrored_6
+  - first:
+      213: -4594629717074243648
+    second: Mouse_FTUX_Spritesheet_Mirrored_7
+  - first:
+      213: 4578248354409537589
+    second: Mouse_FTUX_Spritesheet_Mirrored_8
+  - first:
+      213: 5182551509481977214
+    second: Mouse_FTUX_Spritesheet_Mirrored_9
+  - first:
+      213: 2613608217317066970
+    second: Mouse_FTUX_Spritesheet_Mirrored_10
+  - first:
+      213: 6885990258156524584
+    second: Mouse_FTUX_Spritesheet_Mirrored_11
+  - first:
+      213: -5448193265820660289
+    second: Mouse_FTUX_Spritesheet_Mirrored_12
+  - first:
+      213: 412526018903364704
+    second: Mouse_FTUX_Spritesheet_Mirrored_13
+  - first:
+      213: -3829511234499013330
+    second: Mouse_FTUX_Spritesheet_Mirrored_14
+  - first:
+      213: -8167584448790171158
+    second: Mouse_FTUX_Spritesheet_Mirrored_15
+  - first:
+      213: -5992018575161772489
+    second: Mouse_FTUX_Spritesheet_Mirrored_16
+  - first:
+      213: -4431134588116807167
+    second: Mouse_FTUX_Spritesheet_Mirrored_17
+  - first:
+      213: -7979924060334685209
+    second: Mouse_FTUX_Spritesheet_Mirrored_18
+  - first:
+      213: -7548416273657954340
+    second: Mouse_FTUX_Spritesheet_Mirrored_19
+  - first:
+      213: -4881799629962194875
+    second: Mouse_FTUX_Spritesheet_Mirrored_20
+  - first:
+      213: -424285543704188210
+    second: Mouse_FTUX_Spritesheet_Mirrored_21
+  - first:
+      213: -4142834175155463116
+    second: Mouse_FTUX_Spritesheet_Mirrored_22
+  - first:
+      213: -1612007317979850770
+    second: Mouse_FTUX_Spritesheet_Mirrored_23
+  - first:
+      213: -5493677354284797809
+    second: Mouse_FTUX_Spritesheet_Mirrored_24
+  - first:
+      213: 1361566511996141809
+    second: Mouse_FTUX_Spritesheet_Mirrored_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 700
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7250
+        width: 1910
+        height: 542
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584924bf898ecd670800000000000000
+      internalID: 8564976335099958405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_1
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 7250
+        width: 1634
+        height: 464
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc8bc8bd9af5cef0800000000000000
+      internalID: -88389062346699563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_2
+      rect:
+        serializedVersion: 2
+        x: 4158
+        y: 7256
+        width: 1816
+        height: 536
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1894b320a0a0376b0800000000000000
+      internalID: -5299881298381551231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_3
+      rect:
+        serializedVersion: 2
+        x: 6182
+        y: 7277
+        width: 1655
+        height: 608
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3eb0953bdba4650800000000000000
+      internalID: 6217990813529138173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 6178
+        width: 1551
+        height: 620
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d683262edfa681a0800000000000000
+      internalID: -6807560418066463015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_5
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 6147
+        width: 1686
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c07417c8ef359dd0800000000000000
+      internalID: -2480005750792621879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_6
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 6137
+        width: 1858
+        height: 531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ec68ea28a84b740800000000000000
+      internalID: 5166906966379253390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_7
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 6137
+        width: 1764
+        height: 473
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf065f9d989c30c0800000000000000
+      internalID: -4594629717074243648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 4815
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.49841678, y: -0.0043313527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530e81a2f94398f30800000000000000
+      internalID: 4578248354409537589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_9
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 4815
+        width: 1920
+        height: 707
+      alignment: 9
+      pivot: {x: 0.49999988, y: -0.0016920638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7576d8b32f1ce740800000000000000
+      internalID: 5182551509481977214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_10
+      rect:
+        serializedVersion: 2
+        x: 4210
+        y: 4815
+        width: 1665
+        height: 858
+      alignment: 9
+      pivot: {x: 0.4999997, y: 0.0018011774}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8c93f73d6654420800000000000000
+      internalID: 2613608217317066970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_11
+      rect:
+        serializedVersion: 2
+        x: 6125
+        y: 4825
+        width: 1624
+        height: 890
+      alignment: 9
+      pivot: {x: 0.49813285, y: 0.0026828037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824583008a3ff8f50800000000000000
+      internalID: 6885990258156524584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 3404
+        width: 1666
+        height: 848
+      alignment: 9
+      pivot: {x: 0.5026841, y: -0.0062186765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd851b27112464b0800000000000000
+      internalID: -5448193265820660289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_13
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 3404
+        width: 1904
+        height: 828
+      alignment: 9
+      pivot: {x: 0.50234854, y: -0.007645317}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06457518a3699b500800000000000000
+      internalID: 412526018903364704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_14
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 3399
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.49766517, y: -0.0041910056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25915462d7dadac0800000000000000
+      internalID: -3829511234499013330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2124
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.49765718, y: 0.0024418575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae17bd0b739e6ae80800000000000000
+      internalID: -8167584448790171158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_16
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 2108
+        width: 2040
+        height: 489
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.00457876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736b0fb5ad218dca0800000000000000
+      internalID: -5992018575161772489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_17
+      rect:
+        serializedVersion: 2
+        x: 4366
+        y: 2118
+        width: 1785
+        height: 620
+      alignment: 9
+      pivot: {x: 0.49999973, y: 0.0007166709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d95bb1927182c0800000000000000
+      internalID: -4431134588116807167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_18
+      rect:
+        serializedVersion: 2
+        x: 6359
+        y: 2223
+        width: 1645
+        height: 791
+      alignment: 9
+      pivot: {x: 0.50326127, y: 0.0048442315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e38829b85d914190800000000000000
+      internalID: -7979924060334685209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_19
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 854
+        width: 1795
+        height: 655
+      alignment: 9
+      pivot: {x: 0.5032423, y: 0.0024198808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdff6df6463ae3790800000000000000
+      internalID: -7548416273657954340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_20
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 947
+        width: 1811
+        height: 552
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0060787476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5405877f91d504cb0800000000000000
+      internalID: -4881799629962194875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_21
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 651
+        width: 1879
+        height: 786
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0035035422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecaad24cb82ac1af0800000000000000
+      internalID: -424285543704188210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_22
+      rect:
+        serializedVersion: 2
+        x: 6375
+        y: 505
+        width: 2076
+        height: 609
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0064944313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c92827442b186c0800000000000000
+      internalID: -4142834175155463116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_23
+      rect:
+        serializedVersion: 2
+        x: 8623
+        y: 448
+        width: 1915
+        height: 541
+      alignment: 9
+      pivot: {x: 0.5, y: 0.005146471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee71b7492eff0a9e0800000000000000
+      internalID: -1612007317979850770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_24
+      rect:
+        serializedVersion: 2
+        x: 6318
+        y: 916
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f803f339d8982c3b0800000000000000
+      internalID: -5493677354284797809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse_FTUX_Spritesheet_Mirrored_25
+      rect:
+        serializedVersion: 2
+        x: 6359
+        y: 916
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0099d578145e210800000000000000
+      internalID: 1361566511996141809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
