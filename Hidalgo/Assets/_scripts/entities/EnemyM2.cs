@@ -29,6 +29,7 @@ public abstract class EnemyM2 : MonoBehaviour, IDamageable, IPathfinder
 
     public void Die()
     {
+        WaveSystem.instance.OnEnemyDied();
         this.health.Die();
     }
 

@@ -23,6 +23,8 @@ public class ChaserEnemyM2 : EnemyM2
     public List<BoxCollider2D> interactionWithPickup;
     public float timeResetPickupBox = 1.5f;
 
+    public bool canTakeDamage = true;
+
     public void SetHandPickup(PickupController pickup)
     {
         _animator.SetBool(animation_hasPickupBool, true);
@@ -81,8 +83,18 @@ public class ChaserEnemyM2 : EnemyM2
     /// al agarrar un objeto, para salir del mapa
     /// no tiene ataque?
 
+    private IEnumerator DeactivateHealth(float time)
+    {
+        canTakeDamage = false;
+        yield return new WaitForSeconds(time);
+        canTakeDamage = true;
+    }
     public override float TakeDamage(float value)
     {
+
+        if (!canTakeDamage)
+            return 0;
+
         value = base.TakeDamage(value);
         _animator.SetTrigger(animation_damagedTrigger);
 
@@ -90,6 +102,7 @@ public class ChaserEnemyM2 : EnemyM2
         {
             KnockedOut();
         }
+        StartCoroutine(DeactivateHealth(1.2f));
 
         return value;
     }
@@ -145,6 +158,9 @@ public class ChaserEnemyM2 : EnemyM2
     }
     private void KnockedOut()
     {
+        this.Die();
+        GetComponent<Collider2D>().enabled = false;
+
         ArtificialFixedUpdate = delegate { };
 
         //Debug.Log("Enemy knocked out");
@@ -153,7 +169,6 @@ public class ChaserEnemyM2 : EnemyM2
         DropHandPickup();
 
         //Disable enemy (body stays there for now)
-        GetComponent<Collider2D>().enabled = false;
 
         //this.enabled = false;
     }

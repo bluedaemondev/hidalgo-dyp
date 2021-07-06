@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -52,8 +53,26 @@ public class WaveSystem : MonoBehaviour
     public event System.Action onEnemyDied;
     public event System.Action onLastWaveEnemyDied;
 
-    [Space, Header("Para mostrar enemigos restantes de la oleada")]
-    public TMPro.TextMeshProUGUI textStatusRemaining;
+    private int totalEnemiesP;
+    public int currentWave;
+
+
+    private void LastEnemyDied(int waveLast)
+    {
+        Debug.Log("finalizando wave " + waveLast);
+        if (waveLast < groupByCount.Length - 1)
+            StartCoroutine(SpawnGrouppedList(waveLast + 1));
+    } 
+    public void OnEnemyDied()
+    {
+        totalEnemiesP--;
+        HudWavesM2.instance.OnEnemyKilled();
+        if(totalEnemiesP <= 0)
+        {
+            LastEnemyDied(currentWave);
+        }
+    }
+
 
     private void Awake()
     {
@@ -62,15 +81,15 @@ public class WaveSystem : MonoBehaviour
 
         instance = this;
 
-        onWaveFinishedSpawning +=
-            (finishedWaveId) =>
-            {
-                Debug.Log("finalizando wave " + finishedWaveId);
-                if (finishedWaveId < groupByCount.Length - 1)
-                    StartCoroutine(SpawnGrouppedList(finishedWaveId + 1));
-            };
+        //onWaveFinishedSpawning +=
+        //    (finishedWaveId) =>
+        //    {
+        //        Debug.Log("finalizando wave " + finishedWaveId);
+        //        if (finishedWaveId < groupByCount.Length - 1)
+        //            StartCoroutine(SpawnGrouppedList(finishedWaveId + 1));
+        //    };
 
-        StartSpawning();
+        StartSpawning(currentWave);
     }
 
 
@@ -81,12 +100,14 @@ public class WaveSystem : MonoBehaviour
     public void StartSpawning(int idGroup = 0)
     {
         StartCoroutine(SpawnGrouppedList(idGroup));
+        HudWavesM2.instance.OnNewWave(idGroup + 1);
+        currentWave++;
 
-        try
-        {
-            textStatusRemaining.text = "Enemigos restantes: " + groupByCount[idGroup];
-        }
-        catch { }
+        //try
+        //{
+        //    textStatusRemaining.text = "Enemigos restantes: " + groupByCount[idGroup];
+        //}
+        //catch { }
     }
 
 
@@ -114,7 +135,14 @@ public class WaveSystem : MonoBehaviour
             }
         }
 
-        onWaveFinishedSpawning(groupByCountId);
+        //onWaveFinishedSpawning(groupByCountId);
     }
-
+    public int GetGroupRemainingTotal()
+    {
+        return groupByCount[currentWave];
+    }
+    public string GetRemainingEnemies()
+    {
+        return transform.childCount.ToString();
+    }
 }
