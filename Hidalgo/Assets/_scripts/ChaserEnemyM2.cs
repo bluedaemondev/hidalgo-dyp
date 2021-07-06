@@ -44,6 +44,8 @@ public class ChaserEnemyM2 : EnemyM2
             pickupInHand.ResetPickupComponents();
             StartCoroutine(DisablePickupFor(timeResetPickupBox));
 
+            pickupInHand.transform.rotation = Quaternion.identity;
+
             PickupTracker.instance.CallbackDropped(pickupInHand);
             pickupInHand = null;
 
@@ -168,10 +170,12 @@ public class ChaserEnemyM2 : EnemyM2
         float angleRot = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.eulerAngles = new Vector3(0, 0, angleRot);
 
-        Vector2 raycastHyp = new Vector2(dir.y / Mathf.Asin(angleRot), dir.x / Mathf.Acos(angleRot));
+        //Vector2 raycastHyp = new Vector2(dir.y / Mathf.Asin(angleRot), dir.x / Mathf.Acos(angleRot)).normalized;
+        //Debug.Log(raycastHyp * 10);
 
-        var casted = Physics2D.Raycast(transform.position, raycastHyp * 10, 10, layerEdificioSalida);
-        Debug.DrawRay(transform.position, raycastHyp * 10, Color.black, 1);
+
+        var casted = Physics2D.Raycast(transform.position, angleRot * Vector2.up, 10, layerEdificioSalida);
+        Debug.DrawRay(transform.position, angleRot * Vector2.up, Color.black, 1);
 
         if (casted.collider != null &&
         pickupInHand != null && !wasActivePickup)
