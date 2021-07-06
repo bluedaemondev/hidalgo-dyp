@@ -79,9 +79,11 @@ public class RangeEnemy : MonoBehaviour
 
     IEnumerator WalkingTime()
     {
-        SetEnemyState(2);
+        
         yield return new WaitForSeconds(waitTime);
         isWalking = false;
+        SetEnemyState(2);
+
     }
 
     private void RotateTowards(Vector2 target)
@@ -91,6 +93,7 @@ public class RangeEnemy : MonoBehaviour
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(Vector3.forward * (angle + offset));
+        //myRigidBody.rotation = angle + offset;
     }
 
     public void SetEnemyState(float state)
