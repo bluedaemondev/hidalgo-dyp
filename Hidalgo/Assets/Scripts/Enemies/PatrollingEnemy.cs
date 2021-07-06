@@ -21,10 +21,16 @@ public class PatrollingEnemy : MonoBehaviour
     public Animator myAnimator;
 
     [SerializeField]
-    private float DiferenciaYB;
+    private float DiferenciaYB1;
 
     [SerializeField]
-    private float DiferenciaYA;
+    private float DiferenciaYB2;
+
+    [SerializeField]
+    private float DiferenciaYA1;
+
+    [SerializeField]
+    private float DiferenciaYA2;
 
     [SerializeField]
     private float DiferenciaXB1;
@@ -77,7 +83,7 @@ public class PatrollingEnemy : MonoBehaviour
 
                 Debug.Log("B" + DiferenciaY);
 
-                if (DiferenciaY < DiferenciaYB && DiferenciaY > 0 && DiferenciaX >= DiferenciaXB1 && DiferenciaX <= DiferenciaXB2 && player.OnBox)
+                if (DiferenciaY < DiferenciaYB1 && DiferenciaY > DiferenciaYB2 && DiferenciaX >= DiferenciaXB1 && DiferenciaX <= DiferenciaXB2 && player.OnBox)
                 {
                     PointB.position = transform.position;
                     CurrentTravelTime = TravelTime;
@@ -109,7 +115,7 @@ public class PatrollingEnemy : MonoBehaviour
                 Debug.Log("A" + DiferenciaY);
                 Debug.Log("AX" + DiferenciaX);
 
-                if (DiferenciaY > DiferenciaYA && DiferenciaY < 0 && DiferenciaX >= DiferenciaXA1 && DiferenciaX <= DiferenciaXA2 && player.OnBox)
+                if (DiferenciaY > DiferenciaYA1 && DiferenciaY < DiferenciaYA2 && DiferenciaX >= DiferenciaXA1 && DiferenciaX <= DiferenciaXA2 && player.OnBox)
                 {
                     PointA.position = transform.position;
                     CurrentTravelTime = 0;

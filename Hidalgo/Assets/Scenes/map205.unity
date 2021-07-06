@@ -11896,8 +11896,10 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB: 4
-  DiferenciaYA: -5
+  DiferenciaYB1: 5
+  DiferenciaYB2: 0
+  DiferenciaYA1: -4
+  DiferenciaYA2: 0
   DiferenciaXB1: -2
   DiferenciaXB2: 1
   DiferenciaXA1: -2
@@ -12676,8 +12678,10 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB: 0
-  DiferenciaYA: 0
+  DiferenciaYB1: 0
+  DiferenciaYB2: 0
+  DiferenciaYA1: 0
+  DiferenciaYA2: 0
   DiferenciaXB1: 0
   DiferenciaXB2: 0
   DiferenciaXA1: 0
@@ -22384,8 +22388,10 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB: 4
-  DiferenciaYA: -5
+  DiferenciaYB1: 5
+  DiferenciaYB2: 0
+  DiferenciaYA1: -4
+  DiferenciaYA2: 0
   DiferenciaXB1: -2
   DiferenciaXB2: 1
   DiferenciaXA1: -2
@@ -97631,8 +97637,10 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB: 0
-  DiferenciaYA: 0
+  DiferenciaYB1: 0
+  DiferenciaYB2: 0
+  DiferenciaYA1: 0
+  DiferenciaYA2: 0
   DiferenciaXB1: 0
   DiferenciaXB2: 0
   DiferenciaXA1: 0
@@ -107772,8 +107780,10 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB: 4
-  DiferenciaYA: -5
+  DiferenciaYB1: 5
+  DiferenciaYB2: 0
+  DiferenciaYA1: -4
+  DiferenciaYA2: 0
   DiferenciaXB1: -2
   DiferenciaXB2: 1
   DiferenciaXA1: -2
@@ -108178,18 +108188,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32c5e04c8d00384184d89f3eba62879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 360229596}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
-  speed: 0
+    m_Bits: 512
+  speed: 13
   PointA: {fileID: 103103168}
   PointB: {fileID: 1336547478}
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB: 0
-  DiferenciaYA: 0
+  DiferenciaYB1: 0
+  DiferenciaYB2: 0
+  DiferenciaYA1: 0
+  DiferenciaYA2: 0
   DiferenciaXB1: 0
   DiferenciaXB2: 0
   DiferenciaXA1: 0
