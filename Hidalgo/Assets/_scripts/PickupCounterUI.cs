@@ -38,26 +38,28 @@ public class PickupCounterUI : MonoBehaviour
 
     public void StepNextSprite(string idPickup = "default") // perdon por esto pero necesito el evento :( -juan
     {
-        if (!triggeredHasRocinante && idPickup == "0")
-        {
-            triggeredHasRocinante = true;
-            HudPlayerPickupScene.instance.CheckRocinante();
-        }
+        //if (!triggeredHasRocinante && idPickup == "0")
+        //{
+        //    triggeredHasRocinante = true;
+        //    HudPlayerPickupScene.instance.CheckRocinante();
+        //}
 
-        if (currentIndex < spriteStates.Count && triggeredHasRocinante && idPickup != "0")
-            currentIndex++;
+        
 
         //timer.GetComponent<TimerCountdown>().ResetTimer();
 
         if (currentIndex < spriteStates.Count && idPickup != "0")
             image.sprite = spriteStates[currentIndex];
         
-        if(idPickup == "2")
+        if(idPickup == "3")
         {
             HudPlayerPickupScene.instance.CheckPiecesComplete();
         }
 
-        CheckEndList();
+        //CheckEndList();
+
+        if (currentIndex < spriteStates.Count)
+            currentIndex++;
     }
 
     void CheckEndList()
