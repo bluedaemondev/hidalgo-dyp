@@ -45,7 +45,7 @@ public class KeyInputQTE : MonoBehaviour
         else if (Input.anyKeyDown && !Input.GetKeyDown((KeyCode)requiredKey) && !touched)
         {
             Debug.Log(collision.gameObject.name);
-            Debug.Log("exit call");
+            //Debug.Log("exit call");
 
             //touched = true;
             OnWrong();

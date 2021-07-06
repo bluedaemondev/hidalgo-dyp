@@ -22,6 +22,8 @@ public class LightManager : MonoBehaviour
 
     public void Lightning()
     {
+        lightningCoroutine = null;
+
         lightningCoroutine = StartCoroutine(LightningFlash());
     }
 
@@ -35,7 +37,7 @@ public class LightManager : MonoBehaviour
     }
     IEnumerator LightningFlash()
     {
-        var originalIntensityGlobal = this.globalLightScene.intensity;
+        yield return null;
 
         this.globalLightScene.intensity = flashIntensity;
         try
@@ -48,16 +50,16 @@ public class LightManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(lightningFlashDuration);
-        this.globalLightScene.intensity = originalIntensityGlobal;
+        this.globalLightScene.intensity = originalLightIntensity;
     }
-    IEnumerator TimeToDaytime()
-    {
-        while (Time.time < 120 && globalLightScene.intensity < lightDaytime)
-        {
-            this.globalLightScene.intensity = Mathf.Lerp(this.globalLightScene.intensity, this.lightDaytime, Time.deltaTime * this.timePass / 100);
-            yield return null;
-        }
-    }
+    //IEnumerator TimeToDaytime()
+    //{
+    //    while (Time.time < 120 && globalLightScene.intensity < lightDaytime)
+    //    {
+    //        this.globalLightScene.intensity = Mathf.Lerp(this.globalLightScene.intensity, this.lightDaytime, Time.deltaTime * this.timePass / 100);
+    //        yield return null;
+    //    }
+    //}
     private void Awake()
     {
         if (instance != this)
@@ -70,6 +72,6 @@ public class LightManager : MonoBehaviour
     private void Start()
     {
         originalLightIntensity = globalLightScene.intensity;
-        StartCoroutine(TimeToDaytime());
+        //StartCoroutine(TimeToDaytime());
     }
 }
