@@ -48,7 +48,7 @@ public class PickupTracker : MonoBehaviour
         /// TO DO:
         /// implementar cinemachine target group weight lerp
         /// moviendo el peso hasta 2, para que acompañe la camara mas de cerca
-        
+
         EffectFactory.instance.InstantiateEffectAt(particlesMissingItem, pickup.transform.position, Quaternion.identity);
         EffectFactory.instance.camShake.ShakeCameraNormal(2, 0.75f);
     }
@@ -68,6 +68,7 @@ public class PickupTracker : MonoBehaviour
         //    missingPickups.Add(pickup);
         //}
     }
+
     public Transform GetRandomPickup()
     {
         int rand = UnityEngine.Random.Range(0, pickupsWOriginal.Count);
@@ -85,10 +86,11 @@ public class PickupTracker : MonoBehaviour
         int minDistanceIdx = 0;
         float comparer = 9999999999;
 
-        for (int i = 0; i< pickupsWOriginal.Count; i++)
+        for (int i = 0; i < pickupsWOriginal.Count; i++)
         {
+            Debug.Log("cuenta pickups  =" + pickupsWOriginal.Count);
             var distance = Vector2.Distance(pickupsWOriginal[i].transform.position, positionToCompare);
-            if(distance <= comparer)
+            if (distance <= comparer)
             {
                 minDistanceIdx = i;
                 comparer = distance;
