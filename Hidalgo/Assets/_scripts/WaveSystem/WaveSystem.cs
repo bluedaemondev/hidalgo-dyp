@@ -130,16 +130,16 @@ public class WaveSystem : MonoBehaviour
             yield return new WaitForSeconds(waveGroups[idx + countOffsetArray].timeFromLast);
             var entity = Instantiate(waveGroups[idx + countOffsetArray].entityPrefab, waveGroups[idx + countOffsetArray].GetSpawnPoint(), Quaternion.identity, transform).GetComponent<EnemyM2>();
 
-            entity.Init();
 
             if (entity is ChaserEnemyM2)
             {
+                entity.Init();
                 var nearestPickup = PickupTracker.instance.GetNearestPickup(entity.transform.position);
                 Debug.Log("ischaser " + entity.transform.position + " ----   " + nearestPickup.position);
 
                 (entity as ChaserEnemyM2).SetPickupTarget(nearestPickup.position);
                 var direction = (nearestPickup.position - transform.position).normalized;
-                entity.transform.rotation = Quaternion.Euler(0,0,direction.z);
+                entity.transform.rotation = Quaternion.Euler(0, 0, direction.z);
             }
         }
 
