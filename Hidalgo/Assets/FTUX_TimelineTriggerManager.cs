@@ -28,7 +28,7 @@ public class FTUX_TimelineTriggerManager : MonoBehaviour
             FTUX_Timeline_Mercado_played = true;
         }
 
-        //Play timeline Cementerio inicio cuando DQ tiene a Rocinante y pickup guantes
+        //Play timeline Cementerio inicio y rayo cuando DQ tiene a Rocinante y pickup guantes
         else if (collision.gameObject.layer == 9 && collision.gameObject.layer == 13 && HudPlayerPickupScene.instance.checkedRocinante.activeSelf)
         {
             FTUX_Timeline_Cementerio.Play();
