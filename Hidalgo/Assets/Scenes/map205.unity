@@ -18683,6 +18683,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1756715420301328853, guid: 36495cf0e20c1d34b86adf4401487cce,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.027823806
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756715420301328853, guid: 36495cf0e20c1d34b86adf4401487cce,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.20061296
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756715420301328853, guid: 36495cf0e20c1d34b86adf4401487cce,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.058411375
+      objectReference: {fileID: 0}
     - target: {fileID: 3675741166046315671, guid: 36495cf0e20c1d34b86adf4401487cce,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -18752,6 +18767,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mausoleo_protectLightning_Side 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615558794797697474, guid: 36495cf0e20c1d34b86adf4401487cce,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.02197057
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615558794797697474, guid: 36495cf0e20c1d34b86adf4401487cce,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.3181766
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615558794797697474, guid: 36495cf0e20c1d34b86adf4401487cce,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.20703767
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36495cf0e20c1d34b86adf4401487cce, type: 3}
@@ -112786,6 +112816,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mausoleo_protectLightning_Side (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5695685524271147188, guid: 4e60e4648aecef647bb446b1623e4cb3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e60e4648aecef647bb446b1623e4cb3, type: 3}
 --- !u!1 &2015171686 stripped
@@ -112807,7 +112842,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.27}
+  m_Offset: {x: 0, y: -0.38194013}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -112818,7 +112853,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.1}
+  m_Size: {x: 1, y: 0.32388008}
   m_EdgeRadius: 0
 --- !u!1 &2017397799
 GameObject:
