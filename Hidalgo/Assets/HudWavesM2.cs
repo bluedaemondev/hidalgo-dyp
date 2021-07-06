@@ -29,13 +29,13 @@ public class HudWavesM2 : MonoBehaviour
         int remaining = WaveSystem.instance.GetGroupRemainingTotal();
         copyEnemiesRemaining = remaining;
 
-        enemiesRemaining.text = "Enemigos restantes " + remaining;
+        enemiesRemaining.text = /*"Enemigos restantes " + */remaining.ToString();
         sliderWave.maxValue = remaining;
         sliderWave.value = sliderWave.maxValue;
     }
     public void OnEnemyKilled()
     {
-        enemiesRemaining.text = "Enemigos restantes " + --copyEnemiesRemaining;
+        enemiesRemaining.text = /*"Enemigos restantes " + */(--copyEnemiesRemaining).ToString();
         sliderWave.value--;
     }
 
