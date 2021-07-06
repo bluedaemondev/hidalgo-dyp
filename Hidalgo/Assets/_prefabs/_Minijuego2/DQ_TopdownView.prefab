@@ -291,7 +291,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7769154025178303396}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -52.446243, y: 1.3923187, z: 86.792534}
   m_LocalScale: {x: 1.5481, y: 1.5481, z: 1.5481}
   m_Children:
@@ -351,6 +351,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bloodPrefab: {fileID: 4784104012152059631, guid: 993e9a14fa5f67d4698bd1b7306b5639,
     type: 3}
+  audioHit: {fileID: 0}
+  audioDeath: []
 --- !u!95 &7769154025178303402
 Animator:
   serializedVersion: 3
@@ -398,8 +400,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   golpePoint: {fileID: 7769154024339720291}
-  golpeRange: 1
-  golpeRate: 0.3
+  golpeRange: 4.93
+  golpeRate: 0.6
   enemyLayers:
     serializedVersion: 2
     m_Bits: 65536
@@ -410,6 +412,7 @@ MonoBehaviour:
   animation_pickingUpName: pickup
   animation_damagedName: damaged
   golpeDamage: 1
+  audioWhooshAttack: {fileID: 8300000, guid: 96d7bd623a385e34eb0ac6c93911ec3c, type: 3}
 --- !u!1 &7769154025846969340
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,6 +21,9 @@ public class SoundManager : MonoBehaviour
         if (instance == null)
             instance = this;
 
+    }
+    private void Start()
+    {
         sources = this.GetComponents<AudioSource>();
     }
 

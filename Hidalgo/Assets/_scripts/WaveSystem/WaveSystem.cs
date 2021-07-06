@@ -138,6 +138,8 @@ public class WaveSystem : MonoBehaviour
                 Debug.Log("ischaser " + entity.transform.position + " ----   " + nearestPickup.position);
 
                 (entity as ChaserEnemyM2).SetPickupTarget(nearestPickup.position);
+                var direction = (nearestPickup.position - transform.position).normalized;
+                entity.transform.rotation = Quaternion.Euler(0,0,direction.z);
             }
         }
 

@@ -80,6 +80,7 @@ public class PickupController : MonoBehaviour
             Debug.Log("pickup  - " + this.name + " " + this.originalPosition);
 
             isOut = false;
+            PickupTracker.instance.PickupRecovered(this.gameObject);
         }
 
         this.transform.parent = originalParent;

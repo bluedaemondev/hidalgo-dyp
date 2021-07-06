@@ -25,6 +25,8 @@ public class ChaserEnemyM2 : EnemyM2
 
     public bool canTakeDamage = true;
 
+    public LayerMask layerEdificioSalida;
+
     public void SetHandPickup(PickupController pickup)
     {
         _animator.SetBool(animation_hasPickupBool, true);
@@ -147,22 +149,35 @@ public class ChaserEnemyM2 : EnemyM2
     }
     public void SetExitTarget()
     {
-        Debug.Log(name + " total vuelta que puede ir mal = " + originalPosition);
+        //Debug.Log(name + " total vuelta que puede ir mal = " + originalPosition);
 
         this.SetTarget(originalPosition);
         _animator.SetBool(animation_WalkBool, true);
 
         this.movementSpeed = this.movementSpeed * this.velocityMultiplierWithPickup;
     }
+
+    bool wasActivePickup = false;
     private void Move()
     {
         this._rigidbody.MovePosition(positionNext);
 
-        if ((Vector2)transform.position == targetPosition &&
-            _animator.GetBool(animation_hasPickupBool))
+        var casted = Physics2D.Raycast(transform.position, Vector2.up * 10, 10, layerEdificioSalida);
+        Debug.DrawRay(transform.position, Vector2.up * 10, Color.black, 1);
+
+        if (casted.collider != null &&
+        pickupInHand != null && !wasActivePickup)
         {
-            PickupTracker.instance.PickupLost();
+            Debug.Log("collision point " + casted.point + " - object = " + casted.collider.name);
+            PickupTracker.instance.PickupLost(pickupInHand.gameObject);
+            wasActivePickup = true;
+
+            _animator.Play("Destroying");
+
+            WaveSystem.instance.OnEnemyDied();
         }
+
+
 
     }
     private void KnockedOut()

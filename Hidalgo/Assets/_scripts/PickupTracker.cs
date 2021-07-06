@@ -18,6 +18,9 @@ public class PickupTracker : MonoBehaviour
 
     // avisos en pantalla para reforzar el feedback de que perdiste
     // un objeto
+    public event Action<GameObject> onPickupRestored;
+    // avisos en pantalla para reforzar el feedback de que perdiste
+    // un objeto
     public event Action<GameObject> onPickupMissing;
     // cuando sueltan un pickup, todos recalculan distancia
     // si es menor, se van hasta ahi; sino, siguen a donde iban
@@ -43,22 +46,36 @@ public class PickupTracker : MonoBehaviour
         totalPickups = pickupsWOriginal.Count;
 
         onPickupMissing += UpdateVisualsMissing;
+        onPickupRestored += UpdateVisualsRestored;
     }
 
-    public void PickupLost()
+    public void PickupRecovered(GameObject pickup)
     {
+        Debug.Log("Lost called " + totalPickups);
         totalPickups--;
-        if(totalPickups <= 0)
+        onPickupRestored.Invoke(pickup);
+    }
+    public void PickupLost(GameObject pickup)
+    {
+        Debug.Log("Lost called " + totalPickups);
+        totalPickups--;
+        onPickupMissing.Invoke(pickup);
+
+        this.pickupsWOriginal.Remove(pickup);
+
+
+        if (totalPickups <= 0)
         {
             HudWavesM2.instance.OnLose();
         }
     }
 
 
+
     void UpdateVisualsMissing(GameObject pickup)
     {
-        int groupMember = group.FindMember(pickup.transform);
-        var tmp = group.GetWeightedBoundsForMember(groupMember);
+        //int groupMember = group.FindMember(pickup.transform);
+        //var tmp = group.GetWeightedBoundsForMember(groupMember);
         /// TO DO:
         /// implementar cinemachine target group weight lerp
         /// moviendo el peso hasta 2, para que acompañe la camara mas de cerca

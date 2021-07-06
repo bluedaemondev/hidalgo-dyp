@@ -197,6 +197,9 @@ MonoBehaviour:
   - {fileID: 2357117421730180462}
   timeResetPickupBox: 3
   canTakeDamage: 1
+  layerEdificioSalida:
+    serializedVersion: 2
+    m_Bits: 131072
 --- !u!95 &8287359215228003759
 Animator:
   serializedVersion: 3
