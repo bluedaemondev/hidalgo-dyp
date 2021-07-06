@@ -20,6 +20,7 @@ public class HudWavesM2 : MonoBehaviour
     public void OnLose()
     {
         prefabLoseUI.SetActive(true);
+        Time.timeScale = 0.14f;
     }
 
     public void OnNewWave(int waveNumber)
@@ -41,6 +42,7 @@ public class HudWavesM2 : MonoBehaviour
     // Update is called once per frame
     void Awake()
     {
+        Time.timeScale = 1;
         instance = this;
     }
 }

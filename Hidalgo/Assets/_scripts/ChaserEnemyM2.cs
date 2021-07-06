@@ -151,13 +151,19 @@ public class ChaserEnemyM2 : EnemyM2
 
         this.SetTarget(originalPosition);
         _animator.SetBool(animation_WalkBool, true);
-        //_animator.SetBool(animation_hasPickupBool, true);
 
         this.movementSpeed = this.movementSpeed * this.velocityMultiplierWithPickup;
     }
     private void Move()
     {
         this._rigidbody.MovePosition(positionNext);
+
+        if ((Vector2)transform.position == targetPosition &&
+            _animator.GetBool(animation_hasPickupBool))
+        {
+            PickupTracker.instance.PickupLost();
+        }
+
     }
     private void KnockedOut()
     {

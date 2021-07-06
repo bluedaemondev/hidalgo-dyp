@@ -27,6 +27,8 @@ public class PickupTracker : MonoBehaviour
 
     public float weightPickupMissing = 2;
 
+    public int totalPickups;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -38,8 +40,20 @@ public class PickupTracker : MonoBehaviour
             pickupsWOriginal.AddRange(transform.GetComponentsInChildren<Transform>().Select(t => t.gameObject).ToList());
         }
 
+        totalPickups = pickupsWOriginal.Count;
+
         onPickupMissing += UpdateVisualsMissing;
     }
+
+    public void PickupLost()
+    {
+        totalPickups--;
+        if(totalPickups <= 0)
+        {
+            HudWavesM2.instance.OnLose();
+        }
+    }
+
 
     void UpdateVisualsMissing(GameObject pickup)
     {
