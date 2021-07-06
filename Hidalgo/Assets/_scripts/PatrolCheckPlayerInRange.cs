@@ -4,35 +4,38 @@ using UnityEngine;
 
 public class PatrolCheckPlayerInRange : MonoBehaviour
 {
-    public float radiusSearch;
-    public GameObject sprite;
+    //public float radiusSearch;
+    //public GameObject sprite;
 
-    public bool rangeSearchActive;
+    //public bool rangeSearchActive;
 
-    public GameObject prefabQTEEscape;
-    private Animator animator;
+    [SerializeField]
+    Player player;
+
+    //public GameObject prefabQTEEscape;
+    //private Animator animator;
 
     private void OnDrawGizmos()
     {
-        if (rangeSearchActive)
-            Gizmos.DrawSphere(sprite.transform.position, radiusSearch);
+        //if (rangeSearchActive)
+            //Gizmos.DrawSphere(sprite.transform.position, radiusSearch);
     }
     private void Start()
     {
-        animator = this.GetComponent<Animator>();
+        //animator = this.GetComponent<Animator>();
     }
     public void GetOutOfHouse()
     {
-        animator.SetTrigger("getOut");
+        player.RestartFromCheckpoint();
     }
     public void BackInHouse()
     {
-        animator.ResetTrigger("getOut");
-        animator.SetTrigger("backIn");
+        //animator.ResetTrigger("getOut");
+        //animator.SetTrigger("backIn");
     }
     public void SearchInRadius()
     {
-        rangeSearchActive = true;
+        //rangeSearchActive = true;
         //var results = Physics2D.CircleCastAll(sprite.transform.position, radiusSearch, Vector2.zero);
 
         //if(results.Length > 0)
@@ -47,7 +50,7 @@ public class PatrolCheckPlayerInRange : MonoBehaviour
     }
     public void StopSearchInRadius()
     {
-        rangeSearchActive = false;
-        BackInHouse();
+        //rangeSearchActive = false;
+        //BackInHouse();
     }
 }
