@@ -82,6 +82,7 @@ public class PatrollingEnemy : MonoBehaviour
                 var DiferenciaX = raycast2DB.point.x - transform.position.x;
 
                 Debug.Log("B" + DiferenciaY);
+                Debug.Log("BX" + DiferenciaX);
 
                 if (DiferenciaY < DiferenciaYB1 && DiferenciaY > DiferenciaYB2 && DiferenciaX >= DiferenciaXB1 && DiferenciaX <= DiferenciaXB2 && player.OnBox)
                 {

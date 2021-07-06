@@ -12685,14 +12685,14 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB1: 0
-  DiferenciaYB2: 0
-  DiferenciaYA1: 0
-  DiferenciaYA2: 0
-  DiferenciaXB1: 0
+  DiferenciaYB1: -2
+  DiferenciaYB2: 1
+  DiferenciaYA1: -2
+  DiferenciaYA2: 1
+  DiferenciaXB1: 4.5
   DiferenciaXB2: 0
-  DiferenciaXA1: 0
-  DiferenciaXA2: 0
+  DiferenciaXA1: -3
+  DiferenciaXA2: 1.5
   SoldadoState: 2
 --- !u!212 &296359287
 SpriteRenderer:
@@ -24973,11 +24973,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -76.9
+      value: 36.3
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -114.79276
+      value: -138.99277
       objectReference: {fileID: 0}
     - target: {fileID: 519420032, guid: 2e8d64e0629853747bc04ce4f47462ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25026,12 +25026,12 @@ PrefabInstance:
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -76.9
+      value: 36.3
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -114.79276
+      value: -138.99277
       objectReference: {fileID: 0}
     - target: {fileID: 3738445511418156931, guid: 2e8d64e0629853747bc04ce4f47462ae,
         type: 3}
@@ -58136,12 +58136,12 @@ PrefabInstance:
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -76.9
+      value: 36.3
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -115.4
+      value: -139.6
       objectReference: {fileID: 0}
     - target: {fileID: 7627999220082301760, guid: 4fcf0db1d25ec624994f5188dcdcc3a8,
         type: 3}
@@ -97787,14 +97787,14 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB1: 0
-  DiferenciaYB2: 0
-  DiferenciaYA1: 0
-  DiferenciaYA2: 0
-  DiferenciaXB1: 0
+  DiferenciaYB1: -2
+  DiferenciaYB2: 1
+  DiferenciaYA1: -2
+  DiferenciaYA2: 1
+  DiferenciaXB1: 4.5
   DiferenciaXB2: 0
-  DiferenciaXA1: 0
-  DiferenciaXA2: 0
+  DiferenciaXA1: -3
+  DiferenciaXA2: 1.5
   SoldadoState: 2
 --- !u!212 &1592044260
 SpriteRenderer:
@@ -108360,14 +108360,14 @@ MonoBehaviour:
   TravelTime: 7
   AuxScale: {x: 0, y: 0, z: 0}
   myAnimator: {fileID: 0}
-  DiferenciaYB1: 0
-  DiferenciaYB2: 0
-  DiferenciaYA1: 0
-  DiferenciaYA2: 0
-  DiferenciaXB1: 0
+  DiferenciaYB1: -2
+  DiferenciaYB2: 1
+  DiferenciaYA1: -2
+  DiferenciaYA2: 1
+  DiferenciaXB1: 4.5
   DiferenciaXB2: 0
-  DiferenciaXA1: 0
-  DiferenciaXA2: 0
+  DiferenciaXA1: -3
+  DiferenciaXA2: 1.5
   SoldadoState: 2
 --- !u!212 &1846439992
 SpriteRenderer:
