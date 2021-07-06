@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Book-Page Curl/Example/scenes/Cutscene_2.unity
     guid: 3eeec34448d507946936de971fe1c5a5
   - enabled: 1
+    path: Assets/Scenes/minijuego2_conUi.unity
+    guid: 55a74d865fd922544baa6c3499bcaa8d
+  - enabled: 0
     path: Assets/Scenes/Minijuego2_Pathfinding.unity
     guid: 767d8ae2ea0704a45827e43a4d147169
   - enabled: 0
